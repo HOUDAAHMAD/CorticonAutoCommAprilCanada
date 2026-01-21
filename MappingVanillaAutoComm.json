@@ -1,0 +1,1532 @@
+{
+  "successStatusCode": "withInformation",
+  "AdditionalInterests": [
+    {
+      "id": "ADDITIONAL_INTEREST01",
+      "parentObjectId": "VEHICLE01",
+      "parentObjectName": "Vehicle",
+      "companyName": "Royal Bank of Canada",
+      "natureOfInterestCode": "FinanceCompany",
+      "financialInterestIndicator": true,
+      "MailingAddress": {
+        "id": "ADDRESS01",
+        "city": "Toronto",
+        "countryCode": "CAN",
+        "poBox": "12345",
+        "postalCode": "M5C1T4",
+        "province": "ON",
+        "ruralRoute": "5",
+        "streetName": "Yonge",
+        "streetNumber": "110",
+        "unitNumber": "500"
+      },
+      "MortgageInformation": {
+        "riskNumber": 1076401,
+        "amount": null,
+        "rate": null,
+        "mortgageType": "Standard",
+        "reasonForSubstandard": null,
+        "expiryDate": null
+      }
+    }
+  ],
+  "PreviousInsurances": [
+    {
+      "currentlyInsured": true,
+      "currentInsurerName": null,
+      "currentPolicyNumber": null,
+      "canceledNotForVacancy": null,
+      "endContractDate": null,
+      "notInsuredReason": null,
+      "notInsuredReasonDetail": null
+    }
+  ],
+  "BillingDetail": {
+    "renewalFlex": 1.03,
+    "transferFlex": 1.0443989,
+    "previousPremium": 0,
+    "fullTermPremium": 1781,
+    "proratedPremium": 1781,
+    "prorataRate": 1,
+    "commissionPercent": 15,
+    "brokerFees": 0,
+    "evaluationFees": 0,
+    "serviceFees": 180,
+    "taxAmount": 142.48,
+    "taxBrokerFees": 0,
+    "taxServiceFees": 14.4,
+    "taxEvaluationFees": 0,
+    "taxRate": 0,
+    "total": 2117.88,
+    "PaymentSchedules": [
+      {
+        "installmentAmount": 125,
+        "installmentDueDate": "2023-12-12"
+      }
+    ]
+  },
+  "Insureds": [
+    {
+      "id": "INSURED01",
+      "roleOfApplicant": "Broker",
+      "ContactDetail": {
+        "id": "CONTACT",
+        "Emails": [
+          {
+            "id": "EMAIL01",
+            "doNotContactIndicator": true,
+            "emailAddress": "user@example.com",
+            "primaryContactIndicator": true
+          }
+        ],
+        "Phones": [
+          {
+            "id": "PHONE01",
+            "doNotContactIndicator": true,
+            "phoneNumber": "41699999999",
+            "phoneType": "Cell",
+            "primaryContactIndicator": true
+          }
+        ]
+      },
+      "InsuredDetail": {
+        "birthDate": "1985-11-11",
+        "criminalRecordIndicator": false,
+        "gender": "Male",
+        "givenName": "John",
+        "maritalStatus": "Married",
+        "livesOnPremises": false,
+        "livesOutsideCanada": null,
+        "countryOfResidence": null,
+        "relationshipToMainApplicant": null,
+        "CriminalRecord": null,
+        "occupation": "IT",
+        "surName": "Doe",
+        "companyName": null,
+        "Bankruptcy": {
+          "bankruptcyDischarged": null,
+          "bankruptcyDischargeDate": null
+        }
+      },
+      "MailingAddress": [
+        {
+          "city": "Toronto",
+          "countryCode": "CAN",
+          "poBox": "12345",
+          "postalCode": "M5C1T4",
+          "province": "ON",
+          "streetName": "Yonge",
+          "streetNumber": "110",
+          "unitNumber": "500"
+        }
+      ]
+    }
+  ],
+  "PolicyDetail": {
+    "quoteId": "test",
+    "referenceNumber": "91610",
+    "policyNumber": "P09630",
+    "newBusinessEffectiveDate": "2019-01-22T00:00:00-05:00",
+    "effectiveDate": "2026-01-22T00:00:00-05:00",
+    "expirationDate": "2027-01-21T00:00:00-05:00",
+    "transactionQuotedDate": "2026-01-22T00:00:00-05:00",
+    "transactionDate": "2026-01-22T00:00:00-05:00",
+    "policyStatus": "Resiliation",
+    "term": 12,
+    "productCode": "LL_RESID",
+    "formId": 67,
+    "isPolicyInEnglish": true,
+    "yearsInsured": 7,
+    "Producer": {
+      "producerFirstName": "",
+      "producerLastName": "Debbie Adams ",
+      "producerEmail": "dadams@youngsinsurance.ca",
+      "producerPhoneNumber": "",
+      "producerPhoneExtension": null,
+      "producerLanguage": "en",
+      "agencyName": "TEST",
+      "agencyCode": "10000",
+      "__metadata": {
+        "#type": "Producer",
+        "#id": "Producer_id_1"
+      }
+    },
+    "contractUnderwriter": null,
+    "Underwriter": {
+      "firstName": "AUTOMATE",
+      "lastName": "",
+      "__metadata": {
+        "#type": "Underwriter",
+        "#id": "Underwriter_id_1"
+      }
+    },
+    "EndorsementChanges": null,
+    "Cancellation": {
+      "cancelReasonId": "69",
+      "cancelReason": "Résil/ExceptionProrata",
+      "requestedDate": "2026-02-27T00:00:00-05:00",
+      "cancellationDate": null,
+      "delay": null,
+      "calculationMethod": null,
+      "__metadata": {
+        "#type": "Cancellation",
+        "#id": "Cancellation_id_1"
+      }
+    },
+    "IndustryCode": {
+      "Id": 768,
+      "Industry": "RA",
+      "Classification": null,
+      "Description": "Situation financiere",
+      "__metadata": {
+        "#type": "IndustryCode",
+        "#id": "IndustryCode_id_1"
+      }
+    },
+    "__metadata": {
+      "#type": "PolicyDetail",
+      "#id": "PolicyDetail_id_1"
+    }
+  },
+  "Drivers": [
+    {
+      "id": "DRIVER01",
+      "driverRatingCode": "10",
+      "driverTrainingDate": "2028-11-11",
+      "driverType": "Primary",
+      "relationshipToApplicant": "Spouse",
+      "relationshipToInsured": "Spouse",
+      "GarageLocation": {
+        "id": "ADDRESS01",
+        "city": "Toronto",
+        "countryCode": "CAN",
+        "poBox": "12345",
+        "postalCode": "M5C1T4",
+        "province": "ON",
+        "ruralRoute": "5",
+        "streetName": "Yonge",
+        "streetNumber": "110",
+        "unitNumber": "500"
+      },
+      "Licenses": [
+        {
+          "dateFirstLicensed": "2018-11-11",
+          "driversLicenseNumber": "Z9999-99999-99999",
+          "LicenseClasses": [],
+          "LicenseSuspensions": []
+        }
+      ],
+      "LicenseConvictions": [
+        {
+          "accidentOrViolationDate": "2023-04-04",
+          "dateOfConviction": "2023-04-05",
+          "typeOfConviction": "BloodAlcoholOverLegalLimit",
+          "convictionSeverity": "Major",
+          "excessSpeedOverLimit": 40
+        }
+      ],
+      "PersonDetail": {
+        "birthDate": "1985-11-11",
+        "criminalRecordIndicator": false,
+        "gender": "Male",
+        "givenName": "John",
+        "maritalStatus": "Married",
+        "memberships": [],
+        "middleName": "S",
+        "occupation": "IT",
+        "surName": "Doe"
+      }
+    }
+  ],
+  "FPQ1": {
+    "BillingDetail": {
+      "renewalFlex": 1.03,
+      "transferFlex": 1.0443989,
+      "previousPremium": 0,
+      "fullTermPremium": 1781,
+      "proratedPremium": 1781,
+      "prorataRate": 1,
+      "commissionPercent": 15,
+      "brokerFees": 0,
+      "evaluationFees": 0,
+      "serviceFees": 180,
+      "taxAmount": 142.48,
+      "taxBrokerFees": 0,
+      "taxServiceFees": 14.4,
+      "taxEvaluationFees": 0,
+      "taxRate": 0,
+      "total": 2117.88,
+      "PaymentSchedules": [
+        {
+          "installmentAmount": 125,
+          "installmentDueDate": "2023-12-12"
+        }
+      ]
+    },
+    "PolicyDetail": {
+      "quoteId": "test",
+      "referenceNumber": "91610",
+      "policyNumber": "P09630",
+      "newBusinessEffectiveDate": "2019-01-22T00:00:00-05:00",
+      "effectiveDate": "2026-01-22T00:00:00-05:00",
+      "expirationDate": "2027-01-21T00:00:00-05:00",
+      "transactionQuotedDate": "2026-01-22T00:00:00-05:00",
+      "transactionDate": "2026-01-22T00:00:00-05:00",
+      "policyStatus": "Resiliation",
+      "term": 12,
+      "productCode": "LL_RESID",
+      "isPolicyInEnglish": true,
+      "yearsInsured": 7,
+      "policyDuration":0,
+      "MailingAddress": {
+        "id": "ADDRESS01",
+        "city": "Toronto",
+        "countryCode": "CAN",
+        "postalCode": "M5C1T4",
+        "province": "ON",
+        "streetName": "Yonge",
+        "streetNumber": "110",
+        "unitNumber": "500"
+      }
+    },
+    "Vehicle": [
+      {
+        "id": "VEHICLE01",
+        "weight": "light",
+        "vehicleType": "Trailer",
+        "Coverages": [
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "ChapterA",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 0,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "ChapterB2",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "ChapterB3",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ20",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ27",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ34",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ5A",
+            "coverageDescription": "Leasing",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ8",
+            "coverageDescription": "Property Damage A ",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ13C",
+            "coverageDescription": "Vehicle Glass B ",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ16",
+            "coverageDescription": "Vehicle Glass B ",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ17",
+            "coverageDescription": "Vehicle Glass B ",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ17",
+            "coverageDescription": "Vehicle Glass B ",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ19",
+            "coverageDescription": "Vehicle Glass B ",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ23A",
+            "coverageDescription": "Vehicle Glass B ",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ28",
+            "coverageDescription": "Vehicle Glass B ",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          }
+        ],
+        "VehicleDetail": {
+          "alteredIndicator": true,
+          "annualDistanceDriven": 25000,
+          "antiTheftDevice": "Tracking System",
+          "antiTheftProductCode": "TAG",
+          "businessUsagePercent": 0.25,
+          "make": "Honda",
+          "model": "Civic",
+          "modelYear": 2022,
+          "newUsedCode": "Used",
+          "pleasureUsagePercent": 0.75,
+          "purchaseDate": "2023-01-04",
+          "purchasePrice": 30000,
+          "vehicleIdentificationNO": "2hg1562479514762",
+          "vehicleLength": 4.65,
+          "vehicleUseCode": "PrivateTransportation",
+          "vehicleValue": 0,
+          "electricVehicle":false,
+          "codeVehicle":"test",
+          "operationRadius":0,
+          "nonPaymentIndicator":false
+        },
+        "CalculationVariables": {
+          "vehicleMinValue": 0,
+          "class": 0,
+          "group": 0,
+          "territory": 0,
+          "dossier": 0,
+          "chapterABasePremium": 0,
+          "chapterB2BasePremium": 0,
+          "chapterB3BasePremium": 0,
+          "vinLockIndicator": false,
+          "vinLockRebate": 0,
+          "FPQ1Premium": 0,
+          "Rates": {
+            "echelonB2Rate": 0,
+            "echelonB3Rate": 0,
+            "trailerRebateRate": 0
+          },
+          "Flexes": {
+            "vehicleFlex": 0,
+            "globalFlex": 0,
+            "totalFlex": 0
+          },
+          "Surcharges": {
+            "criminalRecordSurcharge": 0,
+            "claimSurcharge": 0,
+            "infractionSurcharge": 0,
+            "licenceSuspensionSurcharge": 0,
+            "nonPaymentSurcharge": 0,
+            "electricVehicleSurcharge": 0,
+            "vehicleCodeSurcharge": 0,
+            "operationRadiusSurcharge": 0,
+            "totalSurcharges": 0,
+            "groupSurchargesA": 0,
+            "groupSurchargesB2": 0,
+            "groupSurchargesB3": 0
+          }
+        }
+      }
+    ]
+  },
+  "FPQ4": {
+    "BillingDetail": {
+      "renewalFlex": 1.03,
+      "transferFlex": 1.0443989,
+      "previousPremium": 0,
+      "fullTermPremium": 1781,
+      "proratedPremium": 1781,
+      "prorataRate": 1,
+      "commissionPercent": 15,
+      "brokerFees": 0,
+      "evaluationFees": 0,
+      "serviceFees": 180,
+      "taxAmount": 142.48,
+      "taxBrokerFees": 0,
+      "taxServiceFees": 14.4,
+      "taxEvaluationFees": 0,
+      "taxRate": 0,
+      "total": 2117.88,
+      "PaymentSchedules": [
+        {
+          "installmentAmount": 125,
+          "installmentDueDate": "2023-12-12"
+        }
+      ]
+    },
+    "PolicyDetail": {
+      "quoteId": "test",
+      "referenceNumber": "91610",
+      "policyNumber": "P09630",
+      "newBusinessEffectiveDate": "2019-01-22T00:00:00-05:00",
+      "effectiveDate": "2026-01-22T00:00:00-05:00",
+      "expirationDate": "2027-01-21T00:00:00-05:00",
+      "transactionQuotedDate": "2026-01-22T00:00:00-05:00",
+      "transactionDate": "2026-01-22T00:00:00-05:00",
+      "policyStatus": "Resiliation",
+      "term": 12,
+      "productCode": "LL_RESID",
+      "formId": 67,
+      "isPolicyInEnglish": true,
+      "yearsInsured": 7,
+      "MailingAddress": {
+        "id": "ADDRESS01",
+        "city": "Toronto",
+        "countryCode": "CAN",
+        "poBox": "12345",
+        "postalCode": "M5C1T4",
+        "province": "ON",
+        "ruralRoute": "5",
+        "streetName": "Yonge",
+        "streetNumber": "110",
+        "unitNumber": "500"
+      }
+    },
+    "DriverAssignments": [
+      {
+        "parentObjectId": "DRIVER01",
+        "parentObjectName": "Driver",
+        "percentageOfUse": 0.1
+      }
+    ],
+    "Garage": [
+      {
+        "id": "test",
+        "Coverages": [
+          {
+            "id": "COVERAGE07",
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FPQ4-ChapterA",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 0,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FPQ4-ChapterB2",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FPQ4-ChapterB3",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FPQ4-ChapterC2",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FPQ4-ChapterC3",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ23A",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ25",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ70",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ82",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ4-82C",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ4-82D",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          }
+        ],
+        "CalculationVariables": {
+          "FPQ4ABasePremium": 0,
+          "AWithBSurchargedPremium": 0,
+          "FPQ4Premium": 0,
+          "OwnerCount": 0,
+          "EmployeeCount": 0,
+          "XLicensePlateCount": 0,
+          "YBusiness": 0,
+          "AClaims": null,
+          "BClaims": null,
+          "QuebecPercentage": 0,
+          "NonPayment": false,
+          "criminalRecordIndicator": false,
+          "RiskCode": null,
+          "TotalFPQ4Premium": 0,
+          "Rates": {
+            "OwnerCountRate": 0,
+            "EmployeeRate": 0,
+            "XLicensePlateRate": 0,
+            "YBusinessRate": 0,
+            "ActivityRate": 0,
+            "NonPaymentRate": 0,
+            "CriminalRecordRate": 0,
+            "OutsideQuebecRate": 0,
+            "FPQ4-B2Rate": 0,
+            "FPQ4-B3Rate": 0,
+            "FPQ4-C2Rate": 0,
+            "FPQ4-C3Rate": 0
+          },
+          "Flexes": {},
+          "Surcharges": {
+            "XlicensePlateForBSurcharge": 0,
+            "YBusinessForBSurcharge": 0,
+            "BClaimsSurcharge": 0
+          }
+        }
+      }
+    ]
+  },
+  "Cargo": {
+    "id": "Cargo01",
+    "reeferAge": 0,
+    "mainCargoType": "test",
+    "commodityClass": 0,
+    "dashboardCamera": true,
+    "numberOfUnits": 0,
+    "MailingAddress": {
+      "id": "ADDRESS01",
+      "city": "Toronto",
+      "countryCode": "CAN",
+      "poBox": "12345",
+      "postalCode": "M5C1T4",
+      "province": "ON",
+      "ruralRoute": "5",
+      "streetName": "Yonge",
+      "streetNumber": "110",
+      "unitNumber": "500"
+    },
+    "BillingDetail": {
+      "renewalFlex": 1.03,
+      "transferFlex": 1.0443989,
+      "previousPremium": 0,
+      "fullTermPremium": 1781,
+      "proratedPremium": 1781,
+      "prorataRate": 1,
+      "commissionPercent": 15,
+      "brokerFees": 0,
+      "evaluationFees": 0,
+      "serviceFees": 180,
+      "taxAmount": 142.48,
+      "taxBrokerFees": 0,
+      "taxServiceFees": 14.4,
+      "taxEvaluationFees": 0,
+      "taxRate": 0,
+      "total": 2117.88,
+      "PaymentSchedules": [
+        {
+          "installmentAmount": 125,
+          "installmentDueDate": "2023-12-12"
+        }
+      ]
+    },
+    "PolicyDetail": {
+      "quoteId": "test",
+      "referenceNumber": "91610",
+      "policyNumber": "P09630",
+      "newBusinessEffectiveDate": "2019-01-22T00:00:00-05:00",
+      "effectiveDate": "2026-01-22T00:00:00-05:00",
+      "expirationDate": "2027-01-21T00:00:00-05:00",
+      "transactionQuotedDate": "2026-01-22T00:00:00-05:00",
+      "transactionDate": "2026-01-22T00:00:00-05:00",
+      "policyStatus": "Resiliation",
+      "term": 12,
+      "productCode": "LL_RESID",
+      "formId": 67,
+      "isPolicyInEnglish": true,
+      "yearsInsured": 7,
+      "MailingAddress": {
+        "id": "ADDRESS01",
+        "city": "Toronto",
+        "countryCode": "CAN",
+        "poBox": "12345",
+        "postalCode": "M5C1T4",
+        "province": "ON",
+        "ruralRoute": "5",
+        "streetName": "Yonge",
+        "streetNumber": "110",
+        "unitNumber": "500"
+      }
+    },
+    "Activity": [
+      {
+        "id": "Activity1",
+        "commodityClassActivity": 0,
+        "percentage": 0,
+        "cargoType": null,
+        "targetInterest": true,
+        "haulsPercentage": 0
+      },
+      {
+        "id": "Activity2",
+        "commodityClassActivity": 0,
+        "percentage": 0,
+        "cargoType": null,
+        "targetInterest": true,
+        "haulsPercentage": 0
+      },
+      {
+        "id": "Activity3",
+        "commodityClassActivity": 0,
+        "percentage": 0,
+        "cargoType": null,
+        "targetInterest": true,
+        "haulsPercentage": 0
+      }
+    ],
+    "Buildings": [
+      {
+        "Coverages": [
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "Cargo",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 0,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "ExcessCargo",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "DebrisRemoval",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "LTLEndorsment",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "TrailerInterchange",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          }
+        ],
+        "CalculationVariables": {
+          "minDeductible": 0,
+          "loadingUnloadingIndicator": true,
+          "subTotalPremium": 0,
+          "unattentedTruckIndicator": 0,
+          "targetClassPercentage": 0,
+          "reeferPercentage": 0,
+          "premiumPerUnit": 0,
+          "minimumPremium": 0,
+          "totalCargoPremium": 0,
+          "totalPremium": 0,
+          "totalFlex": 0,
+          "Rates": {
+            "cargoBaseRate": 0,
+            "cargoSubRate": 0,
+            "loadingUnloadingRate": 0,
+            "reeferAgeRate": 0,
+            "cargoReeferLoadingRate": 0,
+            "cargoFinalRate": 0,
+            "excessCargoBaseRate": 0,
+            "refeerBreakdownRate": 0,
+            "excessCargoRate": 0,
+            "excessCargoSubRate": 0,
+            "excessReeferBreakdownRate": 0,
+            "excessCargoReeferLoading": 0,
+            "excessCargoFinalRate": 0,
+            "inBusinessRate": 0,
+            "radiusOfOperationRate": 0,
+            "unattendedTruckRate": 0,
+            "targetInterestInclusionRate": 0,
+            "fleetSizeDiscountRate": 0,
+            "deductibleDiscountRate": 0,
+            "dashboardCameraDiscountRate": 0,
+            "reeferPercentageRate": 0,
+            "totalRate": 0,
+            "trailerInterchangeRate": 0
+          }
+        }
+      }
+    ]
+  },
+  "GarageProperty": {
+    "BillingDetail": {
+      "renewalFlex": 1.03,
+      "transferFlex": 1.0443989,
+      "previousPremium": 0,
+      "fullTermPremium": 1781,
+      "proratedPremium": 1781,
+      "prorataRate": 1,
+      "commissionPercent": 15,
+      "brokerFees": 0,
+      "evaluationFees": 0,
+      "serviceFees": 180,
+      "taxAmount": 142.48,
+      "taxBrokerFees": 0,
+      "taxServiceFees": 14.4,
+      "taxEvaluationFees": 0,
+      "taxRate": 0,
+      "total": 2117.88,
+      "PaymentSchedules": [
+        {
+          "installmentAmount": 125,
+          "installmentDueDate": "2023-12-12"
+        }
+      ]
+    },
+    "PolicyDetail": {
+      "quoteId": "test",
+      "referenceNumber": "91610",
+      "policyNumber": "P09630",
+      "newBusinessEffectiveDate": "2019-01-22T00:00:00-05:00",
+      "effectiveDate": "2026-01-22T00:00:00-05:00",
+      "expirationDate": "2027-01-21T00:00:00-05:00",
+      "transactionQuotedDate": "2026-01-22T00:00:00-05:00",
+      "transactionDate": "2026-01-22T00:00:00-05:00",
+      "policyStatus": "Resiliation",
+      "term": 12,
+      "productCode": "LL_RESID",
+      "formId": 67,
+      "isPolicyInEnglish": true,
+      "yearsInsured": 7,
+      "MailingAddress": {
+        "id": "ADDRESS01",
+        "city": "Toronto",
+        "countryCode": "CAN",
+        "poBox": "12345",
+        "postalCode": "M5C1T4",
+        "province": "ON",
+        "ruralRoute": "5",
+        "streetName": "Yonge",
+        "streetNumber": "110",
+        "unitNumber": "500"
+      }
+    },
+    "Locations": [
+      {
+        "id": "LOCATION01",
+        "primaryRiskIndicator": true,
+        "RiskAddress": {
+          "id": "ADDRESS01",
+          "city": "Toronto",
+          "countryCode": "CAN",
+          "poBox": "12345",
+          "postalCode": "M5C1T4",
+          "province": "ON",
+          "ruralRoute": "5",
+          "streetName": "Yonge",
+          "streetNumber": "110",
+          "unitNumber": "500"
+        }
+      }
+    ],
+    "Buildings": [
+      {
+        "id": "BUILDING01",
+        "parentObjectId": "LOCATION01",
+        "parentObjectName": "Location",
+        "lobSubCode": "SEAS Seasonal Dwelling",
+        "BuildingProtection": {
+          "fireCode": "Protected",
+          "numberOfSmokeDetectors": 3,
+          "premiseAccessSecurityType": "Smoke",
+          "spinkleredIndicator": true
+        },
+        "BuildingUpgrades": {
+          "electricalUpgradeYear": "2021",
+          "electricalWiringUpgradeCode": "Completed",
+          "heatingUpgradeCode": "Completed",
+          "heatingUpgradeYear": "2021",
+          "plumbingUpgradeCode": "Completed",
+          "plumbingUpgradeYear": "2021",
+          "roofingUpgradeCode": "Completed",
+          "roofingUpgradeYear": "2021"
+        },
+        "Construction": {
+          "auxiliaryHeatingIndicator": true,
+          "constructionType": null,
+          "electricalStrengthAmount": 30,
+          "exteriorWallFinishType": "BrickVeneer",
+          "finishedBasementIndicator": true,
+          "heatingFuelCode": "Electric",
+          "heatingType": "WoodFurnace",
+          "numberOfStories": 2,
+          "numberOfUnits": 1,
+          "plumbingType": "Steel",
+          "roofCoveringType": "AsphaltShingle",
+          "structureType": "HighRise",
+          "sumpPumpIndicator": true,
+          "wiringType": "Copper",
+          "yearBuilt": "2005"
+        },
+        "Liability": {
+          "homeBusinessIndicator": true,
+          "numberOfCannabisPlants": 1,
+          "numberOfDogs": 2,
+          "numberOfFamilies": 1,
+          "numberOfGolfCarts": 1,
+          "numberOfLawnTractors": 1,
+          "numberOfOpenMortgages": 1,
+          "numberOfRoomsRented": 1,
+          "numberOfSolarPanels": 0,
+          "swimmingPoolIndicator": true
+        },
+        "Occupancy": {
+          "areaOccupied": 5000,
+          "numberOfUnitsOccupied": 1,
+          "occupancyType": "PrimaryResidence",
+          "yearsOccupied": 23
+        },
+        "Coverages": [
+          {
+            "amountOfInsurance": 300000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "PropertyBuilding",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": true
+          },
+          {
+            "amountOfInsurance": 300000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "PropertyContents",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": true
+          },
+          {
+            "amountOfInsurance": 300000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "PropertyEquipments",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": true
+          },
+          {
+            "amountOfInsurance": 300000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "PropertyPremium",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": true
+          },
+          {
+            "amountOfInsurance": 300000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "PropertyStock",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": true
+          },
+          {
+            "amountOfInsurance": 300000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "PE10",
+            "coverageDescription": "Earthquake coverage",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": true
+          },
+          {
+            "amountOfInsurance": 300000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "SBU",
+            "coverageDescription": "IDK",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": true
+          },
+          {
+            "amountOfInsurance": 300000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FLOOD",
+            "coverageDescription": "Earthquake coverage",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": true
+          },
+          {
+            "amountOfInsurance": 300000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "TOOLS",
+            "coverageDescription": "Tools Small Equipment",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": true
+          },
+          {
+            "amountOfInsurance": 300000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "LIGHT",
+            "coverageDescription": "Lighter Equipment",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": true
+          },
+          {
+            "amountOfInsurance": 300000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "EXTENSION",
+            "coverageDescription": "Lighter Equipment",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": true
+          },
+          {
+            "amountOfInsurance": 300000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "CRIME",
+            "coverageDescription": "Crime ouhhhhh",
+            "coveragePremium": 1000,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": true
+          }
+        ],
+        "CalculationVariables": {
+          "alarmDiscount": 0,
+          "Rates": {
+            "propertyBaseRate": 0.0832,
+            "provinceRate": 0,
+            "hazardCodeRate": 0,
+            "townGradeRate": 0,
+            "constructionRate": 0,
+            "coverageRate": 0,
+            "buildingRate": 0,
+            "contentsRate": 0,
+            "EQRate": 0,
+            "toolsSmallEquipmentRate": 0,
+            "lighterEquipmentRate": 0
+          },
+          "Surcharges": {
+            "claimHistorySurcharge": 0,
+            "heatingTypeSurcharge": 0,
+            "locationSurcharge": 0,
+            "inspectionSurcharge": 0,
+            "substandardSurcharge": 0,
+            "totalSurcharges": 0
+          }
+        }
+      }
+    ],
+    "Cancellations": [
+      {
+        "cancelDate": "2020-11-11",
+        "cancelReason": "Nonpayment",
+        "cancellationType": "FlatRate",
+        "insuranceCompanyCode": "XYZ Company"
+      }
+    ]
+  },
+  "CGLTransport": [
+    {
+      "PolicyDetail": {
+        "quoteId": "test",
+        "referenceNumber": "91610",
+        "policyNumber": "P09630",
+        "newBusinessEffectiveDate": "2019-01-22T00:00:00-05:00",
+        "effectiveDate": "2026-01-22T00:00:00-05:00",
+        "expirationDate": "2027-01-21T00:00:00-05:00",
+        "transactionQuotedDate": "2026-01-22T00:00:00-05:00",
+        "transactionDate": "2026-01-22T00:00:00-05:00",
+        "policyStatus": "Resiliation",
+        "term": 12,
+        "productCode": "LL_RESID",
+        "formId": 67,
+        "isPolicyInEnglish": true,
+        "yearsInsured": 7,
+        "MailingAddress": {
+          "id": "ADDRESS01",
+          "city": "Toronto",
+          "countryCode": "CAN",
+          "poBox": "12345",
+          "postalCode": "M5C1T4",
+          "province": "ON",
+          "ruralRoute": "5",
+          "streetName": "Yonge",
+          "streetNumber": "110",
+          "unitNumber": "500"
+        }
+      },
+      "Locations": [
+        {
+          "id": "LOCATION01",
+          "primaryRiskIndicator": true,
+          "RiskAddress": {
+            "id": "ADDRESS01",
+            "city": "Toronto",
+            "countryCode": "CAN",
+            "poBox": "12345",
+            "postalCode": "M5C1T4",
+            "province": "ON",
+            "ruralRoute": "5",
+            "streetName": "Yonge",
+            "streetNumber": "110",
+            "unitNumber": "500"
+          }
+        }
+      ],
+      "Buildings": [
+        {
+          "id": "BUILDING01",
+          "parentObjectId": "LOCATION01",
+          "parentObjectName": "Location",
+          "lobSubCode": "SEAS Seasonal Dwelling",
+          "BuildingProtection": {
+            "fireCode": "Protected",
+            "numberOfSmokeDetectors": 3,
+            "premiseAccessSecurityType": "Smoke",
+            "spinkleredIndicator": true
+          },
+          "Construction": {
+            "auxiliaryHeatingIndicator": true,
+            "constructionType": null,
+            "electricalStrengthAmount": 30,
+            "exteriorWallFinishType": "BrickVeneer",
+            "finishedBasementIndicator": true,
+            "heatingFuelCode": "Electric",
+            "heatingType": "WoodFurnace",
+            "numberOfStories": 2,
+            "numberOfUnits": 1,
+            "plumbingType": "Steel",
+            "roofCoveringType": "AsphaltShingle",
+            "structureType": "HighRise",
+            "sumpPumpIndicator": true,
+            "wiringType": "Copper",
+            "yearBuilt": "2005"
+          },
+          "Liability": {
+            "numberOfUnits": 1
+          },
+          "Occupancy": {
+            "areaOccupied": 5000,
+            "numberOfUnitsOccupied": 1,
+            "occupancyType": "PrimaryResidence",
+            "yearsOccupied": 23
+          }
+        }
+      ],
+      "BillingDetail": {
+        "renewalFlex": 1.03,
+        "transferFlex": 1.0443989,
+        "previousPremium": 0,
+        "fullTermPremium": 1781,
+        "proratedPremium": 1781,
+        "prorataRate": 1,
+        "commissionPercent": 15,
+        "brokerFees": 0,
+        "evaluationFees": 0,
+        "serviceFees": 180,
+        "taxAmount": 142.48,
+        "taxBrokerFees": 0,
+        "taxServiceFees": 14.4,
+        "taxEvaluationFees": 0,
+        "taxRate": 0,
+        "total": 2117.88,
+        "PaymentSchedules": [
+          {
+            "installmentAmount": 125,
+            "installmentDueDate": "2023-12-12"
+          }
+        ]
+      },
+      "Coverages": [
+        {
+          "amountOfInsurance": 300000,
+          "amountOfInsuranceType": "PerClaim",
+          "coverageCode": "CGL_Transport",
+          "coverageDescription": "Comprehensive Coverage",
+          "coveragePremium": 1000,
+          "deductible": 500,
+          "deductibleType": "Minimum",
+          "selected": true,
+          "applied": true,
+          "excluded": true
+        },
+        {
+          "amountOfInsurance": 300000,
+          "amountOfInsuranceType": "PerClaim",
+          "coverageCode": "Pollution",
+          "coverageDescription": "Comprehensive Coverage",
+          "coveragePremium": 1000,
+          "deductible": 500,
+          "deductibleType": "Minimum",
+          "selected": true,
+          "applied": true,
+          "excluded": true
+        }
+      ],
+      "CalculationVariables": {
+        "turnoverLimit": 0,
+        "USARevenue": 0,
+        "CanadaRevenue": 0,
+        "totalRevenue": 0,
+        "USAPerPercent": 0,
+        "basePremium": 0,
+        "USATurnover": 0,
+        "subTotalPremium": 0,
+        "minimumPremium": 0,
+        "totalPowerUnit": 0,
+        "Rates": {
+          "turnoverRate": 0,
+          "ILFRate": 0
+        },
+        "Surcharges": {}
+      }
+    }
+  ],
+  "Cyber": {
+    "BillingDetail": {
+      "renewalFlex": 1.03,
+      "transferFlex": 1.0443989,
+      "previousPremium": 0,
+      "fullTermPremium": 1781,
+      "proratedPremium": 1781,
+      "prorataRate": 1,
+      "commissionPercent": 15,
+      "brokerFees": 0,
+      "evaluationFees": 0,
+      "serviceFees": 180,
+      "taxAmount": 142.48,
+      "taxBrokerFees": 0,
+      "taxServiceFees": 14.4,
+      "taxEvaluationFees": 0,
+      "taxRate": 0,
+      "total": 2117.88,
+      "PaymentSchedules": [
+        {
+          "installmentAmount": 125,
+          "installmentDueDate": "2023-12-12"
+        }
+      ]
+    },
+    "PolicyDetail": {
+      "quoteId": "test",
+      "referenceNumber": "91610",
+      "policyNumber": "P09630",
+      "newBusinessEffectiveDate": "2019-01-22T00:00:00-05:00",
+      "effectiveDate": "2026-01-22T00:00:00-05:00",
+      "expirationDate": "2027-01-21T00:00:00-05:00",
+      "transactionQuotedDate": "2026-01-22T00:00:00-05:00",
+      "transactionDate": "2026-01-22T00:00:00-05:00",
+      "policyStatus": "Resiliation",
+      "term": 12,
+      "productCode": "LL_RESID",
+      "formId": 67,
+      "isPolicyInEnglish": true,
+      "yearsInsured": 7,
+      "MailingAddress": {
+        "id": "ADDRESS01",
+        "city": "Toronto",
+        "countryCode": "CAN",
+        "poBox": "12345",
+        "postalCode": "M5C1T4",
+        "province": "ON",
+        "ruralRoute": "5",
+        "streetName": "Yonge",
+        "streetNumber": "110",
+        "unitNumber": "500"
+      }
+    },
+    "Coverages": [
+      {
+        "amountOfInsurance": 300000,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "Cyber",
+        "coverageDescription": "Comprehensive Coverage",
+        "coveragePremium": 1000,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": true
+      },
+      {
+        "amountOfInsurance": 300000,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "Pollution",
+        "coverageDescription": "Comprehensive Coverage",
+        "coveragePremium": 1000,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": true
+      }
+    ],
+    "CalculationVariables": {
+      "revenue": 0,
+      "numberOfUnits": 0,
+      "riskType": "",
+      "riskRate": 0
+    }
+  }
+}

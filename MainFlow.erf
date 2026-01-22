@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RuleflowAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram="http:///com/corticon/rulesemf/viewrulemodel/ruleflow/flowdiagram.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_OaAL8vbhEfCpxs2XXi-Vlw" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
-  <ruleflow majorVersion="1" vocabularyUpdateStamp="_d05gANadEfChQ9Af0ZhdqQ" vocabulary="../../../../../workspace%207.3/Connecting_EDC/Scenario1/Cargo.ecore#/"/>
-  <ruleflowViewList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:FlowDiagram"/>
-</com.corticon.rulesemf.assetmodel:RuleflowAsset>

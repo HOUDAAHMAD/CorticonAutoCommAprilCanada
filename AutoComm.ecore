@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:com.corticon.rulesemf.common="http:///com/corticon/rulesemf/common.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="root" nsURI="http://root/1.0" nsPrefix="root">
   <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-    <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_yVEtEPeaEfCCCrcB_yD6wg" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="50">
+    <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_OH6scfecEfC4epH8F5n46A" externalChecksum="2722078124:507989954" studioType="Java" customDataTypeDisplayCount="50">
       <languageCode>fr_FR</languageCode>
-      <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_abFvEPdsEfCCCrcB_yD6wg" key="12" type="Validation" severity="Warning" invalidObjects="#//ChapterA/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoDatastoreIdentityColumn" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+      <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_OHkHIPecEfC4epH8F5n46A" key="12" type="Validation" severity="Warning" invalidObjects="#//ChapterA/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoDatastoreIdentityColumn" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
         <textVariables>ChapterA</textVariables>
         <locationVariables>ChapterA</locationVariables>
       </validationMessages>
-      <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_abGWIPdsEfCCCrcB_yD6wg" key="12" type="Validation" severity="Warning" invalidObjects="#//ChapterB2/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoDatastoreIdentityColumn" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+      <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_OHkHIfecEfC4epH8F5n46A" key="12" type="Validation" severity="Warning" invalidObjects="#//ChapterB2/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoDatastoreIdentityColumn" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
         <textVariables>ChapterB2</textVariables>
         <locationVariables>ChapterB2</locationVariables>
       </validationMessages>
-      <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_abG9MPdsEfCCCrcB_yD6wg" key="12" type="Validation" severity="Warning" invalidObjects="#//ChapterB3/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoDatastoreIdentityColumn" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+      <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_OHkuMPecEfC4epH8F5n46A" key="12" type="Validation" severity="Warning" invalidObjects="#//ChapterB3/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoDatastoreIdentityColumn" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
         <textVariables>ChapterB3</textVariables>
         <locationVariables>ChapterB3</locationVariables>
       </validationMessages>
-      <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_abPgEPdsEfCCCrcB_yD6wg" key="12" type="Validation" severity="Warning" invalidObjects="#//Territory/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoDatastoreIdentityColumn" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+      <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_OHvtUPecEfC4epH8F5n46A" key="12" type="Validation" severity="Warning" invalidObjects="#//Territory/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoDatastoreIdentityColumn" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
         <textVariables>Territory</textVariables>
         <locationVariables>Territory</locationVariables>
       </validationMessages>
@@ -23,7 +23,7 @@
         <databaseId manuallyCreated="true" value="com.corticon.database.id.MsSql"/>
         <databaseURL manuallyCreated="true" value="jdbc:progress:sqlserver://localhost:1433;databaseName=AutoCom"/>
         <username manuallyCreated="true" value="061046"/>
-        <password manuallyCreated="true" value="047039012060048019126"/>
+        <password manuallyCreated="true" value="061062015058049000057038045081095099064025034028029057032017045117"/>
         <schemaFilter manuallyCreated="true" value="dbo"/>
       </databaseAccess>
       <databaseMetadata>
@@ -1618,7 +1618,7 @@
         </contents>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="vehicleValue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="vehicleValue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
           <name manuallyCreated="true" value="vehicleValue"/>
@@ -2130,21 +2130,21 @@
         </contents>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="group" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="group"/>
-          <mode manuallyCreated="true" value="Base"/>
-          <fieldColumn manuallyCreated="true" value="grp"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="territory" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
           <name manuallyCreated="true" value="territory"/>
           <mode manuallyCreated="true" value="Base"/>
           <fieldColumn manuallyCreated="true" value="territory"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="grp" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="grp"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="grp"/>
         </contents>
       </eAnnotations>
     </eStructuralFeatures>
@@ -2194,21 +2194,21 @@
         </contents>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="group" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="group"/>
-          <mode manuallyCreated="true" value="Base"/>
-          <fieldColumn manuallyCreated="true" value="grp"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="territory" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
           <name manuallyCreated="true" value="territory"/>
           <mode manuallyCreated="true" value="Base"/>
           <fieldColumn manuallyCreated="true" value="territory"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="grp" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="grp"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="grp"/>
         </contents>
       </eAnnotations>
     </eStructuralFeatures>
@@ -2249,21 +2249,21 @@
         </contents>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="group" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="group"/>
-          <mode manuallyCreated="true" value="Base"/>
-          <fieldColumn manuallyCreated="true" value="grp"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="territory" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
           <name manuallyCreated="true" value="territory"/>
           <mode manuallyCreated="true" value="Base"/>
           <fieldColumn manuallyCreated="true" value="territory"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="grp" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="grp"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="grp"/>
         </contents>
       </eAnnotations>
     </eStructuralFeatures>

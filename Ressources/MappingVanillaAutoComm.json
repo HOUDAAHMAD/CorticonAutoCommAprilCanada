@@ -35,10 +35,13 @@
       "currentlyInsured": true,
       "currentInsurerName": null,
       "currentPolicyNumber": null,
-      "canceledNotForVacancy": null,
       "endContractDate": null,
       "notInsuredReason": null,
-      "notInsuredReasonDetail": null
+      "notInsuredReasonDetail": null,
+      "canceledReason":null,
+      "canceledReasonDetail":null,
+      "canceled":false
+
     }
   ],
   "BillingDetail": {
@@ -102,10 +105,18 @@
         "CriminalRecord": null,
         "occupation": "IT",
         "surName": "Doe",
+        
         "companyName": null,
         "Bankruptcy": {
-          "bankruptcyDischarged": null,
+          "bankruptcyDischarged": false,
           "bankruptcyDischargeDate": null
+        },
+        "Business": {
+          "businessType":"test",
+          "yearsInBusiness":0,
+          "yearsOfExperience":0,
+          "revenue":0.0
+
         }
       },
       "MailingAddress": [
@@ -213,7 +224,7 @@
           "dateFirstLicensed": "2018-11-11",
           "driversLicenseNumber": "Z9999-99999-99999",
           "LicenseClasses": [],
-          "LicenseSuspensions": []
+          "licenseSuspension": false
         }
       ],
       "LicenseConvictions": [
@@ -239,6 +250,11 @@
     }
   ],
   "FPQ1": {
+    "claimsCount" :0,
+    "Claims":[],
+    "nonPaymentIndicator":false,
+    "infractionsCount":0,
+    "criminalRecordIndicator":false,
     "BillingDetail": {
       "renewalFlex": 1.03,
       "transferFlex": 1.0443989,
@@ -294,6 +310,7 @@
         "id": "VEHICLE01",
         "weight": "light",
         "vehicleType": "Trailer",
+        
         "Coverages": [
           {
             "amountOfInsurance": 70000,
@@ -495,8 +512,9 @@
           "vehicleValue": 0,
           "electricVehicle":false,
           "codeVehicle":"test",
-          "operationRadius":0,
-          "nonPaymentIndicator":false
+          "operationRadius":"test",
+          "vehicleCode":0
+          
         },
         "CalculationVariables": {
           "vehicleMinValue": 0,

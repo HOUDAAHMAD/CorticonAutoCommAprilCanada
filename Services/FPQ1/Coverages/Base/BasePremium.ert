@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.common="http:///com/corticon/rulesemf/common.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_LMCJ8PxZEfC7iqzsczVarw" externalChecksum="2722078124:507989954" studioType="Java">
-  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_3jJFgvxdEfC7iqzsczVarw" externalChecksum="2722078124:507989954">
-    <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_161D6_xdEfC7iqzsczVarw" key="2" type="Validation" severity="Warning" textKey="TestsheetTreeSetModelAPIImpl.Validation.Attribute.Datatype.Value" locationKey="TestsheetTreeSetModelAPIImpl.Validation.NullTemplate">
-      <textVariables>1000000.000000</textVariables>
-      <textVariables>Integer</textVariables>
-      <locationVariables>Request [1].FPQ1 (FPQ1) [1].Vehicle (Vehicle) [1].Coverages (Coverages) [1].amountOfInsurance</locationVariables>
-    </validationMessages>
-    <testsheet ruleActivityUpdateStamp="_9KlBY_xYEfC7iqzsczVarw" databaseMode="ReadOnly" ruleActivity="ABasePremium.ers#//@ruleset" locale="">
+<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_LMCJ8PxZEfC7iqzsczVarw" externalChecksum="2722078124:1438690353" studioType="Java">
+  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_XRB-IfxfEfC5Vc8gDpvUFg" externalChecksum="2722078124:1438690353">
+    <testsheet ruleActivityUpdateStamp="_XQz7sfxfEfC5Vc8gDpvUFg" databaseMode="ReadOnly" ruleActivity="ABasePremium.ers#//@ruleset" locale="">
       <input/>
       <output/>
       <expectedOutput/>
@@ -92,7 +87,7 @@
       <outputRuleTraceSection/>
     </testsheetViewList>
   </testsheetAssets>
-  <ruletest vocabularyUpdateStamp="_1kVhYPxbEfC7iqzsczVarw" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../../../AutoComm.ecore#/"/>
+  <ruletest vocabularyUpdateStamp="_9h8JwPxeEfC5Vc8gDpvUFg" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../../../AutoComm.ecore#/"/>
   <ruletestViewList xsi:type="com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder:TestTabFolder">
     <testTabList name="untitled_1"/>
   </ruletestViewList>

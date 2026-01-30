@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="root" nsURI="http://root/1.0" nsPrefix="root">
   <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-    <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_3WRKUfxhEfCa1MR419_9ZQ" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="50">
+    <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_KHVaIf22EfCdYPpWl1ridQ" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="50">
       <languageCode>fr_FR</languageCode>
       <databaseAccess databasePropertyDisplayCount="50">
         <databaseId manuallyCreated="true" value="com.corticon.database.id.MsSql"/>
@@ -23,6 +23,18 @@
             <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="ID"/>
           </primaryKeyMetadataList>
         </tableMetadataList>
+        <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="ChapterA_TEST" tableType="TABLE">
+          <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="class" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="amountOfInsurance" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="dossier" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="grp" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="chapterABasePremium" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="id" jdbcDataType="BIGINT" sqlDataType="bigint identity" columnSize="19"/>
+          <primaryKeyMetadataList primaryKeyName="PK_ChapterA_TEST" primaryKeyCatalogName="AutoCom" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterA_TEST">
+            <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="id"/>
+          </primaryKeyMetadataList>
+        </tableMetadataList>
         <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="ChapterB2" tableType="TABLE">
           <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
           <columnMetadataList columnName="class" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
@@ -33,6 +45,18 @@
           <columnMetadataList columnName="ID" jdbcDataType="BIGINT" sqlDataType="bigint identity" columnSize="19"/>
           <primaryKeyMetadataList primaryKeyName="PK_ChapterB2" primaryKeyCatalogName="AutoCom" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterB2">
             <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="ID"/>
+          </primaryKeyMetadataList>
+        </tableMetadataList>
+        <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="ChapterB2_TEST" tableType="TABLE">
+          <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="class" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="deductible" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="dossier" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="grp" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="chapterB2BasePremium" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="id" jdbcDataType="BIGINT" sqlDataType="bigint identity" columnSize="19"/>
+          <primaryKeyMetadataList primaryKeyName="PK_ChapterB2_TEST" primaryKeyCatalogName="AutoCom" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterB2_TEST">
+            <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="id"/>
           </primaryKeyMetadataList>
         </tableMetadataList>
         <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="ChapterB3" tableType="TABLE">
@@ -46,12 +70,32 @@
             <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="ID"/>
           </primaryKeyMetadataList>
         </tableMetadataList>
+        <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="ChapterB3_TEST" tableType="TABLE">
+          <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="class" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="deductible" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="grp" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="chapterB3BasePremium" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <columnMetadataList columnName="ID" jdbcDataType="BIGINT" sqlDataType="bigint identity" columnSize="19"/>
+          <primaryKeyMetadataList primaryKeyName="PK_ChapterB3_TEST" primaryKeyCatalogName="AutoCom" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterB3_TEST">
+            <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="ID"/>
+          </primaryKeyMetadataList>
+        </tableMetadataList>
         <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="Territory" tableType="TABLE">
           <columnMetadataList columnName="city" jdbcDataType="VARCHAR" sqlDataType="nvarchar" columnSize="255" decimalDigits="-1"/>
           <columnMetadataList columnName="censusDivision" jdbcDataType="VARCHAR" sqlDataType="nvarchar" columnSize="255" decimalDigits="-1"/>
           <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
           <columnMetadataList columnName="ID" jdbcDataType="BIGINT" sqlDataType="bigint identity" columnSize="19"/>
           <primaryKeyMetadataList primaryKeyName="PK_Territory" primaryKeyCatalogName="AutoCom" primaryKeySchemaName="dbo" primaryKeyTableName="Territory">
+            <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="ID"/>
+          </primaryKeyMetadataList>
+        </tableMetadataList>
+        <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="Territory_TEST" tableType="TABLE">
+          <columnMetadataList columnName="ID" jdbcDataType="BIGINT" sqlDataType="bigint identity" columnSize="19"/>
+          <columnMetadataList columnName="city" jdbcDataType="VARCHAR" sqlDataType="nvarchar" columnSize="255" decimalDigits="-1"/>
+          <columnMetadataList columnName="censusDivision" jdbcDataType="VARCHAR" sqlDataType="nvarchar" columnSize="255" decimalDigits="-1"/>
+          <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
+          <primaryKeyMetadataList primaryKeyName="PK__Territor__3214EC2743572B24" primaryKeyCatalogName="AutoCom" primaryKeySchemaName="dbo" primaryKeyTableName="Territory_TEST">
             <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="ID"/>
           </primaryKeyMetadataList>
         </tableMetadataList>
@@ -405,6 +449,13 @@
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
           <name manuallyCreated="true" value="MailingAddress"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="riskAdress" eType="#//RiskAdress">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
+          <name manuallyCreated="true" value="riskAdress"/>
         </contents>
       </eAnnotations>
     </eStructuralFeatures>
@@ -2401,6 +2452,327 @@
           <mode manuallyCreated="true" value="Base"/>
           <fieldColumn manuallyCreated="true" value="ID"/>
           <fieldValueStrategy manuallyCreated="true" value="identity"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ChapterA_TEST">
+    <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#//ChapterA_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+        <name manuallyCreated="true" value="ChapterA_TEST"/>
+        <datastorePersistent manuallyCreated="true" value="true"/>
+        <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterA_TEST"/>
+        <datastoreCaching manuallyCreated="true" value="false"/>
+      </contents>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="amountOfInsurance" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="amountOfInsurance"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="amountOfInsurance"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="chapterABasePremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="chapterABasePremium"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="chapterABasePremium"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="class" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="class"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="class"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dossier" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="dossier"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="dossier"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="grp" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="grp"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="grp"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#//ChapterA_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+          <name manuallyCreated="true" value="id"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="id"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="territory" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="territory"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="territory"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ChapterB2_TEST">
+    <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#//ChapterB2_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+        <name manuallyCreated="true" value="ChapterB2_TEST"/>
+        <datastorePersistent manuallyCreated="true" value="true"/>
+        <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterB2_TEST"/>
+        <datastoreCaching manuallyCreated="true" value="false"/>
+      </contents>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="chapterB2BasePremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="chapterB2BasePremium"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="chapterB2BasePremium"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="class" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="class"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="class"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="deductible" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="deductible"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="deductible"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dossier" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="dossier"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="dossier"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="grp" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="grp"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="grp"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#//ChapterB2_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+          <name manuallyCreated="true" value="id"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="id"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="territory" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="territory"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="territory"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RiskAdress">
+    <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
+        <name manuallyCreated="true" value="RiskAdress"/>
+        <datastorePersistent manuallyCreated="true" value="false"/>
+        <datastoreCaching manuallyCreated="true" value="false"/>
+      </contents>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="city" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="city"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="countryCode" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="countryCode"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="postalCode" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="postalCode"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="province" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="province"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="streetName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="streetName"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="streetNumber" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="streetNumber"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="unitNumber" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="unitNumber"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ChapterB3_TEST">
+    <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#//ChapterB3_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+        <name manuallyCreated="true" value="ChapterB3_TEST"/>
+        <datastorePersistent manuallyCreated="true" value="true"/>
+        <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterB3_TEST"/>
+        <datastoreCaching manuallyCreated="true" value="false"/>
+      </contents>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#//ChapterB3_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+          <name manuallyCreated="true" value="id"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="ID"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="chapterB3BasePremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="chapterB3BasePremium"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="chapterB3BasePremium"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="class" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="class"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="class"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="deductible" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="deductible"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="deductible"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="grp" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="grp"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="grp"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="territory" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="territory"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="territory"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Territory_TEST">
+    <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#//Territory_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+        <name manuallyCreated="true" value="Territory_TEST"/>
+        <datastorePersistent manuallyCreated="true" value="true"/>
+        <classTable manuallyCreated="true" value="AutoCom.dbo.Territory_TEST"/>
+        <datastoreCaching manuallyCreated="true" value="false"/>
+      </contents>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#//Territory_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+          <name manuallyCreated="true" value="id"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="ID"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="censusDivision" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="censusDivision"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="censusDivision"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="city" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="city"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="city"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="territory" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="territory"/>
+          <mode manuallyCreated="true" value="Base"/>
+          <fieldColumn manuallyCreated="true" value="territory"/>
         </contents>
       </eAnnotations>
     </eStructuralFeatures>

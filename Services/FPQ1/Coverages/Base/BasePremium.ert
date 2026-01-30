@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_LMCJ8PxZEfC7iqzsczVarw" externalChecksum="2722078124:1438690353" studioType="Java">
-  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_XRB-IfxfEfC5Vc8gDpvUFg" externalChecksum="2722078124:1438690353">
-    <testsheet ruleActivityUpdateStamp="_XQz7sfxfEfC5Vc8gDpvUFg" databaseMode="ReadOnly" ruleActivity="ABasePremium.ers#//@ruleset" locale="">
+<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_VcnTgP26EfCdYPpWl1ridQ" externalChecksum="2722078124:1438690353" studioType="Java">
+  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_6mOx0f23EfCdYPpWl1ridQ" externalChecksum="2722078124:1438690353">
+    <testsheet ruleActivityUpdateStamp="_vwjW0f25EfCdYPpWl1ridQ" databaseMode="ReadOnly" returnEntityMode="IncomingAndNew" ruleActivity="BasePremium.erf#//@ruleflow" locale="">
       <input/>
       <output/>
       <expectedOutput/>
@@ -18,7 +18,7 @@
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Vehicle/id"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Vehicle/vehicleType"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Vehicle/weight"/>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../AutoComm.ecore#//Vehicle/CalculationVariables" eClass="../../../../AutoComm.ecore#//CalculationVariables">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" expanded="false" eReference="../../../../AutoComm.ecore#//Vehicle/CalculationVariables" eClass="../../../../AutoComm.ecore#//CalculationVariables">
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/chapterABasePremium"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/chapterB2BasePremium"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/chapterB3BasePremium"/>
@@ -31,7 +31,7 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/vinLockIndicator"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/vinLockRebate"/>
               </children>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../AutoComm.ecore#//Vehicle/Coverages" eClass="../../../../AutoComm.ecore#//Coverages">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" expanded="false" eReference="../../../../AutoComm.ecore#//Vehicle/Coverages" eClass="../../../../AutoComm.ecore#//Coverages">
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1000000" eAttribute="../../../../AutoComm.ecore#//Coverages/amountOfInsurance"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Coverages/applied"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="ChapterA" eAttribute="../../../../AutoComm.ecore#//Coverages/coverageCode"/>
@@ -40,15 +40,33 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Coverages/excluded"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Coverages/selected"/>
               </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" manuallyCreated="true" expanded="false" eReference="../../../../AutoComm.ecore#//Vehicle/Coverages" eClass="../../../../AutoComm.ecore#//Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="ChapterB2" eAttribute="../../../../AutoComm.ecore#//Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="250" eAttribute="../../../../AutoComm.ecore#//Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="3" manuallyCreated="true" expanded="false" eReference="../../../../AutoComm.ecore#//Vehicle/Coverages" eClass="../../../../AutoComm.ecore#//Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="ChapterB3" eAttribute="../../../../AutoComm.ecore#//Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="100" eAttribute="../../../../AutoComm.ecore#//Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//Coverages/selected"/>
+              </children>
             </children>
           </children>
         </children>
       </inputRoot>
-      <outputRoot>
-        <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestEntity" nodeID="1" eClass="../../../../AutoComm.ecore#//Request">
-          <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" eReference="../../../../AutoComm.ecore#//Request/FPQ1" eClass="../../../../AutoComm.ecore#//FPQ1">
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" eReference="../../../../AutoComm.ecore#//FPQ1/Vehicle" eClass="../../../../AutoComm.ecore#//Vehicle">
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" eReference="../../../../AutoComm.ecore#//Vehicle/Coverages" eClass="../../../../AutoComm.ecore#//Coverages">
+      <outputRoot newOrModified="true">
+        <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestEntity" nodeID="1" newOrModified="true" eClass="../../../../AutoComm.ecore#//Request">
+          <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../AutoComm.ecore#//Request/FPQ1" eClass="../../../../AutoComm.ecore#//FPQ1">
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../AutoComm.ecore#//FPQ1/Vehicle" eClass="../../../../AutoComm.ecore#//Vehicle">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" expanded="false" eReference="../../../../AutoComm.ecore#//Vehicle/Coverages" eClass="../../../../AutoComm.ecore#//Coverages">
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//Coverages/excluded"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//Coverages/applied"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//Coverages/deductible"/>
@@ -57,11 +75,29 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="ChapterA" eAttribute="../../../../AutoComm.ecore#//Coverages/coverageCode"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//Coverages/selected"/>
               </children>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" eReference="../../../../AutoComm.ecore#//Vehicle/CalculationVariables" eClass="../../../../AutoComm.ecore#//CalculationVariables">
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/chapterABasePremium"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" expanded="false" eReference="../../../../AutoComm.ecore#//Vehicle/Coverages" eClass="../../../../AutoComm.ecore#//Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="250" eAttribute="../../../../AutoComm.ecore#//Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="ChapterB2" eAttribute="../../../../AutoComm.ecore#//Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="3" expanded="false" eReference="../../../../AutoComm.ecore#//Vehicle/Coverages" eClass="../../../../AutoComm.ecore#//Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="100" eAttribute="../../../../AutoComm.ecore#//Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="ChapterB3" eAttribute="../../../../AutoComm.ecore#//Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" expanded="false" eReference="../../../../AutoComm.ecore#//Vehicle/CalculationVariables" eClass="../../../../AutoComm.ecore#//CalculationVariables">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="73" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/chapterABasePremium"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/vinLockIndicator"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/chapterB2BasePremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/chapterB3BasePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="118" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/chapterB2BasePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="40" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/chapterB3BasePremium"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/vinLockRebate"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/vehicleMinValue"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationVariables/FPQ1Premium"/>
@@ -87,8 +123,8 @@
       <outputRuleTraceSection/>
     </testsheetViewList>
   </testsheetAssets>
-  <ruletest vocabularyUpdateStamp="_9h8JwPxeEfC5Vc8gDpvUFg" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../../../AutoComm.ecore#/"/>
+  <ruletest vocabularyUpdateStamp="_KHVaIf22EfCdYPpWl1ridQ" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../../../AutoComm.ecore#/"/>
   <ruletestViewList xsi:type="com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder:TestTabFolder">
-    <testTabList name="untitled_1"/>
+    <testTabList name="BasePremiuim ligne1DB"/>
   </ruletestViewList>
 </com.corticon.rulesemf.assetmodel:RuletestAsset>

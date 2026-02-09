@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_6XHbQPxYEfC7iqzsczVarw" externalChecksum="2722078124:507989954" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_cNNZwQB8EfG1GOQq2BWjhA" externalChecksum="2722078124:507989954" studioType="Java">
   <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_LMdAsfxZEfC7iqzsczVarw" externalChecksum="2722078124:507989954">
     <testsheet ruleActivityUpdateStamp="_9Jq6ZPsDEfC7iqzsczVarw" ruleActivity="Surcharges.erf#//@ruleflow" locale="">
       <input/>
@@ -45,7 +45,7 @@
                   <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="0.000000" eAttribute="../../../AutoComm.ecore#//Surcharges/vehicleCodeSurcharge"/>
                 </children>
               </children>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../AutoComm.ecore#//Vehicle/VehicleDetail" eClass="../../../AutoComm.ecore#//VehicleDetail">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" expanded="false" eReference="../../../AutoComm.ecore#//Vehicle/VehicleDetail" eClass="../../../AutoComm.ecore#//VehicleDetail">
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../AutoComm.ecore#//VehicleDetail/alteredIndicator"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../AutoComm.ecore#//VehicleDetail/annualDistanceDriven"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../AutoComm.ecore#//VehicleDetail/antiTheftDevice"/>
@@ -165,7 +165,7 @@
       <outputRuleTraceSection/>
     </testsheetViewList>
   </testsheetAssets>
-  <ruletest vocabularyUpdateStamp="_iT6q0fsBEfC7iqzsczVarw" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../../AutoComm.ecore#/"/>
+  <ruletest vocabularyUpdateStamp="_8wEIUAB5EfG1GOQq2BWjhA" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../../AutoComm.ecore#/"/>
   <ruletestViewList xsi:type="com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder:TestTabFolder">
     <testTabList name="untitled_1"/>
   </ruletestViewList>

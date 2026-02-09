@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_yI_jUwB2EfG1GOQq2BWjhA" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_VzjpQAXQEfGl4djbC3VYIQ" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>en_US</languageCode>
-  <ruleset vocabularyUpdateStamp="_aElrwABNEfG1GOQq2BWjhA" vocabulary="../../../../../AutoComm.ecore#/">
-    <rule/>
+  <ruleset vocabularyUpdateStamp="_REUk4AXOEfGl4djbC3VYIQ" vocabulary="../../../../../AutoComm.ecore#/">
+    <rule>
+      <action/>
+    </rule>
     <rule>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance = 5000">
@@ -363,8 +365,7 @@
         </opaqueExpression>
       </action>
     </rule>
-    <filter/>
-    <filter logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+    <filter precondition="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
       <opaqueExpression expression="co.coverageCode='FAQ34'">
         <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coverageCode = 'FAQ34'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
           <referencedTermList>
@@ -381,7 +382,7 @@
         </parserOutput>
       </opaqueExpression>
     </filter>
-    <filter logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+    <filter precondition="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
       <opaqueExpression expression="co.selected=true">
         <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.selected = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
           <referencedTermList>
@@ -398,9 +399,9 @@
         </parserOutput>
       </opaqueExpression>
     </filter>
-    <logicalVariable entity="../../../../../AutoComm.ecore#//Request" filters="#//@ruleset/@filters.1 #//@ruleset/@filters.2">
-      <extension association="true" entity="../../../../../AutoComm.ecore#//FPQ1" traversedAssocRole="../../../../../AutoComm.ecore#//Request/FPQ1" filters="#//@ruleset/@filters.1 #//@ruleset/@filters.2">
-        <extension association="true" entity="../../../../../AutoComm.ecore#//Vehicle" traversedAssocRole="../../../../../AutoComm.ecore#//FPQ1/Vehicle" filters="#//@ruleset/@filters.1 #//@ruleset/@filters.2">
+    <logicalVariable entity="../../../../../AutoComm.ecore#//Request" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
+      <extension association="true" entity="../../../../../AutoComm.ecore#//FPQ1" traversedAssocRole="../../../../../AutoComm.ecore#//Request/FPQ1" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
+        <extension association="true" entity="../../../../../AutoComm.ecore#//Vehicle" traversedAssocRole="../../../../../AutoComm.ecore#//FPQ1/Vehicle" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
           <extension explicit="true" association="true" entity="../../../../../AutoComm.ecore#//CalculationVariables" traversedAssocRole="../../../../../AutoComm.ecore#//Vehicle/CalculationVariables">
             <alias value="cv"/>
             <extension explicit="true" association="true" entity="../../../../../AutoComm.ecore#//Flexes" traversedAssocRole="../../../../../AutoComm.ecore#//CalculationVariables/Flexes">
@@ -416,7 +417,7 @@
             <referencedAttributes attribute="../../../../../AutoComm.ecore#//CalculationVariables/vinLockIndicator"/>
             <referencedAttributes attribute="../../../../../AutoComm.ecore#//CalculationVariables/vinLockRebate"/>
           </extension>
-          <extension explicit="true" association="true" entity="../../../../../AutoComm.ecore#//Coverages" traversedAssocRole="../../../../../AutoComm.ecore#//Vehicle/Coverages" filters="#//@ruleset/@filters.1 #//@ruleset/@filters.2">
+          <extension explicit="true" association="true" entity="../../../../../AutoComm.ecore#//Coverages" traversedAssocRole="../../../../../AutoComm.ecore#//Vehicle/Coverages" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
             <alias value="co"/>
             <referencedAttributes attribute="../../../../../AutoComm.ecore#//Coverages/amountOfInsurance"/>
             <referencedAttributes attribute="../../../../../AutoComm.ecore#//Coverages/applied"/>
@@ -477,18 +478,18 @@
       <rootNode>
         <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeEntity" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0">
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
-            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.coverageCode='FAQ34'" filter="#//@ruleset/@filters.1"/>
-            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.selected=true" filter="#//@ruleset/@filters.2"/>
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.coverageCode='FAQ34'" filter="#//@ruleset/@filters.0"/>
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.selected=true" filter="#//@ruleset/@filters.1"/>
           </children>
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.coverageCode='FAQ34'" filter="#//@ruleset/@filters.1"/>
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.selected=true" filter="#//@ruleset/@filters.2"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.coverageCode='FAQ34'" filter="#//@ruleset/@filters.0"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.selected=true" filter="#//@ruleset/@filters.1"/>
             </children>
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.coverageCode='FAQ34'" filter="#//@ruleset/@filters.1"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.selected=true" filter="#//@ruleset/@filters.2"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.coverageCode='FAQ34'" filter="#//@ruleset/@filters.0"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.selected=true" filter="#//@ruleset/@filters.1"/>
               </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -504,8 +505,8 @@
               </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.coverageCode='FAQ34'" filter="#//@ruleset/@filters.1"/>
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.selected=true" filter="#//@ruleset/@filters.2"/>
+                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.coverageCode='FAQ34'" filter="#//@ruleset/@filters.0"/>
+                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.selected=true" filter="#//@ruleset/@filters.1"/>
                 </children>
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.0"/>
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.1"/>
@@ -523,11 +524,8 @@
         </children>
       </rootNode>
     </scopeSection>
-    <filterSection rowCount="50">
+    <filterSection rowCount="49">
       <filterItemList filter="#//@ruleset/@filters.0">
-        <expressionCell/>
-      </filterItemList>
-      <filterItemList filter="#//@ruleset/@filters.1">
         <expressionCell external="co.coverageCode='FAQ34'">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coverageCode = 'FAQ34'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -544,7 +542,7 @@
           </parserOutput>
         </expressionCell>
       </filterItemList>
-      <filterItemList filter="#//@ruleset/@filters.2">
+      <filterItemList filter="#//@ruleset/@filters.1">
         <expressionCell external="co.selected=true">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.selected = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>

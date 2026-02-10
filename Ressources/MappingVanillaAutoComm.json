@@ -38,10 +38,9 @@
       "endContractDate": null,
       "notInsuredReason": null,
       "notInsuredReasonDetail": null,
-      "canceledReason":null,
-      "canceledReasonDetail":null,
-      "canceled":false
-
+      "canceledReason": null,
+      "canceledReasonDetail": null,
+      "canceled": false
     }
   ],
   "BillingDetail": {
@@ -105,18 +104,16 @@
         "CriminalRecord": null,
         "occupation": "IT",
         "surName": "Doe",
-        
         "companyName": null,
         "Bankruptcy": {
           "bankruptcyDischarged": false,
           "bankruptcyDischargeDate": null
         },
         "Business": {
-          "businessType":"test",
-          "yearsInBusiness":0,
-          "yearsOfExperience":0,
-          "revenue":0.0
-
+          "businessType": "test",
+          "yearsInBusiness": 0,
+          "yearsOfExperience": 0,
+          "revenue": 0
         }
       },
       "MailingAddress": [
@@ -250,11 +247,20 @@
     }
   ],
   "FPQ1": {
-    "claimsCount" :0,
-    "Claims":[],
-    "nonPaymentIndicator":false,
-    "infractionsCount":0,
-    "criminalRecordIndicator":false,
+    "claimsCount": 0,
+    "Claims": [
+      {
+        "causeOfLoss": "test",
+        "claimStatus": "test",
+        "dateOfLoss": null,
+        "lossAmountPaid": null,
+        "lossDescription": null,
+        "reserve": null
+      }
+    ],
+    "nonPaymentIndicator": false,
+    "infractionsCount": 0,
+    "criminalRecordIndicator": false,
     "BillingDetail": {
       "renewalFlex": 1.03,
       "transferFlex": 1.0443989,
@@ -293,7 +299,7 @@
       "productCode": "LL_RESID",
       "isPolicyInEnglish": true,
       "yearsInsured": 7,
-      "policyDuration":0,
+      "policyDuration": 0,
       "MailingAddress": {
         "id": "ADDRESS01",
         "city": "Toronto",
@@ -310,7 +316,6 @@
         "id": "VEHICLE01",
         "weight": "light",
         "vehicleType": "Trailer",
-        
         "Coverages": [
           {
             "amountOfInsurance": 70000,
@@ -510,53 +515,64 @@
           "vehicleLength": 4.65,
           "vehicleUseCode": "PrivateTransportation",
           "vehicleValue": 0,
-          "electricVehicle":false,
-          "codeVehicle":"test",
-          "operationRadius":"test",
-          "vehicleCode":0
-          
+          "electricVehicle": false,
+          "codeVehicle": "test",
+          "operationRadius": "test",
+          "vehicleCode": 0
         },
         "CalculationVariables": {
-          "vehicleMinValue": 0,
-          "class": 0,
-          "group": 0,
-          "territory": 0,
-          "dossier": 0,
-          "chapterABasePremium": 0,
-          "chapterB2BasePremium": 0,
-          "chapterB3BasePremium": 0,
-          "vinLockIndicator": false,
-          "vinLockRebate": 0,
-          "FPQ1Premium": 0,
-          "Rates": {
-            "echelonB2Rate": 0,
-            "echelonB3Rate": 0,
-            "trailerRebateRate": 0
-          },
-          "Flexes": {
-            "vehicleFlex": 0,
-            "globalFlex": 0,
-            "totalFlex": 0
-          },
-          "Surcharges": {
-            "criminalRecordSurcharge": 0,
-            "claimSurcharge": 0,
-            "infractionSurcharge": 0,
-            "licenceSuspensionSurcharge": 0,
-            "nonPaymentSurcharge": 0,
-            "electricVehicleSurcharge": 0,
-            "vehicleCodeSurcharge": 0,
-            "operationRadiusSurcharge": 0,
-            "totalSurcharges": 0,
-            "groupSurchargesA": 0,
-            "groupSurchargesB2": 0,
-            "groupSurchargesB3": 0
+          "CalculationVariablesFPQ1": {
+            "vehicleMinValue": 0,
+            "class": 0,
+            "group": 0,
+            "territory": 0,
+            "dossier": 0,
+            "chapterABasePremium": 0,
+            "chapterB2BasePremium": 0,
+            "chapterB3BasePremium": 0,
+            "vinLockIndicator": false,
+            "vinLockRebate": 0,
+            "FPQ1Premium": 0,
+            "RatesFPQ1": {
+              "echelonB2Rate": 0,
+              "echelonB3Rate": 0,
+              "trailerRebateRate": 0
+            },
+            "FlexesFPQ1": {
+              "vehicleFlex": 0,
+              "globalFlex": 0,
+              "totalFlex": 0
+            },
+            "SurchargesFPQ1": {
+              "criminalRecordSurcharge": 0,
+              "claimSurcharge": 0,
+              "infractionSurcharge": 0,
+              "licenceSuspensionSurcharge": 0,
+              "nonPaymentSurcharge": 0,
+              "electricVehicleSurcharge": 0,
+              "vehicleCodeSurcharge": 0,
+              "operationRadiusSurcharge": 0,
+              "totalSurcharges": 0,
+              "groupSurchargesA": 0,
+              "groupSurchargesB2": 0,
+              "groupSurchargesB3": 0
+            }
           }
         }
       }
     ]
   },
   "FPQ4": {
+    "Claims": [
+      {
+        "causeOfLoss": "test",
+        "claimStatus": "test",
+        "dateOfLoss": "2019-01-22T00:00:00-05:00",
+        "lossAmountPaid": null,
+        "lossDescription": null,
+        "reserve": null
+      }
+    ],
     "BillingDetail": {
       "renewalFlex": 1.03,
       "transferFlex": 1.0443989,
@@ -609,16 +625,25 @@
         "unitNumber": "500"
       }
     },
-    "DriverAssignments": [
-      {
-        "parentObjectId": "DRIVER01",
-        "parentObjectName": "Driver",
-        "percentageOfUse": 0.1
-      }
-    ],
-    "Garage": [
+    "LocationsFPQ4": [
       {
         "id": "test",
+        "ActivityFPQ4": [
+          {
+            "activityID": 0,
+            "activityFR": "test",
+            "activityEN": "test",
+            "activityRate": 0,
+            "riskCode": "null"
+          },
+          {
+            "activityID": 1,
+            "activityFR": "test",
+            "activityEN": "test",
+            "activityRate": 0,
+            "riskCode": null
+          }
+        ],
         "Coverages": [
           {
             "id": "COVERAGE07",
@@ -755,39 +780,41 @@
           }
         ],
         "CalculationVariables": {
-          "FPQ4ABasePremium": 0,
-          "AWithBSurchargedPremium": 0,
-          "FPQ4Premium": 0,
-          "OwnerCount": 0,
-          "EmployeeCount": 0,
-          "XLicensePlateCount": 0,
-          "YBusiness": 0,
-          "AClaims": null,
-          "BClaims": null,
-          "QuebecPercentage": 0,
-          "NonPayment": false,
-          "criminalRecordIndicator": false,
-          "RiskCode": null,
-          "TotalFPQ4Premium": 0,
-          "Rates": {
-            "OwnerCountRate": 0,
-            "EmployeeRate": 0,
-            "XLicensePlateRate": 0,
-            "YBusinessRate": 0,
-            "ActivityRate": 0,
-            "NonPaymentRate": 0,
-            "CriminalRecordRate": 0,
-            "OutsideQuebecRate": 0,
-            "FPQ4-B2Rate": 0,
-            "FPQ4-B3Rate": 0,
-            "FPQ4-C2Rate": 0,
-            "FPQ4-C3Rate": 0
-          },
-          "Flexes": {},
-          "Surcharges": {
-            "XlicensePlateForBSurcharge": 0,
-            "YBusinessForBSurcharge": 0,
-            "BClaimsSurcharge": 0
+          "CalculationsVariablesFPQ4": {
+            "FPQ4ABasePremium": 0,
+            "AWithBSurchargedPremium": 0,
+            "FPQ4Premium": 0,
+            "OwnerCount": 0,
+            "EmployeeCount": 0,
+            "XLicensePlateCount": 0,
+            "YBusiness": 0,
+            "AClaims": null,
+            "BClaims": null,
+            "QuebecPercentage": 0,
+            "NonPayment": false,
+            "criminalRecordIndicator": false,
+            "RiskCode": null,
+            "TotalFPQ4Premium": 0,
+            "RatesFPQ4": {
+              "OwnerCountRate": 0,
+              "EmployeeRate": 0,
+              "XLicensePlateRate": 0,
+              "YBusinessRate": 0,
+              "ActivityRate": 0,
+              "NonPaymentRate": 0,
+              "CriminalRecordRate": 0,
+              "OutsideQuebecRate": 0,
+              "FPQ4-B2Rate": 0,
+              "FPQ4-B3Rate": 0,
+              "FPQ4-C2Rate": 0,
+              "FPQ4-C3Rate": 0
+            },
+            "FlexesFPQ4": {},
+            "SurchargesFPQ4": {
+              "XlicensePlateForBSurcharge": 0,
+              "YBusinessForBSurcharge": 0,
+              "BClaimsSurcharge": 0
+            }
           }
         }
       }
@@ -955,41 +982,43 @@
           }
         ],
         "CalculationVariables": {
-          "minDeductible": 0,
-          "loadingUnloadingIndicator": true,
-          "subTotalPremium": 0,
-          "unattentedTruckIndicator": 0,
-          "targetClassPercentage": 0,
-          "reeferPercentage": 0,
-          "premiumPerUnit": 0,
-          "minimumPremium": 0,
-          "totalCargoPremium": 0,
-          "totalPremium": 0,
-          "totalFlex": 0,
-          "Rates": {
-            "cargoBaseRate": 0,
-            "cargoSubRate": 0,
-            "loadingUnloadingRate": 0,
-            "reeferAgeRate": 0,
-            "cargoReeferLoadingRate": 0,
-            "cargoFinalRate": 0,
-            "excessCargoBaseRate": 0,
-            "refeerBreakdownRate": 0,
-            "excessCargoRate": 0,
-            "excessCargoSubRate": 0,
-            "excessReeferBreakdownRate": 0,
-            "excessCargoReeferLoading": 0,
-            "excessCargoFinalRate": 0,
-            "inBusinessRate": 0,
-            "radiusOfOperationRate": 0,
-            "unattendedTruckRate": 0,
-            "targetInterestInclusionRate": 0,
-            "fleetSizeDiscountRate": 0,
-            "deductibleDiscountRate": 0,
-            "dashboardCameraDiscountRate": 0,
-            "reeferPercentageRate": 0,
-            "totalRate": 0,
-            "trailerInterchangeRate": 0
+          "CalculationVariablesCargo": {
+            "minDeductible": 0,
+            "loadingUnloadingIndicator": true,
+            "subTotalPremium": 0,
+            "unattentedTruckIndicator": 0,
+            "targetClassPercentage": 0,
+            "reeferPercentage": 0,
+            "premiumPerUnit": 0,
+            "minimumPremium": 0,
+            "totalCargoPremium": 0,
+            "totalPremium": 0,
+            "totalFlex": 0,
+            "RatesCargo": {
+              "cargoBaseRate": 0,
+              "cargoSubRate": 0,
+              "loadingUnloadingRate": 0,
+              "reeferAgeRate": 0,
+              "cargoReeferLoadingRate": 0,
+              "cargoFinalRate": 0,
+              "excessCargoBaseRate": 0,
+              "refeerBreakdownRate": 0,
+              "excessCargoRate": 0,
+              "excessCargoSubRate": 0,
+              "excessReeferBreakdownRate": 0,
+              "excessCargoReeferLoading": 0,
+              "excessCargoFinalRate": 0,
+              "inBusinessRate": 0,
+              "radiusOfOperationRate": 0,
+              "unattendedTruckRate": 0,
+              "targetInterestInclusionRate": 0,
+              "fleetSizeDiscountRate": 0,
+              "deductibleDiscountRate": 0,
+              "dashboardCameraDiscountRate": 0,
+              "reeferPercentageRate": 0,
+              "totalRate": 0,
+              "trailerInterchangeRate": 0
+            }
           }
         }
       }
@@ -1270,27 +1299,29 @@
           }
         ],
         "CalculationVariables": {
-          "alarmDiscount": 0,
-          "Rates": {
-            "propertyBaseRate": 0.0832,
-            "provinceRate": 0,
-            "hazardCodeRate": 0,
-            "townGradeRate": 0,
-            "constructionRate": 0,
-            "coverageRate": 0,
-            "buildingRate": 0,
-            "contentsRate": 0,
-            "EQRate": 0,
-            "toolsSmallEquipmentRate": 0,
-            "lighterEquipmentRate": 0
-          },
-          "Surcharges": {
-            "claimHistorySurcharge": 0,
-            "heatingTypeSurcharge": 0,
-            "locationSurcharge": 0,
-            "inspectionSurcharge": 0,
-            "substandardSurcharge": 0,
-            "totalSurcharges": 0
+          "CalculationVariablesGarageProperty": {
+            "alarmDiscount": 0,
+            "Rates": {
+              "propertyBaseRate": 0.0832,
+              "provinceRate": 0,
+              "hazardCodeRate": 0,
+              "townGradeRate": 0,
+              "constructionRate": 0,
+              "coverageRate": 0,
+              "buildingRate": 0,
+              "contentsRate": 0,
+              "EQRate": 0,
+              "toolsSmallEquipmentRate": 0,
+              "lighterEquipmentRate": 0
+            },
+            "Surcharges": {
+              "claimHistorySurcharge": 0,
+              "heatingTypeSurcharge": 0,
+              "locationSurcharge": 0,
+              "inspectionSurcharge": 0,
+              "substandardSurcharge": 0,
+              "totalSurcharges": 0
+            }
           }
         }
       }

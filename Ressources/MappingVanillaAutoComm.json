@@ -532,7 +532,7 @@
             "chapterB3BasePremium": 0,
             "vinLockIndicator": false,
             "vinLockRebate": 0,
-            "FPQ1Premium": 0,
+            "vehiclePremium": 0,
             "RatesFPQ1": {
               "echelonB2Rate": 0,
               "echelonB3Rate": 0,
@@ -567,7 +567,15 @@
       {
         "causeOfLoss": "test",
         "claimStatus": "test",
-        "dateOfLoss": "2019-01-22T00:00:00-05:00",
+        "dateOfLoss": "2024-01-22T00:00:00-05:00",
+        "lossAmountPaid": null,
+        "lossDescription": null,
+        "reserve": null
+      },
+      {
+        "causeOfLoss": "test",
+        "claimStatus": "test",
+        "dateOfLoss": "2025-01-22T00:00:00-05:00",
         "lossAmountPaid": null,
         "lossDescription": null,
         "reserve": null
@@ -630,18 +638,18 @@
         "id": "test",
         "ActivityFPQ4": [
           {
-            "activityID": 0,
+            "activityID": 7,
             "activityFR": "test",
             "activityEN": "test",
-            "activityRate": 0,
-            "riskCode": "null"
+            "activityRate": 0.5,
+            "riskCode": "C"
           },
           {
             "activityID": 1,
-            "activityFR": "test",
-            "activityEN": "test",
-            "activityRate": 0,
-            "riskCode": null
+            "activityFR": "Atelier mobile de réparation",
+            "activityEN": "Garage, repair, mobile shop",
+            "activityRate": 2.5,
+            "riskCode": "B"
           }
         ],
         "Coverages": [
@@ -781,6 +789,7 @@
         ],
         "CalculationVariables": {
           "CalculationsVariablesFPQ4": {
+            "claimsCount": 1,
             "FPQ4ABasePremium": 0,
             "AWithBSurchargedPremium": 0,
             "FPQ4Premium": 0,
@@ -788,22 +797,21 @@
             "EmployeeCount": 0,
             "XLicensePlateCount": 0,
             "YBusiness": 0,
-            "AClaims": null,
-            "BClaims": null,
             "QuebecPercentage": 0,
             "NonPayment": false,
             "criminalRecordIndicator": false,
             "RiskCode": null,
             "TotalFPQ4Premium": 0,
             "RatesFPQ4": {
-              "OwnerCountRate": 0,
-              "EmployeeRate": 0,
+              "AClaimsRate": null,
+              "ownerCountRate": 0,
+              "employeeRate": 0,
               "XLicensePlateRate": 0,
               "YBusinessRate": 0,
-              "ActivityRate": 0,
-              "NonPaymentRate": 0,
-              "CriminalRecordRate": 0,
-              "OutsideQuebecRate": 0,
+              "activityRate": 0,
+              "nonPaymentRate": 0,
+              "criminalRecordRate": 0,
+              "outsideQuebecRate": 0,
               "FPQ4-B2Rate": 0,
               "FPQ4-B3Rate": 0,
               "FPQ4-C2Rate": 0,

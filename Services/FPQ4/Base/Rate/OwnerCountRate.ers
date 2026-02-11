@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_FdDRoQaQEfGAEqMidNtzew" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_3f2yYAddEfGxhsicQj4yPw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>en_US</languageCode>
-  <ruleset vocabularyUpdateStamp="_90m5kQaPEfGAEqMidNtzew" vocabulary="../../../../AutoComm.ecore#/">
+  <ruleset vocabularyUpdateStamp="_yc2LgQddEfGxhsicQj4yPw" vocabulary="../../../../AutoComm.ecore#/">
     <rule>
       <action>
         <opaqueExpression expression="ra.ownerCountRate = ca.ownerCount*0.25">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.ownerCountRate = ca.ownerCount * 0.25" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="ownerCountRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.ownerCountRate">
-                <parentTerm text="ra" datatype="Rates" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariables" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.FPQ4.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                      <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                        <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                        </parentTerm>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -20,20 +22,24 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ownerCount" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.ownerCount">
-                <parentTerm text="ca" datatype="CalculationVariables" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.FPQ4.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="ownerCount" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.ownerCount">
+                <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
-              <terms text="ra" datatype="Rates" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="ca" datatype="CalculationVariables" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.FPQ4.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -45,20 +51,22 @@
     </rule>
     <logicalVariable entity="../../../../AutoComm.ecore#//Request">
       <extension association="true" entity="../../../../AutoComm.ecore#//FPQ4" traversedAssocRole="../../../../AutoComm.ecore#//Request/FPQ4">
-        <extension association="true" entity="../../../../AutoComm.ecore#//Garage" traversedAssocRole="../../../../AutoComm.ecore#//FPQ4/Garage">
-          <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#//CalculationVariables" traversedAssocRole="../../../../AutoComm.ecore#//Garage/CalculationVariables">
-            <alias value="ca"/>
-            <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#//Rates" traversedAssocRole="../../../../AutoComm.ecore#//CalculationVariables/Rates">
-              <alias value="ra"/>
-              <referencedAttributes attribute="../../../../AutoComm.ecore#//Rates/ownerCountRate"/>
+        <extension association="true" entity="../../../../AutoComm.ecore#//LocationsFPQ4" traversedAssocRole="../../../../AutoComm.ecore#//FPQ4/LocationsFPQ4">
+          <extension association="true" entity="../../../../AutoComm.ecore#//CalculationVariables" traversedAssocRole="../../../../AutoComm.ecore#//LocationsFPQ4/CalculationVariables">
+            <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4" traversedAssocRole="../../../../AutoComm.ecore#//CalculationVariables/CalculationsVariablesFPQ4">
+              <alias value="ca"/>
+              <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#//RatesFPQ4" traversedAssocRole="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/RatesFPQ4">
+                <alias value="ra"/>
+                <referencedAttributes attribute="../../../../AutoComm.ecore#//RatesFPQ4/ownerCountRate"/>
+              </extension>
+              <referencedAttributes attribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/ownerCount"/>
             </extension>
-            <referencedAttributes attribute="../../../../AutoComm.ecore#//CalculationVariables/ownerCount"/>
           </extension>
         </extension>
       </extension>
     </logicalVariable>
   </ruleset>
-  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true">
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightAdvancedView="47">
     <actionSection rowCount="50" columnWidthFactor="0.5">
       <actionItemList>
         <valueSetCell/>
@@ -66,11 +74,13 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.ownerCountRate" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="ownerCountRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.ownerCountRate">
-                <parentTerm text="ra" datatype="Rates" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariables" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.FPQ4.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                      <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                        <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                        </parentTerm>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -89,8 +99,10 @@
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                   <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
+                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                    <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
+                  </children>
                 </children>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
               </children>
             </children>
           </children>
@@ -106,11 +118,13 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.ownerCountRate = ca.ownerCount * 0.25" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="ownerCountRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.ownerCountRate">
-                <parentTerm text="ra" datatype="Rates" termtype="ENTITY" fulltext="ra">
-                  <parentTerm text="ca" datatype="CalculationVariables" termtype="ENTITY" fulltext="ca">
-                    <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.FPQ4.Garage">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">
+                  <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca">
+                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables">
+                      <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
+                        <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                        </parentTerm>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -118,20 +132,24 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ownerCount" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.ownerCount">
-                <parentTerm text="ca" datatype="CalculationVariables" termtype="ENTITY" fulltext="ca">
-                  <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.FPQ4.Garage">
-                    <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+              <terms text="ownerCount" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.ownerCount">
+                <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables">
+                    <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
+                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
-              <terms text="ra" datatype="Rates" termtype="ENTITY" fulltext="ra">
-                <parentTerm text="ca" datatype="CalculationVariables" termtype="ENTITY" fulltext="ca">
-                  <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.FPQ4.Garage">
-                    <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+              <terms text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">
+                <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables">
+                    <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
+                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>

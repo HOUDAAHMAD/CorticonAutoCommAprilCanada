@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_ptFtswa7EfGn4ZXh8dqkVA" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_7ZGC4AdfEfGxhsicQj4yPw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>en_US</languageCode>
-  <ruleset vocabularyUpdateStamp="_OouIcAa7EfGn4ZXh8dqkVA" vocabulary="../../../../AutoComm.ecore#/">
+  <ruleset vocabularyUpdateStamp="_ZE3aIAdeEfGxhsicQj4yPw" vocabulary="../../../../AutoComm.ecore#/">
     <rule/>
     <rule>
       <condition/>
@@ -12,8 +12,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 1" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -30,8 +30,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityRate = 2.5" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -40,8 +40,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -56,8 +56,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'B'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -66,8 +66,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -87,8 +87,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 2" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -105,8 +105,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityRate = 2" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -115,8 +115,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -131,8 +131,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'C'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -141,8 +141,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -162,8 +162,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 3" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -180,8 +180,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityRate = 1.5" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -190,8 +190,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -206,8 +206,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'C'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -216,8 +216,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -237,8 +237,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 4" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -255,8 +255,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityRate = 1.5" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -265,8 +265,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -281,8 +281,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'B'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -291,8 +291,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -312,8 +312,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 5" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -330,8 +330,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityRate = 2.95" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -340,8 +340,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -356,8 +356,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'A'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -366,8 +366,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -387,8 +387,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 6" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -405,8 +405,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityRate = 2.95" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -415,8 +415,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -431,8 +431,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'A'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -441,8 +441,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -462,8 +462,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 7" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -480,8 +480,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityRate = 0.5" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -490,8 +490,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -506,8 +506,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'C'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -516,8 +516,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -537,8 +537,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 8" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -555,8 +555,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityRate = 1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -565,8 +565,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -581,8 +581,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'B'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -591,8 +591,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -612,8 +612,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 9" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -630,8 +630,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityRate = 2.95" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -640,8 +640,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -656,8 +656,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'A'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -666,8 +666,8 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -680,27 +680,18 @@
     </rule>
     <logicalVariable entity="../../../../AutoComm.ecore#//Request">
       <extension association="true" entity="../../../../AutoComm.ecore#//FPQ4" traversedAssocRole="../../../../AutoComm.ecore#//Request/FPQ4">
-        <extension association="true" entity="../../../../AutoComm.ecore#//Locations" traversedAssocRole="../../../../AutoComm.ecore#//FPQ4/Locations">
-          <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#//CalculationVariables" traversedAssocRole="../../../../AutoComm.ecore#//Locations/CalculationVariables">
-            <alias value="ca"/>
-            <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#//Rates" traversedAssocRole="../../../../AutoComm.ecore#//CalculationVariables/Rates">
-              <alias value="ra"/>
-              <referencedAttributes attribute="../../../../AutoComm.ecore#//Rates/activityRate"/>
-            </extension>
-          </extension>
-          <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#//ActivityFPQ4" traversedAssocRole="../../../../AutoComm.ecore#//Locations/activityFPQ4">
+        <extension association="true" entity="../../../../AutoComm.ecore#//LocationsFPQ4" traversedAssocRole="../../../../AutoComm.ecore#//FPQ4/LocationsFPQ4">
+          <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#//ActivityFPQ4" traversedAssocRole="../../../../AutoComm.ecore#//LocationsFPQ4/ActivityFPQ4">
             <alias value="ac"/>
-            <referencedAttributes attribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityEN"/>
-            <referencedAttributes attribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityFR"/>
-            <referencedAttributes attribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityID"/>
             <referencedAttributes attribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityRate"/>
             <referencedAttributes attribute="../../../../AutoComm.ecore#//ActivityFPQ4/riskCode"/>
+            <referencedAttributes attribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityID"/>
           </extension>
         </extension>
       </extension>
     </logicalVariable>
   </ruleset>
-  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightConditionsIf="16">
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightAdvancedView="34" sashWeightConditionsIf="25">
     <actionSection rowCount="50" columnWidthFactor="0.5">
       <actionItemList>
         <valueSetCell/>
@@ -708,8 +699,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityRate" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -726,8 +717,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode" datatype="String" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -745,16 +736,9 @@
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
-                </children>
-              </children>
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.0"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.1"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.2"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.3"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.4"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.1"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.2"/>
               </children>
             </children>
           </children>
@@ -782,8 +766,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID" datatype="Integer" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -805,8 +789,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 1" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -821,7 +805,7 @@
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -831,7 +815,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -845,7 +829,7 @@
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -855,7 +839,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -873,8 +857,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 2" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -889,7 +873,7 @@
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -899,7 +883,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -913,7 +897,7 @@
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -923,7 +907,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -941,8 +925,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 3" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -957,7 +941,7 @@
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -967,7 +951,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -981,7 +965,7 @@
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -991,7 +975,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -1009,8 +993,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 4" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -1025,7 +1009,7 @@
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -1035,7 +1019,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -1049,7 +1033,7 @@
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -1059,7 +1043,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -1077,8 +1061,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 5" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -1093,7 +1077,7 @@
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -1103,7 +1087,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -1117,7 +1101,7 @@
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -1127,7 +1111,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -1145,8 +1129,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 6" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -1161,7 +1145,7 @@
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -1171,7 +1155,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -1185,7 +1169,7 @@
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -1195,7 +1179,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -1213,8 +1197,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 7" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -1229,7 +1213,7 @@
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -1239,7 +1223,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -1253,7 +1237,7 @@
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -1263,7 +1247,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -1281,8 +1265,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 8" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -1297,7 +1281,7 @@
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -1307,7 +1291,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -1321,7 +1305,7 @@
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -1331,7 +1315,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -1349,8 +1333,8 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.activityID = 9" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="activityID" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.activityID">
-                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -1365,7 +1349,7 @@
             <modifiedTermList>
               <terms text="activityRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ac.activityRate">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -1375,7 +1359,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -1389,7 +1373,7 @@
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
                 <parentTerm text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                  <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
@@ -1399,7 +1383,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ac" datatype="ActivityFPQ4" termtype="ENTITY" fulltext="ac">
-                <parentTerm text="Locations" datatype="Locations" termtype="ENTITY" fulltext="Request.FPQ4.Locations">
+                <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
                   <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>

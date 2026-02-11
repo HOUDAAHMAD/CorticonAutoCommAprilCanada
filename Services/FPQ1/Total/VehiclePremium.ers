@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_EtoG8gcsEfGxhsicQj4yPw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_JvbyIgdnEfGxhsicQj4yPw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>en_US</languageCode>
-  <ruleset vocabularyUpdateStamp="_7UAzkQcoEfGxhsicQj4yPw" vocabulary="../../../AutoComm.ecore#/">
+  <ruleset vocabularyUpdateStamp="_TgvtcAdiEfGxhsicQj4yPw" vocabulary="../../../AutoComm.ecore#/">
     <rule>
       <action>
-        <opaqueExpression expression="cv1.FPQ1Premium = (ca.coveragePremium+cb.coveragePremium+cb2.coveragePremium+fa.coveragePremium+fe.coveragePremium+fq.coveragePremium)*fl1.globalFlex">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv1.FPQ1Premium = ( ca.coveragePremium + cb.coveragePremium + cb2.coveragePremium + fa.coveragePremium + fe.coveragePremium + fq.coveragePremium ) * fl1.globalFlex" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="cv1.vehiclePremium = (ca.coveragePremium+cb.coveragePremium+cb2.coveragePremium+fa.coveragePremium+fe.coveragePremium+fq.coveragePremium)*fl1.globalFlex">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv1.vehiclePremium = ( ca.coveragePremium + cb.coveragePremium + cb2.coveragePremium + fa.coveragePremium + fe.coveragePremium + fq.coveragePremium ) * fl1.globalFlex" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="FPQ1Premium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="cv1.FPQ1Premium">
+              <terms text="vehiclePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="cv1.vehiclePremium">
                 <parentTerm text="cv1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cv1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.7/@extension.0">
                   <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.7">
                     <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
@@ -244,26 +244,26 @@
           </extension>
           <extension explicit="true" association="true" entity="../../../AutoComm.ecore#//CalculationVariables" traversedAssocRole="../../../AutoComm.ecore#//Vehicle/CalculationVariables">
             <alias value="cv"/>
-            <extension explicit="true" association="true" entity="../../../AutoComm.ecore#//CalculationVariablesFPQ1" traversedAssocRole="../../../AutoComm.ecore#//CalculationVariables/calculationVariablesFPQ1">
+            <extension explicit="true" association="true" entity="../../../AutoComm.ecore#//CalculationVariablesFPQ1" traversedAssocRole="../../../AutoComm.ecore#//CalculationVariables/CalculationVariablesFPQ1">
               <alias value="cv1"/>
-              <extension explicit="true" association="true" entity="../../../AutoComm.ecore#//FlexesFPQ1" traversedAssocRole="../../../AutoComm.ecore#//CalculationVariablesFPQ1/flexesFPQ1">
+              <extension explicit="true" association="true" entity="../../../AutoComm.ecore#//FlexesFPQ1" traversedAssocRole="../../../AutoComm.ecore#//CalculationVariablesFPQ1/FlexesFPQ1">
                 <alias value="fl1"/>
               </extension>
-              <referencedAttributes attribute="../../../AutoComm.ecore#//CalculationVariablesFPQ1/FPQ1Premium"/>
+              <referencedAttributes attribute="../../../AutoComm.ecore#//CalculationVariablesFPQ1/vehiclePremium"/>
             </extension>
           </extension>
         </extension>
       </extension>
     </logicalVariable>
   </ruleset>
-  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightAdvancedView="33" sashWeightConditionsIf="22">
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightAdvancedView="33" sashWeightConditionsIf="23">
     <actionSection rowCount="50" columnWidthFactor="0.5">
       <actionItemList rowHeight="62">
         <valueSetCell/>
-        <expressionCell external="cv1.FPQ1Premium">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv1.FPQ1Premium" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="cv1.vehiclePremium">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv1.vehiclePremium" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="FPQ1Premium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="cv1.FPQ1Premium">
+              <terms text="vehiclePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="cv1.vehiclePremium">
                 <parentTerm text="cv1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cv1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.7/@extension.0">
                   <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.7">
                     <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
@@ -357,8 +357,8 @@
               </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.7">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.7/@extension.0">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.7/@extension.0/@referencedAttributes.0"/>
                   <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.7/@extension.0/@extension.0"/>
+                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.7/@extension.0/@referencedAttributes.0"/>
                 </children>
               </children>
             </children>
@@ -475,9 +475,9 @@
     <ruleSection columnCount="20">
       <ruleColumnList ruleId="0" columnWidth="509" pRule="#//@ruleset/@rules.0">
         <actionValueSetCellList valueSet="(ca.coveragePremium+cb.coveragePremium+cb2.coveragePremium+fa.coveragePremium+fe.coveragePremium+fq.coveragePremium)*fl1.globalFlex">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv1.FPQ1Premium = ( ca.coveragePremium + cb.coveragePremium + cb2.coveragePremium + fa.coveragePremium + fe.coveragePremium + fq.coveragePremium ) * fl1.globalFlex" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv1.vehiclePremium = ( ca.coveragePremium + cb.coveragePremium + cb2.coveragePremium + fa.coveragePremium + fe.coveragePremium + fq.coveragePremium ) * fl1.globalFlex" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="FPQ1Premium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="cv1.FPQ1Premium">
+              <terms text="vehiclePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="cv1.vehiclePremium">
                 <parentTerm text="cv1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cv1">
                   <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv">
                     <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle">

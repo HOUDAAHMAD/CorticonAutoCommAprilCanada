@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_RSnX4_r_EfC4epH8F5n46A" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_Mq0j0QcoEfGxhsicQj4yPw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>en_US</languageCode>
-  <ruleset vocabularyUpdateStamp="_CdFuEfr_EfC4epH8F5n46A" vocabulary="../../../AutoComm.ecore#/">
+  <ruleset vocabularyUpdateStamp="_JnXEwQcmEfGxhsicQj4yPw" vocabulary="../../../AutoComm.ecore#/">
     <rule/>
     <rule>
       <condition>
@@ -23,15 +23,17 @@
         <viewExpressions lhs="vd.electricVehicle" rhs="T"/>
       </condition>
       <action>
-        <opaqueExpression expression="cv.Surcharges.electricVehicleSurcharge = 0.05">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.Surcharges.electricVehicleSurcharge = 0.05" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="sufpq1.electricVehicleSurcharge = 0.05">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="sufpq1.electricVehicleSurcharge = 0.05" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="electricVehicleSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="cv.Surcharges.electricVehicleSurcharge">
-                <parentTerm text="Surcharges" datatype="Surcharges" termtype="ENTITY" fulltext="cv.Surcharges" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
-                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="electricVehicleSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="sufpq1.electricVehicleSurcharge">
+                <parentTerm text="sufpq1" datatype="SurchargesFPQ1" termtype="ENTITY" fulltext="sufpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0">
+                  <parentTerm text="cv1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cv1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
+                    <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                      <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                        <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                        </parentTerm>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -39,11 +41,13 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="Surcharges" datatype="Surcharges" termtype="ENTITY" fulltext="cv.Surcharges" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="sufpq1" datatype="SurchargesFPQ1" termtype="ENTITY" fulltext="sufpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0">
+                <parentTerm text="cv1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cv1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -73,15 +77,17 @@
         <viewExpressions lhs="vd.electricVehicle" rhs="F"/>
       </condition>
       <action>
-        <opaqueExpression expression="cv.Surcharges.electricVehicleSurcharge = 0">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.Surcharges.electricVehicleSurcharge = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="sufpq1.electricVehicleSurcharge = 0">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="sufpq1.electricVehicleSurcharge = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="electricVehicleSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="cv.Surcharges.electricVehicleSurcharge">
-                <parentTerm text="Surcharges" datatype="Surcharges" termtype="ENTITY" fulltext="cv.Surcharges" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
-                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="electricVehicleSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="sufpq1.electricVehicleSurcharge">
+                <parentTerm text="sufpq1" datatype="SurchargesFPQ1" termtype="ENTITY" fulltext="sufpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0">
+                  <parentTerm text="cv1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cv1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
+                    <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                      <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                        <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                        </parentTerm>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -89,11 +95,13 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="Surcharges" datatype="Surcharges" termtype="ENTITY" fulltext="cv.Surcharges" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="sufpq1" datatype="SurchargesFPQ1" termtype="ENTITY" fulltext="sufpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0">
+                <parentTerm text="cv1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cv1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -112,27 +120,33 @@
           </extension>
           <extension explicit="true" association="true" entity="../../../AutoComm.ecore#//CalculationVariables" traversedAssocRole="../../../AutoComm.ecore#//Vehicle/CalculationVariables">
             <alias value="cv"/>
-            <extension association="true" entity="../../../AutoComm.ecore#//Surcharges" traversedAssocRole="../../../AutoComm.ecore#//CalculationVariables/Surcharges">
-              <referencedAttributes attribute="../../../AutoComm.ecore#//Surcharges/electricVehicleSurcharge"/>
+            <extension explicit="true" association="true" entity="../../../AutoComm.ecore#//CalculationVariablesFPQ1" traversedAssocRole="../../../AutoComm.ecore#//CalculationVariables/calculationVariablesFPQ1">
+              <alias value="cv1"/>
+              <extension explicit="true" association="true" entity="../../../AutoComm.ecore#//SurchargesFPQ1" traversedAssocRole="../../../AutoComm.ecore#//CalculationVariablesFPQ1/surchargesFPQ1">
+                <alias value="sufpq1"/>
+                <referencedAttributes attribute="../../../AutoComm.ecore#//SurchargesFPQ1/electricVehicleSurcharge"/>
+              </extension>
             </extension>
           </extension>
         </extension>
       </extension>
     </logicalVariable>
   </ruleset>
-  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true">
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightAdvancedView="36">
     <actionSection rowCount="50" columnWidthFactor="0.5">
       <actionItemList>
         <valueSetCell/>
-        <expressionCell external="cv.Surcharges.electricVehicleSurcharge">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.Surcharges.electricVehicleSurcharge" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="sufpq1.electricVehicleSurcharge">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="sufpq1.electricVehicleSurcharge" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="electricVehicleSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="cv.Surcharges.electricVehicleSurcharge">
-                <parentTerm text="Surcharges" datatype="Surcharges" termtype="ENTITY" fulltext="cv.Surcharges" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
-                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="electricVehicleSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="sufpq1.electricVehicleSurcharge">
+                <parentTerm text="sufpq1" datatype="SurchargesFPQ1" termtype="ENTITY" fulltext="sufpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0">
+                  <parentTerm text="cv1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cv1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
+                    <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                      <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                        <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                        </parentTerm>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -153,7 +167,9 @@
               </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@referencedAttributes.0"/>
+                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0">
+                    <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0/@referencedAttributes.0"/>
+                  </children>
                 </children>
               </children>
             </children>
@@ -202,14 +218,16 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0.05">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.Surcharges.electricVehicleSurcharge = 0.05" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="sufpq1.electricVehicleSurcharge = 0.05" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="electricVehicleSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="cv.Surcharges.electricVehicleSurcharge">
-                <parentTerm text="Surcharges" datatype="Surcharges" termtype="ENTITY" fulltext="cv.Surcharges">
-                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv">
-                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle">
-                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+              <terms text="electricVehicleSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="sufpq1.electricVehicleSurcharge">
+                <parentTerm text="sufpq1" datatype="SurchargesFPQ1" termtype="ENTITY" fulltext="sufpq1">
+                  <parentTerm text="cv1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cv1">
+                    <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv">
+                      <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle">
+                        <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                        </parentTerm>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -217,11 +235,13 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="Surcharges" datatype="Surcharges" termtype="ENTITY" fulltext="cv.Surcharges">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+              <terms text="sufpq1" datatype="SurchargesFPQ1" termtype="ENTITY" fulltext="sufpq1">
+                <parentTerm text="cv1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cv1">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -247,14 +267,16 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.Surcharges.electricVehicleSurcharge = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="sufpq1.electricVehicleSurcharge = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="electricVehicleSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="cv.Surcharges.electricVehicleSurcharge">
-                <parentTerm text="Surcharges" datatype="Surcharges" termtype="ENTITY" fulltext="cv.Surcharges">
-                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv">
-                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle">
-                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+              <terms text="electricVehicleSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="sufpq1.electricVehicleSurcharge">
+                <parentTerm text="sufpq1" datatype="SurchargesFPQ1" termtype="ENTITY" fulltext="sufpq1">
+                  <parentTerm text="cv1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cv1">
+                    <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv">
+                      <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle">
+                        <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                        </parentTerm>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -262,11 +284,13 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="Surcharges" datatype="Surcharges" termtype="ENTITY" fulltext="cv.Surcharges">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+              <terms text="sufpq1" datatype="SurchargesFPQ1" termtype="ENTITY" fulltext="sufpq1">
+                <parentTerm text="cv1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cv1">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="root" nsURI="http://root/1.0" nsPrefix="root">
   <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-    <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_Q8wG8QbDEfGn4ZXh8dqkVA" externalChecksum="2722078124:507989954" studioType="Java" customDataTypeDisplayCount="50">
+    <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_RgpPAAdDEfGxhsicQj4yPw" externalChecksum="2722078124:507989954" studioType="Java" customDataTypeDisplayCount="50">
       <languageCode>fr_FR</languageCode>
       <databaseAccess databasePropertyDisplayCount="50">
         <databaseId manuallyCreated="true" value="com.corticon.database.id.MsSql"/>
@@ -780,10 +780,10 @@
         </contents>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Locations" upperBound="-1" eType="#//LocationsFPQ4">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="LocationsFPQ4" upperBound="-1" eType="#//LocationsFPQ4">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-          <name manuallyCreated="true" value="Locations"/>
+          <name manuallyCreated="true" value="LocationsFPQ4"/>
         </contents>
       </eAnnotations>
     </eStructuralFeatures>
@@ -1789,256 +1789,34 @@
         <datastoreCaching manuallyCreated="true" value="false"/>
       </contents>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="vehicleMinValue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="vehicleMinValue"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="class" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="class"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="group" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="group"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="territory" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="territory"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dossier" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="dossier"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="chapterABasePremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="chapterABasePremium"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="chapterB2BasePremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="chapterB2BasePremium"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="chapterB3BasePremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="chapterB3BasePremium"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="vinLockIndicator" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBooleanObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="vinLockIndicator"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="vinLockRebate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="vinLockRebate"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="FPQ1Premium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="FPQ1Premium"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Rates" eType="#//Rates">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="calculationVariablesFPQ1" eType="#//CalculationVariablesFPQ1">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-          <name manuallyCreated="true" value="Rates"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Flexes" eType="#//Flexes">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-          <name manuallyCreated="true" value="Flexes"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Surcharges" eType="#//Surcharges">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-          <name manuallyCreated="true" value="Surcharges"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="vehiclePremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="vehiclePremium"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="FPQ4ABasePremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="FPQ4ABasePremium"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="aWithBSurchargedPremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="aWithBSurchargedPremium"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="FPQ4Premium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="FPQ4Premium"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ownerCount" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="ownerCount"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="employeeCount" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="employeeCount"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="XLicensePlateCount" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="XLicensePlateCount"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="YBusiness" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="YBusiness"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="aClaims" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="aClaims"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="BClaims" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="BClaims"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="quebecPercentage" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="quebecPercentage"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nonPayment" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBooleanObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="nonPayment"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="criminalRecordIndicator" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBooleanObject">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="criminalRecordIndicator"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="riskCode" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="riskCode"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="totalFPQ4Premium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="totalFPQ4Premium"/>
-          <mode manuallyCreated="true" value="Base"/>
+          <name manuallyCreated="true" value="calculationVariablesFPQ1"/>
         </contents>
       </eAnnotations>
     </eStructuralFeatures>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Rates">
+  <eClassifiers xsi:type="ecore:EClass" name="RatesFPQ1">
     <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
       <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
-        <name manuallyCreated="true" value="Rates"/>
+        <name manuallyCreated="true" value="RatesFPQ1"/>
         <datastorePersistent manuallyCreated="true" value="false"/>
         <datastoreCaching manuallyCreated="true" value="false"/>
       </contents>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="echelonB2Rate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="echelonB2Rate"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="echelonB3Rate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
           <name manuallyCreated="true" value="echelonB3Rate"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="echelonB2Rate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="echelonB2Rate"/>
           <mode manuallyCreated="true" value="Base"/>
         </contents>
       </eAnnotations>
@@ -2051,107 +1829,11 @@
         </contents>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ownerCountRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="ownerCountRate"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="employeeRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="employeeRate"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="XLicensePlateRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="XLicensePlateRate"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="YBusinessRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="YBusinessRate"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="activityRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="activityRate"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nonPaymentRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="nonPaymentRate"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="criminalRecordRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="criminalRecordRate"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="outsideQuebecRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="outsideQuebecRate"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="FPQ4B2Rate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="FPQ4B2Rate"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="FPQ4B3Rate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="FPQ4B3Rate"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="FPQ4C3Rate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="FPQ4C3Rate"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="FPQ4C2Rate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="FPQ4C2Rate"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Surcharges">
+  <eClassifiers xsi:type="ecore:EClass" name="SurchargesFPQ1">
     <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
       <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
-        <name manuallyCreated="true" value="Surcharges"/>
+        <name manuallyCreated="true" value="SurchargesFPQ1"/>
         <datastorePersistent manuallyCreated="true" value="false"/>
         <datastoreCaching manuallyCreated="true" value="false"/>
       </contents>
@@ -2252,30 +1934,6 @@
         </contents>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="XlicensePlateForBSurcharge" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="XlicensePlateForBSurcharge"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="YBusinessForBSurcharge" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="YBusinessForBSurcharge"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="bClaimsSurcharge" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-          <name manuallyCreated="true" value="bClaimsSurcharge"/>
-          <mode manuallyCreated="true" value="Base"/>
-        </contents>
-      </eAnnotations>
-    </eStructuralFeatures>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="statusSurcharge" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
@@ -2285,10 +1943,10 @@
       </eAnnotations>
     </eStructuralFeatures>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Flexes">
+  <eClassifiers xsi:type="ecore:EClass" name="FlexesFPQ1">
     <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
       <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
-        <name manuallyCreated="true" value="Flexes"/>
+        <name manuallyCreated="true" value="FlexesFPQ1"/>
         <datastorePersistent manuallyCreated="true" value="false"/>
         <datastoreCaching manuallyCreated="true" value="false"/>
       </contents>
@@ -3157,6 +2815,124 @@
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
           <name manuallyCreated="true" value="riskCode"/>
           <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CalculationVariablesFPQ1">
+    <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
+        <name manuallyCreated="true" value="CalculationVariablesFPQ1"/>
+        <datastorePersistent manuallyCreated="true" value="false"/>
+        <datastoreCaching manuallyCreated="true" value="false"/>
+      </contents>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="vehicleMinValue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="vehicleMinValue"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="class" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="class"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="group" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="group"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="territory" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="territory"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dossier" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="dossier"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="chapterABasePremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="chapterABasePremium"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="chapterB2BasePremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="chapterB2BasePremium"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="chapterB3BasePremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="chapterB3BasePremium"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="vinLockIndicator" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBooleanObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="vinLockIndicator"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="vinLockRebate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="vinLockRebate"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="FPQ1Premium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="FPQ1Premium"/>
+          <mode manuallyCreated="true" value="Base"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="flexesFPQ1" eType="#//FlexesFPQ1">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
+          <name manuallyCreated="true" value="flexesFPQ1"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ratesFPQ1" eType="#//RatesFPQ1">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
+          <name manuallyCreated="true" value="ratesFPQ1"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="surchargesFPQ1" eType="#//SurchargesFPQ1">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
+          <name manuallyCreated="true" value="surchargesFPQ1"/>
         </contents>
       </eAnnotations>
     </eStructuralFeatures>

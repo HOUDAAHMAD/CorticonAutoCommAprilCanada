@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_VzjpQAXQEfGl4djbC3VYIQ" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_D7xBoAcrEfGxhsicQj4yPw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>en_US</languageCode>
-  <ruleset vocabularyUpdateStamp="_REUk4AXOEfGl4djbC3VYIQ" vocabulary="../../../../../AutoComm.ecore#/">
+  <ruleset vocabularyUpdateStamp="_7UAzkQcoEfGxhsicQj4yPw" vocabulary="../../../../../AutoComm.ecore#/">
     <rule>
       <action/>
     </rule>
@@ -11,7 +11,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance = 5000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="co.amountOfInsurance">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -29,7 +29,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coveragePremium = 5" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="coveragePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.coveragePremium">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -39,7 +39,7 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -55,7 +55,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="co.applied">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -65,7 +65,7 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -83,7 +83,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance = 10000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="co.amountOfInsurance">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -101,7 +101,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coveragePremium = 10" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="coveragePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.coveragePremium">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -111,7 +111,7 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -127,7 +127,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="co.applied">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -137,7 +137,7 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -155,7 +155,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance = 15000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="co.amountOfInsurance">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -173,7 +173,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coveragePremium = 15" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="coveragePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.coveragePremium">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -183,7 +183,7 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -199,7 +199,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="co.applied">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -209,7 +209,7 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -227,7 +227,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance = 20000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="co.amountOfInsurance">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -245,7 +245,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coveragePremium = 20" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="coveragePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.coveragePremium">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -255,7 +255,7 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -271,7 +271,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="co.applied">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -281,7 +281,7 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -299,7 +299,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance = 25000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="co.amountOfInsurance">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -317,7 +317,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coveragePremium = 25" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="coveragePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.coveragePremium">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -327,7 +327,7 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -343,7 +343,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="co.applied">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -353,7 +353,7 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -365,12 +365,12 @@
         </opaqueExpression>
       </action>
     </rule>
-    <filter precondition="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+    <filter precondition="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
       <opaqueExpression expression="co.coverageCode='FAQ34'">
         <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coverageCode = 'FAQ34'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
           <referencedTermList>
             <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="co.coverageCode">
-              <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -382,12 +382,12 @@
         </parserOutput>
       </opaqueExpression>
     </filter>
-    <filter precondition="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+    <filter precondition="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
       <opaqueExpression expression="co.selected=true">
         <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.selected = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
           <referencedTermList>
             <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="co.selected">
-              <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -402,21 +402,6 @@
     <logicalVariable entity="../../../../../AutoComm.ecore#//Request" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
       <extension association="true" entity="../../../../../AutoComm.ecore#//FPQ1" traversedAssocRole="../../../../../AutoComm.ecore#//Request/FPQ1" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
         <extension association="true" entity="../../../../../AutoComm.ecore#//Vehicle" traversedAssocRole="../../../../../AutoComm.ecore#//FPQ1/Vehicle" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
-          <extension explicit="true" association="true" entity="../../../../../AutoComm.ecore#//CalculationVariables" traversedAssocRole="../../../../../AutoComm.ecore#//Vehicle/CalculationVariables">
-            <alias value="cv"/>
-            <extension explicit="true" association="true" entity="../../../../../AutoComm.ecore#//Flexes" traversedAssocRole="../../../../../AutoComm.ecore#//CalculationVariables/Flexes">
-              <alias value="fl"/>
-              <referencedAttributes attribute="../../../../../AutoComm.ecore#//Flexes/vehicleFlex"/>
-            </extension>
-            <extension explicit="true" association="true" entity="../../../../../AutoComm.ecore#//Surcharges" traversedAssocRole="../../../../../AutoComm.ecore#//CalculationVariables/Surcharges">
-              <alias value="su"/>
-              <referencedAttributes attribute="../../../../../AutoComm.ecore#//Surcharges/totalSurcharges"/>
-              <referencedAttributes attribute="../../../../../AutoComm.ecore#//Surcharges/groupSurchargesB3"/>
-            </extension>
-            <referencedAttributes attribute="../../../../../AutoComm.ecore#//CalculationVariables/chapterB3BasePremium"/>
-            <referencedAttributes attribute="../../../../../AutoComm.ecore#//CalculationVariables/vinLockIndicator"/>
-            <referencedAttributes attribute="../../../../../AutoComm.ecore#//CalculationVariables/vinLockRebate"/>
-          </extension>
           <extension explicit="true" association="true" entity="../../../../../AutoComm.ecore#//Coverages" traversedAssocRole="../../../../../AutoComm.ecore#//Vehicle/Coverages" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
             <alias value="co"/>
             <referencedAttributes attribute="../../../../../AutoComm.ecore#//Coverages/amountOfInsurance"/>
@@ -443,7 +428,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coveragePremium" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="coveragePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.coveragePremium">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -461,7 +446,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.applied" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="co.applied">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -492,32 +477,20 @@
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.selected=true" filter="#//@ruleset/@filters.1"/>
               </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
-                </children>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.1">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.0"/>
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.1"/>
-                </children>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.1"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.2"/>
-              </children>
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
                   <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.coverageCode='FAQ34'" filter="#//@ruleset/@filters.0"/>
                   <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.selected=true" filter="#//@ruleset/@filters.1"/>
                 </children>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.1"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.2"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.3"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.4"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.5"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.0"/>
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.1"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.2"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.3"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.4"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.5"/>
-              </children>
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.2">
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.2/@referencedAttributes.0"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.2/@referencedAttributes.1"/>
               </children>
             </children>
           </children>
@@ -530,7 +503,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coverageCode = 'FAQ34'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="co.coverageCode">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -547,7 +520,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.selected = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="co.selected">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -568,7 +541,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance" datatype="Integer" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="co.amountOfInsurance">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -590,7 +563,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance = 5000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="co.amountOfInsurance">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -655,7 +628,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance = 10000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="co.amountOfInsurance">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -720,7 +693,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance = 15000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="co.amountOfInsurance">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -785,7 +758,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance = 20000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="co.amountOfInsurance">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -850,7 +823,7 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance = 25000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="co.amountOfInsurance">
-                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+                <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>

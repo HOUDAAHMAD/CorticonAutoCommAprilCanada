@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_sKYBsf22EfCdYPpWl1ridQ" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_wZmfAwcpEfGxhsicQj4yPw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_KHVaIf22EfCdYPpWl1ridQ" vocabulary="../../../../AutoComm.ecore#/">
+  <ruleset vocabularyUpdateStamp="_7UAzkQcoEfGxhsicQj4yPw" vocabulary="../../../../AutoComm.ecore#/">
     <rule/>
     <rule>
       <condition>
@@ -26,38 +26,19 @@
         <viewExpressions lhs="co.deductible" rhs="b2.deductible"/>
       </condition>
       <condition>
-        <opaqueExpression expression="cv.class = b2.class">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.class = b2.class" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="cvfpq1.class = b2.class">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.class = b2.class" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="class" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.class">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
               <terms text="class" datatype="Integer" termtype="ATTRIBUTE" fulltext="b2.class">
                 <parentTerm text="b2" datatype="ChapterB2_TEST" termtype="ENTITY" fulltext="b2" variable="#//@ruleset/@logicalVariables.2"/>
               </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="cv.class" rhs="b2.class"/>
-      </condition>
-      <condition>
-        <opaqueExpression expression="cv.dossier = b2.dossier">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.dossier = b2.dossier" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="dossier" datatype="Integer" termtype="ATTRIBUTE" fulltext="b2.dossier">
-                <parentTerm text="b2" datatype="ChapterB2_TEST" termtype="ENTITY" fulltext="b2" variable="#//@ruleset/@logicalVariables.2"/>
-              </terms>
-              <terms text="dossier" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.dossier">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="class" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.class">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -65,20 +46,45 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="cv.dossier" rhs="b2.dossier"/>
+        <viewExpressions lhs="cvfpq1.class" rhs="b2.class"/>
       </condition>
       <condition>
-        <opaqueExpression expression="cv.group = b2.grp">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.group = b2.grp" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="cvfpq1.dossier = b2.dossier">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.dossier = b2.dossier" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="dossier" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.dossier">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+              <terms text="dossier" datatype="Integer" termtype="ATTRIBUTE" fulltext="b2.dossier">
+                <parentTerm text="b2" datatype="ChapterB2_TEST" termtype="ENTITY" fulltext="b2" variable="#//@ruleset/@logicalVariables.2"/>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+        <viewExpressions lhs="cvfpq1.dossier" rhs="b2.dossier"/>
+      </condition>
+      <condition>
+        <opaqueExpression expression="cvfpq1.group = b2.grp">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.group = b2.grp" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="grp" datatype="Integer" termtype="ATTRIBUTE" fulltext="b2.grp">
                 <parentTerm text="b2" datatype="ChapterB2_TEST" termtype="ENTITY" fulltext="b2" variable="#//@ruleset/@logicalVariables.2"/>
               </terms>
-              <terms text="group" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.group">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="group" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.group">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -86,20 +92,22 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="cv.group" rhs="b2.grp"/>
+        <viewExpressions lhs="cvfpq1.group" rhs="b2.grp"/>
       </condition>
       <condition>
-        <opaqueExpression expression="cv.territory = b2.territory">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.territory = b2.territory" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="cvfpq1.territory = b2.territory">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.territory = b2.territory" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="territory" datatype="Integer" termtype="ATTRIBUTE" fulltext="b2.territory">
                 <parentTerm text="b2" datatype="ChapterB2_TEST" termtype="ENTITY" fulltext="b2" variable="#//@ruleset/@logicalVariables.2"/>
               </terms>
-              <terms text="territory" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.territory">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="territory" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.territory">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -107,27 +115,31 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="cv.territory" rhs="b2.territory"/>
+        <viewExpressions lhs="cvfpq1.territory" rhs="b2.territory"/>
       </condition>
       <action documentingRuleStatements="#//@ruleset/@ruleStatements.0">
-        <opaqueExpression expression="cv.chapterB2BasePremium = b2.chapterB2BasePremium">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.chapterB2BasePremium = b2.chapterB2BasePremium" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="cvfpq1.chapterB2BasePremium = b2.chapterB2BasePremium">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.chapterB2BasePremium = b2.chapterB2BasePremium" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="chapterB2BasePremium" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.chapterB2BasePremium">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="chapterB2BasePremium" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.chapterB2BasePremium">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                  <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -157,50 +169,27 @@
       </opaqueExpression>
     </filter>
     <ruleStatement post="Info" disabled="true" ruleModelElements="#//@ruleset/@rules.1/@actions.0" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-      <text expression="Base premium Chapter B2 est {cv.chapterB2BasePremium},  calculée à partir de la classe {cv.class}, du dossier {cv.dossier}, du groupe {cv.group}, du territoire {cv.territory} et de la franchise {co.deductible}.">
-        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="Base premium Chapter B2 est  + cv.chapterB2BasePremium + ,  calculée à partir de la classe  + cv.class + , du dossier  + cv.dossier + , du groupe  + cv.group + , du territoire  + cv.territory +  et de la franchise  + co.deductible + ." expressiontype="BRSTATEMENT">
+      <text expression="Base premium Chapter B2 est {cvfpq1.chapterB2BasePremium},  calculée à partir de la classe {cvfpq1.class}, du dossier {cvfpq1.dossier}, du groupe {cvfpq1.group}, du territoire {cvfpq1.territory} et de la franchise {co.deductible}.">
+        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="Base premium Chapter B2 est  + cvfpq1.chapterB2BasePremium + ,  calculée à partir de la classe  + cvfpq1.class + , du dossier  + cvfpq1.dossier + , du groupe  + cvfpq1.group + , du territoire  + cvfpq1.territory +  et de la franchise  + co.deductible + ." expressiontype="BRSTATEMENT">
           <referencedTermList>
-            <terms text="chapterB2BasePremium" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.chapterB2BasePremium">
-              <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                  <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+            <terms text="dossier" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.dossier">
+              <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </parentTerm>
             </terms>
-            <terms text="class" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.class">
-              <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                  <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                  </parentTerm>
-                </parentTerm>
-              </parentTerm>
-            </terms>
-            <terms text="group" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.group">
-              <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                  <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                  </parentTerm>
-                </parentTerm>
-              </parentTerm>
-            </terms>
-            <terms text="territory" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.territory">
-              <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                  <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                  </parentTerm>
-                </parentTerm>
-              </parentTerm>
-            </terms>
-            <terms text="dossier" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.dossier">
-              <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                  <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+            <terms text="group" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.group">
+              <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </parentTerm>
@@ -214,6 +203,39 @@
                 </parentTerm>
               </parentTerm>
             </terms>
+            <terms text="class" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.class">
+              <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </parentTerm>
+            </terms>
+            <terms text="territory" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.territory">
+              <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </parentTerm>
+            </terms>
+            <terms text="chapterB2BasePremium" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.chapterB2BasePremium">
+              <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </parentTerm>
+            </terms>
           </referencedTermList>
         </parserOutput>
       </text>
@@ -223,13 +245,14 @@
         <extension association="true" entity="../../../../AutoComm.ecore#//Vehicle" traversedAssocRole="../../../../AutoComm.ecore#//FPQ1/Vehicle" filters="#//@ruleset/@filters.0">
           <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#//CalculationVariables" traversedAssocRole="../../../../AutoComm.ecore#//Vehicle/CalculationVariables" ruleStatements="#//@ruleset/@ruleStatements.0">
             <alias value="cv"/>
-            <referencedAttributes attribute="../../../../AutoComm.ecore#//CalculationVariables/chapterABasePremium"/>
-            <referencedAttributes attribute="../../../../AutoComm.ecore#//CalculationVariables/chapterB2BasePremium"/>
-            <referencedAttributes attribute="../../../../AutoComm.ecore#//CalculationVariables/chapterB3BasePremium"/>
-            <referencedAttributes attribute="../../../../AutoComm.ecore#//CalculationVariables/class"/>
-            <referencedAttributes attribute="../../../../AutoComm.ecore#//CalculationVariables/dossier"/>
-            <referencedAttributes attribute="../../../../AutoComm.ecore#//CalculationVariables/group"/>
-            <referencedAttributes attribute="../../../../AutoComm.ecore#//CalculationVariables/territory"/>
+            <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#//CalculationVariablesFPQ1" traversedAssocRole="../../../../AutoComm.ecore#//CalculationVariables/calculationVariablesFPQ1">
+              <alias value="cvfpq1"/>
+              <referencedAttributes attribute="../../../../AutoComm.ecore#//CalculationVariablesFPQ1/class"/>
+              <referencedAttributes attribute="../../../../AutoComm.ecore#//CalculationVariablesFPQ1/dossier"/>
+              <referencedAttributes attribute="../../../../AutoComm.ecore#//CalculationVariablesFPQ1/group"/>
+              <referencedAttributes attribute="../../../../AutoComm.ecore#//CalculationVariablesFPQ1/territory"/>
+              <referencedAttributes attribute="../../../../AutoComm.ecore#//CalculationVariablesFPQ1/chapterB2BasePremium"/>
+            </extension>
           </extension>
           <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#//Coverages" traversedAssocRole="../../../../AutoComm.ecore#//Vehicle/Coverages" filters="#//@ruleset/@filters.0">
             <alias value="co"/>
@@ -261,14 +284,16 @@
     <actionSection rowCount="50" columnWidthFactor="0.5">
       <actionItemList>
         <valueSetCell/>
-        <expressionCell external="cv.chapterB2BasePremium">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.chapterB2BasePremium" datatype="Integer" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="cvfpq1.chapterB2BasePremium">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.chapterB2BasePremium" datatype="Integer" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="chapterB2BasePremium" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.chapterB2BasePremium">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="chapterB2BasePremium" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.chapterB2BasePremium">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -293,13 +318,13 @@
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.coverageCode='ChapterB2'" filter="#//@ruleset/@filters.0"/>
               </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.1"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.2"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.3"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.4"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.5"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.6"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
+                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.1"/>
+                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.2"/>
+                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.3"/>
+                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.4"/>
+                </children>
               </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
@@ -349,52 +374,29 @@
       </filterItemList>
     </filterSection>
     <ruleStatementSection rowCount="50" columnWidthReference="50" columnWidthPostSeverity="75" columnWidthAlias="100" columnWidthID="50" columnWidthText="943" columnWidthRuleName="100" columnWidthRuleLink="100" columnWidthSourceName="100" columnWidthSourceLink="100" columnWidthCategory="100" columnWidthComments="400">
-      <ruleStatementItemList disabled="true" ruleStatement="#//@ruleset/@ruleStatements.0">
+      <ruleStatementItemList disabled="true" rowHeight="106" ruleStatement="#//@ruleset/@ruleStatements.0">
         <reference external="A1"/>
-        <text external="Base premium Chapter B2 est {cv.chapterB2BasePremium},  calculée à partir de la classe {cv.class}, du dossier {cv.dossier}, du groupe {cv.group}, du territoire {cv.territory} et de la franchise {co.deductible}.">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="Base premium Chapter B2 est  + cv.chapterB2BasePremium + ,  calculée à partir de la classe  + cv.class + , du dossier  + cv.dossier + , du groupe  + cv.group + , du territoire  + cv.territory +  et de la franchise  + co.deductible + ." expressiontype="BRSTATEMENT">
+        <text external="Base premium Chapter B2 est {cvfpq1.chapterB2BasePremium},  calculée à partir de la classe {cvfpq1.class}, du dossier {cvfpq1.dossier}, du groupe {cvfpq1.group}, du territoire {cvfpq1.territory} et de la franchise {co.deductible}.">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="Base premium Chapter B2 est  + cvfpq1.chapterB2BasePremium + ,  calculée à partir de la classe  + cvfpq1.class + , du dossier  + cvfpq1.dossier + , du groupe  + cvfpq1.group + , du territoire  + cvfpq1.territory +  et de la franchise  + co.deductible + ." expressiontype="BRSTATEMENT">
             <referencedTermList>
-              <terms text="chapterB2BasePremium" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.chapterB2BasePremium">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="dossier" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.dossier">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
-              <terms text="class" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.class">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-              <terms text="group" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.group">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-              <terms text="territory" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.territory">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-              <terms text="dossier" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.dossier">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="group" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.group">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -404,6 +406,39 @@
                   <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+              <terms text="class" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.class">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+              <terms text="territory" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.territory">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+              <terms text="chapterB2BasePremium" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.chapterB2BasePremium">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -434,14 +469,16 @@
       </conditionItemList>
       <conditionItemList>
         <valueSetCell/>
-        <expressionCell external="cv.class">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.class" datatype="Integer" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="cvfpq1.class">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.class" datatype="Integer" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="class" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.class">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="class" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.class">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -452,14 +489,16 @@
       </conditionItemList>
       <conditionItemList>
         <valueSetCell/>
-        <expressionCell external="cv.dossier">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.dossier" datatype="Integer" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="cvfpq1.dossier">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.dossier" datatype="Integer" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="dossier" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.dossier">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="dossier" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.dossier">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -470,14 +509,16 @@
       </conditionItemList>
       <conditionItemList>
         <valueSetCell/>
-        <expressionCell external="cv.group">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.group" datatype="Integer" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="cvfpq1.group">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.group" datatype="Integer" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="group" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.group">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="group" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.group">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -488,14 +529,16 @@
       </conditionItemList>
       <conditionItemList>
         <valueSetCell/>
-        <expressionCell external="cv.territory">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.territory" datatype="Integer" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="cvfpq1.territory">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.territory" datatype="Integer" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="territory" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.territory">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="territory" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.territory">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -527,52 +570,58 @@
           </parserOutput>
         </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="b2.class">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.class = b2.class" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.class = b2.class" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="class" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.class">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="class" datatype="Integer" termtype="ATTRIBUTE" fulltext="b2.class">
+                <parentTerm text="b2" datatype="ChapterB2_TEST" termtype="ENTITY" fulltext="b2" variable="#//@ruleset/@logicalVariables.2"/>
+              </terms>
+              <terms text="class" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.class">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
-              </terms>
-              <terms text="class" datatype="Integer" termtype="ATTRIBUTE" fulltext="b2.class">
-                <parentTerm text="b2" datatype="ChapterB2_TEST" termtype="ENTITY" fulltext="b2" variable="#//@ruleset/@logicalVariables.2"/>
               </terms>
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="b2.dossier">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.dossier = b2.dossier" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.dossier = b2.dossier" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="dossier" datatype="Integer" termtype="ATTRIBUTE" fulltext="b2.dossier">
-                <parentTerm text="b2" datatype="ChapterB2_TEST" termtype="ENTITY" fulltext="b2" variable="#//@ruleset/@logicalVariables.2"/>
-              </terms>
-              <terms text="dossier" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.dossier">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="dossier" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.dossier">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
+              </terms>
+              <terms text="dossier" datatype="Integer" termtype="ATTRIBUTE" fulltext="b2.dossier">
+                <parentTerm text="b2" datatype="ChapterB2_TEST" termtype="ENTITY" fulltext="b2" variable="#//@ruleset/@logicalVariables.2"/>
               </terms>
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="b2.grp">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.group = b2.grp" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.group = b2.grp" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="grp" datatype="Integer" termtype="ATTRIBUTE" fulltext="b2.grp">
                 <parentTerm text="b2" datatype="ChapterB2_TEST" termtype="ENTITY" fulltext="b2" variable="#//@ruleset/@logicalVariables.2"/>
               </terms>
-              <terms text="group" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.group">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="group" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.group">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -581,16 +630,18 @@
           </parserOutput>
         </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="b2.territory">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.territory = b2.territory" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.territory = b2.territory" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="territory" datatype="Integer" termtype="ATTRIBUTE" fulltext="b2.territory">
                 <parentTerm text="b2" datatype="ChapterB2_TEST" termtype="ENTITY" fulltext="b2" variable="#//@ruleset/@logicalVariables.2"/>
               </terms>
-              <terms text="territory" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.territory">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="territory" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.territory">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -599,23 +650,27 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="b2.chapterB2BasePremium">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.chapterB2BasePremium = b2.chapterB2BasePremium" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cvfpq1.chapterB2BasePremium = b2.chapterB2BasePremium" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="chapterB2BasePremium" datatype="Integer" termtype="ATTRIBUTE" fulltext="cv.chapterB2BasePremium">
-                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv">
-                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle">
-                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+              <terms text="chapterB2BasePremium" datatype="Integer" termtype="ATTRIBUTE" fulltext="cvfpq1.chapterB2BasePremium">
+                <parentTerm text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1">
+                  <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv">
+                    <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle">
+                      <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv">
-                <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle">
-                  <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1">
-                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+              <terms text="cvfpq1" datatype="CalculationVariablesFPQ1" termtype="ENTITY" fulltext="cvfpq1">
+                <parentTerm text="cv" datatype="CalculationVariables" termtype="ENTITY" fulltext="cv">
+                  <parentTerm text="Vehicle" datatype="Vehicle" termtype="ENTITY" fulltext="Request.FPQ1.Vehicle">
+                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                    </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>

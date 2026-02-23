@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="root" nsURI="http://root/1.0" nsPrefix="root">
   <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-    <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_t-TBoAtEEfGxle1KTYSyew" externalChecksum="2722078124:507989954" studioType="Java" customDataTypeDisplayCount="50">
+    <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_1gQqMAzkEfGxle1KTYSyew" externalChecksum="2722078124:507989954" studioType="Java" customDataTypeDisplayCount="50">
       <languageCode>fr_FR</languageCode>
       <databaseAccess databasePropertyDisplayCount="50">
         <databaseId manuallyCreated="true" value="com.corticon.database.id.MsSql"/>
@@ -3017,7 +3017,7 @@
         </contents>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="FPQ4ABasePremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="FPQ4ABasePremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
           <name manuallyCreated="true" value="FPQ4ABasePremium"/>
@@ -3025,7 +3025,7 @@
         </contents>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="aWithBSurchargedPremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="aWithBSurchargedPremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
           <name manuallyCreated="true" value="aWithBSurchargedPremium"/>
@@ -3131,6 +3131,14 @@
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
           <name manuallyCreated="true" value="SurchargesFPQ4"/>
+        </contents>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="FPQ4MinPremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+          <name manuallyCreated="true" value="FPQ4MinPremium"/>
+          <mode manuallyCreated="true" value="Base"/>
         </contents>
       </eAnnotations>
     </eStructuralFeatures>

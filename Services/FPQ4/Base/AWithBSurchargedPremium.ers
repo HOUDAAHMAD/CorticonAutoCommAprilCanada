@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_9dXDoAzkEfGxle1KTYSyew" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_9dXDoAzkEfGxle1KTYSyew" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>en_US</languageCode>
-  <ruleset vocabularyUpdateStamp="_1gQqMAzkEfGxle1KTYSyew" vocabulary="../../../AutoComm.ecore#/">
+  <ruleset vocabularyUpdateStamp="_Nf2AcRIiEfGtQ_2ISX-Y-g" vocabulary="../../../AutoComm.ecore#/0">
     <rule>
       <action>
         <opaqueExpression expression="cv.aWithBSurchargedPremium = cv.FPQ4ABasePremium+su.XlicensePlateForBSurcharge+su.YBusinessForBSurcharge+su.BClaimsSurcharge">
@@ -84,21 +84,21 @@
         </opaqueExpression>
       </action>
     </rule>
-    <logicalVariable entity="../../../AutoComm.ecore#//Request">
-      <extension association="true" entity="../../../AutoComm.ecore#//FPQ4" traversedAssocRole="../../../AutoComm.ecore#//Request/FPQ4">
-        <extension association="true" entity="../../../AutoComm.ecore#//LocationsFPQ4" traversedAssocRole="../../../AutoComm.ecore#//FPQ4/LocationsFPQ4">
-          <extension association="true" entity="../../../AutoComm.ecore#//CalculationVariables" traversedAssocRole="../../../AutoComm.ecore#//LocationsFPQ4/CalculationVariables">
-            <extension explicit="true" association="true" entity="../../../AutoComm.ecore#//CalculationsVariablesFPQ4" traversedAssocRole="../../../AutoComm.ecore#//CalculationVariables/CalculationsVariablesFPQ4">
+    <logicalVariable entity="../../../AutoComm.ecore#/0/Request">
+      <extension association="true" entity="../../../AutoComm.ecore#/0/FPQ4" traversedAssocRole="../../../AutoComm.ecore#/0/Request/FPQ4">
+        <extension association="true" entity="../../../AutoComm.ecore#/0/LocationsFPQ4" traversedAssocRole="../../../AutoComm.ecore#/0/FPQ4/LocationsFPQ4">
+          <extension association="true" entity="../../../AutoComm.ecore#/0/CalculationVariables" traversedAssocRole="../../../AutoComm.ecore#/0/LocationsFPQ4/CalculationVariables">
+            <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4" traversedAssocRole="../../../AutoComm.ecore#/0/CalculationVariables/CalculationsVariablesFPQ4">
               <alias value="cv"/>
-              <extension explicit="true" association="true" entity="../../../AutoComm.ecore#//SurchargesFPQ4" traversedAssocRole="../../../AutoComm.ecore#//CalculationsVariablesFPQ4/SurchargesFPQ4">
+              <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/SurchargesFPQ4" traversedAssocRole="../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/SurchargesFPQ4">
                 <alias value="su"/>
-                <referencedAttributes attribute="../../../AutoComm.ecore#//SurchargesFPQ4/BClaimsSurcharge"/>
-                <referencedAttributes attribute="../../../AutoComm.ecore#//SurchargesFPQ4/XlicensePlateForBSurcharge"/>
-                <referencedAttributes attribute="../../../AutoComm.ecore#//SurchargesFPQ4/YBusinessForBSurcharge"/>
+                <referencedAttributes attribute="../../../AutoComm.ecore#/0/SurchargesFPQ4/BClaimsSurcharge"/>
+                <referencedAttributes attribute="../../../AutoComm.ecore#/0/SurchargesFPQ4/XlicensePlateForBSurcharge"/>
+                <referencedAttributes attribute="../../../AutoComm.ecore#/0/SurchargesFPQ4/YBusinessForBSurcharge"/>
               </extension>
-              <referencedAttributes attribute="../../../AutoComm.ecore#//CalculationsVariablesFPQ4/FPQ4ABasePremium"/>
-              <referencedAttributes attribute="../../../AutoComm.ecore#//CalculationsVariablesFPQ4/FPQ4MinPremium"/>
-              <referencedAttributes attribute="../../../AutoComm.ecore#//CalculationsVariablesFPQ4/aWithBSurchargedPremium"/>
+              <referencedAttributes attribute="../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4ABasePremium"/>
+              <referencedAttributes attribute="../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4MinPremium"/>
+              <referencedAttributes attribute="../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/aWithBSurchargedPremium"/>
             </extension>
           </extension>
         </extension>
@@ -107,7 +107,7 @@
   </ruleset>
   <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightConditionsIf="20">
     <actionSection rowCount="50" columnWidthFactor="0.5">
-      <actionItemList>
+      <actionItemList rowHeight="67">
         <valueSetCell/>
         <expressionCell external="cv.aWithBSurchargedPremium">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cv.aWithBSurchargedPremium" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">

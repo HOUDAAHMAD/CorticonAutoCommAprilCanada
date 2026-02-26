@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_M9eLQgfyEfGIoorr7Q6GeQ" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_RL_Y4BJgEfGtQ_2ISX-Y-g" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_Jct-IQfuEfGIoorr7Q6GeQ" vocabulary="../../../../AutoComm.ecore#/">
+  <ruleset vocabularyUpdateStamp="_LN_xQBIwEfGtQ_2ISX-Y-g" vocabulary="../../../../AutoComm.ecore#/0">
     <rule>
       <action>
         <opaqueExpression expression="ra.activityRate = ac.activityRate->max">
@@ -49,18 +49,18 @@
         </opaqueExpression>
       </action>
     </rule>
-    <logicalVariable entity="../../../../AutoComm.ecore#//Request">
-      <extension association="true" entity="../../../../AutoComm.ecore#//FPQ4" traversedAssocRole="../../../../AutoComm.ecore#//Request/FPQ4">
-        <extension association="true" entity="../../../../AutoComm.ecore#//LocationsFPQ4" traversedAssocRole="../../../../AutoComm.ecore#//FPQ4/LocationsFPQ4">
-          <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#//ActivityFPQ4" traversedAssocRole="../../../../AutoComm.ecore#//LocationsFPQ4/ActivityFPQ4">
+    <logicalVariable entity="../../../../AutoComm.ecore#/0/Request">
+      <extension association="true" entity="../../../../AutoComm.ecore#/0/FPQ4" traversedAssocRole="../../../../AutoComm.ecore#/0/Request/FPQ4">
+        <extension association="true" entity="../../../../AutoComm.ecore#/0/LocationsFPQ4" traversedAssocRole="../../../../AutoComm.ecore#/0/FPQ4/LocationsFPQ4">
+          <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#/0/ActivityFPQ4" traversedAssocRole="../../../../AutoComm.ecore#/0/LocationsFPQ4/ActivityFPQ4">
             <alias value="ac"/>
-            <referencedAttributes attribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityRate"/>
+            <referencedAttributes attribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityRate"/>
           </extension>
-          <extension association="true" entity="../../../../AutoComm.ecore#//CalculationVariables" traversedAssocRole="../../../../AutoComm.ecore#//LocationsFPQ4/CalculationVariables">
-            <extension association="true" entity="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4" traversedAssocRole="../../../../AutoComm.ecore#//CalculationVariables/CalculationsVariablesFPQ4">
-              <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#//RatesFPQ4" traversedAssocRole="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/RatesFPQ4">
+          <extension association="true" entity="../../../../AutoComm.ecore#/0/CalculationVariables" traversedAssocRole="../../../../AutoComm.ecore#/0/LocationsFPQ4/CalculationVariables">
+            <extension association="true" entity="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4" traversedAssocRole="../../../../AutoComm.ecore#/0/CalculationVariables/CalculationsVariablesFPQ4">
+              <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#/0/RatesFPQ4" traversedAssocRole="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/RatesFPQ4">
                 <alias value="ra"/>
-                <referencedAttributes attribute="../../../../AutoComm.ecore#//RatesFPQ4/activityRate"/>
+                <referencedAttributes attribute="../../../../AutoComm.ecore#/0/RatesFPQ4/activityRate"/>
               </extension>
             </extension>
           </extension>
@@ -101,7 +101,7 @@
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
               </children>
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
                   <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0">
                     <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0/@referencedAttributes.0"/>

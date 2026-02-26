@@ -262,6 +262,7 @@
     "infractionsCount": 0,
     "criminalRecordIndicator": false,
     "BillingDetail": {
+      "BillingDetailFPQ1": {
       "renewalFlex": 1.03,
       "transferFlex": 1.0443989,
       "previousPremium": 0,
@@ -284,8 +285,10 @@
           "installmentDueDate": "2023-12-12"
         }
       ]
+     } 
     },
     "PolicyDetail": {
+      "PolicyDetailFPQ1": {
       "quoteId": "test",
       "referenceNumber": "91610",
       "policyNumber": "P09630",
@@ -310,6 +313,8 @@
         "streetNumber": "110",
         "unitNumber": "500"
       }
+      }
+
     },
     "Vehicle": [
       {
@@ -582,6 +587,7 @@
       }
     ],
     "BillingDetail": {
+      "BillingDetailFPQ4": {
       "renewalFlex": 1.03,
       "transferFlex": 1.0443989,
       "previousPremium": 0,
@@ -604,8 +610,10 @@
           "installmentDueDate": "2023-12-12"
         }
       ]
+      }
     },
     "PolicyDetail": {
+      "PolicyDetailFPQ4": {
       "quoteId": "test",
       "referenceNumber": "91610",
       "policyNumber": "P09630",
@@ -632,6 +640,8 @@
         "streetNumber": "110",
         "unitNumber": "500"
       }
+      }
+
     },
     "LocationsFPQ4": [
       {
@@ -848,6 +858,7 @@
       "unitNumber": "500"
     },
     "BillingDetail": {
+      "BillingDetailCargo":{
       "renewalFlex": 1.03,
       "transferFlex": 1.0443989,
       "previousPremium": 0,
@@ -870,8 +881,10 @@
           "installmentDueDate": "2023-12-12"
         }
       ]
+      }
     },
     "PolicyDetail": {
+      "PolicyDetailCargo": {
       "quoteId": "test",
       "referenceNumber": "91610",
       "policyNumber": "P09630",
@@ -897,6 +910,7 @@
         "streetName": "Yonge",
         "streetNumber": "110",
         "unitNumber": "500"
+      }
       }
     },
     "Activity": [
@@ -1034,6 +1048,7 @@
   },
   "GarageProperty": {
     "BillingDetail": {
+      "BillingDetailGarageProperty": {
       "renewalFlex": 1.03,
       "transferFlex": 1.0443989,
       "previousPremium": 0,
@@ -1056,8 +1071,10 @@
           "installmentDueDate": "2023-12-12"
         }
       ]
+    }  
     },
     "PolicyDetail": {
+      "PolicyDetailGarageProperty": {
       "quoteId": "test",
       "referenceNumber": "91610",
       "policyNumber": "P09630",
@@ -1083,6 +1100,7 @@
         "streetName": "Yonge",
         "streetNumber": "110",
         "unitNumber": "500"
+      }
       }
     },
     "Locations": [
@@ -1346,6 +1364,7 @@
   "CGLTransport": [
     {
       "PolicyDetail": {
+        "PolicyDetailCGLTransport": {
         "quoteId": "test",
         "referenceNumber": "91610",
         "policyNumber": "P09630",
@@ -1371,6 +1390,7 @@
           "streetName": "Yonge",
           "streetNumber": "110",
           "unitNumber": "500"
+        }
         }
       },
       "Locations": [
@@ -1432,6 +1452,7 @@
         }
       ],
       "BillingDetail": {
+        "BillingDetailCGLTransport": {
         "renewalFlex": 1.03,
         "transferFlex": 1.0443989,
         "previousPremium": 0,
@@ -1454,6 +1475,7 @@
             "installmentDueDate": "2023-12-12"
           }
         ]
+       } 
       },
       "Coverages": [
         {
@@ -1502,6 +1524,7 @@
   ],
   "Cyber": {
     "BillingDetail": {
+      "BillingDetailCyber": {
       "renewalFlex": 1.03,
       "transferFlex": 1.0443989,
       "previousPremium": 0,
@@ -1524,8 +1547,10 @@
           "installmentDueDate": "2023-12-12"
         }
       ]
+      }
     },
     "PolicyDetail": {
+      "PolicyDetailCyber": {
       "quoteId": "test",
       "referenceNumber": "91610",
       "policyNumber": "P09630",
@@ -1551,6 +1576,7 @@
         "streetName": "Yonge",
         "streetNumber": "110",
         "unitNumber": "500"
+      }
       }
     },
     "Coverages": [

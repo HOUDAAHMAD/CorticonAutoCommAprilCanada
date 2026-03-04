@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.corticon.rulesemf.assetmodel:RuleflowAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.canonicalrulemodel.ruleflow="http:///com/corticon/rulesemf/canonicalrulemodel/ruleflow.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram="http:///com/corticon/rulesemf/viewrulemodel/ruleflow/flowdiagram.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_5VVL4hfoEfGVtqOd4XCE4w" externalChecksum="2722078124:1438690353:2393165206" studioType="Java" ruleflowAssets="A_FPQ4_Rate_B2C2.erf#/">
+  <ruleflow majorVersion="1" vocabularyUpdateStamp="_twTJ0BflEfGVtqOd4XCE4w" vocabulary="../../../../../AutoComm.ecore#/0">
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="riskCodeActivity" order="1" ruleActivityUpdateStamp="_5VVL4hfoEfGVtqOd4XCE4w" invokes="#//@ruleflow/@flowControlList.0">
+      <condition expression="CalculationsVariablesFPQ4.riskCodeActivity">
+        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="CalculationsVariablesFPQ4.riskCodeActivity" datatype="String" expressiontype="EXPRESSION" enumeration="true" cellValue="false">
+          <referencedTermList>
+            <terms text="riskCodeActivity" datatype="String" termtype="ATTRIBUTE" fulltext="CalculationsVariablesFPQ4.riskCodeActivity">
+              <parentTerm text="CalculationsVariablesFPQ4" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="CalculationsVariablesFPQ4"/>
+            </terms>
+          </referencedTermList>
+        </parserOutput>
+      </condition>
+      <branches>
+        <nextStep xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="A_FPQ4_Rate_B2C2" order="2" ruleActivityUpdateStamp="_1zAUoxfoEfGVtqOd4XCE4w" invokes="A_FPQ4_Rate_B2C2.erf#//@ruleflow"/>
+        <label expression="riskCode#A"/>
+        <viewExpressions lhs="CalculationsVariablesFPQ4.riskCodeActivity" rhs="riskCode#A"/>
+      </branches>
+    </flowControlList>
+  </ruleflow>
+  <ruleflowViewList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:FlowDiagram">
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:BranchContainerShape" x="332" y="117" width="425" height="286" activityNode="#//@ruleflow/@flowControlList.0" valid="true" branchContainer="#//@ruleflow/@flowControlList.0">
+      <annotations name="Color" value="16777088"/>
+      <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="106" y="29" width="188" height="53" inboundEdges="#//@ruleflowViewList.0/@flowShapeList.0/@branchEdgeList.0" activityNode="#//@ruleflow/@flowControlList.0/@branches.0/@nextStep.0">
+        <annotations name="Color" value="8454016"/>
+      </flowShapeList>
+      <branchEdgeList targetShape="#//@ruleflowViewList.0/@flowShapeList.0/@flowShapeList.0" branch="#//@ruleflow/@flowControlList.0/@branches.0"/>
+    </flowShapeList>
+  </ruleflowViewList>
+</com.corticon.rulesemf.assetmodel:RuleflowAsset>

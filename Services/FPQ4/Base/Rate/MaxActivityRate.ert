@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_XZZXkAfyEfGIoorr7Q6GeQ" externalChecksum="2722078124:1438690353" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_VafQ8RizEfG8teToeQ4M4Q" externalChecksum="2722078124:1438690353" studioType="Java">
   <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_owheogf2EfGIoorr7Q6GeQ" externalChecksum="2722078124:1438690353">
     <testsheet ruleActivityUpdateStamp="_SkTQ4gfyEfGIoorr7Q6GeQ" ruleActivity="ActivityRate.erf#//@ruleflow" locale="">
       <input/>
@@ -8,111 +8,111 @@
     </testsheet>
     <testsheetViewList xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestTreeSet">
       <inputRoot>
-        <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestEntity" nodeID="1" manuallyCreated="true" eClass="../../../../AutoComm.ecore#//Request">
-          <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../AutoComm.ecore#//Request/FPQ4" eClass="../../../../AutoComm.ecore#//FPQ4">
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../AutoComm.ecore#//FPQ4/LocationsFPQ4" eClass="../../../../AutoComm.ecore#//LocationsFPQ4">
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//LocationsFPQ4/id"/>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../AutoComm.ecore#//LocationsFPQ4/ActivityFPQ4" eClass="../../../../AutoComm.ecore#//ActivityFPQ4">
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityEN"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityFR"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityID"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityRate"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/riskCode"/>
+        <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestEntity" nodeID="1" manuallyCreated="true" eClass="../../../../AutoComm.ecore#/0/Request">
+          <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../AutoComm.ecore#/0/Request/FPQ4" eClass="../../../../AutoComm.ecore#/0/FPQ4">
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../AutoComm.ecore#/0/FPQ4/LocationsFPQ4" eClass="../../../../AutoComm.ecore#/0/LocationsFPQ4">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/LocationsFPQ4/id"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../AutoComm.ecore#/0/LocationsFPQ4/ActivityFPQ4" eClass="../../../../AutoComm.ecore#/0/ActivityFPQ4">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityEN"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityFR"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityID"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityRate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/riskCode"/>
               </children>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../AutoComm.ecore#//LocationsFPQ4/CalculationVariables" eClass="../../../../AutoComm.ecore#//CalculationVariables">
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../AutoComm.ecore#//CalculationVariables/CalculationsVariablesFPQ4" eClass="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4">
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/aWithBSurchargedPremium"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/claimsCount"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/criminalRecordIndicator"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/employeeCount"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/FPQ4ABasePremium"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/FPQ4Premium"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/nonPayment"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/ownerCount"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/quebecPercentage"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/riskCode"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/totalFPQ4Premium"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/XLicensePlateCount"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/YBusiness"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/RatesFPQ4" eClass="../../../../AutoComm.ecore#//RatesFPQ4">
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/aClaimsRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/activityRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/criminalRecordRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/employeeRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/FPQ4B2Rate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/FPQ4B3Rate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/FPQ4C2Rate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/FPQ4C3Rate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/nonPaymentRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/outsideQuebecRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/ownerCountRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/XLicensePlateRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/YBusinessRate"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../AutoComm.ecore#/0/LocationsFPQ4/CalculationVariables" eClass="../../../../AutoComm.ecore#/0/CalculationVariables">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../AutoComm.ecore#/0/CalculationVariables/CalculationsVariablesFPQ4" eClass="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/aWithBSurchargedPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/claimsCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/criminalRecordIndicator"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/employeeCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4ABasePremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4Premium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/nonPayment"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/ownerCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/quebecPercentage"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/riskCode"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/totalFPQ4Premium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/XLicensePlateCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/YBusiness"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/RatesFPQ4" eClass="../../../../AutoComm.ecore#/0/RatesFPQ4">
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/aClaimsRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/activityRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/criminalRecordRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/employeeRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4B2Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4B3Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4C2Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4C3Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/nonPaymentRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/outsideQuebecRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/ownerCountRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/XLicensePlateRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/YBusinessRate"/>
                   </children>
                 </children>
               </children>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" manuallyCreated="true" eReference="../../../../AutoComm.ecore#//LocationsFPQ4/ActivityFPQ4" eClass="../../../../AutoComm.ecore#//ActivityFPQ4">
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityEN"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityFR"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="2" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityID"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityRate"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/riskCode"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" manuallyCreated="true" eReference="../../../../AutoComm.ecore#/0/LocationsFPQ4/ActivityFPQ4" eClass="../../../../AutoComm.ecore#/0/ActivityFPQ4">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityEN"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityFR"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="2" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityID"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityRate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/riskCode"/>
               </children>
             </children>
           </children>
         </children>
       </inputRoot>
       <outputRoot newOrModified="true">
-        <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestEntity" nodeID="1" newOrModified="true" eClass="../../../../AutoComm.ecore#//Request">
-          <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../AutoComm.ecore#//Request/FPQ4" eClass="../../../../AutoComm.ecore#//FPQ4">
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../AutoComm.ecore#//FPQ4/LocationsFPQ4" eClass="../../../../AutoComm.ecore#//LocationsFPQ4">
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../AutoComm.ecore#//LocationsFPQ4/ActivityFPQ4" eClass="../../../../AutoComm.ecore#//ActivityFPQ4">
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityFR"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="1" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityID"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityEN"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="B" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/riskCode"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="2.500000" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityRate"/>
+        <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestEntity" nodeID="1" newOrModified="true" eClass="../../../../AutoComm.ecore#/0/Request">
+          <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../AutoComm.ecore#/0/Request/FPQ4" eClass="../../../../AutoComm.ecore#/0/FPQ4">
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../AutoComm.ecore#/0/FPQ4/LocationsFPQ4" eClass="../../../../AutoComm.ecore#/0/LocationsFPQ4">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../AutoComm.ecore#/0/LocationsFPQ4/ActivityFPQ4" eClass="../../../../AutoComm.ecore#/0/ActivityFPQ4">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityFR"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="1" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityID"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityEN"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="B" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/riskCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="2.500000" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityRate"/>
               </children>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" newOrModified="true" eReference="../../../../AutoComm.ecore#//LocationsFPQ4/ActivityFPQ4" eClass="../../../../AutoComm.ecore#//ActivityFPQ4">
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityFR"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="2" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityID"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityEN"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="C" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/riskCode"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="2.000000" eAttribute="../../../../AutoComm.ecore#//ActivityFPQ4/activityRate"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" newOrModified="true" eReference="../../../../AutoComm.ecore#/0/LocationsFPQ4/ActivityFPQ4" eClass="../../../../AutoComm.ecore#/0/ActivityFPQ4">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityFR"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="2" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityID"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityEN"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="C" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/riskCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="2.000000" eAttribute="../../../../AutoComm.ecore#/0/ActivityFPQ4/activityRate"/>
               </children>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../AutoComm.ecore#//LocationsFPQ4/CalculationVariables" eClass="../../../../AutoComm.ecore#//CalculationVariables">
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../AutoComm.ecore#//CalculationVariables/CalculationsVariablesFPQ4" eClass="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4">
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/aWithBSurchargedPremium"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/quebecPercentage"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/FPQ4ABasePremium"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/claimsCount"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/criminalRecordIndicator"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/nonPayment"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/riskCode"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/XLicensePlateCount"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/employeeCount"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/YBusiness"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/totalFPQ4Premium"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/FPQ4Premium"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/ownerCount"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../AutoComm.ecore#//CalculationsVariablesFPQ4/RatesFPQ4" eClass="../../../../AutoComm.ecore#//RatesFPQ4">
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/aClaimsRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/ownerCountRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/YBusinessRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/outsideQuebecRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/criminalRecordRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/FPQ4C2Rate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/FPQ4B3Rate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/nonPaymentRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/employeeRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/XLicensePlateRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/FPQ4C3Rate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="2.500000" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/activityRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//RatesFPQ4/FPQ4B2Rate"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../AutoComm.ecore#/0/LocationsFPQ4/CalculationVariables" eClass="../../../../AutoComm.ecore#/0/CalculationVariables">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../AutoComm.ecore#/0/CalculationVariables/CalculationsVariablesFPQ4" eClass="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/aWithBSurchargedPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/quebecPercentage"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4ABasePremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/claimsCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/criminalRecordIndicator"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/nonPayment"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/riskCode"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/XLicensePlateCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/employeeCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/YBusiness"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/totalFPQ4Premium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4Premium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/ownerCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/RatesFPQ4" eClass="../../../../AutoComm.ecore#/0/RatesFPQ4">
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/aClaimsRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/ownerCountRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/YBusinessRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/outsideQuebecRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/criminalRecordRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4C2Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4B3Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/nonPaymentRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/employeeRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/XLicensePlateRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4C3Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="2.500000" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/activityRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4B2Rate"/>
                   </children>
                 </children>
               </children>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#//LocationsFPQ4/id"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../AutoComm.ecore#/0/LocationsFPQ4/id"/>
             </children>
           </children>
         </children>
@@ -123,7 +123,7 @@
       <outputRuleTraceSection/>
     </testsheetViewList>
   </testsheetAssets>
-  <ruletest vocabularyUpdateStamp="_Jct-IQfuEfGIoorr7Q6GeQ" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../../../AutoComm.ecore#/"/>
+  <ruletest vocabularyUpdateStamp="_fXZrMRihEfG8teToeQ4M4Q" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../../../AutoComm.ecore#/0"/>
   <ruletestViewList xsi:type="com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder:TestTabFolder">
     <testTabList name="untitled_1"/>
   </ruletestViewList>

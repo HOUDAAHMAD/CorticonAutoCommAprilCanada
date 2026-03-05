@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">
     <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_twTJ0BflEfGVtqOd4XCE4w" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="50">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_fXZrMRihEfG8teToeQ4M4Q" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="49">
         <languageCode>fr_FR</languageCode>
         <databaseAccess databasePropertyDisplayCount="50">
           <databaseId manuallyCreated="true" value="com.corticon.database.id.MsSql"/>
@@ -11,27 +11,6 @@
           <password manuallyCreated="true" value="047039012060048019126"/>
           <schemaFilter manuallyCreated="true" value="dbo"/>
         </databaseAccess>
-        <customDataTypeList enumerationDisplayCount="50" eDataType="#/0/riskCode">
-          <dataTypeName manuallyCreated="true" value="riskCode"/>
-          <baseDataType manuallyCreated="true" value="String"/>
-          <enumeration value="true"/>
-          <enumerationElements>
-            <label manuallyCreated="true" value="A"/>
-            <value manuallyCreated="true" value="'A'"/>
-          </enumerationElements>
-          <enumerationElements>
-            <label manuallyCreated="true" value="B"/>
-            <value manuallyCreated="true" value="'B'"/>
-          </enumerationElements>
-          <enumerationElements>
-            <label manuallyCreated="true" value="C"/>
-            <value manuallyCreated="true" value="'C'"/>
-          </enumerationElements>
-          <enumerationElements>
-            <label manuallyCreated="true" value="D"/>
-            <value manuallyCreated="true" value="'D'"/>
-          </enumerationElements>
-        </customDataTypeList>
         <databaseMetadata>
           <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="ChapterA" tableType="TABLE">
             <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
@@ -2097,9 +2076,9 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="riskCode" eType="#/0/riskCode">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="riskCode" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" customDataType="#/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@customDataTypeList.0">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
             <name manuallyCreated="true" value="riskCode"/>
             <mode manuallyCreated="true" value="Base"/>
           </contents>
@@ -2385,14 +2364,6 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="riskCode" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-            <name manuallyCreated="true" value="riskCode"/>
-            <mode manuallyCreated="true" value="Base"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="totalFPQ4Premium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
@@ -2430,10 +2401,10 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="riskCodeActivity" eType="#/0/riskCode">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="riskCode" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" customDataType="#/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@customDataTypeList.0">
-            <name manuallyCreated="true" value="riskCodeActivity"/>
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="riskCode"/>
             <mode manuallyCreated="true" value="Base"/>
           </contents>
         </eAnnotations>
@@ -3649,12 +3620,6 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-    </eClassifiers>
-    <eClassifiers xsi:type="ecore:EEnum" name="riskCode">
-      <eLiterals name="A" literal="'A'"/>
-      <eLiterals name="B" value="1" literal="'B'"/>
-      <eLiterals name="C" value="2" literal="'C'"/>
-      <eLiterals name="D" value="3" literal="'D'"/>
     </eClassifiers>
   </ecore:EPackage>
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">

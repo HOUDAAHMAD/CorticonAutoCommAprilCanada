@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_jVNY8RlvEfGdx9yVhIAaKg" externalChecksum="2722078124:1438690353" studioType="Java">
+  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_t-lQYRk4EfGdx9yVhIAaKg" externalChecksum="2722078124:1438690353">
+    <testsheet ruleActivityUpdateStamp="_bvmpYRk2EfGdx9yVhIAaKg" ruleActivity="FPQ4Rates.erf#//@ruleflow" locale="">
+      <input/>
+      <output/>
+      <expectedOutput/>
+    </testsheet>
+    <testsheetViewList xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestTreeSet">
+      <inputRoot>
+        <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestEntity" nodeID="1" manuallyCreated="true" eClass="../../../../../AutoComm.ecore#/0/Request">
+          <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/Request/FPQ4" eClass="../../../../../AutoComm.ecore#/0/FPQ4">
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/FPQ4/LocationsFPQ4" eClass="../../../../../AutoComm.ecore#/0/LocationsFPQ4">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/LocationsFPQ4/id"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" expanded="false" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/CalculationVariables" eClass="../../../../../AutoComm.ecore#/0/CalculationVariables">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/CalculationVariables/CalculationsVariablesFPQ4" eClass="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/aWithBSurchargedPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/claimsCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/criminalRecordIndicator"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/employeeCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4ABasePremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4MinPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4Premium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/nonPayment"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/ownerCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/quebecPercentage"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="A" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/riskCode"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/totalFPQ4Premium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/XLicensePlateCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/YBusiness"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" expanded="false" eReference="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/RatesFPQ4" eClass="../../../../../AutoComm.ecore#/0/RatesFPQ4">
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/aClaimsRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/activityRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/criminalRecordRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/employeeRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4B2Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4B3Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4C2Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4C3Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/nonPaymentRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/outsideQuebecRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/ownerCountRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/XLicensePlateRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/YBusinessRate"/>
+                  </children>
+                </children>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" expanded="false" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/Coverages" eClass="../../../../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="23000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="FPQ4-ChapterB2" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" manuallyCreated="true" expanded="false" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/Coverages" eClass="../../../../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="26000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="FPQ4-ChapterC2" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="3" manuallyCreated="true" expanded="false" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/Coverages" eClass="../../../../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="31000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="FPQ4-ChapterB3" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="4" manuallyCreated="true" expanded="false" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/Coverages" eClass="../../../../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="6000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="FPQ4-ChapterC3" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/selected"/>
+              </children>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/FPQ4/PolicyDetail" eClass="../../../../../AutoComm.ecore#/0/PolicyDetail">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/PolicyDetail/PolicyDetailFPQ4" eClass="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/effectiveDate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/EndorsementChanges"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/expirationDate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/isPolicyInEnglish"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/newBusinessEffectiveDate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/policyDuration"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/policyNumber"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/policyStatus"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/productCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/quoteId"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/referenceNumber"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/term"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/transactionDate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/transactionQuotedDate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/yearsInsured"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/MailingAddress" eClass="../../../../../AutoComm.ecore#/0/MailingAddress">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="Longueil" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/city"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/countryCode"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/id"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/postalCode"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/province"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/streetName"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/streetNumber"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/unitNumber"/>
+                </children>
+              </children>
+            </children>
+          </children>
+        </children>
+      </inputRoot>
+      <outputRoot newOrModified="true">
+        <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestEntity" nodeID="1" newOrModified="true" eClass="../../../../../AutoComm.ecore#/0/Request">
+          <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../../AutoComm.ecore#/0/Request/FPQ4" eClass="../../../../../AutoComm.ecore#/0/FPQ4">
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../../AutoComm.ecore#/0/FPQ4/LocationsFPQ4" eClass="../../../../../AutoComm.ecore#/0/LocationsFPQ4">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" expanded="false" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/Coverages" eClass="../../../../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="500.000000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="23000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="FPQ4-ChapterB2" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" newOrModified="true" expanded="false" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/Coverages" eClass="../../../../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="500.000000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="26000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="FPQ4-ChapterC2" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="3" newOrModified="true" expanded="false" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/Coverages" eClass="../../../../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1000.000000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="31000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="FPQ4-ChapterB3" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="4" newOrModified="true" expanded="false" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/Coverages" eClass="../../../../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="500.000000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="6000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="FPQ4-ChapterC3" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" expanded="false" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/CalculationVariables" eClass="../../../../../AutoComm.ecore#/0/CalculationVariables">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../../AutoComm.ecore#/0/CalculationVariables/CalculationsVariablesFPQ4" eClass="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/aWithBSurchargedPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/quebecPercentage"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4ABasePremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/claimsCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/criminalRecordIndicator"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/nonPayment"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="A" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/riskCode"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/XLicensePlateCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/employeeCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/YBusiness"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/totalFPQ4Premium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4Premium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/ownerCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4MinPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" expanded="false" eReference="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/RatesFPQ4" eClass="../../../../../AutoComm.ecore#/0/RatesFPQ4">
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/aClaimsRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/ownerCountRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/YBusinessRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/outsideQuebecRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/criminalRecordRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.600000" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4C2Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.650000" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4B3Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/nonPaymentRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/employeeRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/XLicensePlateRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.600000" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4C3Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/activityRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.550000" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4B2Rate"/>
+                  </children>
+                </children>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/LocationsFPQ4/id"/>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" eReference="../../../../../AutoComm.ecore#/0/FPQ4/PolicyDetail" eClass="../../../../../AutoComm.ecore#/0/PolicyDetail">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" eReference="../../../../../AutoComm.ecore#/0/PolicyDetail/PolicyDetailFPQ4" eClass="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/EndorsementChanges"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/newBusinessEffectiveDate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/policyNumber"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" eReference="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/MailingAddress" eClass="../../../../../AutoComm.ecore#/0/MailingAddress">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/streetName"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/province"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="Longueil" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/city"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/streetNumber"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/countryCode"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/postalCode"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/unitNumber"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/id"/>
+                </children>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/policyStatus"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/transactionDate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/quoteId"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/isPolicyInEnglish"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/policyDuration"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/productCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/referenceNumber"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/yearsInsured"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/term"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/transactionQuotedDate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/effectiveDate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/expirationDate"/>
+              </children>
+            </children>
+          </children>
+        </children>
+      </outputRoot>
+      <outputMessageSection rowCount="20" columnWidthSeverity="100" columnWidthMessage="600"/>
+      <expectedRoot>
+        <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestEntity" nodeID="1" manuallyCreated="true" eClass="../../../../../AutoComm.ecore#/0/Request">
+          <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/Request/FPQ4" eClass="../../../../../AutoComm.ecore#/0/FPQ4">
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/FPQ4/LocationsFPQ4" eClass="../../../../../AutoComm.ecore#/0/LocationsFPQ4">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/LocationsFPQ4/id"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/CalculationVariables" eClass="../../../../../AutoComm.ecore#/0/CalculationVariables">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/CalculationVariables/CalculationsVariablesFPQ4" eClass="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/aWithBSurchargedPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/claimsCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/criminalRecordIndicator"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/employeeCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4ABasePremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4MinPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4Premium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/nonPayment"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/ownerCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/quebecPercentage"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="A" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/riskCode"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/totalFPQ4Premium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/XLicensePlateCount"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/YBusiness"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/RatesFPQ4" eClass="../../../../../AutoComm.ecore#/0/RatesFPQ4">
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/aClaimsRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/activityRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/criminalRecordRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/employeeRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1.55" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4B2Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="0.65" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4B3Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1.6" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4C2Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="0.6" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/FPQ4C3Rate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/nonPaymentRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/outsideQuebecRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/ownerCountRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/XLicensePlateRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/RatesFPQ4/YBusinessRate"/>
+                  </children>
+                </children>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/Coverages" eClass="../../../../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="23000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="FPQ4-ChapterB2" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="500.000000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" manuallyCreated="true" expanded="false" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/Coverages" eClass="../../../../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="26000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="FPQ4-ChapterC2" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="500.000000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="3" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/Coverages" eClass="../../../../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="31000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="FPQ4-ChapterB3" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1000.000000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="4" manuallyCreated="true" expanded="false" eReference="../../../../../AutoComm.ecore#/0/LocationsFPQ4/Coverages" eClass="../../../../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="6000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="FPQ4-ChapterC3" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="500.000000" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/Coverages/selected"/>
+              </children>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/FPQ4/PolicyDetail" eClass="../../../../../AutoComm.ecore#/0/PolicyDetail">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/PolicyDetail/PolicyDetailFPQ4" eClass="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/effectiveDate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/EndorsementChanges"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/expirationDate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/isPolicyInEnglish"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/newBusinessEffectiveDate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/policyDuration"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/policyNumber"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/policyStatus"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/productCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/quoteId"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/referenceNumber"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/term"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/transactionDate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/transactionQuotedDate"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/yearsInsured"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../AutoComm.ecore#/0/PolicyDetailFPQ4/MailingAddress" eClass="../../../../../AutoComm.ecore#/0/MailingAddress">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="Longueil" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/city"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/countryCode"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/id"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/postalCode"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/province"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/streetName"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/streetNumber"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../AutoComm.ecore#/0/MailingAddress/unitNumber"/>
+                </children>
+              </children>
+            </children>
+          </children>
+        </children>
+      </expectedRoot>
+      <expectedMessageSection rowCount="20" columnWidthSeverity="100" columnWidthMessage="600"/>
+      <outputRuleTraceSection/>
+    </testsheetViewList>
+  </testsheetAssets>
+  <ruletest vocabularyUpdateStamp="_FSCZsBlCEfGdx9yVhIAaKg" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../../../../AutoComm.ecore#/0"/>
+  <ruletestViewList xsi:type="com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder:TestTabFolder">
+    <testTabList name="untitled_1"/>
+  </ruletestViewList>
+</com.corticon.rulesemf.assetmodel:RuletestAsset>

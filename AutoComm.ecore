@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">
     <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_FSCZsBlCEfGdx9yVhIAaKg" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="49">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_s1xZ8BvEEfGgu85bEqt2Sw" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="49">
         <languageCode>fr_FR</languageCode>
         <databaseAccess databasePropertyDisplayCount="50">
           <databaseId manuallyCreated="true" value="com.corticon.database.id.MsSql"/>
@@ -11,6 +11,27 @@
           <password manuallyCreated="true" value="047039012060048019126"/>
           <schemaFilter manuallyCreated="true" value="dbo"/>
         </databaseAccess>
+        <customDataTypeList enumerationDisplayCount="51" eDataType="#/0/ClaimsSize">
+          <dataTypeName manuallyCreated="true" value="ClaimsSize"/>
+          <baseDataType manuallyCreated="true" value="String"/>
+          <enumeration value="true"/>
+          <enumerationElements>
+            <label manuallyCreated="true" value="zero"/>
+            <value manuallyCreated="true" value="'zero'"/>
+          </enumerationElements>
+          <enumerationElements>
+            <label manuallyCreated="true" value="un"/>
+            <value manuallyCreated="true" value="'un'"/>
+          </enumerationElements>
+          <enumerationElements>
+            <label manuallyCreated="true" value="deux"/>
+            <value manuallyCreated="true" value="'deux'"/>
+          </enumerationElements>
+          <enumerationElements>
+            <label manuallyCreated="true" value="trois"/>
+            <value manuallyCreated="true" value="'trois'"/>
+          </enumerationElements>
+        </customDataTypeList>
         <databaseMetadata>
           <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="ChapterA" tableType="TABLE">
             <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
@@ -2409,6 +2430,14 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="aClaimsSize" eType="#/0/ClaimsSize">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" customDataType="#/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@customDataTypeList.0">
+            <name manuallyCreated="true" value="aClaimsSize"/>
+            <mode manuallyCreated="true" value="ExtendedTransient"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="RatesFPQ4">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
@@ -3620,6 +3649,12 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="ClaimsSize">
+      <eLiterals name="zero" literal="'zero'"/>
+      <eLiterals name="un" value="1" literal="'un'"/>
+      <eLiterals name="deux" value="2" literal="'deux'"/>
+      <eLiterals name="trois" value="3" literal="'trois'"/>
     </eClassifiers>
   </ecore:EPackage>
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_lc8T2ximEfG8teToeQ4M4Q" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_HMXSJByUEfGGTIM5wFhjsg" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_fXZrMRihEfG8teToeQ4M4Q" vocabulary="../../../../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_4iu60RyJEfGGTIM5wFhjsg" vocabulary="../../../../../../AutoComm.ecore#/0">
     <rule/>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueil', 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil', 'Laval'})=false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -22,7 +22,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueil', 'Laval'}" rhs="F"/>
+        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil', 'Laval'}" rhs="F"/>
       </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 5001..20000">
@@ -105,8 +105,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueil', 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil', 'Laval'})=false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -122,7 +122,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueil', 'Laval'}" rhs="F"/>
+        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil', 'Laval'}" rhs="F"/>
       </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 20001..25000">
@@ -205,8 +205,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueil', 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil', 'Laval'})=false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -222,7 +222,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueil', 'Laval'}" rhs="F"/>
+        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil', 'Laval'}" rhs="F"/>
       </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 25001..30000">
@@ -305,8 +305,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueil', 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil', 'Laval'})=false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -322,7 +322,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueil', 'Laval'}" rhs="F"/>
+        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil', 'Laval'}" rhs="F"/>
       </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 30001..40000">
@@ -405,8 +405,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueil', 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil', 'Laval'})=false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -422,7 +422,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueil', 'Laval'}" rhs="F"/>
+        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil', 'Laval'}" rhs="F"/>
       </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 40001..50000">
@@ -505,8 +505,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueil', 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil', 'Laval'})=false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -522,7 +522,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueil', 'Laval'}" rhs="F"/>
+        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil', 'Laval'}" rhs="F"/>
       </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 50001..60000">
@@ -605,8 +605,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueil', 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil', 'Laval'})=false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -622,7 +622,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueil', 'Laval'}" rhs="F"/>
+        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil', 'Laval'}" rhs="F"/>
       </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 60001..70000">
@@ -705,8 +705,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueil', 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil', 'Laval'})=false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -722,7 +722,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueil', 'Laval'}" rhs="F"/>
+        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil', 'Laval'}" rhs="F"/>
       </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 70001..75000">
@@ -805,8 +805,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueil', 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil', 'Laval'})=false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -822,7 +822,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueil', 'Laval'}" rhs="F"/>
+        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil', 'Laval'}" rhs="F"/>
       </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 75001..80000">
@@ -905,8 +905,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueil', 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil', 'Laval'})=false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -922,7 +922,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueil', 'Laval'}" rhs="F"/>
+        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil', 'Laval'}" rhs="F"/>
       </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 80001..90000">
@@ -1005,8 +1005,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueil', 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil', 'Laval'})=false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -1022,7 +1022,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueil', 'Laval'}" rhs="F"/>
+        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil', 'Laval'}" rhs="F"/>
       </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 90001..100000">
@@ -1105,8 +1105,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueil', 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil', 'Laval'})=false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -1122,7 +1122,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueil', 'Laval'}" rhs="F"/>
+        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil', 'Laval'}" rhs="F"/>
       </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 100001..200000">
@@ -1205,8 +1205,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueil', 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil', 'Laval'})=false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -1222,7 +1222,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueil', 'Laval'}" rhs="F"/>
+        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil', 'Laval'}" rhs="F"/>
       </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance >=200001">
@@ -1517,8 +1517,8 @@
     <conditionSection rowCount="51" columnWidthFactor="0.5">
       <conditionItemList rowHeight="56">
         <valueSetCell/>
-        <expressionCell external="ma.city in {'Montréal', 'Longueil', 'Laval'}">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ma.city in { 'Montréal' , 'Longueil' , 'Laval' }" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="ma.city in {'Montréal', 'Longueuil', 'Laval'}">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ma.city in { 'Montréal' , 'Longueuil' , 'Laval' }" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -1558,7 +1558,7 @@
       <ruleColumnList ruleId="0" columnWidth="100" pRule="#//@ruleset/@rules.0"/>
       <ruleColumnList ruleId="1" columnWidth="103" pRule="#//@ruleset/@rules.1">
         <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -1648,7 +1648,7 @@
       </ruleColumnList>
       <ruleColumnList ruleId="2" columnWidth="100" pRule="#//@ruleset/@rules.2">
         <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -1738,7 +1738,7 @@
       </ruleColumnList>
       <ruleColumnList ruleId="3" columnWidth="100" pRule="#//@ruleset/@rules.3">
         <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -1828,7 +1828,7 @@
       </ruleColumnList>
       <ruleColumnList ruleId="4" columnWidth="100" pRule="#//@ruleset/@rules.4">
         <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -1918,7 +1918,7 @@
       </ruleColumnList>
       <ruleColumnList ruleId="5" columnWidth="100" pRule="#//@ruleset/@rules.5">
         <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -2008,7 +2008,7 @@
       </ruleColumnList>
       <ruleColumnList ruleId="6" columnWidth="100" pRule="#//@ruleset/@rules.6">
         <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -2098,7 +2098,7 @@
       </ruleColumnList>
       <ruleColumnList ruleId="7" columnWidth="100" pRule="#//@ruleset/@rules.7">
         <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -2188,7 +2188,7 @@
       </ruleColumnList>
       <ruleColumnList ruleId="8" columnWidth="100" pRule="#//@ruleset/@rules.8">
         <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -2278,7 +2278,7 @@
       </ruleColumnList>
       <ruleColumnList ruleId="9" columnWidth="100" pRule="#//@ruleset/@rules.9">
         <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -2368,7 +2368,7 @@
       </ruleColumnList>
       <ruleColumnList ruleId="10" columnWidth="100" pRule="#//@ruleset/@rules.10">
         <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -2458,7 +2458,7 @@
       </ruleColumnList>
       <ruleColumnList ruleId="11" columnWidth="100" pRule="#//@ruleset/@rules.11">
         <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -2548,7 +2548,7 @@
       </ruleColumnList>
       <ruleColumnList ruleId="12" columnWidth="122" pRule="#//@ruleset/@rules.12">
         <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
@@ -2638,7 +2638,7 @@
       </ruleColumnList>
       <ruleColumnList ruleId="13" columnWidth="210" pRule="#//@ruleset/@rules.13">
         <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
                 <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">

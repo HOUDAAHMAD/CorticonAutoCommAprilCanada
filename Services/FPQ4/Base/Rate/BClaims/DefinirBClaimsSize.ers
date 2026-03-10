@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_05eUIxyUEfGGTIM5wFhjsg" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_UyWxQhyVEfGGTIM5wFhjsg" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
   <ruleset vocabularyUpdateStamp="_yFV_ohyUEfGGTIM5wFhjsg" vocabulary="../../../../../AutoComm.ecore#/0">
     <rule/>
@@ -21,10 +21,10 @@
         <viewExpressions lhs="cla->size" rhs="0"/>
       </condition>
       <action>
-        <opaqueExpression expression="ca.aClaimsSize = ClaimsSize#0">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.aClaimsSize = 0" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ca.bClaimsSize = ClaimsSize#0">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.bClaimsSize = 0" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="aClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.aClaimsSize">
+              <terms text="bClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.bClaimsSize">
                 <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
                     <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
@@ -69,10 +69,10 @@
         <viewExpressions lhs="cla->size" rhs="1"/>
       </condition>
       <action>
-        <opaqueExpression expression="ca.aClaimsSize = ClaimsSize#1">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.aClaimsSize = 1" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ca.bClaimsSize = ClaimsSize#1">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.bClaimsSize = 1" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="aClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.aClaimsSize">
+              <terms text="bClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.bClaimsSize">
                 <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
                     <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
@@ -117,10 +117,10 @@
         <viewExpressions lhs="cla->size" rhs="2"/>
       </condition>
       <action>
-        <opaqueExpression expression="ca.aClaimsSize = ClaimsSize#2">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.aClaimsSize = 2" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ca.bClaimsSize = ClaimsSize#2">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.bClaimsSize = 2" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="aClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.aClaimsSize">
+              <terms text="bClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.bClaimsSize">
                 <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
                     <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
@@ -165,10 +165,10 @@
         <viewExpressions lhs="cla->size" rhs="3"/>
       </condition>
       <action>
-        <opaqueExpression expression="ca.aClaimsSize = ClaimsSize#3">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.aClaimsSize = 3" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ca.bClaimsSize = ClaimsSize#3">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.bClaimsSize = 3" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="aClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.aClaimsSize">
+              <terms text="bClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.bClaimsSize">
                 <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
                     <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
@@ -205,21 +205,24 @@
           <extension association="true" entity="../../../../../AutoComm.ecore#/0/CalculationVariables" traversedAssocRole="../../../../../AutoComm.ecore#/0/LocationsFPQ4/CalculationVariables">
             <extension explicit="true" association="true" entity="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4" traversedAssocRole="../../../../../AutoComm.ecore#/0/CalculationVariables/CalculationsVariablesFPQ4">
               <alias value="ca"/>
-              <referencedAttributes attribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/aClaimsSize"/>
+              <referencedAttributes attribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/bClaimsSize"/>
             </extension>
           </extension>
         </extension>
       </extension>
     </logicalVariable>
+    <logicalVariable entity="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4">
+      <referencedAttributes attribute="../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/bClaimsSize"/>
+    </logicalVariable>
   </ruleset>
-  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true">
-    <actionSection rowCount="49" columnWidthFactor="0.5">
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightScope="50">
+    <actionSection rowCount="50" columnWidthFactor="0.5">
       <actionItemList>
         <valueSetCell/>
-        <expressionCell external="ca.aClaimsSize">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.aClaimsSize" datatype="Integer" expressiontype="EXPRESSION" enumeration="true" cellValue="false">
+        <expressionCell external="ca.bClaimsSize">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.bClaimsSize" datatype="Integer" expressiontype="EXPRESSION" enumeration="true" cellValue="false">
             <referencedTermList>
-              <terms text="aClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.aClaimsSize">
+              <terms text="bClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.bClaimsSize">
                 <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
                     <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
@@ -250,6 +253,9 @@
               </children>
             </children>
           </children>
+        </children>
+        <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeEntity" logicalVariable="#//@ruleset/@logicalVariables.1">
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.1/@referencedAttributes.0"/>
         </children>
       </rootNode>
     </scopeSection>
@@ -290,9 +296,9 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="ClaimsSize#0">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.aClaimsSize = 0" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.bClaimsSize = 0" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="aClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.aClaimsSize">
+              <terms text="bClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.bClaimsSize">
                 <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables">
                     <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
@@ -333,9 +339,9 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="ClaimsSize#1">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.aClaimsSize = 1" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.bClaimsSize = 1" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="aClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.aClaimsSize">
+              <terms text="bClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.bClaimsSize">
                 <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables">
                     <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
@@ -376,9 +382,9 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="ClaimsSize#2">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.aClaimsSize = 2" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.bClaimsSize = 2" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="aClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.aClaimsSize">
+              <terms text="bClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.bClaimsSize">
                 <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables">
                     <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
@@ -419,9 +425,9 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="ClaimsSize#3">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.aClaimsSize = 3" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.bClaimsSize = 3" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="aClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.aClaimsSize">
+              <terms text="bClaimsSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.bClaimsSize">
                 <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables">
                     <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">

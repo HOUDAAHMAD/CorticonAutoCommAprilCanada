@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">
     <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_s1xZ8BvEEfGgu85bEqt2Sw" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="49">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_yFV_ohyUEfGGTIM5wFhjsg" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
         <languageCode>fr_FR</languageCode>
         <databaseAccess databasePropertyDisplayCount="50">
           <databaseId manuallyCreated="true" value="com.corticon.database.id.MsSql"/>
@@ -13,23 +13,23 @@
         </databaseAccess>
         <customDataTypeList enumerationDisplayCount="51" eDataType="#/0/ClaimsSize">
           <dataTypeName manuallyCreated="true" value="ClaimsSize"/>
-          <baseDataType manuallyCreated="true" value="String"/>
+          <baseDataType manuallyCreated="true" value="Integer"/>
           <enumeration value="true"/>
           <enumerationElements>
-            <label manuallyCreated="true" value="zero"/>
-            <value manuallyCreated="true" value="'zero'"/>
+            <label manuallyCreated="true" value="0"/>
+            <value manuallyCreated="true" value="0"/>
           </enumerationElements>
           <enumerationElements>
-            <label manuallyCreated="true" value="un"/>
-            <value manuallyCreated="true" value="'un'"/>
+            <label manuallyCreated="true" value="1"/>
+            <value manuallyCreated="true" value="1"/>
           </enumerationElements>
           <enumerationElements>
-            <label manuallyCreated="true" value="deux"/>
-            <value manuallyCreated="true" value="'deux'"/>
+            <label manuallyCreated="true" value="2"/>
+            <value manuallyCreated="true" value="2"/>
           </enumerationElements>
           <enumerationElements>
-            <label manuallyCreated="true" value="trois"/>
-            <value manuallyCreated="true" value="'trois'"/>
+            <label manuallyCreated="true" value="3"/>
+            <value manuallyCreated="true" value="3"/>
           </enumerationElements>
         </customDataTypeList>
         <databaseMetadata>
@@ -2438,6 +2438,14 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="bClaimsSize" eType="#/0/ClaimsSize">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" customDataType="#/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@customDataTypeList.0">
+            <name manuallyCreated="true" value="bClaimsSize"/>
+            <mode manuallyCreated="true" value="ExtendedTransient"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="RatesFPQ4">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
@@ -2585,7 +2593,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="BClaimsSurcharge" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="BClaimsSurcharge" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
             <name manuallyCreated="true" value="BClaimsSurcharge"/>
@@ -3651,10 +3659,10 @@
       </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EEnum" name="ClaimsSize">
-      <eLiterals name="zero" literal="'zero'"/>
-      <eLiterals name="un" value="1" literal="'un'"/>
-      <eLiterals name="deux" value="2" literal="'deux'"/>
-      <eLiterals name="trois" value="3" literal="'trois'"/>
+      <eLiterals name="0" literal="0"/>
+      <eLiterals name="1" value="1" literal="1"/>
+      <eLiterals name="2" value="2" literal="2"/>
+      <eLiterals name="3" value="3" literal="3"/>
     </eClassifiers>
   </ecore:EPackage>
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">

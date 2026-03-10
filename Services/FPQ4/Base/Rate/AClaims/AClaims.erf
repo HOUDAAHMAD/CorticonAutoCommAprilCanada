@@ -2,7 +2,7 @@
 <com.corticon.rulesemf.assetmodel:RuleflowAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.canonicalrulemodel.ruleflow="http:///com/corticon/rulesemf/canonicalrulemodel/ruleflow.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram="http:///com/corticon/rulesemf/viewrulemodel/ruleflow/flowdiagram.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_NBRakByVEfGGTIM5wFhjsg" externalChecksum="2722078124:1438690353:2393165206" studioType="Java" rulesheetAssets="DefinirAClaimsSize.ers#/ AClaimsSize0.ers#/ AClaimsSize1.ers#/" ruleflowAssets="AClaimsSize2.erf#/">
   <ruleflow majorVersion="1" vocabularyUpdateStamp="_yFV_ohyUEfGGTIM5wFhjsg" vocabulary="../../../../../AutoComm.ecore#/0">
     <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="DefinirAClaimsSize" order="1" ruleActivityUpdateStamp="_05eUIxyUEfGGTIM5wFhjsg" nextStep="#//@ruleflow/@flowControlList.1" invokes="DefinirAClaimsSize.ers#//@ruleset"/>
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="aClaimsSize" order="2" ruleActivityUpdateStamp="_3Z0J8hyUEfGGTIM5wFhjsg" invokes="#//@ruleflow/@flowControlList.1">
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="aClaimsSize" order="2" ruleActivityUpdateStamp="_NBRakByVEfGGTIM5wFhjsg" invokes="#//@ruleflow/@flowControlList.1">
       <condition expression="FPQ4.LocationsFPQ4.CalculationVariables.CalculationsVariablesFPQ4.aClaimsSize">
         <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="FPQ4.LocationsFPQ4.CalculationVariables.CalculationsVariablesFPQ4.aClaimsSize" datatype="Integer" expressiontype="EXPRESSION" enumeration="true" cellValue="false">
           <referencedTermList>
@@ -24,12 +24,12 @@
         <viewExpressions lhs="FPQ4.LocationsFPQ4.CalculationVariables.CalculationsVariablesFPQ4.aClaimsSize" rhs="ClaimsSize#0"/>
       </branches>
       <branches>
-        <nextStep xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="AClaimsSize1" order="4" ruleActivityUpdateStamp="_sGCtQxxgEfGGTIM5wFhjsg" invokes="AClaimsSize1.ers#//@ruleset"/>
+        <nextStep xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="AClaimsSize1" order="4" ruleActivityUpdateStamp="_Ftr4MhyVEfGGTIM5wFhjsg" invokes="AClaimsSize1.ers#//@ruleset"/>
         <label expression="ClaimsSize#1"/>
         <viewExpressions lhs="FPQ4.LocationsFPQ4.CalculationVariables.CalculationsVariablesFPQ4.aClaimsSize" rhs="ClaimsSize#1"/>
       </branches>
       <branches>
-        <nextStep xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="AClaimsSize2" order="5" ruleActivityUpdateStamp="_CXZOoByREfGGTIM5wFhjsg" invokes="AClaimsSize2.erf#//@ruleflow"/>
+        <nextStep xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="AClaimsSize2" order="5" ruleActivityUpdateStamp="_NBT20ByVEfGGTIM5wFhjsg" invokes="AClaimsSize2.erf#//@ruleflow"/>
         <label expression="ClaimsSize#2"/>
         <viewExpressions lhs="FPQ4.LocationsFPQ4.CalculationVariables.CalculationsVariablesFPQ4.aClaimsSize" rhs="ClaimsSize#2"/>
       </branches>

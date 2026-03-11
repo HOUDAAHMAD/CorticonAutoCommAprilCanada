@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">
     <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_yFV_ohyUEfGGTIM5wFhjsg" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_IUDkoR0xEfG_7KbIObXhKw" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
         <languageCode>fr_FR</languageCode>
         <databaseAccess databasePropertyDisplayCount="50">
           <databaseId manuallyCreated="true" value="com.corticon.database.id.MsSql"/>
@@ -2442,6 +2442,14 @@
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" customDataType="#/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@customDataTypeList.0">
             <name manuallyCreated="true" value="bClaimsSize"/>
+            <mode manuallyCreated="true" value="ExtendedTransient"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="asize3" eType="#/0/ClaimsSize">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" customDataType="#/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@customDataTypeList.0">
+            <name manuallyCreated="true" value="asize3"/>
             <mode manuallyCreated="true" value="ExtendedTransient"/>
           </contents>
         </eAnnotations>

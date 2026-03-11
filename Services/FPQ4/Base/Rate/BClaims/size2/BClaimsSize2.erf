@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RuleflowAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.canonicalrulemodel.ruleflow="http:///com/corticon/rulesemf/canonicalrulemodel/ruleflow.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram="http:///com/corticon/rulesemf/viewrulemodel/ruleflow/flowdiagram.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_G2lnsByaEfGGTIM5wFhjsg" externalChecksum="2722078124:1438690353:2393165206" studioType="Java" rulesheetAssets="size2/BClaimsSize2_Bigger36.ers#/">
-  <ruleflow majorVersion="1" vocabularyUpdateStamp="_yFV_ohyUEfGGTIM5wFhjsg" vocabulary="../../../../../../AutoComm.ecore#/0">
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="BClaimsSize2_Bigger36" order="1" ruleActivityUpdateStamp="_BU-ZQByaEfGGTIM5wFhjsg" nextStep="#//@ruleflow/@flowControlList.1" invokes="BClaimsSize2_Bigger36.ers#//@ruleset"/>
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="BClaimsSize2_smaller36" order="2" ruleActivityUpdateStamp="__u0TwByZEfGGTIM5wFhjsg" invokes="BClaimsSize2_smaller36.ers#//@ruleset"/>
+<com.corticon.rulesemf.assetmodel:RuleflowAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.canonicalrulemodel.ruleflow="http:///com/corticon/rulesemf/canonicalrulemodel/ruleflow.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram="http:///com/corticon/rulesemf/viewrulemodel/ruleflow/flowdiagram.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_kpxkkB1TEfG1UvLK485LzA" externalChecksum="2722078124:1438690353:2393165206" studioType="Java" rulesheetAssets="BClaimsSize2_Inf36.ers#/ BClaimsSize2_InfSup36.ers#/">
+  <ruleflow majorVersion="1" vocabularyUpdateStamp="_IUDkoR0xEfG_7KbIObXhKw" vocabulary="../../../../../../AutoComm.ecore#/0">
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="BClaimsSize2_Inf36" order="2" ruleActivityUpdateStamp="_5h_mEh1SEfGm_o--e3fKyg" invokes="BClaimsSize2_Inf36.ers#//@ruleset"/>
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="BClaimsSize2_InfSup36" order="1" ruleActivityUpdateStamp="_9AcC5x1SEfGm_o--e3fKyg" nextStep="#//@ruleflow/@flowControlList.0" invokes="BClaimsSize2_InfSup36.ers#//@ruleset"/>
   </ruleflow>
   <ruleflowViewList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:FlowDiagram">
-    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="212" y="43" width="185" height="36" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.0" activityNode="#//@ruleflow/@flowControlList.0">
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="108" y="108" width="187" height="42" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.0" activityNode="#//@ruleflow/@flowControlList.0">
       <annotations name="Color" value="8454143"/>
     </flowShapeList>
-    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="210" y="108" width="187" height="36" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.0" activityNode="#//@ruleflow/@flowControlList.1">
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="108" y="42" width="187" height="43" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.0" activityNode="#//@ruleflow/@flowControlList.1">
       <annotations name="Color" value="8454143"/>
     </flowShapeList>
-    <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.0" targetShape="#//@ruleflowViewList.0/@flowShapeList.1"/>
+    <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.1" targetShape="#//@ruleflowViewList.0/@flowShapeList.0"/>
   </ruleflowViewList>
 </com.corticon.rulesemf.assetmodel:RuleflowAsset>

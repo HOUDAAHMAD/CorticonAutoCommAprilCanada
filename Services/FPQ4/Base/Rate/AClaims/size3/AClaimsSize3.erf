@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.corticon.rulesemf.assetmodel:RuleflowAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.canonicalrulemodel.ruleflow="http:///com/corticon/rulesemf/canonicalrulemodel/ruleflow.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram="http:///com/corticon/rulesemf/viewrulemodel/ruleflow/flowdiagram.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_czQwwh1SEfGm_o--e3fKyg" externalChecksum="2722078124:1438690353:2393165206" studioType="Java" rulesheetAssets="AClaims_size_size3.ers#/ AClaimsALL_Sup36.ers#/ AClaimsALL_Inf36.ers#/ AClaimsONE_Inf36.ers#/ AClaimsTWO_Inf36.ers#/">
+  <ruleflow majorVersion="1" vocabularyUpdateStamp="_IUDkoR0xEfG_7KbIObXhKw" vocabulary="../../../../../../AutoComm.ecore#/0">
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="AClaims_size_size3" order="3" ruleActivityUpdateStamp="_Kd0GdB0xEfG_7KbIObXhKw" nextStep="#//@ruleflow/@flowControlList.3" invokes="AClaims_size_size3.ers#//@ruleset"/>
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="AClaimsALL_Sup36" order="1" ruleActivityUpdateStamp="_C0INtR0wEfGyyIWkN8HJ8w" nextStep="#//@ruleflow/@flowControlList.2" invokes="AClaimsALL_Sup36.ers#//@ruleset"/>
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="AClaimsALL_Inf36" order="2" ruleActivityUpdateStamp="_ELzLRx0wEfGyyIWkN8HJ8w" nextStep="#//@ruleflow/@flowControlList.0" invokes="AClaimsALL_Inf36.ers#//@ruleset"/>
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="regroupement en fontion de nombre de Claims Inf 36" order="4" ruleActivityUpdateStamp="_czGYsh1SEfGm_o--e3fKyg" invokes="#//@ruleflow/@flowControlList.3">
+      <condition expression="CalculationsVariablesFPQ4.asize3">
+        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="CalculationsVariablesFPQ4.asize3" datatype="Integer" expressiontype="EXPRESSION" enumeration="true" cellValue="false">
+          <referencedTermList>
+            <terms text="asize3" datatype="Integer" termtype="ATTRIBUTE" fulltext="CalculationsVariablesFPQ4.asize3">
+              <parentTerm text="CalculationsVariablesFPQ4" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="CalculationsVariablesFPQ4"/>
+            </terms>
+          </referencedTermList>
+        </parserOutput>
+      </condition>
+      <branches>
+        <nextStep xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="AClaimsONE_Inf36" order="5" ruleActivityUpdateStamp="_s3MKZh0xEfG_7KbIObXhKw" invokes="AClaimsONE_Inf36.ers#//@ruleset"/>
+        <label expression="ClaimsSize#1"/>
+        <viewExpressions lhs="CalculationsVariablesFPQ4.asize3" rhs="ClaimsSize#1"/>
+      </branches>
+      <branches>
+        <nextStep xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="AClaimsTWO_Inf36" order="6" ruleActivityUpdateStamp="_l6FuBB00EfG_7KbIObXhKw" invokes="AClaimsTWO_Inf36.ers#//@ruleset"/>
+        <label expression="ClaimsSize#2"/>
+        <viewExpressions lhs="CalculationsVariablesFPQ4.asize3" rhs="ClaimsSize#2"/>
+      </branches>
+    </flowControlList>
+  </ruleflow>
+  <ruleflowViewList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:FlowDiagram">
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="204" y="168" width="157" height="55" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.0" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.2" activityNode="#//@ruleflow/@flowControlList.0">
+      <annotations name="Color" value="8454143"/>
+    </flowShapeList>
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="204" y="36" width="157" height="45" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.1" activityNode="#//@ruleflow/@flowControlList.1">
+      <annotations name="Color" value="8454143"/>
+    </flowShapeList>
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="204" y="102" width="157" height="49" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.2" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.1" activityNode="#//@ruleflow/@flowControlList.2">
+      <annotations name="Color" value="8454143"/>
+    </flowShapeList>
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:BranchContainerShape" x="84" y="252" width="398" height="205" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.0" activityNode="#//@ruleflow/@flowControlList.3" valid="true" branchContainer="#//@ruleflow/@flowControlList.3">
+      <annotations name="Color" value="16777088"/>
+      <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="115" y="12" width="157" height="49" inboundEdges="#//@ruleflowViewList.0/@flowShapeList.3/@branchEdgeList.0" activityNode="#//@ruleflow/@flowControlList.3/@branches.0/@nextStep.0">
+        <annotations name="Color" value="8454143"/>
+      </flowShapeList>
+      <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="115" y="84" width="157" height="51" inboundEdges="#//@ruleflowViewList.0/@flowShapeList.3/@branchEdgeList.1" activityNode="#//@ruleflow/@flowControlList.3/@branches.1/@nextStep.0">
+        <annotations name="Color" value="8454143"/>
+      </flowShapeList>
+      <branchEdgeList targetShape="#//@ruleflowViewList.0/@flowShapeList.3/@flowShapeList.0" branch="#//@ruleflow/@flowControlList.3/@branches.0"/>
+      <branchEdgeList targetShape="#//@ruleflowViewList.0/@flowShapeList.3/@flowShapeList.1" branch="#//@ruleflow/@flowControlList.3/@branches.1"/>
+    </flowShapeList>
+    <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.0" targetShape="#//@ruleflowViewList.0/@flowShapeList.3"/>
+    <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.1" targetShape="#//@ruleflowViewList.0/@flowShapeList.2"/>
+    <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.2" targetShape="#//@ruleflowViewList.0/@flowShapeList.0"/>
+  </ruleflowViewList>
+</com.corticon.rulesemf.assetmodel:RuleflowAsset>

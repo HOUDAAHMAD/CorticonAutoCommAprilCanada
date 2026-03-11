@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_Kz8YoRybEfGGTIM5wFhjsg" externalChecksum="2722078124:1438690353" studioType="Java">
-  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_vz_10RyZEfGGTIM5wFhjsg" externalChecksum="2722078124:1438690353">
-    <testsheet ruleActivityUpdateStamp="_uCA60RyZEfGGTIM5wFhjsg" ruleActivity="AClaims.erf#//@ruleflow" locale="">
+<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="__HnKwB1SEfGm_o--e3fKyg" externalChecksum="2722078124:1438690353" studioType="Java">
+  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="__j6FMB1SEfGm_o--e3fKyg" externalChecksum="2722078124:1438690353">
+    <testsheet ruleActivityUpdateStamp="_mPBnwB0qEfGyyIWkN8HJ8w" ruleActivity="AClaims.erf#//@ruleflow" locale="">
       <input/>
       <output/>
       <expectedOutput/>
@@ -10,7 +10,7 @@
       <inputRoot>
         <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestEntity" nodeID="1" manuallyCreated="true" eClass="../../../../../../AutoComm.ecore#/0/Request">
           <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../../AutoComm.ecore#/0/Request/FPQ4" eClass="../../../../../../AutoComm.ecore#/0/FPQ4">
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" expanded="false" eReference="../../../../../../AutoComm.ecore#/0/FPQ4/LocationsFPQ4" eClass="../../../../../../AutoComm.ecore#/0/LocationsFPQ4">
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../../AutoComm.ecore#/0/FPQ4/LocationsFPQ4" eClass="../../../../../../AutoComm.ecore#/0/LocationsFPQ4">
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/LocationsFPQ4/id"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../../AutoComm.ecore#/0/LocationsFPQ4/CalculationVariables" eClass="../../../../../../AutoComm.ecore#/0/CalculationVariables">
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" expanded="false" eReference="../../../../../../AutoComm.ecore#/0/CalculationVariables/CalculationsVariablesFPQ4" eClass="../../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4">
@@ -46,18 +46,10 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../../../../AutoComm.ecore#/0/FPQ4/Claims" eClass="../../../../../../AutoComm.ecore#/0/Claims">
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/causeOfLoss"/>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/claimStatus"/>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="01/04/2025" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/dateOfLoss"/>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/lossAmountPaid"/>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/lossDescription"/>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/reserve"/>
-            </children>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" manuallyCreated="true" eReference="../../../../../../AutoComm.ecore#/0/FPQ4/Claims" eClass="../../../../../../AutoComm.ecore#/0/Claims">
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/causeOfLoss"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/claimStatus"/>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="25/04/2024" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/dateOfLoss"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="05/06/2025" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/dateOfLoss"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/lossAmountPaid"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/lossDescription"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/reserve"/>
@@ -65,7 +57,7 @@
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="3" manuallyCreated="true" eReference="../../../../../../AutoComm.ecore#/0/FPQ4/Claims" eClass="../../../../../../AutoComm.ecore#/0/Claims">
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/causeOfLoss"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/claimStatus"/>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="05/04/2025" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/dateOfLoss"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="05/06/2025" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/dateOfLoss"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/lossAmountPaid"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/lossDescription"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/reserve"/>
@@ -76,16 +68,16 @@
       <outputRoot newOrModified="true">
         <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestEntity" nodeID="1" newOrModified="true" eClass="../../../../../../AutoComm.ecore#/0/Request">
           <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../../../AutoComm.ecore#/0/Request/FPQ4" eClass="../../../../../../AutoComm.ecore#/0/FPQ4">
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" eReference="../../../../../../AutoComm.ecore#/0/FPQ4/Claims" eClass="../../../../../../AutoComm.ecore#/0/Claims">
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="01/04/2025" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/dateOfLoss"/>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" eReference="../../../../../../AutoComm.ecore#/0/FPQ4/Claims" eClass="../../../../../../AutoComm.ecore#/0/Claims">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="05/06/2025" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/dateOfLoss"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/reserve"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/lossDescription"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/causeOfLoss"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/lossAmountPaid"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/claimStatus"/>
             </children>
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" eReference="../../../../../../AutoComm.ecore#/0/FPQ4/Claims" eClass="../../../../../../AutoComm.ecore#/0/Claims">
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="25/04/2022" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/dateOfLoss"/>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="3" eReference="../../../../../../AutoComm.ecore#/0/FPQ4/Claims" eClass="../../../../../../AutoComm.ecore#/0/Claims">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="05/06/2025" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/dateOfLoss"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/reserve"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/lossDescription"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../../AutoComm.ecore#/0/Claims/causeOfLoss"/>
@@ -96,7 +88,7 @@
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../../../AutoComm.ecore#/0/LocationsFPQ4/CalculationVariables" eClass="../../../../../../AutoComm.ecore#/0/CalculationVariables">
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../../../../../AutoComm.ecore#/0/CalculationVariables/CalculationsVariablesFPQ4" eClass="../../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4">
                   <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/aWithBSurchargedPremium"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="deux" eAttribute="../../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/aClaimsSize"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="2" eAttribute="../../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/aClaimsSize"/>
                   <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/quebecPercentage"/>
                   <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/FPQ4ABasePremium"/>
                   <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/claimsCount"/>
@@ -138,7 +130,7 @@
       <outputRuleTraceSection/>
     </testsheetViewList>
   </testsheetAssets>
-  <ruletest vocabularyUpdateStamp="_yFV_ohyUEfGGTIM5wFhjsg" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../../../../../AutoComm.ecore#/0"/>
+  <ruletest vocabularyUpdateStamp="_IUDkoR0xEfG_7KbIObXhKw" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../../../../../AutoComm.ecore#/0"/>
   <ruletestViewList xsi:type="com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder:TestTabFolder">
     <testTabList name="untitled_1"/>
   </ruletestViewList>

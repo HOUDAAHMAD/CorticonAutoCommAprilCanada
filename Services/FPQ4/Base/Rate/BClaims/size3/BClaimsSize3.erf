@@ -4,7 +4,7 @@
     <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="BClaims_size_size3" order="3" ruleActivityUpdateStamp="_9mgDsB1aEfG1UvLK485LzA" nextStep="#//@ruleflow/@flowControlList.3" invokes="BClaims_size_size3.ers#//@ruleset"/>
     <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="BClaimsALL_Sup36" order="1" ruleActivityUpdateStamp="_ai1QIx1bEfG1UvLK485LzA" nextStep="#//@ruleflow/@flowControlList.2" invokes="BClaimsALL_Sup36.ers#//@ruleset"/>
     <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="BClaimsALL_Inf36" order="2" ruleActivityUpdateStamp="_TrLb1x1bEfG1UvLK485LzA" nextStep="#//@ruleflow/@flowControlList.0" invokes="BClaimsALL_Inf36.ers#//@ruleset"/>
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="regroupement en fontion de nombre de Claims Inf 36" order="4" ruleActivityUpdateStamp="_Ga1VNh1dEfG1UvLK485LzA" invokes="#//@ruleflow/@flowControlList.3">
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="regroupement en fontion de nombre de Claims Inf 36" order="4" ruleActivityUpdateStamp="_Ga18QR1dEfG1UvLK485LzA" invokes="#//@ruleflow/@flowControlList.3">
       <condition expression="CalculationsVariablesFPQ4.bsize3">
         <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="CalculationsVariablesFPQ4.bsize3" datatype="Integer" expressiontype="EXPRESSION" enumeration="true" cellValue="false">
           <referencedTermList>

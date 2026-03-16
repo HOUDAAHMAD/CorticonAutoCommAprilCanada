@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_DpBHMRyUEfGGTIM5wFhjsg" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_QyW2ciE-EfGhv40uR6YgrQ" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_4iu60RyJEfGGTIM5wFhjsg" vocabulary="../../../../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_w49aEB1aEfG1UvLK485LzA" vocabulary="../../../../../../AutoComm.ecore#/0">
     <rule/>
     <rule>
       <condition>
@@ -43,8 +43,8 @@
         <viewExpressions lhs="co.amountOfInsurance" rhs="5001..20000"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.FPQ4B2Rate = 0.55">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.55" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.FPQ4B2Rate=0.55/100">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.55 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -143,8 +143,8 @@
         <viewExpressions lhs="co.amountOfInsurance" rhs="20001..25000"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.FPQ4B2Rate = 0.60">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.60" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.FPQ4B2Rate=0.60/100">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.60 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -243,8 +243,8 @@
         <viewExpressions lhs="co.amountOfInsurance" rhs="25001..30000"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.FPQ4B2Rate = 0.65">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.65" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.FPQ4B2Rate=0.65/100">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.65 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -343,8 +343,8 @@
         <viewExpressions lhs="co.amountOfInsurance" rhs="30001..40000"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.FPQ4B2Rate = 0.70">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.70" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.FPQ4B2Rate=0.70/100">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.70 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -443,8 +443,8 @@
         <viewExpressions lhs="co.amountOfInsurance" rhs="40001..50000"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.FPQ4B2Rate = 0.75">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.75" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.FPQ4B2Rate=0.75/100">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.75 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -543,8 +543,8 @@
         <viewExpressions lhs="co.amountOfInsurance" rhs="50001..60000"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.FPQ4B2Rate = 0.80">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.80" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.FPQ4B2Rate=0.80/100">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.80 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -643,8 +643,8 @@
         <viewExpressions lhs="co.amountOfInsurance" rhs="60001..70000"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.FPQ4B2Rate = 0.85">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.85" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.FPQ4B2Rate=0.85/100">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.85 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -743,8 +743,8 @@
         <viewExpressions lhs="co.amountOfInsurance" rhs="70001..75000"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.FPQ4B2Rate = 0.90">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.90" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.FPQ4B2Rate=0.90/100">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.90 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -843,8 +843,8 @@
         <viewExpressions lhs="co.amountOfInsurance" rhs="75001..80000"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.FPQ4B2Rate = 0.90">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.90" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.FPQ4B2Rate=0.90/100">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.90 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -943,8 +943,8 @@
         <viewExpressions lhs="co.amountOfInsurance" rhs="80001..90000"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.FPQ4B2Rate = 0.95">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.95" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.FPQ4B2Rate=0.95/100">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.95 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -1043,8 +1043,8 @@
         <viewExpressions lhs="co.amountOfInsurance" rhs="90001..100000"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.FPQ4B2Rate = 1.00">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 1.00" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.FPQ4B2Rate=1.00/100">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 1.00 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -1143,8 +1143,8 @@
         <viewExpressions lhs="co.amountOfInsurance" rhs="100001..200000"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.FPQ4B2Rate = 1.25">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 1.25" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.FPQ4B2Rate=1.25/100">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 1.25 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -1243,8 +1243,8 @@
         <viewExpressions lhs="co.amountOfInsurance" rhs=">=200001"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.FPQ4B2Rate = 1.25">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 1.25" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.FPQ4B2Rate=1.25/100">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 1.25 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -1380,12 +1380,27 @@
       </extension>
     </logicalVariable>
   </ruleset>
-  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightAdvancedView="35" sashWeightConditionsActions="50" sashWeightConditionsIf="34">
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightAdvancedView="35" sashWeightConditionsActions="50" sashWeightConditionsIf="38">
     <actionSection rowCount="50" columnWidthFactor="0.5">
       <actionItemList>
         <valueSetCell/>
-        <expressionCell external="ra.FPQ4B2Rate">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="ra.FPQ4B2Rate=cellValue/100">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = cellValue / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="true">
+            <modifiedTermList>
+              <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
+                <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                      <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                        <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                        </parentTerm>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
             <referencedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -1590,7 +1605,7 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0.55">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.55" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.55 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">
@@ -1680,7 +1695,7 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0.60">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.60" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.60 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">
@@ -1770,7 +1785,7 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0.65">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.65" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.65 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">
@@ -1860,7 +1875,7 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0.70">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.70" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.70 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">
@@ -1950,7 +1965,7 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0.75">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.75" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.75 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">
@@ -2040,7 +2055,7 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0.80">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.80" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.80 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">
@@ -2130,7 +2145,7 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0.85">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.85" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.85 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">
@@ -2220,7 +2235,7 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0.90">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.90" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.90 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">
@@ -2310,7 +2325,7 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0.90">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.90" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.90 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">
@@ -2400,7 +2415,7 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0.95">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.95" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 0.95 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">
@@ -2490,7 +2505,7 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="1.00">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 1.00" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 1.00 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">
@@ -2580,7 +2595,7 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="1.25">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 1.25" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 1.25 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">
@@ -2670,7 +2685,7 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="1.25">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 1.25" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.FPQ4B2Rate = 1.25 / 100" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="FPQ4B2Rate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.FPQ4B2Rate">
                 <parentTerm text="ra" datatype="RatesFPQ4" termtype="ENTITY" fulltext="ra">

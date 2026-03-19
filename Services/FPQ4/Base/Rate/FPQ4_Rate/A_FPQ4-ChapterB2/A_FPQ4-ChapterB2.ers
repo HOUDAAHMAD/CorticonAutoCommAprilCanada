@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_pb8guCFREfGhv40uR6YgrQ" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_425-YyO4EfGTkd5NfJOWRg" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
   <ruleset vocabularyUpdateStamp="_w49aEB1aEfG1UvLK485LzA" vocabulary="../../../../../../AutoComm.ecore#/0">
     <rule/>
@@ -1277,8 +1277,8 @@
         </opaqueExpression>
       </action>
       <action>
-        <opaqueExpression expression="co.deductible = 0.05*co.amountOfInsurance">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = 0.05 * co.amountOfInsurance" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="co.deductible = (0.05*co.amountOfInsurance).round">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = ( 0.05 * co.amountOfInsurance ).round" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="deductible" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.deductible">
                 <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
@@ -2586,8 +2586,8 @@
         </opaqueExpression>
       </action>
       <action>
-        <opaqueExpression expression="co.deductible = 0.05*co.amountOfInsurance">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = 0.05 * co.amountOfInsurance" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="co.deductible = (0.05*co.amountOfInsurance).round">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = ( 0.05 * co.amountOfInsurance ).round" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="deductible" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.deductible">
                 <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
@@ -2689,7 +2689,7 @@
       </extension>
     </logicalVariable>
   </ruleset>
-  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightAdvancedView="35" sashWeightConditionsActions="50" sashWeightConditionsIf="34">
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightAdvancedView="19" sashWeightConditionsActions="50" sashWeightConditionsIf="34">
     <actionSection rowCount="50" columnWidthFactor="0.5">
       <actionItemList>
         <valueSetCell/>
@@ -3960,7 +3960,7 @@
           </parserOutput>
         </actionValueSetCellList>
       </ruleColumnList>
-      <ruleColumnList ruleId="13" columnWidth="210" pRule="#//@ruleset/@rules.13">
+      <ruleColumnList ruleId="13" columnWidth="258" pRule="#//@ruleset/@rules.13">
         <conditionValueSetCellList valueSet="F">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -4025,8 +4025,8 @@
             </referencedTermList>
           </parserOutput>
         </actionValueSetCellList>
-        <actionValueSetCellList valueSet="0.05*co.amountOfInsurance">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = 0.05 * co.amountOfInsurance" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="(0.05*co.amountOfInsurance).round">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = ( 0.05 * co.amountOfInsurance ).round" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="deductible" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.deductible">
                 <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co">
@@ -5049,7 +5049,7 @@
           </parserOutput>
         </actionValueSetCellList>
       </ruleColumnList>
-      <ruleColumnList ruleId="25" columnWidth="100" pRule="#//@ruleset/@rules.25">
+      <ruleColumnList ruleId="25" columnWidth="73" pRule="#//@ruleset/@rules.25">
         <conditionValueSetCellList valueSet="T">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -5139,7 +5139,7 @@
           </parserOutput>
         </actionValueSetCellList>
       </ruleColumnList>
-      <ruleColumnList ruleId="26" columnWidth="100" pRule="#//@ruleset/@rules.26">
+      <ruleColumnList ruleId="26" columnWidth="252" pRule="#//@ruleset/@rules.26">
         <conditionValueSetCellList valueSet="T">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -5204,8 +5204,8 @@
             </referencedTermList>
           </parserOutput>
         </actionValueSetCellList>
-        <actionValueSetCellList valueSet="0.05*co.amountOfInsurance">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = 0.05 * co.amountOfInsurance" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="(0.05*co.amountOfInsurance).round">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = ( 0.05 * co.amountOfInsurance ).round" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="deductible" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.deductible">
                 <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co">

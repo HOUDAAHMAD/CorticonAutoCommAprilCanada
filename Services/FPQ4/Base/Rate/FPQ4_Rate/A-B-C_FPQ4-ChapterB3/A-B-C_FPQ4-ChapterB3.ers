@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_I6ZQ4SHcEfGmPKx3iy3yIA" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_6sq7RCO6EfGTkd5NfJOWRg" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
   <ruleset vocabularyUpdateStamp="_w49aEB1aEfG1UvLK485LzA" vocabulary="../../../../../../AutoComm.ecore#/0">
     <rule/>
     <rule>
-      <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="F"/>
-      </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 5001..20000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 5001 .. 20000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -125,26 +105,6 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="F"/>
-      </condition>
-      <condition>
         <opaqueExpression expression="co.amountOfInsurance in 20001..25000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 20001 .. 25000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -244,26 +204,6 @@
       </action>
     </rule>
     <rule>
-      <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="F"/>
-      </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 25001..30000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 25001 .. 30000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -365,26 +305,6 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="F"/>
-      </condition>
-      <condition>
         <opaqueExpression expression="co.amountOfInsurance in 30001..40000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 30001 .. 40000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -484,26 +404,6 @@
       </action>
     </rule>
     <rule>
-      <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="F"/>
-      </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 40001..50000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 40001 .. 50000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -605,26 +505,6 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="F"/>
-      </condition>
-      <condition>
         <opaqueExpression expression="co.amountOfInsurance in 50001..60000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 50001 .. 60000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -724,26 +604,6 @@
       </action>
     </rule>
     <rule>
-      <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="F"/>
-      </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 60001..70000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 60001 .. 70000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -845,26 +705,6 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="F"/>
-      </condition>
-      <condition>
         <opaqueExpression expression="co.amountOfInsurance in 70001..75000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 70001 .. 75000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -964,26 +804,6 @@
       </action>
     </rule>
     <rule>
-      <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="F"/>
-      </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 75001..80000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 75001 .. 80000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -1085,26 +905,6 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="F"/>
-      </condition>
-      <condition>
         <opaqueExpression expression="co.amountOfInsurance in 80001..90000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 80001 .. 90000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -1204,26 +1004,6 @@
       </action>
     </rule>
     <rule>
-      <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="F"/>
-      </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 90001..100000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 90001 .. 100000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -1325,26 +1105,6 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="F"/>
-      </condition>
-      <condition>
         <opaqueExpression expression="co.amountOfInsurance in 100001..200000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 100001 .. 200000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -1445,26 +1205,6 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=false">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="F"/>
-      </condition>
-      <condition>
         <opaqueExpression expression="co.amountOfInsurance >=200001">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance >= 200001" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -1537,8 +1277,8 @@
         </opaqueExpression>
       </action>
       <action>
-        <opaqueExpression expression="co.deductible = 0.05*co.amountOfInsurance">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = 0.05 * co.amountOfInsurance" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="co.deductible = (0.05*co.amountOfInsurance).round">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = ( 0.05 * co.amountOfInsurance ).round" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="deductible" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.deductible">
                 <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
@@ -1573,26 +1313,6 @@
       </action>
     </rule>
     <rule>
-      <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=true">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="T"/>
-      </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 5001..20000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 5001 .. 20000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -1694,26 +1414,6 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=true">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="T"/>
-      </condition>
-      <condition>
         <opaqueExpression expression="co.amountOfInsurance in 20001..25000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 20001 .. 25000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -1813,26 +1513,6 @@
       </action>
     </rule>
     <rule>
-      <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=true">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="T"/>
-      </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 25001..30000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 25001 .. 30000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -1934,26 +1614,6 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=true">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="T"/>
-      </condition>
-      <condition>
         <opaqueExpression expression="co.amountOfInsurance in 30001..40000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 30001 .. 40000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -2053,26 +1713,6 @@
       </action>
     </rule>
     <rule>
-      <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=true">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="T"/>
-      </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 40001..50000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 40001 .. 50000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -2174,26 +1814,6 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=true">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="T"/>
-      </condition>
-      <condition>
         <opaqueExpression expression="co.amountOfInsurance in 50001..60000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 50001 .. 60000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -2293,26 +1913,6 @@
       </action>
     </rule>
     <rule>
-      <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=true">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="T"/>
-      </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 60001..70000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 60001 .. 70000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -2414,26 +2014,6 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=true">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="T"/>
-      </condition>
-      <condition>
         <opaqueExpression expression="co.amountOfInsurance in 70001..75000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 70001 .. 75000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -2533,26 +2113,6 @@
       </action>
     </rule>
     <rule>
-      <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=true">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="T"/>
-      </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 75001..80000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 75001 .. 80000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -2654,26 +2214,6 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=true">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="T"/>
-      </condition>
-      <condition>
         <opaqueExpression expression="co.amountOfInsurance in 80001..90000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 80001 .. 90000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -2773,26 +2313,6 @@
       </action>
     </rule>
     <rule>
-      <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=true">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="T"/>
-      </condition>
       <condition>
         <opaqueExpression expression="co.amountOfInsurance in 90001..100000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 90001 .. 100000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -2894,26 +2414,6 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=true">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="T"/>
-      </condition>
-      <condition>
         <opaqueExpression expression="co.amountOfInsurance in 100001..200000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 100001 .. 200000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -3014,26 +2514,6 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="(ma.city in {'Montréal', 'Longueuil' , 'Laval'})=true">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="ma.city in {'Montréal', 'Longueuil' , 'Laval'}" rhs="T"/>
-      </condition>
-      <condition>
         <opaqueExpression expression="co.amountOfInsurance >=200001">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance >= 200001" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -3106,8 +2586,8 @@
         </opaqueExpression>
       </action>
       <action>
-        <opaqueExpression expression="co.deductible = 0.05*co.amountOfInsurance">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = 0.05 * co.amountOfInsurance" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="co.deductible = (0.05*co.amountOfInsurance).round">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = ( 0.05 * co.amountOfInsurance ).round" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="deductible" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.deductible">
                 <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
@@ -3158,30 +2638,11 @@
         </parserOutput>
       </opaqueExpression>
     </filter>
-    <filter precondition="true" disabled="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-      <opaqueExpression expression="ca.riskCode in {'A', 'B', 'C'}">
-        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.riskCode in { 'A' , 'B' , 'C' }" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-          <referencedTermList>
-            <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ca.riskCode">
-              <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </parentTerm>
-            </terms>
-          </referencedTermList>
-        </parserOutput>
-      </opaqueExpression>
-    </filter>
-    <logicalVariable entity="../../../../../../AutoComm.ecore#/0/Request" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
-      <extension association="true" entity="../../../../../../AutoComm.ecore#/0/FPQ4" traversedAssocRole="../../../../../../AutoComm.ecore#/0/Request/FPQ4" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
-        <extension association="true" entity="../../../../../../AutoComm.ecore#/0/LocationsFPQ4" traversedAssocRole="../../../../../../AutoComm.ecore#/0/FPQ4/LocationsFPQ4" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
-          <extension association="true" entity="../../../../../../AutoComm.ecore#/0/CalculationVariables" traversedAssocRole="../../../../../../AutoComm.ecore#/0/LocationsFPQ4/CalculationVariables" filters="#//@ruleset/@filters.1">
-            <extension explicit="true" association="true" entity="../../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4" traversedAssocRole="../../../../../../AutoComm.ecore#/0/CalculationVariables/CalculationsVariablesFPQ4" filters="#//@ruleset/@filters.1">
+    <logicalVariable entity="../../../../../../AutoComm.ecore#/0/Request" filters="#//@ruleset/@filters.0">
+      <extension association="true" entity="../../../../../../AutoComm.ecore#/0/FPQ4" traversedAssocRole="../../../../../../AutoComm.ecore#/0/Request/FPQ4" filters="#//@ruleset/@filters.0">
+        <extension association="true" entity="../../../../../../AutoComm.ecore#/0/LocationsFPQ4" traversedAssocRole="../../../../../../AutoComm.ecore#/0/FPQ4/LocationsFPQ4" filters="#//@ruleset/@filters.0">
+          <extension association="true" entity="../../../../../../AutoComm.ecore#/0/CalculationVariables" traversedAssocRole="../../../../../../AutoComm.ecore#/0/LocationsFPQ4/CalculationVariables">
+            <extension explicit="true" association="true" entity="../../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4" traversedAssocRole="../../../../../../AutoComm.ecore#/0/CalculationVariables/CalculationsVariablesFPQ4">
               <alias value="ca"/>
               <extension explicit="true" association="true" entity="../../../../../../AutoComm.ecore#/0/RatesFPQ4" traversedAssocRole="../../../../../../AutoComm.ecore#/0/CalculationsVariablesFPQ4/RatesFPQ4">
                 <alias value="ra"/>
@@ -3274,26 +2735,17 @@
         <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeEntity" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0">
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.coverageCode in {'FPQ4-ChapterB3'}" filter="#//@ruleset/@filters.0"/>
-            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ca.riskCode in {'A', 'B', 'C'}" filter="#//@ruleset/@filters.1"/>
           </children>
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.coverageCode in {'FPQ4-ChapterB3'}" filter="#//@ruleset/@filters.0"/>
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ca.riskCode in {'A', 'B', 'C'}" filter="#//@ruleset/@filters.1"/>
             </children>
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="co.coverageCode in {'FPQ4-ChapterB3'}" filter="#//@ruleset/@filters.0"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ca.riskCode in {'A', 'B', 'C'}" filter="#//@ruleset/@filters.1"/>
               </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ca.riskCode in {'A', 'B', 'C'}" filter="#//@ruleset/@filters.1"/>
-                </children>
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
-                    <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ca.riskCode in {'A', 'B', 'C'}" filter="#//@ruleset/@filters.1"/>
-                  </children>
                   <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
                     <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
                     <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.1"/>
@@ -3323,7 +2775,7 @@
         </children>
       </rootNode>
     </scopeSection>
-    <filterSection rowCount="48">
+    <filterSection rowCount="47">
       <filterItemList filter="#//@ruleset/@filters.0">
         <expressionCell external="co.coverageCode in {'FPQ4-ChapterB3'}">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coverageCode in { 'FPQ4-ChapterB3' }" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -3341,48 +2793,9 @@
           </parserOutput>
         </expressionCell>
       </filterItemList>
-      <filterItemList disabled="true" filter="#//@ruleset/@filters.1">
-        <expressionCell external="ca.riskCode in {'A', 'B', 'C'}">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.riskCode in { 'A' , 'B' , 'C' }" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ca.riskCode">
-                <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </expressionCell>
-      </filterItemList>
     </filterSection>
     <ruleStatementSection rowCount="50" columnWidthReference="50" columnWidthPostSeverity="75" columnWidthAlias="100" columnWidthID="50" columnWidthText="600" columnWidthRuleName="100" columnWidthRuleLink="100" columnWidthSourceName="100" columnWidthSourceLink="100" columnWidthCategory="100" columnWidthComments="400"/>
-    <conditionSection rowCount="51" columnWidthFactor="0.5">
-      <conditionItemList rowHeight="56">
-        <valueSetCell/>
-        <expressionCell external="ma.city in {'Montréal', 'Longueuil' , 'Laval'}">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ma.city in { 'Montréal' , 'Longueuil' , 'Laval' }" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </expressionCell>
-      </conditionItemList>
+    <conditionSection rowCount="50" columnWidthFactor="0.5">
       <conditionItemList>
         <valueSetCell/>
         <expressionCell external="co.amountOfInsurance">
@@ -3422,26 +2835,9 @@
         </expressionCell>
       </conditionItemList>
     </conditionSection>
-    <ruleSection columnCount="27" scrollColumnLeft="10">
+    <ruleSection columnCount="27" scrollColumnLeft="22">
       <ruleColumnList ruleId="0" columnWidth="100" pRule="#//@ruleset/@rules.0"/>
       <ruleColumnList ruleId="1" columnWidth="103" pRule="#//@ruleset/@rules.1">
-        <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="5001..20000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 5001 .. 20000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -3532,23 +2928,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="2" columnWidth="100" pRule="#//@ruleset/@rules.2">
-        <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="20001..25000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 20001 .. 25000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -3639,23 +3018,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="3" columnWidth="100" pRule="#//@ruleset/@rules.3">
-        <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="25001..30000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 25001 .. 30000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -3746,23 +3108,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="4" columnWidth="100" pRule="#//@ruleset/@rules.4">
-        <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="30001..40000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 30001 .. 40000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -3853,23 +3198,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="5" columnWidth="100" pRule="#//@ruleset/@rules.5">
-        <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="40001..50000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 40001 .. 50000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -3960,23 +3288,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="6" columnWidth="100" pRule="#//@ruleset/@rules.6">
-        <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="50001..60000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 50001 .. 60000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -4067,23 +3378,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="7" columnWidth="100" pRule="#//@ruleset/@rules.7">
-        <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="60001..70000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 60001 .. 70000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -4174,23 +3468,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="8" columnWidth="100" pRule="#//@ruleset/@rules.8">
-        <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="70001..75000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 70001 .. 75000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -4281,23 +3558,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="9" columnWidth="100" pRule="#//@ruleset/@rules.9">
-        <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="75001..80000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 75001 .. 80000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -4388,23 +3648,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="10" columnWidth="100" pRule="#//@ruleset/@rules.10">
-        <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="80001..90000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 80001 .. 90000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -4495,23 +3738,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="11" columnWidth="100" pRule="#//@ruleset/@rules.11">
-        <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="90001..100000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 90001 .. 100000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -4602,23 +3828,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="12" columnWidth="122" pRule="#//@ruleset/@rules.12">
-        <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="100001..200000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 100001 .. 200000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -4709,23 +3918,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="13" columnWidth="210" pRule="#//@ruleset/@rules.13">
-        <conditionValueSetCellList valueSet="F">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = false" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet=">=200001">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance >= 200001" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -4790,8 +3982,8 @@
             </referencedTermList>
           </parserOutput>
         </actionValueSetCellList>
-        <actionValueSetCellList valueSet="0.05*co.amountOfInsurance">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = 0.05 * co.amountOfInsurance" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="(0.05*co.amountOfInsurance).round">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = ( 0.05 * co.amountOfInsurance ).round" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="deductible" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.deductible">
                 <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co">
@@ -4825,23 +4017,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="14" columnWidth="100" pRule="#//@ruleset/@rules.14">
-        <conditionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="5001..20000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 5001 .. 20000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -4932,23 +4107,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="15" columnWidth="100" pRule="#//@ruleset/@rules.15">
-        <conditionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="20001..25000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 20001 .. 25000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -5039,23 +4197,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="16" columnWidth="100" pRule="#//@ruleset/@rules.16">
-        <conditionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="25001..30000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 25001 .. 30000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -5146,23 +4287,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="17" columnWidth="100" pRule="#//@ruleset/@rules.17">
-        <conditionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="30001..40000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 30001 .. 40000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -5253,23 +4377,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="18" columnWidth="100" pRule="#//@ruleset/@rules.18">
-        <conditionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="40001..50000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 40001 .. 50000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -5360,23 +4467,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="19" columnWidth="100" pRule="#//@ruleset/@rules.19">
-        <conditionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="50001..60000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 50001 .. 60000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -5467,23 +4557,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="20" columnWidth="100" pRule="#//@ruleset/@rules.20">
-        <conditionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="60001..70000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 60001 .. 70000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -5574,23 +4647,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="21" columnWidth="124" pRule="#//@ruleset/@rules.21">
-        <conditionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="70001..75000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 70001 .. 75000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -5681,23 +4737,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="22" columnWidth="146" pRule="#//@ruleset/@rules.22">
-        <conditionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="75001..80000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 75001 .. 80000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -5788,23 +4827,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="23" columnWidth="135" pRule="#//@ruleset/@rules.23">
-        <conditionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="80001..90000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 80001 .. 90000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -5895,23 +4917,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="24" columnWidth="119" pRule="#//@ruleset/@rules.24">
-        <conditionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="90001..100000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 90001 .. 100000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -6002,23 +5007,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="25" columnWidth="126" pRule="#//@ruleset/@rules.25">
-        <conditionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="100001..200000">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance in 100001 .. 200000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -6109,23 +5097,6 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="26" columnWidth="100" pRule="#//@ruleset/@rules.26">
-        <conditionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( ma.city in { 'Montréal' , 'Longueuil' , 'Laval' } ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="city" datatype="String" termtype="ATTRIBUTE" fulltext="ma.city">
-                <parentTerm text="ma" datatype="MailingAddress" termtype="ENTITY" fulltext="ma" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="PolicyDetailFPQ4" datatype="PolicyDetailFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail.PolicyDetailFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="PolicyDetail" datatype="PolicyDetail" termtype="ENTITY" fulltext="Request.FPQ4.PolicyDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
         <conditionValueSetCellList valueSet=">=200001">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance >= 200001" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -6190,8 +5161,8 @@
             </referencedTermList>
           </parserOutput>
         </actionValueSetCellList>
-        <actionValueSetCellList valueSet="0.05*co.amountOfInsurance">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = 0.05 * co.amountOfInsurance" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="(0.05*co.amountOfInsurance).round">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.deductible = ( 0.05 * co.amountOfInsurance ).round" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="deductible" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.deductible">
                 <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co">

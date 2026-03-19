@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_HGq1pRybEfGGTIM5wFhjsg" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_Tr-RciO7EfGTkd5NfJOWRg" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
   <languageCode>en_US</languageCode>
-  <ruleset vocabularyUpdateStamp="_yFV_ohyUEfGGTIM5wFhjsg" vocabulary="../../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_w49aEB1aEfG1UvLK485LzA" vocabulary="../../../../AutoComm.ecore#/0">
     <rule>
       <action>
-        <opaqueExpression expression="co.coveragePremium=co.amountOfInsurance*ra.FPQ4B2Rate * (1+ra.nonPaymentRate+ra.criminalRecordRate)">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coveragePremium = co.amountOfInsurance * ra.FPQ4B2Rate * ( 1 + ra.nonPaymentRate + ra.criminalRecordRate )" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="co.coveragePremium=(co.amountOfInsurance*ra.FPQ4B2Rate * (1+ra.nonPaymentRate+ra.criminalRecordRate)).round">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coveragePremium = ( co.amountOfInsurance * ra.FPQ4B2Rate * ( 1 + ra.nonPaymentRate + ra.criminalRecordRate ) ).round" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="coveragePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.coveragePremium">
                 <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
@@ -133,8 +133,8 @@
     <actionSection rowCount="50" columnWidthFactor="0.5">
       <actionItemList rowHeight="52">
         <valueSetCell valueSet=""/>
-        <expressionCell external="co.coveragePremium=co.amountOfInsurance*ra.FPQ4B2Rate * cellValue">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coveragePremium = co.amountOfInsurance * ra.FPQ4B2Rate * cellValue" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="true">
+        <expressionCell external="co.coveragePremium=(co.amountOfInsurance*ra.FPQ4B2Rate * cellValue).round">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coveragePremium = ( co.amountOfInsurance * ra.FPQ4B2Rate * cellValue ).round" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="true">
             <modifiedTermList>
               <terms text="coveragePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.coveragePremium">
                 <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
@@ -226,11 +226,11 @@
       </filterItemList>
     </filterSection>
     <ruleStatementSection rowCount="50" columnWidthReference="50" columnWidthPostSeverity="75" columnWidthAlias="100" columnWidthID="50" columnWidthText="600" columnWidthRuleName="100" columnWidthRuleLink="100" columnWidthSourceName="100" columnWidthSourceLink="100" columnWidthCategory="100" columnWidthComments="400"/>
-    <conditionSection rowCount="50" columnWidthFactor="0.5"/>
+    <conditionSection rowCount="50" scrollRowTop="3" columnWidthFactor="0.5"/>
     <ruleSection columnCount="20">
       <ruleColumnList ruleId="0" columnWidth="368" pRule="#//@ruleset/@rules.0">
         <actionValueSetCellList valueSet="(1+ra.nonPaymentRate+ra.criminalRecordRate)">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coveragePremium = co.amountOfInsurance * ra.FPQ4B2Rate * ( 1 + ra.nonPaymentRate + ra.criminalRecordRate )" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.coveragePremium = ( co.amountOfInsurance * ra.FPQ4B2Rate * ( 1 + ra.nonPaymentRate + ra.criminalRecordRate ) ).round" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="coveragePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="co.coveragePremium">
                 <parentTerm text="co" datatype="Coverages" termtype="ENTITY" fulltext="co">

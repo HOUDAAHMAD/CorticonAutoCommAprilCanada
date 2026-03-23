@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">
     <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_w49aEB1aEfG1UvLK485LzA" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_xrwGYybFEfG47MJIioCgUw" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
         <languageCode>fr_FR</languageCode>
         <databaseAccess databasePropertyDisplayCount="50">
           <databaseId manuallyCreated="true" value="com.corticon.database.id.MsSql"/>
@@ -11,14 +11,10 @@
           <password manuallyCreated="true" value="047039012060048019126"/>
           <schemaFilter manuallyCreated="true" value="dbo"/>
         </databaseAccess>
-        <customDataTypeList enumerationDisplayCount="51" eDataType="#/0/ClaimsSize">
+        <customDataTypeList enumerationDisplayCount="52" eDataType="#/0/ClaimsSize">
           <dataTypeName manuallyCreated="true" value="ClaimsSize"/>
           <baseDataType manuallyCreated="true" value="Integer"/>
           <enumeration value="true"/>
-          <enumerationElements>
-            <label manuallyCreated="true" value="0"/>
-            <value manuallyCreated="true" value="0"/>
-          </enumerationElements>
           <enumerationElements>
             <label manuallyCreated="true" value="1"/>
             <value manuallyCreated="true" value="1"/>
@@ -2288,6 +2284,14 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="codeClaims" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="codeClaims"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="CalculationsVariablesFPQ4">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
@@ -3675,10 +3679,9 @@
       </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EEnum" name="ClaimsSize">
-      <eLiterals name="0" literal="0"/>
-      <eLiterals name="1" value="1" literal="1"/>
-      <eLiterals name="2" value="2" literal="2"/>
-      <eLiterals name="3" value="3" literal="3"/>
+      <eLiterals name="1" literal="1"/>
+      <eLiterals name="2" value="1" literal="2"/>
+      <eLiterals name="3" value="2" literal="3"/>
     </eClassifiers>
   </ecore:EPackage>
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">

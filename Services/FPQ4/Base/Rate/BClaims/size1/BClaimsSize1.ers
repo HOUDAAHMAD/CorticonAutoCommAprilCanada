@@ -1,42 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_CmIfIByaEfGGTIM5wFhjsg" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_ru87UCbGEfG47MJIioCgUw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_yFV_ohyUEfGGTIM5wFhjsg" vocabulary="../../../../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_xrwGYybFEfG47MJIioCgUw" vocabulary="../../../../../../AutoComm.ecore#/0">
     <rule>
-      <action>
-        <opaqueExpression expression="su.BClaimsSurcharge = 0">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.BClaimsSurcharge = 0" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
-            <modifiedTermList>
-              <terms text="BClaimsSurcharge" datatype="Integer" termtype="ATTRIBUTE" fulltext="su.BClaimsSurcharge">
-                <parentTerm text="su" datatype="SurchargesFPQ4" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                      <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                        <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                        </parentTerm>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </modifiedTermList>
-            <referencedTermList>
-              <terms text="su" datatype="SurchargesFPQ4" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-      </action>
+      <action/>
     </rule>
     <rule>
       <condition>
@@ -200,11 +167,81 @@
         </opaqueExpression>
       </action>
     </rule>
-    <logicalVariable entity="../../../../../../AutoComm.ecore#/0/Request">
-      <extension association="true" entity="../../../../../../AutoComm.ecore#/0/FPQ4" traversedAssocRole="../../../../../../AutoComm.ecore#/0/Request/FPQ4">
-        <extension explicit="true" association="true" entity="../../../../../../AutoComm.ecore#/0/Claims" traversedAssocRole="../../../../../../AutoComm.ecore#/0/FPQ4/Claims">
+    <rule>
+      <condition>
+        <opaqueExpression expression="cla.dateOfLoss.monthsBetween(now) >36">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla.dateOfLoss.monthsBetween ( now ) > 36" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="monthsBetween" datatype="Integer" termtype="METHOD" fulltext="cla.dateOfLoss.monthsBetween">
+                <parentTerm text="dateOfLoss" datatype="DateTime" termtype="ATTRIBUTE" fulltext="cla.dateOfLoss">
+                  <parentTerm text="cla" datatype="Claims" termtype="ENTITY" fulltext="cla" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+        <viewExpressions lhs="cla.dateOfLoss.monthsBetween(now)" rhs=">36"/>
+      </condition>
+      <action>
+        <opaqueExpression expression="su.BClaimsSurcharge = 0">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.BClaimsSurcharge = 0" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="BClaimsSurcharge" datatype="Integer" termtype="ATTRIBUTE" fulltext="su.BClaimsSurcharge">
+                <parentTerm text="su" datatype="SurchargesFPQ4" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
+                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
+                      <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
+                        <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                        </parentTerm>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="su" datatype="SurchargesFPQ4" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
+                    <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
+                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+    </rule>
+    <filter precondition="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+      <opaqueExpression expression="cla.codeClaims='B'">
+        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla.codeClaims = 'B'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <referencedTermList>
+            <terms text="codeClaims" datatype="String" termtype="ATTRIBUTE" fulltext="cla.codeClaims">
+              <parentTerm text="cla" datatype="Claims" termtype="ENTITY" fulltext="cla" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </parentTerm>
+            </terms>
+          </referencedTermList>
+        </parserOutput>
+      </opaqueExpression>
+    </filter>
+    <logicalVariable entity="../../../../../../AutoComm.ecore#/0/Request" filters="#//@ruleset/@filters.0">
+      <extension association="true" entity="../../../../../../AutoComm.ecore#/0/FPQ4" traversedAssocRole="../../../../../../AutoComm.ecore#/0/Request/FPQ4" filters="#//@ruleset/@filters.0">
+        <extension explicit="true" association="true" entity="../../../../../../AutoComm.ecore#/0/Claims" traversedAssocRole="../../../../../../AutoComm.ecore#/0/FPQ4/Claims" filters="#//@ruleset/@filters.0">
           <alias value="cla"/>
           <referencedAttributes attribute="../../../../../../AutoComm.ecore#/0/Claims/dateOfLoss"/>
+          <referencedAttributes attribute="../../../../../../AutoComm.ecore#/0/Claims/codeClaims"/>
         </extension>
         <extension association="true" entity="../../../../../../AutoComm.ecore#/0/LocationsFPQ4" traversedAssocRole="../../../../../../AutoComm.ecore#/0/FPQ4/LocationsFPQ4">
           <extension association="true" entity="../../../../../../AutoComm.ecore#/0/CalculationVariables" traversedAssocRole="../../../../../../AutoComm.ecore#/0/LocationsFPQ4/CalculationVariables">
@@ -253,9 +290,19 @@
     <scopeSection>
       <rootNode>
         <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeEntity" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0">
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla.codeClaims='B'" filter="#//@ruleset/@filters.0"/>
+          </children>
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla.codeClaims='B'" filter="#//@ruleset/@filters.0"/>
+            </children>
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla.codeClaims='B'" filter="#//@ruleset/@filters.0"/>
+              </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@referencedAttributes.0"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@referencedAttributes.1"/>
             </children>
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
@@ -275,7 +322,23 @@
         </children>
       </rootNode>
     </scopeSection>
-    <filterSection rowCount="50"/>
+    <filterSection rowCount="50">
+      <filterItemList filter="#//@ruleset/@filters.0">
+        <expressionCell external="cla.codeClaims='B'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla.codeClaims = 'B'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="codeClaims" datatype="String" termtype="ATTRIBUTE" fulltext="cla.codeClaims">
+                <parentTerm text="cla" datatype="Claims" termtype="ENTITY" fulltext="cla" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                  <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </filterItemList>
+    </filterSection>
     <ruleStatementSection rowCount="50" columnWidthReference="50" columnWidthPostSeverity="75" columnWidthAlias="100" columnWidthID="50" columnWidthText="600" columnWidthRuleName="100" columnWidthRuleLink="100" columnWidthSourceName="100" columnWidthSourceLink="100" columnWidthCategory="100" columnWidthComments="400"/>
     <conditionSection rowCount="50" columnWidthFactor="0.5">
       <conditionItemList>
@@ -299,38 +362,7 @@
     </conditionSection>
     <ruleSection columnCount="20">
       <ruleColumnList ruleId="0" columnWidth="100" pRule="#//@ruleset/@rules.0">
-        <actionValueSetCellList valueSet="0">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.BClaimsSurcharge = 0" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
-            <modifiedTermList>
-              <terms text="BClaimsSurcharge" datatype="Integer" termtype="ATTRIBUTE" fulltext="su.BClaimsSurcharge">
-                <parentTerm text="su" datatype="SurchargesFPQ4" termtype="ENTITY" fulltext="su">
-                  <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables">
-                      <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
-                        <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                        </parentTerm>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </modifiedTermList>
-            <referencedTermList>
-              <terms text="su" datatype="SurchargesFPQ4" termtype="ENTITY" fulltext="su">
-                <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables">
-                    <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
-                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </actionValueSetCellList>
+        <actionValueSetCellList valueSet=""/>
       </ruleColumnList>
       <ruleColumnList ruleId="1" columnWidth="100" pRule="#//@ruleset/@rules.1">
         <conditionValueSetCellList valueSet="0..12">
@@ -448,6 +480,55 @@
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="125">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.BClaimsSurcharge = 125" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="BClaimsSurcharge" datatype="Integer" termtype="ATTRIBUTE" fulltext="su.BClaimsSurcharge">
+                <parentTerm text="su" datatype="SurchargesFPQ4" termtype="ENTITY" fulltext="su">
+                  <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca">
+                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables">
+                      <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
+                        <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                        </parentTerm>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="su" datatype="SurchargesFPQ4" termtype="ENTITY" fulltext="su">
+                <parentTerm text="ca" datatype="CalculationsVariablesFPQ4" termtype="ENTITY" fulltext="ca">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4.CalculationVariables">
+                    <parentTerm text="LocationsFPQ4" datatype="LocationsFPQ4" termtype="ENTITY" fulltext="Request.FPQ4.LocationsFPQ4">
+                      <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+      </ruleColumnList>
+      <ruleColumnList ruleId="4" columnWidth="100" pRule="#//@ruleset/@rules.4">
+        <conditionValueSetCellList valueSet=">36">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla.dateOfLoss.monthsBetween ( now ) > 36" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="monthsBetween" datatype="Integer" termtype="METHOD" fulltext="cla.dateOfLoss.monthsBetween">
+                <parentTerm text="dateOfLoss" datatype="DateTime" termtype="ATTRIBUTE" fulltext="cla.dateOfLoss">
+                  <parentTerm text="cla" datatype="Claims" termtype="ENTITY" fulltext="cla" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </conditionValueSetCellList>
+        <actionValueSetCellList valueSet="0">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.BClaimsSurcharge = 0" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="BClaimsSurcharge" datatype="Integer" termtype="ATTRIBUTE" fulltext="su.BClaimsSurcharge">
                 <parentTerm text="su" datatype="SurchargesFPQ4" termtype="ENTITY" fulltext="su">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_CqTUwx1bEfG1UvLK485LzA" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_eIyLICbHEfG47MJIioCgUw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_w49aEB1aEfG1UvLK485LzA" vocabulary="../../../../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_xrwGYybFEfG47MJIioCgUw" vocabulary="../../../../../../AutoComm.ecore#/0">
     <rule>
       <condition/>
       <condition/>
@@ -238,6 +238,53 @@
         </opaqueExpression>
       </action>
     </rule>
+    <filter precondition="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.2">
+      <opaqueExpression expression="cla1.codeClaims='B'">
+        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla1.codeClaims = 'B'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <referencedTermList>
+            <terms text="codeClaims" datatype="String" termtype="ATTRIBUTE" fulltext="cla1.codeClaims">
+              <parentTerm text="cla1" datatype="Claims" termtype="ENTITY" fulltext="cla1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.2">
+                <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </parentTerm>
+            </terms>
+          </referencedTermList>
+        </parserOutput>
+      </opaqueExpression>
+    </filter>
+    <filter precondition="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+      <opaqueExpression expression="cla2.codeClaims='B'">
+        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla2.codeClaims = 'B'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <referencedTermList>
+            <terms text="codeClaims" datatype="String" termtype="ATTRIBUTE" fulltext="cla2.codeClaims">
+              <parentTerm text="cla2" datatype="Claims" termtype="ENTITY" fulltext="cla2" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </parentTerm>
+            </terms>
+          </referencedTermList>
+        </parserOutput>
+      </opaqueExpression>
+    </filter>
+    <filter precondition="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.2">
+      <opaqueExpression expression="cla1.dateOfLoss.monthsBetween(now)&lt;=36">
+        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla1.dateOfLoss.monthsBetween ( now ) &lt;= 36" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <referencedTermList>
+            <terms text="monthsBetween" datatype="Integer" termtype="METHOD" fulltext="cla1.dateOfLoss.monthsBetween">
+              <parentTerm text="dateOfLoss" datatype="DateTime" termtype="ATTRIBUTE" fulltext="cla1.dateOfLoss">
+                <parentTerm text="cla1" datatype="Claims" termtype="ENTITY" fulltext="cla1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.2">
+                  <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </parentTerm>
+            </terms>
+          </referencedTermList>
+        </parserOutput>
+      </opaqueExpression>
+    </filter>
     <filter precondition="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
       <opaqueExpression expression="cla2.dateOfLoss.monthsBetween(now)&lt;=36">
         <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla2.dateOfLoss.monthsBetween ( now ) &lt;= 36" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -255,28 +302,12 @@
         </parserOutput>
       </opaqueExpression>
     </filter>
-    <filter precondition="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.2">
-      <opaqueExpression expression="cla1.dateOfLoss.monthsBetween(now)&lt;=36">
-        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla1.dateOfLoss.monthsBetween ( now ) &lt;= 36" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-          <referencedTermList>
-            <terms text="monthsBetween" datatype="Integer" termtype="METHOD" fulltext="cla1.dateOfLoss.monthsBetween">
-              <parentTerm text="dateOfLoss" datatype="DateTime" termtype="ATTRIBUTE" fulltext="cla1.dateOfLoss">
-                <parentTerm text="cla1" datatype="Claims" termtype="ENTITY" fulltext="cla1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.2">
-                  <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                  </parentTerm>
-                </parentTerm>
-              </parentTerm>
-            </terms>
-          </referencedTermList>
-        </parserOutput>
-      </opaqueExpression>
-    </filter>
-    <logicalVariable entity="../../../../../../AutoComm.ecore#/0/Request" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
-      <extension association="true" entity="../../../../../../AutoComm.ecore#/0/FPQ4" traversedAssocRole="../../../../../../AutoComm.ecore#/0/Request/FPQ4" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
-        <extension explicit="true" association="true" entity="../../../../../../AutoComm.ecore#/0/Claims" traversedAssocRole="../../../../../../AutoComm.ecore#/0/FPQ4/Claims" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
+    <logicalVariable entity="../../../../../../AutoComm.ecore#/0/Request" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1 #//@ruleset/@filters.3 #//@ruleset/@filters.2">
+      <extension association="true" entity="../../../../../../AutoComm.ecore#/0/FPQ4" traversedAssocRole="../../../../../../AutoComm.ecore#/0/Request/FPQ4" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1 #//@ruleset/@filters.3 #//@ruleset/@filters.2">
+        <extension explicit="true" association="true" entity="../../../../../../AutoComm.ecore#/0/Claims" traversedAssocRole="../../../../../../AutoComm.ecore#/0/FPQ4/Claims" filters="#//@ruleset/@filters.1 #//@ruleset/@filters.3">
           <alias value="cla2"/>
           <referencedAttributes attribute="../../../../../../AutoComm.ecore#/0/Claims/dateOfLoss"/>
+          <referencedAttributes attribute="../../../../../../AutoComm.ecore#/0/Claims/codeClaims"/>
         </extension>
         <extension association="true" entity="../../../../../../AutoComm.ecore#/0/LocationsFPQ4" traversedAssocRole="../../../../../../AutoComm.ecore#/0/FPQ4/LocationsFPQ4">
           <extension association="true" entity="../../../../../../AutoComm.ecore#/0/CalculationVariables" traversedAssocRole="../../../../../../AutoComm.ecore#/0/LocationsFPQ4/CalculationVariables">
@@ -288,9 +319,10 @@
             </extension>
           </extension>
         </extension>
-        <extension explicit="true" association="true" entity="../../../../../../AutoComm.ecore#/0/Claims" traversedAssocRole="../../../../../../AutoComm.ecore#/0/FPQ4/Claims" filters="#//@ruleset/@filters.1">
+        <extension explicit="true" association="true" entity="../../../../../../AutoComm.ecore#/0/Claims" traversedAssocRole="../../../../../../AutoComm.ecore#/0/FPQ4/Claims" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.2">
           <alias value="cla1"/>
           <referencedAttributes attribute="../../../../../../AutoComm.ecore#/0/Claims/dateOfLoss"/>
+          <referencedAttributes attribute="../../../../../../AutoComm.ecore#/0/Claims/codeClaims"/>
         </extension>
       </extension>
     </logicalVariable>
@@ -324,19 +356,25 @@
       <rootNode>
         <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeEntity" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0">
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
-            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla2.dateOfLoss.monthsBetween(now)&lt;=36" filter="#//@ruleset/@filters.0"/>
-            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla1.dateOfLoss.monthsBetween(now)&lt;=36" filter="#//@ruleset/@filters.1"/>
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla1.codeClaims='B'" filter="#//@ruleset/@filters.0"/>
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla2.codeClaims='B'" filter="#//@ruleset/@filters.1"/>
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla1.dateOfLoss.monthsBetween(now)&lt;=36" filter="#//@ruleset/@filters.2"/>
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla2.dateOfLoss.monthsBetween(now)&lt;=36" filter="#//@ruleset/@filters.3"/>
           </children>
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla2.dateOfLoss.monthsBetween(now)&lt;=36" filter="#//@ruleset/@filters.0"/>
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla1.dateOfLoss.monthsBetween(now)&lt;=36" filter="#//@ruleset/@filters.1"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla1.codeClaims='B'" filter="#//@ruleset/@filters.0"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla2.codeClaims='B'" filter="#//@ruleset/@filters.1"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla1.dateOfLoss.monthsBetween(now)&lt;=36" filter="#//@ruleset/@filters.2"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla2.dateOfLoss.monthsBetween(now)&lt;=36" filter="#//@ruleset/@filters.3"/>
             </children>
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla2.dateOfLoss.monthsBetween(now)&lt;=36" filter="#//@ruleset/@filters.0"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla2.codeClaims='B'" filter="#//@ruleset/@filters.1"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla2.dateOfLoss.monthsBetween(now)&lt;=36" filter="#//@ruleset/@filters.3"/>
               </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@referencedAttributes.0"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@referencedAttributes.1"/>
             </children>
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
@@ -349,22 +387,54 @@
             </children>
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.2">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla1.dateOfLoss.monthsBetween(now)&lt;=36" filter="#//@ruleset/@filters.1"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla1.codeClaims='B'" filter="#//@ruleset/@filters.0"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="cla1.dateOfLoss.monthsBetween(now)&lt;=36" filter="#//@ruleset/@filters.2"/>
               </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.2/@referencedAttributes.0"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.2/@referencedAttributes.1"/>
             </children>
           </children>
         </children>
       </rootNode>
     </scopeSection>
-    <filterSection rowCount="47">
+    <filterSection rowCount="46">
       <filterItemList filter="#//@ruleset/@filters.0">
-        <expressionCell external="cla2.dateOfLoss.monthsBetween(now)&lt;=36">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla2.dateOfLoss.monthsBetween ( now ) &lt;= 36" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="cla1.codeClaims='B'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla1.codeClaims = 'B'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="monthsBetween" datatype="Integer" termtype="METHOD" fulltext="cla2.dateOfLoss.monthsBetween">
-                <parentTerm text="dateOfLoss" datatype="DateTime" termtype="ATTRIBUTE" fulltext="cla2.dateOfLoss">
-                  <parentTerm text="cla2" datatype="Claims" termtype="ENTITY" fulltext="cla2" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <terms text="codeClaims" datatype="String" termtype="ATTRIBUTE" fulltext="cla1.codeClaims">
+                <parentTerm text="cla1" datatype="Claims" termtype="ENTITY" fulltext="cla1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.2">
+                  <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </filterItemList>
+      <filterItemList filter="#//@ruleset/@filters.1">
+        <expressionCell external="cla2.codeClaims='B'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla2.codeClaims = 'B'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="codeClaims" datatype="String" termtype="ATTRIBUTE" fulltext="cla2.codeClaims">
+                <parentTerm text="cla2" datatype="Claims" termtype="ENTITY" fulltext="cla2" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                  <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </filterItemList>
+      <filterItemList filter="#//@ruleset/@filters.2">
+        <expressionCell external="cla1.dateOfLoss.monthsBetween(now)&lt;=36">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla1.dateOfLoss.monthsBetween ( now ) &lt;= 36" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="monthsBetween" datatype="Integer" termtype="METHOD" fulltext="cla1.dateOfLoss.monthsBetween">
+                <parentTerm text="dateOfLoss" datatype="DateTime" termtype="ATTRIBUTE" fulltext="cla1.dateOfLoss">
+                  <parentTerm text="cla1" datatype="Claims" termtype="ENTITY" fulltext="cla1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.2">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
@@ -375,13 +445,13 @@
           </parserOutput>
         </expressionCell>
       </filterItemList>
-      <filterItemList filter="#//@ruleset/@filters.1">
-        <expressionCell external="cla1.dateOfLoss.monthsBetween(now)&lt;=36">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla1.dateOfLoss.monthsBetween ( now ) &lt;= 36" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+      <filterItemList filter="#//@ruleset/@filters.3">
+        <expressionCell external="cla2.dateOfLoss.monthsBetween(now)&lt;=36">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="cla2.dateOfLoss.monthsBetween ( now ) &lt;= 36" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="monthsBetween" datatype="Integer" termtype="METHOD" fulltext="cla1.dateOfLoss.monthsBetween">
-                <parentTerm text="dateOfLoss" datatype="DateTime" termtype="ATTRIBUTE" fulltext="cla1.dateOfLoss">
-                  <parentTerm text="cla1" datatype="Claims" termtype="ENTITY" fulltext="cla1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.2">
+              <terms text="monthsBetween" datatype="Integer" termtype="METHOD" fulltext="cla2.dateOfLoss.monthsBetween">
+                <parentTerm text="dateOfLoss" datatype="DateTime" termtype="ATTRIBUTE" fulltext="cla2.dateOfLoss">
+                  <parentTerm text="cla2" datatype="Claims" termtype="ENTITY" fulltext="cla2" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>

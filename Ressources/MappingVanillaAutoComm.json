@@ -1180,7 +1180,12 @@
           "numberOfOpenMortgages": 1,
           "numberOfRoomsRented": 1,
           "numberOfSolarPanels": 0,
-          "swimmingPoolIndicator": true
+          "swimmingPoolIndicator": true,
+          "claimHistory":null,
+          "location":null,
+          "inspection":null,
+          "substandard":null,
+          "alarm":null
         },
         "Occupancy": {
           "areaOccupied": 5000,

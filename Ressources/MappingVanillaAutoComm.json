@@ -256,6 +256,14 @@
         "lossAmountPaid": null,
         "lossDescription": null,
         "reserve": null
+      },
+      {
+        "causeOfLoss": "test",
+        "claimStatus": "test",
+        "dateOfLoss": null,
+        "lossAmountPaid": null,
+        "lossDescription": null,
+        "reserve": null
       }
     ],
     "nonPaymentIndicator": false,
@@ -575,7 +583,8 @@
         "dateOfLoss": "2024-01-22T00:00:00-05:00",
         "lossAmountPaid": null,
         "lossDescription": null,
-        "reserve": null
+        "reserve": null,
+        "codeClaims": null
       },
       {
         "causeOfLoss": "test",
@@ -583,7 +592,8 @@
         "dateOfLoss": "2025-01-22T00:00:00-05:00",
         "lossAmountPaid": null,
         "lossDescription": null,
-        "reserve": null
+        "reserve": null,
+        "codeClaims":null
       }
     ],
     "BillingDetail": {

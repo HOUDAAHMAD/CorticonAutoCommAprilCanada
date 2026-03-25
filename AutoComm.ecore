@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">
     <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_ONIaISegEfGdyYBatwH7Dg" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_MUhRQSglEfGTZZsE8aGQtQ" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
         <languageCode>fr_FR</languageCode>
         <databaseAccess databasePropertyDisplayCount="50">
           <databaseId manuallyCreated="true" value="com.corticon.database.id.MsSql"/>
@@ -1072,6 +1072,38 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="cancelDate" eType="ecore:EDataType http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore#//Date">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="cancelDate"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="cancelReason" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="cancelReason"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="cancellationType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="cancellationType"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="insuranceCompanyCode" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="insuranceCompanyCode"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="IndustryCode">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
@@ -2009,6 +2041,126 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="auxiliaryHeatingIndicator" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBooleanObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="auxiliaryHeatingIndicator"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="constructionType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="constructionType"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="electricalStrengthAmount" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="electricalStrengthAmount"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="exteriorWallFinishType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="exteriorWallFinishType"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="finishedBasementIndicator" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBooleanObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="finishedBasementIndicator"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="heatingFuelCode" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="heatingFuelCode"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="heatingType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="heatingType"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numberOfStories" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="numberOfStories"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numberOfUnits" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="numberOfUnits"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="plumbingType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="plumbingType"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="roofCoveringType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="roofCoveringType"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="structureType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="structureType"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="sumpPumpIndicator" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBooleanObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="sumpPumpIndicator"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="wiringType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="wiringType"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="yearBuilt" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="yearBuilt"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="BuildingUpgrades">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
@@ -2018,6 +2170,70 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="electricalUpgradeYear" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="electricalUpgradeYear"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="electricalWiringUpgradeCode" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="electricalWiringUpgradeCode"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="heatingUpgradeCode" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="heatingUpgradeCode"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="heatingUpgradeYear" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="heatingUpgradeYear"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="plumbingUpgradeCode" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="plumbingUpgradeCode"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="plumbingUpgradeYear" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="plumbingUpgradeYear"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="roofingUpgradeCode" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="roofingUpgradeCode"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="roofingUpgradeYear" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="roofingUpgradeYear"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Occupancy">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
@@ -2027,6 +2243,38 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="areaOccupied" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="areaOccupied"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numberOfUnitsOccupied" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="numberOfUnitsOccupied"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="occupancyType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="occupancyType"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="yearsOccupied" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="yearsOccupied"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="PaymentSchedules">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
@@ -4132,6 +4380,38 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="spinkleredIndicator" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBooleanObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="spinkleredIndicator"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="premiseAccessSecurityType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="premiseAccessSecurityType"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numberOfSmokeDetectors" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="numberOfSmokeDetectors"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="fireCode" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="fireCode"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Liability">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
@@ -4141,6 +4421,86 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="homeBusinessIndicator" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBooleanObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="homeBusinessIndicator"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numberOfCannabisPlants" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="numberOfCannabisPlants"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numberOfDogs" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="numberOfDogs"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numberOfFamilies" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="numberOfFamilies"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numberOfGolfCarts" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="numberOfGolfCarts"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numberOfLawnTractors" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="numberOfLawnTractors"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numberOfOpenMortgages" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="numberOfOpenMortgages"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numberOfRoomsRented" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="numberOfRoomsRented"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="numberOfSolarPanels" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="numberOfSolarPanels"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="swimmingPoolIndicator" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBooleanObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="swimmingPoolIndicator"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="CalculationVariablesGarageProperty">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
@@ -4150,6 +4510,182 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="alarmDiscount" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="alarmDiscount"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="RatesGarageProperty" eType="#/0/RatesGarageProperty">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
+            <name manuallyCreated="true" value="RatesGarageProperty"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="SurchargesGarageProperty" eType="#/0/SurchargesGarageProperty">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
+            <name manuallyCreated="true" value="SurchargesGarageProperty"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="RatesGarageProperty">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
+          <name manuallyCreated="true" value="RatesGarageProperty"/>
+          <datastorePersistent manuallyCreated="true" value="false"/>
+          <datastoreCaching manuallyCreated="true" value="false"/>
+        </contents>
+      </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="propertyBaseRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="propertyBaseRate"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="provinceRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="provinceRate"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="hazardCodeRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="hazardCodeRate"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="townGradeRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="townGradeRate"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="constructionRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="constructionRate"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="coverageRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="coverageRate"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="buildingRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="buildingRate"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="contentsRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="contentsRate"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="EQRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="EQRate"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="toolsSmallEquipmentRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="toolsSmallEquipmentRate"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="lighterEquipmentRate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="lighterEquipmentRate"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SurchargesGarageProperty">
+      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
+          <name manuallyCreated="true" value="SurchargesGarageProperty"/>
+          <datastorePersistent manuallyCreated="true" value="false"/>
+          <datastoreCaching manuallyCreated="true" value="false"/>
+        </contents>
+      </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="claimHistorySurcharge" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="claimHistorySurcharge"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="heatingTypeSurcharge" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="heatingTypeSurcharge"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="locationSurcharge" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="locationSurcharge"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="inspectionSurcharge" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="inspectionSurcharge"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="substandardSurcharge" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="substandardSurcharge"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="totalSurcharges" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="totalSurcharges"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
     </eClassifiers>
   </ecore:EPackage>
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">

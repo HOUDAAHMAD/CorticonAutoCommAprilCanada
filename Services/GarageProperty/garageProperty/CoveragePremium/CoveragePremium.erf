@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.corticon.rulesemf.assetmodel:RuleflowAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.canonicalrulemodel.ruleflow="http:///com/corticon/rulesemf/canonicalrulemodel/ruleflow.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram="http:///com/corticon/rulesemf/viewrulemodel/ruleflow/flowdiagram.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_gx-olihUEfGTZZsE8aGQtQ" externalChecksum="2722078124:1438690353:2393165206" studioType="Java" rulesheetAssets="PropertyBuildingCoveragePremium/PBcoveragePremium.ers#/ PropertyContentsCoveragePremium/PCcoveragePremium.ers#/ PropertyEquipmentCoveragePremium/PEcoveragePremium.ers#/ PropertyStockCoveragePremium/PScoveragePremium.ers#/">
+  <ruleflow majorVersion="1" vocabularyUpdateStamp="_MUhRQSglEfGTZZsE8aGQtQ" vocabulary="../../../../AutoComm.ecore#/0">
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="PBcoveragePremium" order="1" ruleActivityUpdateStamp="_eASZgihTEfGTZZsE8aGQtQ" nextStep="#//@ruleflow/@flowControlList.1" invokes="PropertyBuildingCoveragePremium/PBcoveragePremium.ers#//@ruleset"/>
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="PCcoveragePremium" order="2" ruleActivityUpdateStamp="_zc-kkChTEfGTZZsE8aGQtQ" nextStep="#//@ruleflow/@flowControlList.2" invokes="PropertyContentsCoveragePremium/PCcoveragePremium.ers#//@ruleset"/>
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="PEcoveragePremium" order="3" ruleActivityUpdateStamp="_L_kJmyhUEfGTZZsE8aGQtQ" nextStep="#//@ruleflow/@flowControlList.3" invokes="PropertyEquipmentCoveragePremium/PEcoveragePremium.ers#//@ruleset"/>
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="PScoveragePremium" order="4" ruleActivityUpdateStamp="__UqkSShTEfGTZZsE8aGQtQ" invokes="PropertyStockCoveragePremium/PScoveragePremium.ers#//@ruleset"/>
+  </ruleflow>
+  <ruleflowViewList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:FlowDiagram">
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="156" y="72" width="181" height="36" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.0" activityNode="#//@ruleflow/@flowControlList.0">
+      <annotations name="Color" value="8454143"/>
+    </flowShapeList>
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="156" y="132" width="181" height="36" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.1" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.0" activityNode="#//@ruleflow/@flowControlList.1">
+      <annotations name="Color" value="8454143"/>
+    </flowShapeList>
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="156" y="186" width="181" height="36" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.2" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.1" activityNode="#//@ruleflow/@flowControlList.2">
+      <annotations name="Color" value="8454143"/>
+    </flowShapeList>
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="156" y="246" width="181" height="36" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.2" activityNode="#//@ruleflow/@flowControlList.3">
+      <annotations name="Color" value="8454143"/>
+    </flowShapeList>
+    <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.0" targetShape="#//@ruleflowViewList.0/@flowShapeList.1"/>
+    <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.1" targetShape="#//@ruleflowViewList.0/@flowShapeList.2"/>
+    <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.2" targetShape="#//@ruleflowViewList.0/@flowShapeList.3"/>
+  </ruleflowViewList>
+</com.corticon.rulesemf.assetmodel:RuleflowAsset>

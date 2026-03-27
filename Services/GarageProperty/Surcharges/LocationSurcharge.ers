@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_Y0dsZCnpEfGBkoYaK0zQ3Q" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_Ud1USynyEfGBkoYaK0zQ3Q" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_r5IsoSnoEfGBkoYaK0zQ3Q" vocabulary="../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_nVclYSnwEfGBkoYaK0zQ3Q" vocabulary="../../../AutoComm.ecore#/0">
     <rule>
       <action>
-        <opaqueExpression expression="su.claimHistorySurcharge = 0">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.claimHistorySurcharge = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="su.locationSurcharge = 0">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.locationSurcharge = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="claimHistorySurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.claimHistorySurcharge">
+              <terms text="locationSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.locationSurcharge">
                 <parentTerm text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                       <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                         <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
@@ -23,7 +23,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                       <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
@@ -40,11 +40,11 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="li.claimHistory = 'No Claims up to 5 Years'">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="li.claimHistory = 'No Claims up to 5 Years'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="oc.locationType = 'Clear area min 50 '">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oc.locationType = 'Clear area min 50 '" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="claimHistory" datatype="String" termtype="ATTRIBUTE" fulltext="li.claimHistory">
-                <parentTerm text="li" datatype="Liability" termtype="ENTITY" fulltext="li" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="locationType" datatype="String" termtype="ATTRIBUTE" fulltext="oc.locationType">
+                <parentTerm text="oc" datatype="Occupancy" termtype="ENTITY" fulltext="oc" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                   <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -55,15 +55,15 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="li.claimHistory" rhs="'No Claims up to 5 Years'"/>
+        <viewExpressions lhs="oc.locationType" rhs="'Clear area min 50 '"/>
       </condition>
       <action>
-        <opaqueExpression expression="su.claimHistorySurcharge = 0">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.claimHistorySurcharge = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="su.locationSurcharge = 0">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.locationSurcharge = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="claimHistorySurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.claimHistorySurcharge">
+              <terms text="locationSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.locationSurcharge">
                 <parentTerm text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                       <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                         <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
@@ -77,7 +77,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                       <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
@@ -94,11 +94,11 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="li.claimHistory = 'New'">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="li.claimHistory = 'New'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="oc.locationType = 'Location with a nearby risk lower than the insured risk'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oc.locationType = 'Location with a nearby risk lower than the insured risk'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="claimHistory" datatype="String" termtype="ATTRIBUTE" fulltext="li.claimHistory">
-                <parentTerm text="li" datatype="Liability" termtype="ENTITY" fulltext="li" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="locationType" datatype="String" termtype="ATTRIBUTE" fulltext="oc.locationType">
+                <parentTerm text="oc" datatype="Occupancy" termtype="ENTITY" fulltext="oc" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                   <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -109,15 +109,15 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="li.claimHistory" rhs="'New'"/>
+        <viewExpressions lhs="oc.locationType" rhs="'Location with a nearby risk lower than the insured risk'"/>
       </condition>
       <action>
-        <opaqueExpression expression="su.claimHistorySurcharge = 0.1">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.claimHistorySurcharge = 0.1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="su.locationSurcharge = 0.1">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.locationSurcharge = 0.1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="claimHistorySurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.claimHistorySurcharge">
+              <terms text="locationSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.locationSurcharge">
                 <parentTerm text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                       <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                         <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
@@ -131,7 +131,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                       <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
@@ -148,11 +148,11 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="li.claimHistory = '1 Claim in 5 years  less than 50 K$'">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="li.claimHistory = '1 Claim in 5 years  less than 50 K$'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="oc.locationType = 'Location with nearby risk  higher than the insured risk (ex: cabinetmaking, restaurant)'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oc.locationType = 'Location with nearby risk  higher than the insured risk (ex: cabinetmaking, restaurant)'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="claimHistory" datatype="String" termtype="ATTRIBUTE" fulltext="li.claimHistory">
-                <parentTerm text="li" datatype="Liability" termtype="ENTITY" fulltext="li" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="locationType" datatype="String" termtype="ATTRIBUTE" fulltext="oc.locationType">
+                <parentTerm text="oc" datatype="Occupancy" termtype="ENTITY" fulltext="oc" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                   <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -163,15 +163,15 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="li.claimHistory" rhs="'1 Claim in 5 years  less than 50 K$'"/>
+        <viewExpressions lhs="oc.locationType" rhs="'Location with nearby risk  higher than the insured risk (ex: cabinetmaking, restaurant)'"/>
       </condition>
       <action>
-        <opaqueExpression expression="su.claimHistorySurcharge = 0.1">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.claimHistorySurcharge = 0.1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="su.locationSurcharge = 0.35">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.locationSurcharge = 0.35" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="claimHistorySurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.claimHistorySurcharge">
+              <terms text="locationSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.locationSurcharge">
                 <parentTerm text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                       <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                         <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
@@ -185,7 +185,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                       <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
@@ -202,11 +202,11 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="li.claimHistory = '2 Or more Claims in 5 years /Or any one claim max 50K$'">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="li.claimHistory = '2 Or more Claims in 5 years /Or any one claim max 50K$'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="oc.locationType = 'Location in congested area, low risk nearby'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oc.locationType = 'Location in congested area, low risk nearby'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="claimHistory" datatype="String" termtype="ATTRIBUTE" fulltext="li.claimHistory">
-                <parentTerm text="li" datatype="Liability" termtype="ENTITY" fulltext="li" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="locationType" datatype="String" termtype="ATTRIBUTE" fulltext="oc.locationType">
+                <parentTerm text="oc" datatype="Occupancy" termtype="ENTITY" fulltext="oc" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                   <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -217,15 +217,15 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="li.claimHistory" rhs="'2 Or more Claims in 5 years /Or any one claim max 50K$'"/>
+        <viewExpressions lhs="oc.locationType" rhs="'Location in congested area, low risk nearby'"/>
       </condition>
       <action>
-        <opaqueExpression expression="su.claimHistorySurcharge = 0.2">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.claimHistorySurcharge = 0.2" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="su.locationSurcharge = 0.25">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.locationSurcharge = 0.25" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="claimHistorySurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.claimHistorySurcharge">
+              <terms text="locationSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.locationSurcharge">
                 <parentTerm text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                       <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                         <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
@@ -239,61 +239,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-      </action>
-    </rule>
-    <rule>
-      <condition>
-        <opaqueExpression expression="li.claimHistory = '2 claims over 50K$'">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="li.claimHistory = '2 claims over 50K$'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="claimHistory" datatype="String" termtype="ATTRIBUTE" fulltext="li.claimHistory">
-                <parentTerm text="li" datatype="Liability" termtype="ENTITY" fulltext="li" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </opaqueExpression>
-        <viewExpressions lhs="li.claimHistory" rhs="'2 claims over 50K$'"/>
-      </condition>
-      <action>
-        <opaqueExpression expression="su.claimHistorySurcharge = 0.25">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.claimHistorySurcharge = 0.25" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
-            <modifiedTermList>
-              <terms text="claimHistorySurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.claimHistorySurcharge">
-                <parentTerm text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                        </parentTerm>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </modifiedTermList>
-            <referencedTermList>
-              <terms text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                       <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
@@ -312,32 +258,31 @@
       <extension association="true" entity="../../../AutoComm.ecore#/0/GarageProperty" traversedAssocRole="../../../AutoComm.ecore#/0/Request/GarageProperty">
         <extension association="true" entity="../../../AutoComm.ecore#/0/Buildings" traversedAssocRole="../../../AutoComm.ecore#/0/GarageProperty/Buildings">
           <extension association="true" entity="../../../AutoComm.ecore#/0/CalculationVariables" traversedAssocRole="../../../AutoComm.ecore#/0/Buildings/CalculationVariables">
-            <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/CalculationVariablesGarageProperty" traversedAssocRole="../../../AutoComm.ecore#/0/CalculationVariables/CalculationVariablesGarageProperty">
-              <alias value="ca"/>
+            <extension association="true" entity="../../../AutoComm.ecore#/0/CalculationVariablesGarageProperty" traversedAssocRole="../../../AutoComm.ecore#/0/CalculationVariables/CalculationVariablesGarageProperty">
               <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/SurchargesGarageProperty" traversedAssocRole="../../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/SurchargesGarageProperty">
                 <alias value="su"/>
-                <referencedAttributes attribute="../../../AutoComm.ecore#/0/SurchargesGarageProperty/claimHistorySurcharge"/>
+                <referencedAttributes attribute="../../../AutoComm.ecore#/0/SurchargesGarageProperty/locationSurcharge"/>
               </extension>
             </extension>
           </extension>
-          <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/Liability" traversedAssocRole="../../../AutoComm.ecore#/0/Buildings/Liability">
-            <alias value="li"/>
-            <referencedAttributes attribute="../../../AutoComm.ecore#/0/Liability/claimHistory"/>
+          <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/Occupancy" traversedAssocRole="../../../AutoComm.ecore#/0/Buildings/Occupancy">
+            <alias value="oc"/>
+            <referencedAttributes attribute="../../../AutoComm.ecore#/0/Occupancy/locationType"/>
           </extension>
         </extension>
       </extension>
     </logicalVariable>
   </ruleset>
-  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightAdvancedView="16" sashWeightConditionsIf="19">
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true">
     <actionSection rowCount="50" columnWidthFactor="0.5">
       <actionItemList>
         <valueSetCell/>
-        <expressionCell external="su.claimHistorySurcharge">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.claimHistorySurcharge" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="su.locationSurcharge">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.locationSurcharge" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="claimHistorySurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.claimHistorySurcharge">
+              <terms text="locationSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.locationSurcharge">
                 <parentTerm text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                       <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                         <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
@@ -360,7 +305,7 @@
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
                     <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
                   </children>
                 </children>
@@ -376,13 +321,13 @@
     <filterSection rowCount="50"/>
     <ruleStatementSection rowCount="50" columnWidthReference="50" columnWidthPostSeverity="75" columnWidthAlias="100" columnWidthID="50" columnWidthText="600" columnWidthRuleName="100" columnWidthRuleLink="100" columnWidthSourceName="100" columnWidthSourceLink="100" columnWidthCategory="100" columnWidthComments="400"/>
     <conditionSection rowCount="50" columnWidthFactor="0.5">
-      <conditionItemList rowHeight="71">
+      <conditionItemList rowHeight="55">
         <valueSetCell/>
-        <expressionCell external="li.claimHistory">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="li.claimHistory" datatype="String" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="oc.locationType">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oc.locationType" datatype="String" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="claimHistory" datatype="String" termtype="ATTRIBUTE" fulltext="li.claimHistory">
-                <parentTerm text="li" datatype="Liability" termtype="ENTITY" fulltext="li" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="locationType" datatype="String" termtype="ATTRIBUTE" fulltext="oc.locationType">
+                <parentTerm text="oc" datatype="Occupancy" termtype="ENTITY" fulltext="oc" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                   <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -395,14 +340,14 @@
         </expressionCell>
       </conditionItemList>
     </conditionSection>
-    <ruleSection columnCount="20">
+    <ruleSection columnCount="20" scrollColumnLeft="1">
       <ruleColumnList ruleId="0" columnWidth="100" pRule="#//@ruleset/@rules.0">
         <actionValueSetCellList valueSet="0">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.claimHistorySurcharge = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.locationSurcharge = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="claimHistorySurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.claimHistorySurcharge">
+              <terms text="locationSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.locationSurcharge">
                 <parentTerm text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
                       <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
                         <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
@@ -416,7 +361,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su">
-                <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
+                <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
                     <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
                       <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
@@ -430,12 +375,12 @@
           </parserOutput>
         </actionValueSetCellList>
       </ruleColumnList>
-      <ruleColumnList ruleId="1" columnWidth="163" pRule="#//@ruleset/@rules.1">
-        <conditionValueSetCellList valueSet="'No Claims up to 5 Years'">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="li.claimHistory = 'No Claims up to 5 Years'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+      <ruleColumnList ruleId="1" columnWidth="173" pRule="#//@ruleset/@rules.1">
+        <conditionValueSetCellList valueSet="'Clear area min 50 '">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oc.locationType = 'Clear area min 50 '" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="claimHistory" datatype="String" termtype="ATTRIBUTE" fulltext="li.claimHistory">
-                <parentTerm text="li" datatype="Liability" termtype="ENTITY" fulltext="li" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="locationType" datatype="String" termtype="ATTRIBUTE" fulltext="oc.locationType">
+                <parentTerm text="oc" datatype="Occupancy" termtype="ENTITY" fulltext="oc" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                   <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -447,11 +392,11 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.claimHistorySurcharge = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.locationSurcharge = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="claimHistorySurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.claimHistorySurcharge">
+              <terms text="locationSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.locationSurcharge">
                 <parentTerm text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
                       <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
                         <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
@@ -465,7 +410,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su">
-                <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
+                <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
                     <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
                       <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
@@ -479,12 +424,12 @@
           </parserOutput>
         </actionValueSetCellList>
       </ruleColumnList>
-      <ruleColumnList ruleId="2" columnWidth="100" pRule="#//@ruleset/@rules.2">
-        <conditionValueSetCellList valueSet="'New'">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="li.claimHistory = 'New'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+      <ruleColumnList ruleId="2" columnWidth="198" pRule="#//@ruleset/@rules.2">
+        <conditionValueSetCellList valueSet="'Location with a nearby risk lower than the insured risk'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oc.locationType = 'Location with a nearby risk lower than the insured risk'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="claimHistory" datatype="String" termtype="ATTRIBUTE" fulltext="li.claimHistory">
-                <parentTerm text="li" datatype="Liability" termtype="ENTITY" fulltext="li" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="locationType" datatype="String" termtype="ATTRIBUTE" fulltext="oc.locationType">
+                <parentTerm text="oc" datatype="Occupancy" termtype="ENTITY" fulltext="oc" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                   <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -496,11 +441,11 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0.1">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.claimHistorySurcharge = 0.1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.locationSurcharge = 0.1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="claimHistorySurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.claimHistorySurcharge">
+              <terms text="locationSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.locationSurcharge">
                 <parentTerm text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
                       <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
                         <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
@@ -514,7 +459,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su">
-                <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
+                <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
                     <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
                       <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
@@ -528,12 +473,12 @@
           </parserOutput>
         </actionValueSetCellList>
       </ruleColumnList>
-      <ruleColumnList ruleId="3" columnWidth="100" pRule="#//@ruleset/@rules.3">
-        <conditionValueSetCellList valueSet="'1 Claim in 5 years  less than 50 K$'">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="li.claimHistory = '1 Claim in 5 years  less than 50 K$'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+      <ruleColumnList ruleId="3" columnWidth="295" pRule="#//@ruleset/@rules.3">
+        <conditionValueSetCellList valueSet="'Location with nearby risk  higher than the insured risk (ex: cabinetmaking, restaurant)'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oc.locationType = 'Location with nearby risk  higher than the insured risk (ex: cabinetmaking, restaurant)'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="claimHistory" datatype="String" termtype="ATTRIBUTE" fulltext="li.claimHistory">
-                <parentTerm text="li" datatype="Liability" termtype="ENTITY" fulltext="li" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="locationType" datatype="String" termtype="ATTRIBUTE" fulltext="oc.locationType">
+                <parentTerm text="oc" datatype="Occupancy" termtype="ENTITY" fulltext="oc" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                   <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -544,12 +489,12 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="0.1">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.claimHistorySurcharge = 0.1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="0.35">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.locationSurcharge = 0.35" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="claimHistorySurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.claimHistorySurcharge">
+              <terms text="locationSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.locationSurcharge">
                 <parentTerm text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
                       <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
                         <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
@@ -563,7 +508,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su">
-                <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
+                <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
                     <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
                       <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
@@ -577,61 +522,12 @@
           </parserOutput>
         </actionValueSetCellList>
       </ruleColumnList>
-      <ruleColumnList ruleId="4" columnWidth="208" pRule="#//@ruleset/@rules.4">
-        <conditionValueSetCellList valueSet="'2 Or more Claims in 5 years /Or any one claim max 50K$'">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="li.claimHistory = '2 Or more Claims in 5 years /Or any one claim max 50K$'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+      <ruleColumnList ruleId="4" columnWidth="182" pRule="#//@ruleset/@rules.4">
+        <conditionValueSetCellList valueSet="'Location in congested area, low risk nearby'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oc.locationType = 'Location in congested area, low risk nearby'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="claimHistory" datatype="String" termtype="ATTRIBUTE" fulltext="li.claimHistory">
-                <parentTerm text="li" datatype="Liability" termtype="ENTITY" fulltext="li" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                  <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="0.2">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.claimHistorySurcharge = 0.2" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
-            <modifiedTermList>
-              <terms text="claimHistorySurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.claimHistorySurcharge">
-                <parentTerm text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                        </parentTerm>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </modifiedTermList>
-            <referencedTermList>
-              <terms text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su">
-                <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
-                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
-                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </actionValueSetCellList>
-      </ruleColumnList>
-      <ruleColumnList ruleId="5" columnWidth="145" pRule="#//@ruleset/@rules.5">
-        <conditionValueSetCellList valueSet="'2 claims over 50K$'">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="li.claimHistory = '2 claims over 50K$'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="claimHistory" datatype="String" termtype="ATTRIBUTE" fulltext="li.claimHistory">
-                <parentTerm text="li" datatype="Liability" termtype="ENTITY" fulltext="li" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
+              <terms text="locationType" datatype="String" termtype="ATTRIBUTE" fulltext="oc.locationType">
+                <parentTerm text="oc" datatype="Occupancy" termtype="ENTITY" fulltext="oc" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                   <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -643,11 +539,11 @@
           </parserOutput>
         </conditionValueSetCellList>
         <actionValueSetCellList valueSet="0.25">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.claimHistorySurcharge = 0.25" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="su.locationSurcharge = 0.25" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="claimHistorySurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.claimHistorySurcharge">
+              <terms text="locationSurcharge" datatype="Decimal" termtype="ATTRIBUTE" fulltext="su.locationSurcharge">
                 <parentTerm text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
                       <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
                         <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
@@ -661,7 +557,7 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="su" datatype="SurchargesGarageProperty" termtype="ENTITY" fulltext="su">
-                <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
+                <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
                     <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
                       <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">

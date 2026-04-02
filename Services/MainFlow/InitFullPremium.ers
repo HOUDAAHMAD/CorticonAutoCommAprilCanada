@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_xNHh0C6VEfGtCJLPFNuvgA" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+  <languageCode>fr_FR</languageCode>
+  <ruleset vocabularyUpdateStamp="_BexvQS6SEfGtCJLPFNuvgA" vocabulary="../../AutoComm.ecore#/0">
+    <rule>
+      <action>
+        <opaqueExpression expression="f1.fullTermPremium = 0">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="f1.fullTermPremium = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="f1.fullTermPremium">
+                <parentTerm text="f1" datatype="BillingDetailFPQ1" termtype="ENTITY" fulltext="f1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.FPQ1.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="f1" datatype="BillingDetailFPQ1" termtype="ENTITY" fulltext="f1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.FPQ1.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                  <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="f4.fullTermPremium = 0">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="f4.fullTermPremium = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="f4.fullTermPremium">
+                <parentTerm text="f4" datatype="BillingDetailFPQ4" termtype="ENTITY" fulltext="f4" variable="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0/@extension.0">
+                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.FPQ4.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0">
+                    <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.1">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="f4" datatype="BillingDetailFPQ4" termtype="ENTITY" fulltext="f4" variable="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0/@extension.0">
+                <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.FPQ4.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0">
+                  <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.1">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="ga.fullTermPremium = 0">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ga.fullTermPremium = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ga.fullTermPremium">
+                <parentTerm text="ga" datatype="BillingDetailGarageProperty" termtype="ENTITY" fulltext="ga" variable="#//@ruleset/@logicalVariables.0/@extension.2/@extension.0/@extension.0">
+                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.GarageProperty.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.2/@extension.0">
+                    <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.2">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ga" datatype="BillingDetailGarageProperty" termtype="ENTITY" fulltext="ga" variable="#//@ruleset/@logicalVariables.0/@extension.2/@extension.0/@extension.0">
+                <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.GarageProperty.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.2/@extension.0">
+                  <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.2">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+    </rule>
+    <logicalVariable entity="../../AutoComm.ecore#/0/Request">
+      <extension association="true" entity="../../AutoComm.ecore#/0/FPQ1" traversedAssocRole="../../AutoComm.ecore#/0/Request/FPQ1">
+        <extension association="true" entity="../../AutoComm.ecore#/0/BillingDetail" traversedAssocRole="../../AutoComm.ecore#/0/FPQ1/BillingDetail">
+          <extension explicit="true" association="true" entity="../../AutoComm.ecore#/0/BillingDetailFPQ1" traversedAssocRole="../../AutoComm.ecore#/0/BillingDetail/BillingDetailFPQ1">
+            <alias value="f1"/>
+            <referencedAttributes attribute="../../AutoComm.ecore#/0/BillingDetailFPQ1/fullTermPremium"/>
+          </extension>
+        </extension>
+      </extension>
+      <extension association="true" entity="../../AutoComm.ecore#/0/FPQ4" traversedAssocRole="../../AutoComm.ecore#/0/Request/FPQ4">
+        <extension association="true" entity="../../AutoComm.ecore#/0/BillingDetail" traversedAssocRole="../../AutoComm.ecore#/0/FPQ4/BillingDetail">
+          <extension explicit="true" association="true" entity="../../AutoComm.ecore#/0/BillingDetailFPQ4" traversedAssocRole="../../AutoComm.ecore#/0/BillingDetail/BillingDetailFPQ4">
+            <alias value="f4"/>
+            <referencedAttributes attribute="../../AutoComm.ecore#/0/BillingDetailFPQ4/fullTermPremium"/>
+          </extension>
+        </extension>
+      </extension>
+      <extension association="true" entity="../../AutoComm.ecore#/0/GarageProperty" traversedAssocRole="../../AutoComm.ecore#/0/Request/GarageProperty">
+        <extension association="true" entity="../../AutoComm.ecore#/0/BillingDetail" traversedAssocRole="../../AutoComm.ecore#/0/GarageProperty/BillingDetail">
+          <extension explicit="true" association="true" entity="../../AutoComm.ecore#/0/BillingDetailGarageProperty" traversedAssocRole="../../AutoComm.ecore#/0/BillingDetail/BillingDetailGarageProperty">
+            <alias value="ga"/>
+            <referencedAttributes attribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/fullTermPremium"/>
+          </extension>
+        </extension>
+      </extension>
+    </logicalVariable>
+  </ruleset>
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightAdvancedView="40">
+    <actionSection rowCount="50" columnWidthFactor="0.5">
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="f1.fullTermPremium">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="f1.fullTermPremium" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="f1.fullTermPremium">
+                <parentTerm text="f1" datatype="BillingDetailFPQ1" termtype="ENTITY" fulltext="f1" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.FPQ1.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell valueSet=""/>
+        <expressionCell external="f4.fullTermPremium">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="f4.fullTermPremium" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="f4.fullTermPremium">
+                <parentTerm text="f4" datatype="BillingDetailFPQ4" termtype="ENTITY" fulltext="f4" variable="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0/@extension.0">
+                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.FPQ4.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0">
+                    <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4" variable="#//@ruleset/@logicalVariables.0/@extension.1">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="ga.fullTermPremium">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ga.fullTermPremium" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ga.fullTermPremium">
+                <parentTerm text="ga" datatype="BillingDetailGarageProperty" termtype="ENTITY" fulltext="ga" variable="#//@ruleset/@logicalVariables.0/@extension.2/@extension.0/@extension.0">
+                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.GarageProperty.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.2/@extension.0">
+                    <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.2">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+    </actionSection>
+    <scopeSection>
+      <rootNode>
+        <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeEntity" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0">
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
+              </children>
+            </children>
+          </children>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.1">
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0/@extension.0">
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0/@extension.0/@referencedAttributes.0"/>
+              </children>
+            </children>
+          </children>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.2">
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.2/@extension.0">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.2/@extension.0/@extension.0">
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.2/@extension.0/@extension.0/@referencedAttributes.0"/>
+              </children>
+            </children>
+          </children>
+        </children>
+      </rootNode>
+    </scopeSection>
+    <filterSection rowCount="50"/>
+    <ruleStatementSection rowCount="50" columnWidthReference="50" columnWidthPostSeverity="75" columnWidthAlias="100" columnWidthID="50" columnWidthText="600" columnWidthRuleName="100" columnWidthRuleLink="100" columnWidthSourceName="100" columnWidthSourceLink="100" columnWidthCategory="100" columnWidthComments="400"/>
+    <conditionSection rowCount="50" columnWidthFactor="0.5"/>
+    <ruleSection columnCount="20">
+      <ruleColumnList ruleId="0" columnWidth="100" pRule="#//@ruleset/@rules.0">
+        <actionValueSetCellList valueSet="0">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="f1.fullTermPremium = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="f1.fullTermPremium">
+                <parentTerm text="f1" datatype="BillingDetailFPQ1" termtype="ENTITY" fulltext="f1">
+                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.FPQ1.BillingDetail">
+                    <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="f1" datatype="BillingDetailFPQ1" termtype="ENTITY" fulltext="f1">
+                <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.FPQ1.BillingDetail">
+                  <parentTerm text="FPQ1" datatype="FPQ1" termtype="ENTITY" fulltext="Request.FPQ1">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="0">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="f4.fullTermPremium = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="f4.fullTermPremium">
+                <parentTerm text="f4" datatype="BillingDetailFPQ4" termtype="ENTITY" fulltext="f4">
+                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.FPQ4.BillingDetail">
+                    <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="f4" datatype="BillingDetailFPQ4" termtype="ENTITY" fulltext="f4">
+                <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.FPQ4.BillingDetail">
+                  <parentTerm text="FPQ4" datatype="FPQ4" termtype="ENTITY" fulltext="Request.FPQ4">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="0">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ga.fullTermPremium = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ga.fullTermPremium">
+                <parentTerm text="ga" datatype="BillingDetailGarageProperty" termtype="ENTITY" fulltext="ga">
+                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.GarageProperty.BillingDetail">
+                    <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ga" datatype="BillingDetailGarageProperty" termtype="ENTITY" fulltext="ga">
+                <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.GarageProperty.BillingDetail">
+                  <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+      </ruleColumnList>
+    </ruleSection>
+  </rulesheetViewList>
+</com.corticon.rulesemf.assetmodel:RulesheetAsset>

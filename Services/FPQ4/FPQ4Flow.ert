@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_T9y9YC6UEfGtCJLPFNuvgA" externalChecksum="2722078124:1438690353" studioType="Java">
-  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_hMxgIC6UEfGtCJLPFNuvgA" externalChecksum="2722078124:1438690353">
+<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.common="http:///com/corticon/rulesemf/common.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_Tnm0sS7FEfGPL5xKxmLpbQ" externalChecksum="2722078124:507989954" studioType="Java">
+  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_1aRAQC6sEfGPL5xKxmLpbQ" externalChecksum="2722078124:507989954">
     <testsheet ruleActivityUpdateStamp="_hMcwAC6UEfGtCJLPFNuvgA" ruleActivity="FPQ4Flow.erf#//@ruleflow" locale="">
       <input/>
       <output/>
@@ -475,7 +475,12 @@
       <outputRuleTraceSection/>
     </testsheetViewList>
   </testsheetAssets>
-  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_hMyuQC6UEfGtCJLPFNuvgA" externalChecksum="2722078124:1438690353">
+  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_hMyuQC6UEfGtCJLPFNuvgA" externalChecksum="2722078124:507989954">
+    <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_1Z9eQC6sEfGPL5xKxmLpbQ" key="2" type="Validation" severity="Warning" invalidObjects="#//@testsheetAssets.1/@testsheetViewList.0/@inputRoot/@children.0/@children.0/@children.3/@children.2" textKey="TestsheetTreeSetModelAPIImpl.Validation.Attribute.Datatype.Value" locationKey="TestsheetTreeSetModelAPIImpl.Validation.NullTemplate">
+      <textVariables>22/01/2023</textVariables>
+      <textVariables>Date</textVariables>
+      <locationVariables>Request [1].FPQ4 (FPQ4) [1].Claims (Claims) [1].dateOfLoss</locationVariables>
+    </validationMessages>
     <testsheet ruleActivityUpdateStamp="_hMcwAC6UEfGtCJLPFNuvgA" ruleActivity="FPQ4Flow.erf#//@ruleflow" locale="">
       <input/>
       <output/>
@@ -703,7 +708,7 @@
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/FPQ4/Claims" eClass="../../AutoComm.ecore#/0/Claims">
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Claims/causeOfLoss"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Claims/claimStatus"/>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="22/01/2023" eAttribute="../../AutoComm.ecore#/0/Claims/dateOfLoss"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" validationMessages="#//@testsheetAssets.1/@validationMessages.0" manuallyCreated="true" value="22/01/2023" eAttribute="../../AutoComm.ecore#/0/Claims/dateOfLoss"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Claims/lossAmountPaid"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Claims/lossDescription"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Claims/reserve"/>
@@ -1322,7 +1327,7 @@
       <outputRuleTraceSection/>
     </testsheetViewList>
   </testsheetAssets>
-  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_hMz8YC6UEfGtCJLPFNuvgA" externalChecksum="2722078124:1438690353">
+  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_hMz8YC6UEfGtCJLPFNuvgA" externalChecksum="2722078124:507989954">
     <testsheet ruleActivityUpdateStamp="_hMcwAC6UEfGtCJLPFNuvgA" ruleActivity="FPQ4Flow.erf#//@ruleflow" locale="">
       <input/>
       <output/>
@@ -1631,7 +1636,7 @@
       <outputRuleTraceSection/>
     </testsheetViewList>
   </testsheetAssets>
-  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_pmlDsS6UEfGtCJLPFNuvgA" externalChecksum="2722078124:1438690353">
+  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_pmlDsS6UEfGtCJLPFNuvgA" externalChecksum="2722078124:507989954">
     <testsheet ruleActivityUpdateStamp="_hMcwAC6UEfGtCJLPFNuvgA" ruleActivity="FPQ4Flow.erf#//@ruleflow" locale="">
       <input/>
       <output/>
@@ -2394,7 +2399,7 @@
       <outputRuleTraceSection/>
     </testsheetViewList>
   </testsheetAssets>
-  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_hM1xkS6UEfGtCJLPFNuvgA" externalChecksum="2722078124:1438690353">
+  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_hM1xkS6UEfGtCJLPFNuvgA" externalChecksum="2722078124:507989954">
     <testsheet ruleActivityUpdateStamp="_hMcwAC6UEfGtCJLPFNuvgA" ruleActivity="FPQ4Flow.erf#//@ruleflow" locale="">
       <input/>
       <output/>

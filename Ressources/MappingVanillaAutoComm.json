@@ -1537,6 +1537,150 @@
       }
     }
   ],
+  "CGLGarage": [
+    {
+      "PolicyDetail": {
+        "PolicyDetailCGLGarage": {
+        "quoteId": "test",
+        "referenceNumber": "91610",
+        "policyNumber": "P09630",
+        "newBusinessEffectiveDate": "2019-01-22T00:00:00-05:00",
+        "effectiveDate": "2026-01-22T00:00:00-05:00",
+        "expirationDate": "2027-01-21T00:00:00-05:00",
+        "transactionQuotedDate": "2026-01-22T00:00:00-05:00",
+        "transactionDate": "2026-01-22T00:00:00-05:00",
+        "policyStatus": "Resiliation",
+        "term": 12,
+        "productCode": "LL_RESID",
+        "formId": 67,
+        "isPolicyInEnglish": true,
+        "yearsInsured": 7,
+        "MailingAddress": {
+          "id": "ADDRESS01",
+          "city": "Toronto",
+          "countryCode": "CAN",
+          "poBox": "12345",
+          "postalCode": "M5C1T4",
+          "province": "ON",
+          "ruralRoute": "5",
+          "streetName": "Yonge",
+          "streetNumber": "110",
+          "unitNumber": "500"
+        }
+        }
+      },
+      "Locations": [
+        {
+          "id": "LOCATION01",
+          "primaryRiskIndicator": true,
+          "RiskAddress": {
+            "id": "ADDRESS01",
+            "city": "Toronto",
+            "countryCode": "CAN",
+            "poBox": "12345",
+            "postalCode": "M5C1T4",
+            "province": "ON",
+            "ruralRoute": "5",
+            "streetName": "Yonge",
+            "streetNumber": "110",
+            "unitNumber": "500"
+          }
+        }
+      ],
+      "Garage": [
+        {
+          "id": "GARAGE01",
+          "parentObjectId": "LOCATION01",
+          "parentObjectName": "Location",
+          "lobSubCode": "SEAS Seasonal Dwelling",
+          
+          "ActivityCGLGARAGE": [
+          {
+            "activityID": 7,
+            "activityFR": "test",
+            "activityEN": "test",
+            "activityRate": 0.5,
+            "riskCode": "C",
+            "exposureBasis":"test",
+            "exposureAmount":0,
+            "activityPremium":0,
+            "isMobileWorkshop":true,
+            "mobileWorkshopRate":0,
+            "minimumPremium":0
+          },
+          {
+            "activityID": 1,
+            "activityFR": "Atelier mobile de réparation",
+            "activityEN": "Garage, repair, mobile shop",
+            "activityRate": 2.5,
+            "riskCode": "B",
+            "exposureBasis":"test",
+            "exposureAmount":0,
+            "activityPremium":0,
+            "isMobileWorkshop":true,
+            "mobileWorkshopRate":0,
+            "minimumPremium":0
+          }
+        ],
+          
+          "Liability": {
+            "numberOfUnits": 1,
+            "yearsInBusiness":0,
+            "yearsOfExperience":0
+          },
+        "Coverages": [
+          {
+            "amountOfInsurance": 70000,
+            "coverageCode": "ILF",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          }
+          
+        
+      ],
+      "CalculationVariables": {
+        "CalculationsVariablesCGLGarage":{
+          "totalActivityPremium":0,
+          "totalMinimumPremium":0,
+          "basePremium":0,
+          "package":"test",
+          "extensionPremium":0,
+          
+          "RatesCGLGarage": {
+
+            "ILFRate": 0,
+            "deductibleDiscountRate":0
+        }  
+      }
+      }
+        }
+      ],
+      "BillingDetail": {
+        "BillingDetailCGLGarage": {
+        "renewalFlex": 1.03,
+        "transferFlex": 1.0443989,
+        "previousPremium": 0,
+        "fullTermPremium": 1781,
+        "proratedPremium": 1781,
+        "prorataRate": 1,
+        "commissionPercent": 15,
+        "brokerFees": 0,
+        "evaluationFees": 0,
+        "serviceFees": 180,
+        "taxAmount": 142.48,
+        "taxBrokerFees": 0,
+        "taxServiceFees": 14.4,
+        "taxEvaluationFees": 0,
+        "taxRate": 0,
+        "total": 2117.88        
+       } 
+      }      
+    }
+  ],
   "Cyber": {
     "BillingDetail": {
       "BillingDetailCyber": {

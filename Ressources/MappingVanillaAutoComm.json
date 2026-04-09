@@ -1540,6 +1540,7 @@
   "CGLGarage": [
     {
       "PolicyDetail": {
+        "Théo": 0,
         "PolicyDetailCGLGarage": {
         "quoteId": "test",
         "referenceNumber": "91610",

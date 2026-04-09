@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_bBkhUS7EEfGPL5xKxmLpbQ" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_oYOKYjRLEfGCgoDYjjK0iA" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_BexvQS6SEfGtCJLPFNuvgA" vocabulary="../../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_sA3eIDQhEfGnR-IgiGBiaQ" vocabulary="../../../../AutoComm.ecore#/0">
     <rule>
       <action/>
     </rule>
@@ -25,8 +25,8 @@
         <viewExpressions lhs="LI.selected" rhs="T"/>
       </condition>
       <action>
-        <opaqueExpression expression="LI.coveragePremium = (LI.amountOfInsurance*ra.lighterEquipmentRate).min(550)">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="LI.coveragePremium = ( LI.amountOfInsurance * ra.lighterEquipmentRate ).min ( 550 )" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="LI.coveragePremium = LI.amountOfInsurance*0.011">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="LI.coveragePremium = LI.amountOfInsurance * 0.011" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="coveragePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="LI.coveragePremium">
                 <parentTerm text="LI" datatype="Coverages" termtype="ENTITY" fulltext="LI" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
@@ -44,19 +44,6 @@
                   <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-              <terms text="lighterEquipmentRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.lighterEquipmentRate">
-                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                        </parentTerm>
-                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -240,48 +227,10 @@
         </parserOutput>
       </opaqueExpression>
     </filter>
-    <filter precondition="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-      <opaqueExpression expression="LI.amountOfInsurance&lt;>null">
-        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="LI.amountOfInsurance &lt;> null" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-          <referencedTermList>
-            <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="LI.amountOfInsurance">
-              <parentTerm text="LI" datatype="Coverages" termtype="ENTITY" fulltext="LI" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                  <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                  </parentTerm>
-                </parentTerm>
-              </parentTerm>
-            </terms>
-          </referencedTermList>
-        </parserOutput>
-      </opaqueExpression>
-    </filter>
-    <filter precondition="true" logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0">
-      <opaqueExpression expression="ra.lighterEquipmentRate&lt;>null">
-        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.lighterEquipmentRate &lt;> null" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-          <referencedTermList>
-            <terms text="lighterEquipmentRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.lighterEquipmentRate">
-              <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </parentTerm>
-            </terms>
-          </referencedTermList>
-        </parserOutput>
-      </opaqueExpression>
-    </filter>
-    <logicalVariable entity="../../../../AutoComm.ecore#/0/Request" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1 #//@ruleset/@filters.2">
-      <extension association="true" entity="../../../../AutoComm.ecore#/0/GarageProperty" traversedAssocRole="../../../../AutoComm.ecore#/0/Request/GarageProperty" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1 #//@ruleset/@filters.2">
-        <extension association="true" entity="../../../../AutoComm.ecore#/0/Buildings" traversedAssocRole="../../../../AutoComm.ecore#/0/GarageProperty/Buildings" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1 #//@ruleset/@filters.2">
-          <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#/0/Coverages" traversedAssocRole="../../../../AutoComm.ecore#/0/Buildings/Coverages" filters="#//@ruleset/@filters.0 #//@ruleset/@filters.1">
+    <logicalVariable entity="../../../../AutoComm.ecore#/0/Request" filters="#//@ruleset/@filters.0">
+      <extension association="true" entity="../../../../AutoComm.ecore#/0/GarageProperty" traversedAssocRole="../../../../AutoComm.ecore#/0/Request/GarageProperty" filters="#//@ruleset/@filters.0">
+        <extension association="true" entity="../../../../AutoComm.ecore#/0/Buildings" traversedAssocRole="../../../../AutoComm.ecore#/0/GarageProperty/Buildings" filters="#//@ruleset/@filters.0">
+          <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#/0/Coverages" traversedAssocRole="../../../../AutoComm.ecore#/0/Buildings/Coverages" filters="#//@ruleset/@filters.0">
             <alias value="LI"/>
             <referencedAttributes attribute="../../../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
             <referencedAttributes attribute="../../../../AutoComm.ecore#/0/Coverages/coverageCode"/>
@@ -290,9 +239,9 @@
             <referencedAttributes attribute="../../../../AutoComm.ecore#/0/Coverages/applied"/>
             <referencedAttributes attribute="../../../../AutoComm.ecore#/0/Coverages/excluded"/>
           </extension>
-          <extension association="true" entity="../../../../AutoComm.ecore#/0/CalculationVariables" traversedAssocRole="../../../../AutoComm.ecore#/0/Buildings/CalculationVariables" filters="#//@ruleset/@filters.2">
-            <extension association="true" entity="../../../../AutoComm.ecore#/0/CalculationVariablesGarageProperty" traversedAssocRole="../../../../AutoComm.ecore#/0/CalculationVariables/CalculationVariablesGarageProperty" filters="#//@ruleset/@filters.2">
-              <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#/0/RatesGarageProperty" traversedAssocRole="../../../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/RatesGarageProperty" filters="#//@ruleset/@filters.2">
+          <extension association="true" entity="../../../../AutoComm.ecore#/0/CalculationVariables" traversedAssocRole="../../../../AutoComm.ecore#/0/Buildings/CalculationVariables">
+            <extension association="true" entity="../../../../AutoComm.ecore#/0/CalculationVariablesGarageProperty" traversedAssocRole="../../../../AutoComm.ecore#/0/CalculationVariables/CalculationVariablesGarageProperty">
+              <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#/0/RatesGarageProperty" traversedAssocRole="../../../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/RatesGarageProperty">
                 <alias value="ra"/>
                 <referencedAttributes attribute="../../../../AutoComm.ecore#/0/RatesGarageProperty/lighterEquipmentRate"/>
               </extension>
@@ -364,25 +313,18 @@
         <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeEntity" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0">
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="LI.coverageCode='LIGHT'" filter="#//@ruleset/@filters.0"/>
-            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="LI.amountOfInsurance&lt;>null" filter="#//@ruleset/@filters.1"/>
-            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ra.lighterEquipmentRate&lt;>null" filter="#//@ruleset/@filters.2"/>
           </children>
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="LI.coverageCode='LIGHT'" filter="#//@ruleset/@filters.0"/>
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="LI.amountOfInsurance&lt;>null" filter="#//@ruleset/@filters.1"/>
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ra.lighterEquipmentRate&lt;>null" filter="#//@ruleset/@filters.2"/>
             </children>
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="LI.coverageCode='LIGHT'" filter="#//@ruleset/@filters.0"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="LI.amountOfInsurance&lt;>null" filter="#//@ruleset/@filters.1"/>
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ra.lighterEquipmentRate&lt;>null" filter="#//@ruleset/@filters.2"/>
               </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
                   <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="LI.coverageCode='LIGHT'" filter="#//@ruleset/@filters.0"/>
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="LI.amountOfInsurance&lt;>null" filter="#//@ruleset/@filters.1"/>
                 </children>
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.1"/>
@@ -392,17 +334,8 @@
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.5"/>
               </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ra.lighterEquipmentRate&lt;>null" filter="#//@ruleset/@filters.2"/>
-                </children>
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
-                    <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ra.lighterEquipmentRate&lt;>null" filter="#//@ruleset/@filters.2"/>
-                  </children>
                   <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                    <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
-                      <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ra.lighterEquipmentRate&lt;>null" filter="#//@ruleset/@filters.2"/>
-                    </children>
                     <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0/@referencedAttributes.0"/>
                   </children>
                 </children>
@@ -422,44 +355,6 @@
                   <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </expressionCell>
-      </filterItemList>
-      <filterItemList filter="#//@ruleset/@filters.1">
-        <expressionCell external="LI.amountOfInsurance&lt;>null">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="LI.amountOfInsurance &lt;> null" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="LI.amountOfInsurance">
-                <parentTerm text="LI" datatype="Coverages" termtype="ENTITY" fulltext="LI" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-            </referencedTermList>
-          </parserOutput>
-        </expressionCell>
-      </filterItemList>
-      <filterItemList filter="#//@ruleset/@filters.2">
-        <expressionCell external="ra.lighterEquipmentRate&lt;>null">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.lighterEquipmentRate &lt;> null" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
-            <referencedTermList>
-              <terms text="lighterEquipmentRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.lighterEquipmentRate">
-                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                        </parentTerm>
-                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -510,8 +405,8 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="(LI.amountOfInsurance*ra.lighterEquipmentRate).min(550)">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="LI.coveragePremium = ( LI.amountOfInsurance * ra.lighterEquipmentRate ).min ( 550 )" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="LI.amountOfInsurance*0.011">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="LI.coveragePremium = LI.amountOfInsurance * 0.011" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="coveragePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="LI.coveragePremium">
                 <parentTerm text="LI" datatype="Coverages" termtype="ENTITY" fulltext="LI">
@@ -529,19 +424,6 @@
                   <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
                     <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-              <terms text="lighterEquipmentRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.lighterEquipmentRate">
-                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra">
-                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables.CalculationVariablesGarageProperty">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                        </parentTerm>
-                      </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RuleflowAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.canonicalrulemodel.ruleflow="http:///com/corticon/rulesemf/canonicalrulemodel/ruleflow.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram="http:///com/corticon/rulesemf/viewrulemodel/ruleflow/flowdiagram.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_o8X-QS3SEfGwz7XSXLxOfw" externalChecksum="2722078124:507989954:2393165206" studioType="Java" rulesheetAssets="provinceRate.ers#/ HazardCodeRate.ers#/ TownGradeRate.ers#/ BuildingRate.ers#/ ConstructionRate.ers#/ CoverageRate.ers#/">
-  <ruleflow majorVersion="1" vocabularyUpdateStamp="_nVclYSnwEfGBkoYaK0zQ3Q" vocabulary="../../../AutoComm.ecore#/0">
+<com.corticon.rulesemf.assetmodel:RuleflowAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.canonicalrulemodel.ruleflow="http:///com/corticon/rulesemf/canonicalrulemodel/ruleflow.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram="http:///com/corticon/rulesemf/viewrulemodel/ruleflow/flowdiagram.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_7VDV4TRNEfGCgoDYjjK0iA" externalChecksum="2722078124:507989954:2393165206" studioType="Java" rulesheetAssets="provinceRate.ers#/ HazardCodeRate.ers#/ TownGradeRate.ers#/ BuildingRate.ers#/ ConstructionRate.ers#/ CoverageRate.ers#/ ProtectionRate.ers#/">
+  <ruleflow majorVersion="1" vocabularyUpdateStamp="_mebsUTRNEfGCgoDYjjK0iA" vocabulary="../../../AutoComm.ecore#/0">
     <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="provinceRate" order="1" ruleActivityUpdateStamp="_jMY8oS3SEfGwz7XSXLxOfw" nextStep="#//@ruleflow/@flowControlList.1" invokes="provinceRate.ers#//@ruleset"/>
     <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="HazardCodeRate" order="2" ruleActivityUpdateStamp="_igv-oS3SEfGwz7XSXLxOfw" nextStep="#//@ruleflow/@flowControlList.2" invokes="HazardCodeRate.ers#//@ruleset"/>
     <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="TownGradeRate" order="3" ruleActivityUpdateStamp="_kiyu4S3SEfGwz7XSXLxOfw" nextStep="#//@ruleflow/@flowControlList.4" invokes="TownGradeRate.ers#//@ruleset"/>
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="BuildingRate" order="6" ruleActivityUpdateStamp="_gfHeES3SEfGwz7XSXLxOfw" invokes="BuildingRate.ers#//@ruleset"/>
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="BuildingRate" order="7" ruleActivityUpdateStamp="__xruszRMEfGCgoDYjjK0iA" invokes="BuildingRate.ers#//@ruleset"/>
     <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="ConstructionRate" order="4" ruleActivityUpdateStamp="_hEc_wS3SEfGwz7XSXLxOfw" nextStep="#//@ruleflow/@flowControlList.5" invokes="ConstructionRate.ers#//@ruleset"/>
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="CoverageRate" order="5" ruleActivityUpdateStamp="_h22tES3SEfGwz7XSXLxOfw" nextStep="#//@ruleflow/@flowControlList.3" invokes="CoverageRate.ers#//@ruleset"/>
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="CoverageRate" order="5" ruleActivityUpdateStamp="_h22tES3SEfGwz7XSXLxOfw" nextStep="#//@ruleflow/@flowControlList.6" invokes="CoverageRate.ers#//@ruleset"/>
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="ProtectionRate" order="6" ruleActivityUpdateStamp="_yEKZUzRNEfGCgoDYjjK0iA" nextStep="#//@ruleflow/@flowControlList.3" invokes="ProtectionRate.ers#//@ruleset"/>
   </ruleflow>
   <ruleflowViewList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:FlowDiagram">
     <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="275" y="38" width="177" height="36" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.0" activityNode="#//@ruleflow/@flowControlList.0">
@@ -18,7 +19,7 @@
     <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="276" y="168" width="175" height="36" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.2" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.1" activityNode="#//@ruleflow/@flowControlList.2">
       <annotations name="Color" value="8454143"/>
     </flowShapeList>
-    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="276" y="354" width="175" height="36" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.4" activityNode="#//@ruleflow/@flowControlList.3">
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="270" y="420" width="175" height="36" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.5" activityNode="#//@ruleflow/@flowControlList.3">
       <annotations name="Color" value="8454143"/>
     </flowShapeList>
     <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="276" y="228" width="175" height="36" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.3" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.2" activityNode="#//@ruleflow/@flowControlList.4">
@@ -27,10 +28,12 @@
     <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="276" y="288" width="175" height="36" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.4" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.3" activityNode="#//@ruleflow/@flowControlList.5">
       <annotations name="Color" value="8454143"/>
     </flowShapeList>
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="270" y="352" width="181" height="36" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.5" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.4" activityNode="#//@ruleflow/@flowControlList.6"/>
     <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.0" targetShape="#//@ruleflowViewList.0/@flowShapeList.1"/>
     <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.1" targetShape="#//@ruleflowViewList.0/@flowShapeList.2"/>
     <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.2" targetShape="#//@ruleflowViewList.0/@flowShapeList.4"/>
     <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.4" targetShape="#//@ruleflowViewList.0/@flowShapeList.5"/>
-    <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.5" targetShape="#//@ruleflowViewList.0/@flowShapeList.3"/>
+    <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.5" targetShape="#//@ruleflowViewList.0/@flowShapeList.6"/>
+    <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.6" targetShape="#//@ruleflowViewList.0/@flowShapeList.3"/>
   </ruleflowViewList>
 </com.corticon.rulesemf.assetmodel:RuleflowAsset>

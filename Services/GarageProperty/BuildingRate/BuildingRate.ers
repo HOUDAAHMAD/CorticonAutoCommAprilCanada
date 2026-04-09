@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_gfHeES3SEfGwz7XSXLxOfw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_DUQBEzROEfGCgoDYjjK0iA" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_nVclYSnwEfGBkoYaK0zQ3Q" vocabulary="../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_sA3eIDQhEfGnR-IgiGBiaQ" vocabulary="../../../AutoComm.ecore#/0">
     <rule>
       <action>
-        <opaqueExpression expression="ra.buildingRate = ra.propertyBaseRate*ra.provinceRate*ra.hazardCodeRate*ra.townGradeRate*ra.constructionRate*ra.coverageRate">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.buildingRate = ra.propertyBaseRate * ra.provinceRate * ra.hazardCodeRate * ra.townGradeRate * ra.constructionRate * ra.coverageRate" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.buildingRate = 0.14*ra.provinceRate*ra.hazardCodeRate*ra.townGradeRate*ra.constructionRate*ra.coverageRate*ra.protectionRate">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.buildingRate = 0.14 * ra.provinceRate * ra.hazardCodeRate * ra.townGradeRate * ra.constructionRate * ra.coverageRate * ra.protectionRate" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="buildingRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.buildingRate">
                 <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -87,7 +87,7 @@
                   </parentTerm>
                 </parentTerm>
               </terms>
-              <terms text="propertyBaseRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.propertyBaseRate">
+              <terms text="protectionRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.protectionRate">
                 <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
@@ -191,8 +191,8 @@
     <conditionSection rowCount="50" columnWidthFactor="0.6775"/>
     <ruleSection columnCount="20">
       <ruleColumnList ruleId="0" columnWidth="394" pRule="#//@ruleset/@rules.0">
-        <actionValueSetCellList valueSet="ra.propertyBaseRate*ra.provinceRate*ra.hazardCodeRate*ra.townGradeRate*ra.constructionRate*ra.coverageRate">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.buildingRate = ra.propertyBaseRate * ra.provinceRate * ra.hazardCodeRate * ra.townGradeRate * ra.constructionRate * ra.coverageRate" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="0.14*ra.provinceRate*ra.hazardCodeRate*ra.townGradeRate*ra.constructionRate*ra.coverageRate*ra.protectionRate">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.buildingRate = 0.14 * ra.provinceRate * ra.hazardCodeRate * ra.townGradeRate * ra.constructionRate * ra.coverageRate * ra.protectionRate" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="buildingRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.buildingRate">
                 <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra">
@@ -274,7 +274,7 @@
                   </parentTerm>
                 </parentTerm>
               </terms>
-              <terms text="propertyBaseRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.propertyBaseRate">
+              <terms text="protectionRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.protectionRate">
                 <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra">
                   <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">

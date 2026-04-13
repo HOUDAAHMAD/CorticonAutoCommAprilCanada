@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_h0lGMS7EEfGPL5xKxmLpbQ" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_aX5QszdgEfGxkbrQYcV_ng" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_BexvQS6SEfGtCJLPFNuvgA" vocabulary="../../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_iCkEsTcQEfGaG9C19oNcFA" vocabulary="../../../../AutoComm.ecore#/0">
     <rule>
       <action/>
     </rule>
@@ -25,8 +25,8 @@
         <viewExpressions lhs="PC.selected" rhs="T"/>
       </condition>
       <action>
-        <opaqueExpression expression="PC.coveragePremium = ra.contentsRate*PC.amountOfInsurance*su.totalSurcharges">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="PC.coveragePremium = ra.contentsRate * PC.amountOfInsurance * su.totalSurcharges" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="PC.coveragePremium = ra.contentsRate*(PC.amountOfInsurance/100)*su.totalSurcharges">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="PC.coveragePremium = ra.contentsRate * ( PC.amountOfInsurance / 100 ) * su.totalSurcharges" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="coveragePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="PC.coveragePremium">
                 <parentTerm text="PC" datatype="Coverages" termtype="ENTITY" fulltext="PC" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
@@ -281,7 +281,7 @@
       </extension>
     </logicalVariable>
   </ruleset>
-  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true">
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightConditionsIf="20">
     <actionSection rowCount="50" columnWidthFactor="0.5">
       <actionItemList rowHeight="71">
         <valueSetCell/>
@@ -419,10 +419,10 @@
       </conditionItemList>
     </conditionSection>
     <ruleSection columnCount="20">
-      <ruleColumnList ruleId="0" columnWidth="269" pRule="#//@ruleset/@rules.0">
+      <ruleColumnList ruleId="0" columnWidth="131" pRule="#//@ruleset/@rules.0">
         <actionValueSetCellList valueSet=""/>
       </ruleColumnList>
-      <ruleColumnList ruleId="1" columnWidth="100" pRule="#//@ruleset/@rules.1">
+      <ruleColumnList ruleId="1" columnWidth="482" pRule="#//@ruleset/@rules.1">
         <conditionValueSetCellList valueSet="T">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( PC.selected ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -438,8 +438,8 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="ra.contentsRate*PC.amountOfInsurance*su.totalSurcharges">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="PC.coveragePremium = ra.contentsRate * PC.amountOfInsurance * su.totalSurcharges" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="ra.contentsRate*(PC.amountOfInsurance/100)*su.totalSurcharges">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="PC.coveragePremium = ra.contentsRate * ( PC.amountOfInsurance / 100 ) * su.totalSurcharges" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="coveragePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="PC.coveragePremium">
                 <parentTerm text="PC" datatype="Coverages" termtype="ENTITY" fulltext="PC">

@@ -1141,7 +1141,8 @@
           "fireCode": "Protected",
           "numberOfSmokeDetectors": 3,
           "premiseAccessSecurityType": "Smoke",
-          "spinkleredIndicator": true
+          "spinkleredIndicator": true,
+          "protection":"test"
         },
         "BuildingUpgrades": {
           "electricalUpgradeYear": "2021",

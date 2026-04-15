@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.corticon.rulesemf.assetmodel:RuleflowAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.canonicalrulemodel.ruleflow="http:///com/corticon/rulesemf/canonicalrulemodel/ruleflow.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram="http:///com/corticon/rulesemf/viewrulemodel/ruleflow/flowdiagram.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_j84vkDgREfGPJuZrG3s3nA" externalChecksum="2722078124:1438690353:2393165206" studioType="Java" rulesheetAssets="MinimumPremiumL.ers#/ MinimumPremiumM.ers#/ MinimumPremiumH.ers#/">
   <ruleflow majorVersion="1" vocabularyUpdateStamp="_iDm5wTgREfGPJuZrG3s3nA" vocabulary="../../../../AutoComm.ecore#/0">
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="MinimumPremium" order="1" ruleActivityUpdateStamp="_g8VakDgPEfGPJuZrG3s3nA" invokes="#//@ruleflow/@flowControlList.0">
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="MinimumPremium" order="1" ruleActivityUpdateStamp="_j84vkDgREfGPJuZrG3s3nA" invokes="#//@ruleflow/@flowControlList.0">
       <condition expression="ActivityCGLGarage.riskCode">
         <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ActivityCGLGarage.riskCode" datatype="String" expressiontype="EXPRESSION" enumeration="true" cellValue="false">
           <referencedTermList>

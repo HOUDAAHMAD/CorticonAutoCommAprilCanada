@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_8Fl10jSsEfGnR-IgiGBiaQ" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_s_6bkzibEfGHv4H6pTUqSw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>en_US</languageCode>
-  <ruleset vocabularyUpdateStamp="_5YP7QDSrEfGnR-IgiGBiaQ" vocabulary="../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_iDm5wTgREfGPJuZrG3s3nA" vocabulary="../../../AutoComm.ecore#/0">
     <rule/>
     <rule>
       <condition>
@@ -23,7 +23,7 @@
         <viewExpressions lhs="ac.activityID" rhs="4780"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'M'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -121,7 +121,7 @@
         <viewExpressions lhs="ac.activityID" rhs="5011"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'M'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -219,7 +219,7 @@
         <viewExpressions lhs="ac.activityID" rhs="5121"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'H'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#H">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'H'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -317,7 +317,7 @@
         <viewExpressions lhs="ac.activityID" rhs="5512"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'M'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -415,7 +415,7 @@
         <viewExpressions lhs="ac.activityID" rhs="5513"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'M'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -513,7 +513,7 @@
         <viewExpressions lhs="ac.activityID" rhs="5514"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'M'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -611,7 +611,7 @@
         <viewExpressions lhs="ac.activityID" rhs="5522"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'M'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -709,7 +709,7 @@
         <viewExpressions lhs="ac.activityID" rhs="5523"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'M'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -807,7 +807,7 @@
         <viewExpressions lhs="ac.activityID" rhs="5524"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'M'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -905,7 +905,7 @@
         <viewExpressions lhs="ac.activityID" rhs="5531"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'M'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -1003,7 +1003,7 @@
         <viewExpressions lhs="ac.activityID" rhs="7542"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'L'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#L">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'L'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -1101,7 +1101,7 @@
         <viewExpressions lhs="ac.activityID" rhs="4117"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'H'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#H">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'H'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -1199,7 +1199,7 @@
         <viewExpressions lhs="ac.activityID" rhs="5123"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'H'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#H">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'H'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -1297,7 +1297,7 @@
         <viewExpressions lhs="ac.activityID" rhs="7541"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'H'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#H">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'H'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -1395,7 +1395,7 @@
         <viewExpressions lhs="ac.activityID" rhs="5516"/>
       </condition>
       <action>
-        <opaqueExpression expression="ac.riskCode = 'L'">
+        <opaqueExpression expression="ac.riskCode = riskCodeValue#L">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'L'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -1487,12 +1487,12 @@
       </extension>
     </logicalVariable>
   </ruleset>
-  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true">
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightConditionsActions="47">
     <actionSection rowCount="49" columnWidthFactor="0.5">
       <actionItemList>
         <valueSetCell/>
         <expressionCell external="ac.riskCode">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode" datatype="String" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode" datatype="String" expressiontype="EXPRESSION" enumeration="true" cellValue="false">
             <referencedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
                 <parentTerm text="ac" datatype="ActivityCGLGarage" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
@@ -1582,7 +1582,7 @@
         </expressionCell>
       </conditionItemList>
     </conditionSection>
-    <ruleSection columnCount="20">
+    <ruleSection columnCount="20" scrollColumnLeft="6">
       <ruleColumnList ruleId="0" columnWidth="100" pRule="#//@ruleset/@rules.0"/>
       <ruleColumnList ruleId="1" columnWidth="100" pRule="#//@ruleset/@rules.1">
         <conditionValueSetCellList valueSet="4780">
@@ -1600,7 +1600,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'M'">
+        <actionValueSetCellList valueSet="riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -1689,7 +1689,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'M'">
+        <actionValueSetCellList valueSet="riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -1778,7 +1778,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'H'">
+        <actionValueSetCellList valueSet="riskCodeValue#H">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'H'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -1867,7 +1867,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'M'">
+        <actionValueSetCellList valueSet="riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -1956,7 +1956,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'M'">
+        <actionValueSetCellList valueSet="riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -2045,7 +2045,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'M'">
+        <actionValueSetCellList valueSet="riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -2134,7 +2134,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'M'">
+        <actionValueSetCellList valueSet="riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -2223,7 +2223,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'M'">
+        <actionValueSetCellList valueSet="riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -2312,7 +2312,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'M'">
+        <actionValueSetCellList valueSet="riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -2401,7 +2401,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'M'">
+        <actionValueSetCellList valueSet="riskCodeValue#M">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'M'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -2490,7 +2490,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'L'">
+        <actionValueSetCellList valueSet="riskCodeValue#L">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'L'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -2579,7 +2579,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'H'">
+        <actionValueSetCellList valueSet="riskCodeValue#H">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'H'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -2668,7 +2668,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'H'">
+        <actionValueSetCellList valueSet="riskCodeValue#H">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'H'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -2757,7 +2757,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'H'">
+        <actionValueSetCellList valueSet="riskCodeValue#H">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'H'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
@@ -2846,7 +2846,7 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="'L'">
+        <actionValueSetCellList valueSet="riskCodeValue#L">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'L'" datatype="String" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">

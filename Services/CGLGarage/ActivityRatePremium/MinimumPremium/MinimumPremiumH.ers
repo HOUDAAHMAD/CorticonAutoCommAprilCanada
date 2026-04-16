@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_InCTIzidEfGHv4H6pTUqSw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_VXP3oTjcEfGDA79rgLGGEw" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
   <ruleset vocabularyUpdateStamp="_iDm5wTgREfGPJuZrG3s3nA" vocabulary="../../../../AutoComm.ecore#/0">
     <rule>
@@ -246,13 +246,31 @@
         </opaqueExpression>
       </action>
     </rule>
-    <logicalVariable entity="../../../../AutoComm.ecore#/0/Request">
-      <extension association="true" entity="../../../../AutoComm.ecore#/0/CGLGarage" traversedAssocRole="../../../../AutoComm.ecore#/0/Request/CGLGarage">
-        <extension association="true" entity="../../../../AutoComm.ecore#/0/Garage" traversedAssocRole="../../../../AutoComm.ecore#/0/CGLGarage/Garage">
-          <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#/0/ActivityCGLGarage" traversedAssocRole="../../../../AutoComm.ecore#/0/Garage/ActivityCGLGarage">
+    <filter logicalVariables="#//@ruleset/@logicalVariables.0 #//@ruleset/@logicalVariables.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0 #//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+      <opaqueExpression expression="ac.riskCode='H'">
+        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'H'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="true" cellValue="false">
+          <referencedTermList>
+            <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
+              <parentTerm text="ac" datatype="ActivityCGLGarage" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.CGLGarage.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                  <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </parentTerm>
+            </terms>
+          </referencedTermList>
+        </parserOutput>
+      </opaqueExpression>
+    </filter>
+    <logicalVariable entity="../../../../AutoComm.ecore#/0/Request" filters="#//@ruleset/@filters.0">
+      <extension association="true" entity="../../../../AutoComm.ecore#/0/CGLGarage" traversedAssocRole="../../../../AutoComm.ecore#/0/Request/CGLGarage" filters="#//@ruleset/@filters.0">
+        <extension association="true" entity="../../../../AutoComm.ecore#/0/Garage" traversedAssocRole="../../../../AutoComm.ecore#/0/CGLGarage/Garage" filters="#//@ruleset/@filters.0">
+          <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#/0/ActivityCGLGarage" traversedAssocRole="../../../../AutoComm.ecore#/0/Garage/ActivityCGLGarage" filters="#//@ruleset/@filters.0">
             <alias value="ac"/>
             <referencedAttributes attribute="../../../../AutoComm.ecore#/0/ActivityCGLGarage/minimumPremium"/>
             <referencedAttributes attribute="../../../../AutoComm.ecore#/0/ActivityCGLGarage/mobileWorkshopRate"/>
+            <referencedAttributes attribute="../../../../AutoComm.ecore#/0/ActivityCGLGarage/riskCode"/>
           </extension>
           <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#/0/Liability" traversedAssocRole="../../../../AutoComm.ecore#/0/Garage/Liability">
             <alias value="la"/>
@@ -306,11 +324,24 @@
     <scopeSection>
       <rootNode>
         <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeEntity" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0">
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ac.riskCode='H'" filter="#//@ruleset/@filters.0"/>
+          </children>
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ac.riskCode='H'" filter="#//@ruleset/@filters.0"/>
+            </children>
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ac.riskCode='H'" filter="#//@ruleset/@filters.0"/>
+              </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFolder">
+                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeFilter" expression="ac.riskCode='H'" filter="#//@ruleset/@filters.0"/>
+                </children>
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.1"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.2"/>
               </children>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@referencedAttributes.0"/>
@@ -328,7 +359,25 @@
         </children>
       </rootNode>
     </scopeSection>
-    <filterSection rowCount="50"/>
+    <filterSection rowCount="50">
+      <filterItemList filter="#//@ruleset/@filters.0">
+        <expressionCell external="ac.riskCode='H'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.riskCode = 'H'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="true" cellValue="false">
+            <referencedTermList>
+              <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ac.riskCode">
+                <parentTerm text="ac" datatype="ActivityCGLGarage" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.CGLGarage.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </filterItemList>
+    </filterSection>
     <ruleStatementSection rowCount="50" columnWidthReference="50" columnWidthPostSeverity="75" columnWidthAlias="100" columnWidthID="50" columnWidthText="600" columnWidthRuleName="100" columnWidthRuleLink="100" columnWidthSourceName="100" columnWidthSourceLink="100" columnWidthCategory="100" columnWidthComments="400"/>
     <conditionSection rowCount="50" columnWidthFactor="0.5">
       <conditionItemList>

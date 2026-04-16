@@ -1,48 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RuleflowAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.canonicalrulemodel.ruleflow="http:///com/corticon/rulesemf/canonicalrulemodel/ruleflow.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram="http:///com/corticon/rulesemf/viewrulemodel/ruleflow/flowdiagram.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_j84vkDgREfGPJuZrG3s3nA" externalChecksum="2722078124:1438690353:2393165206" studioType="Java" rulesheetAssets="MinimumPremiumL.ers#/ MinimumPremiumM.ers#/ MinimumPremiumH.ers#/">
+<com.corticon.rulesemf.assetmodel:RuleflowAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.canonicalrulemodel.ruleflow="http:///com/corticon/rulesemf/canonicalrulemodel/ruleflow.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram="http:///com/corticon/rulesemf/viewrulemodel/ruleflow/flowdiagram.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_ZiUJ4DjcEfGDA79rgLGGEw" externalChecksum="2722078124:507989954:2393165206" studioType="Java" rulesheetAssets="MinimumPremiumH.ers#/ MinimumPremiumL.ers#/ MinimumPremiumM.ers#/">
   <ruleflow majorVersion="1" vocabularyUpdateStamp="_iDm5wTgREfGPJuZrG3s3nA" vocabulary="../../../../AutoComm.ecore#/0">
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="MinimumPremium" order="1" ruleActivityUpdateStamp="_j84vkDgREfGPJuZrG3s3nA" invokes="#//@ruleflow/@flowControlList.0">
-      <condition expression="ActivityCGLGarage.riskCode">
-        <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ActivityCGLGarage.riskCode" datatype="String" expressiontype="EXPRESSION" enumeration="true" cellValue="false">
-          <referencedTermList>
-            <terms text="riskCode" datatype="String" termtype="ATTRIBUTE" fulltext="ActivityCGLGarage.riskCode">
-              <parentTerm text="ActivityCGLGarage" datatype="ActivityCGLGarage" termtype="ENTITY" fulltext="ActivityCGLGarage"/>
-            </terms>
-          </referencedTermList>
-        </parserOutput>
-      </condition>
-      <branches>
-        <nextStep xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="MinimumPremiumL" order="2" ruleActivityUpdateStamp="_Ic7XWjgNEfGPJuZrG3s3nA" invokes="MinimumPremiumL.ers#//@ruleset"/>
-        <label expression="riskCodeValue#L"/>
-        <viewExpressions lhs="ActivityCGLGarage.riskCode" rhs="riskCodeValue#L"/>
-      </branches>
-      <branches>
-        <nextStep xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="MinimumPremiumM" order="3" ruleActivityUpdateStamp="_KEanojgPEfGPJuZrG3s3nA" invokes="MinimumPremiumM.ers#//@ruleset"/>
-        <label expression="riskCodeValue#M"/>
-        <viewExpressions lhs="ActivityCGLGarage.riskCode" rhs="riskCodeValue#M"/>
-      </branches>
-      <branches>
-        <nextStep xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="MinimumPremiumH" order="4" ruleActivityUpdateStamp="_bvilkjgPEfGPJuZrG3s3nA" invokes="MinimumPremiumH.ers#//@ruleset"/>
-        <label expression="riskCodeValue#H"/>
-        <viewExpressions lhs="ActivityCGLGarage.riskCode" rhs="riskCodeValue#H"/>
-      </branches>
-    </flowControlList>
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="MinimumPremiumH" order="3" ruleActivityUpdateStamp="_InCTIzidEfGHv4H6pTUqSw" invokes="MinimumPremiumH.ers#//@ruleset"/>
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="MinimumPremiumL" order="1" ruleActivityUpdateStamp="_Fz3A4zidEfGHv4H6pTUqSw" nextStep="#//@ruleflow/@flowControlList.2" invokes="MinimumPremiumL.ers#//@ruleset"/>
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="MinimumPremiumM" order="2" ruleActivityUpdateStamp="_Hd3EkzidEfGHv4H6pTUqSw" nextStep="#//@ruleflow/@flowControlList.0" invokes="MinimumPremiumM.ers#//@ruleset"/>
   </ruleflow>
   <ruleflowViewList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:FlowDiagram">
-    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:BranchContainerShape" x="252" y="145" width="271" height="258" activityNode="#//@ruleflow/@flowControlList.0" valid="true" branchContainer="#//@ruleflow/@flowControlList.0">
-      <annotations name="Color" value="16777088"/>
-      <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="43" y="11" width="170" height="55" inboundEdges="#//@ruleflowViewList.0/@flowShapeList.0/@branchEdgeList.0" activityNode="#//@ruleflow/@flowControlList.0/@branches.0/@nextStep.0">
-        <annotations name="Color" value="8454143"/>
-      </flowShapeList>
-      <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="44" y="83" width="169" height="55" inboundEdges="#//@ruleflowViewList.0/@flowShapeList.0/@branchEdgeList.1" activityNode="#//@ruleflow/@flowControlList.0/@branches.1/@nextStep.0">
-        <annotations name="Color" value="8454143"/>
-      </flowShapeList>
-      <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="43" y="161" width="169" height="55" inboundEdges="#//@ruleflowViewList.0/@flowShapeList.0/@branchEdgeList.2" activityNode="#//@ruleflow/@flowControlList.0/@branches.2/@nextStep.0">
-        <annotations name="Color" value="8454143"/>
-      </flowShapeList>
-      <branchEdgeList targetShape="#//@ruleflowViewList.0/@flowShapeList.0/@flowShapeList.0" branch="#//@ruleflow/@flowControlList.0/@branches.0"/>
-      <branchEdgeList targetShape="#//@ruleflowViewList.0/@flowShapeList.0/@flowShapeList.1" branch="#//@ruleflow/@flowControlList.0/@branches.1"/>
-      <branchEdgeList targetShape="#//@ruleflowViewList.0/@flowShapeList.0/@flowShapeList.2" branch="#//@ruleflow/@flowControlList.0/@branches.2"/>
-    </flowShapeList>
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="468" y="360" width="145" height="36" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.1" activityNode="#//@ruleflow/@flowControlList.0"/>
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="468" y="203" width="145" height="36" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.0" activityNode="#//@ruleflow/@flowControlList.1"/>
+    <flowShapeList xsi:type="com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram:ActivityShape" x="468" y="288" width="145" height="36" outboundEdges="#//@ruleflowViewList.0/@flowEdgeList.1" inboundEdges="#//@ruleflowViewList.0/@flowEdgeList.0" activityNode="#//@ruleflow/@flowControlList.2"/>
+    <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.1" targetShape="#//@ruleflowViewList.0/@flowShapeList.2"/>
+    <flowEdgeList sourceShape="#//@ruleflowViewList.0/@flowShapeList.2" targetShape="#//@ruleflowViewList.0/@flowShapeList.0"/>
   </ruleflowViewList>
 </com.corticon.rulesemf.assetmodel:RuleflowAsset>

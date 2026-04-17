@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">
     <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_iDm5wTgREfGPJuZrG3s3nA" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_F0kcUDouEfGBjsdydi_npg" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
         <languageCode>fr_FR</languageCode>
         <databaseAccess databasePropertyDisplayCount="50">
           <databaseId manuallyCreated="true" value="com.corticon.database.id.MsSql"/>
@@ -5840,7 +5840,7 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="extensionPremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="extensionPremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
             <name manuallyCreated="true" value="extensionPremium"/>

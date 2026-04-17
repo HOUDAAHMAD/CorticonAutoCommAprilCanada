@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_Lg3p0i6TEfGtCJLPFNuvgA" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_kMF0YjouEfGBjsdydi_npg" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_BexvQS6SEfGtCJLPFNuvgA" vocabulary="../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_F0kcUDouEfGBjsdydi_npg" vocabulary="../../AutoComm.ecore#/0">
     <rule>
       <action>
-        <opaqueExpression expression="re.fullTermPremium = f1.fullTermPremium+f4.fullTermPremium+ga.fullTermPremium">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="re.fullTermPremium = f1.fullTermPremium + f4.fullTermPremium + ga.fullTermPremium" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="re.fullTermPremium = f1.fullTermPremium+f4.fullTermPremium+ga.fullTermPremium+cg.fullTermPremium">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="re.fullTermPremium = f1.fullTermPremium + f4.fullTermPremium + ga.fullTermPremium + cg.fullTermPremium" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="re.fullTermPremium">
                 <parentTerm text="re" datatype="Request" termtype="ENTITY" fulltext="re" variable="#//@ruleset/@logicalVariables.0"/>
@@ -13,6 +13,15 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="re" datatype="Request" termtype="ENTITY" fulltext="re" variable="#//@ruleset/@logicalVariables.0"/>
+              <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="cg.fullTermPremium">
+                <parentTerm text="cg" datatype="BillingDetailCGLGarage" termtype="ENTITY" fulltext="cg" variable="#//@ruleset/@logicalVariables.0/@extension.3/@extension.0/@extension.0">
+                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="re.CGLGarage.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.3/@extension.0">
+                    <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="re.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.3">
+                      <parentTerm text="re" datatype="Request" termtype="ENTITY" fulltext="re" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
               <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="f4.fullTermPremium">
                 <parentTerm text="f4" datatype="BillingDetailFPQ4" termtype="ENTITY" fulltext="f4" variable="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0/@extension.0">
                   <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="re.FPQ4.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0">
@@ -71,12 +80,20 @@
           </extension>
         </extension>
       </extension>
+      <extension association="true" entity="../../AutoComm.ecore#/0/CGLGarage" traversedAssocRole="../../AutoComm.ecore#/0/Request/CGLGarage">
+        <extension association="true" entity="../../AutoComm.ecore#/0/BillingDetail" traversedAssocRole="../../AutoComm.ecore#/0/CGLGarage/BillingDetail">
+          <extension explicit="true" association="true" entity="../../AutoComm.ecore#/0/BillingDetailCGLGarage" traversedAssocRole="../../AutoComm.ecore#/0/BillingDetail/billingDetailCGLGarage">
+            <alias value="cg"/>
+            <referencedAttributes attribute="../../AutoComm.ecore#/0/BillingDetailCGLGarage/fullTermPremium"/>
+          </extension>
+        </extension>
+      </extension>
       <referencedAttributes attribute="../../AutoComm.ecore#/0/Request/fullTermPremium"/>
     </logicalVariable>
   </ruleset>
   <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true">
     <actionSection rowCount="50" columnWidthFactor="0.5">
-      <actionItemList rowHeight="80">
+      <actionItemList rowHeight="124">
         <valueSetCell/>
         <expressionCell external="re.fullTermPremium">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="re.fullTermPremium" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -92,7 +109,7 @@
     <scopeSection>
       <rootNode>
         <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeEntity" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0">
-          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
@@ -100,17 +117,24 @@
             </children>
           </children>
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@referencedAttributes.0"/>
-          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.1">
-            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0">
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.1">
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0/@extension.0">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.1/@extension.0/@extension.0/@referencedAttributes.0"/>
               </children>
             </children>
           </children>
-          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.2">
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.2">
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.2/@extension.0">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.2/@extension.0/@extension.0">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.2/@extension.0/@extension.0/@referencedAttributes.0"/>
+              </children>
+            </children>
+          </children>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.3">
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.3/@extension.0">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.3/@extension.0/@extension.0">
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.3/@extension.0/@extension.0/@referencedAttributes.0"/>
               </children>
             </children>
           </children>
@@ -121,9 +145,9 @@
     <ruleStatementSection rowCount="50" columnWidthReference="50" columnWidthPostSeverity="75" columnWidthAlias="100" columnWidthID="50" columnWidthText="600" columnWidthRuleName="100" columnWidthRuleLink="100" columnWidthSourceName="100" columnWidthSourceLink="100" columnWidthCategory="100" columnWidthComments="400"/>
     <conditionSection rowCount="50" columnWidthFactor="0.5"/>
     <ruleSection columnCount="20">
-      <ruleColumnList ruleId="0" columnWidth="285" pRule="#//@ruleset/@rules.0">
-        <actionValueSetCellList valueSet="f1.fullTermPremium+f4.fullTermPremium+ga.fullTermPremium">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="re.fullTermPremium = f1.fullTermPremium + f4.fullTermPremium + ga.fullTermPremium" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+      <ruleColumnList ruleId="0" columnWidth="151" pRule="#//@ruleset/@rules.0">
+        <actionValueSetCellList valueSet="f1.fullTermPremium+f4.fullTermPremium+ga.fullTermPremium+cg.fullTermPremium">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="re.fullTermPremium = f1.fullTermPremium + f4.fullTermPremium + ga.fullTermPremium + cg.fullTermPremium" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="re.fullTermPremium">
                 <parentTerm text="re" datatype="Request" termtype="ENTITY" fulltext="re"/>
@@ -131,6 +155,15 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="re" datatype="Request" termtype="ENTITY" fulltext="re"/>
+              <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="cg.fullTermPremium">
+                <parentTerm text="cg" datatype="BillingDetailCGLGarage" termtype="ENTITY" fulltext="cg">
+                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="re.CGLGarage.BillingDetail">
+                    <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="re.CGLGarage">
+                      <parentTerm text="re" datatype="Request" termtype="ENTITY" fulltext="re"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
               <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="f4.fullTermPremium">
                 <parentTerm text="f4" datatype="BillingDetailFPQ4" termtype="ENTITY" fulltext="f4">
                   <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="re.FPQ4.BillingDetail">

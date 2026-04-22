@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_k41PpD2REfGLp-m7rJVFRA" externalChecksum="2722078124:1438690353" studioType="Java">
-  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_1Ilbwj2REfGLp-m7rJVFRA" externalChecksum="2722078124:1438690353">
-    <testsheet ruleActivityUpdateStamp="_yBUI0T2REfGLp-m7rJVFRA" ruleActivity="ExcessCargoAmount.ers#//@ruleset" locale="">
+<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_fDtrwT5UEfGCCfhaV2L5VA" externalChecksum="2722078124:1438690353" studioType="Java">
+  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_VUfMYj5fEfGCCfhaV2L5VA" externalChecksum="2722078124:1438690353">
+    <testsheet ruleActivityUpdateStamp="_3d9okj5eEfGCCfhaV2L5VA" ruleActivity="Cargo.erf#//@ruleflow" locale="">
       <input/>
       <output/>
       <expectedOutput/>
@@ -12,19 +12,18 @@
           <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Request/fullTermPremium"/>
           <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Request/Cargo" eClass="../../AutoComm.ecore#/0/Cargo">
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Cargo/CargoIndicator"/>
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Cargo/commodityClass"/>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Cargo/dashboardCamera"/>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Cargo/id"/>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Cargo/mainCargoType"/>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Cargo/numberOfUnits"/>
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Cargo/reeferAge"/>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="6" eAttribute="../../AutoComm.ecore#/0/Cargo/reeferAge"/>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Cargo/Buildings" eClass="../../AutoComm.ecore#/0/Buildings">
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Buildings/id"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Buildings/lobSubCode"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Buildings/parentObjectId"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Buildings/parentObjectName"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Buildings/Coverages" eClass="../../AutoComm.ecore#/0/Coverages">
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="50000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="40000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="Cargo" eAttribute="../../AutoComm.ecore#/0/Coverages/coverageCode"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
@@ -32,8 +31,8 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/excluded"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/selected"/>
               </children>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Buildings/Coverages" eClass="../../AutoComm.ecore#/0/Coverages">
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="71000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" manuallyCreated="true" expanded="false" eReference="../../AutoComm.ecore#/0/Buildings/Coverages" eClass="../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="ExcessCargo" eAttribute="../../AutoComm.ecore#/0/Coverages/coverageCode"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
@@ -41,6 +40,71 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/excluded"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/selected"/>
               </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Buildings/CalculationVariables" eClass="../../AutoComm.ecore#/0/CalculationVariables">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/CalculationVariables/CalculationVariablesCargo" eClass="../../AutoComm.ecore#/0/CalculationVariablesCargo">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/loadingUnloadingIndicator"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/minDeductible"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/minimumPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/premiumPerUnit"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/reeferPercentage"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/subTotalPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/targetClassPercentage"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/totalCargoPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/totalFlex"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/totalPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/unattentedTruckIndicator"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/commodityClass"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/CalculationVariablesCargo/RatesCargo" eClass="../../AutoComm.ecore#/0/RatesCargo">
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1.000000" eAttribute="../../AutoComm.ecore#/0/RatesCargo/cargoBaseRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/cargoFinalRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/cargoReeferLoadingRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/cargoSubRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/dashboardCameraDiscountRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/deductibleDiscountRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoBaseRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoFinalRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoReeferLoading"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoSubRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessReeferBreakdownRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/fleetSizeDiscountRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/inBusinessRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/loadingUnloadingRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/radiusOfOperationRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/reeferAgeRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/reeferPercentageRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1.000000" eAttribute="../../AutoComm.ecore#/0/RatesCargo/refeerBreakdownRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/targetInterestInclusionRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/totalRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/trailerInterchangeRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/unattendedTruckRate"/>
+                  </children>
+                </children>
+              </children>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Cargo/Activity" eClass="../../AutoComm.ecore#/0/Activity">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="Alcohol" eAttribute="../../AutoComm.ecore#/0/Activity/cargoType"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/commodityClassActivity"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/haulsPercentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/id"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="0.040000" eAttribute="../../AutoComm.ecore#/0/Activity/percentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/targetInterest"/>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Cargo/Activity" eClass="../../AutoComm.ecore#/0/Activity">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="Bakery products" eAttribute="../../AutoComm.ecore#/0/Activity/cargoType"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/commodityClassActivity"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/haulsPercentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/id"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="0.06" eAttribute="../../AutoComm.ecore#/0/Activity/percentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/targetInterest"/>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="3" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Cargo/Activity" eClass="../../AutoComm.ecore#/0/Activity">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="Household Removals" eAttribute="../../AutoComm.ecore#/0/Activity/cargoType"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/commodityClassActivity"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/haulsPercentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/id"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="0.9" eAttribute="../../AutoComm.ecore#/0/Activity/percentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/targetInterest"/>
             </children>
           </children>
         </children>
@@ -60,36 +124,201 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/deductible"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="50000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="40000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="Cargo" eAttribute="../../AutoComm.ecore#/0/Coverages/coverageCode"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/selected"/>
               </children>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" newOrModified="true" eReference="../../AutoComm.ecore#/0/Buildings/Coverages" eClass="../../AutoComm.ecore#/0/Coverages">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" newOrModified="true" expanded="false" eReference="../../AutoComm.ecore#/0/Buildings/Coverages" eClass="../../AutoComm.ecore#/0/Coverages">
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/excluded"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/deductible"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="21000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="ExcessCargo" eAttribute="../../AutoComm.ecore#/0/Coverages/coverageCode"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/selected"/>
               </children>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Buildings/parentObjectId"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../AutoComm.ecore#/0/Buildings/CalculationVariables" eClass="../../AutoComm.ecore#/0/CalculationVariables">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../AutoComm.ecore#/0/CalculationVariables/CalculationVariablesCargo" eClass="../../AutoComm.ecore#/0/CalculationVariablesCargo">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/loadingUnloadingIndicator"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../AutoComm.ecore#/0/CalculationVariablesCargo/RatesCargo" eClass="../../AutoComm.ecore#/0/RatesCargo">
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/fleetSizeDiscountRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoReeferLoading"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="1.000000" eAttribute="../../AutoComm.ecore#/0/RatesCargo/cargoBaseRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.100000" eAttribute="../../AutoComm.ecore#/0/RatesCargo/loadingUnloadingRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/deductibleDiscountRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/targetInterestInclusionRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoBaseRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.050000" eAttribute="../../AutoComm.ecore#/0/RatesCargo/cargoReeferLoadingRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/dashboardCameraDiscountRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoFinalRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/reeferPercentageRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/inBusinessRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/totalRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/radiusOfOperationRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.100000" eAttribute="../../AutoComm.ecore#/0/RatesCargo/cargoSubRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/unattendedTruckRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/cargoFinalRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="1.000000" eAttribute="../../AutoComm.ecore#/0/RatesCargo/refeerBreakdownRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoSubRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessReeferBreakdownRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.050000" eAttribute="../../AutoComm.ecore#/0/RatesCargo/reeferAgeRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesCargo/trailerInterchangeRate"/>
+                  </children>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/subTotalPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/totalCargoPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/totalPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/totalFlex"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/minimumPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/premiumPerUnit"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/reeferPercentage"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1000" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/minDeductible"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="2" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/commodityClass"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/targetClassPercentage"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/unattentedTruckIndicator"/>
+                </children>
+              </children>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Buildings/id"/>
             </children>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Cargo/CargoIndicator"/>
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Cargo/reeferAge"/>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="6" eAttribute="../../AutoComm.ecore#/0/Cargo/reeferAge"/>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../AutoComm.ecore#/0/Cargo/Activity" eClass="../../AutoComm.ecore#/0/Activity">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="Alcohol" eAttribute="../../AutoComm.ecore#/0/Activity/cargoType"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Activity/haulsPercentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="true" eAttribute="../../AutoComm.ecore#/0/Activity/targetInterest"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="0.040000" eAttribute="../../AutoComm.ecore#/0/Activity/percentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="4" eAttribute="../../AutoComm.ecore#/0/Activity/commodityClassActivity"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Activity/id"/>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" newOrModified="true" eReference="../../AutoComm.ecore#/0/Cargo/Activity" eClass="../../AutoComm.ecore#/0/Activity">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="Bakery products" eAttribute="../../AutoComm.ecore#/0/Activity/cargoType"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Activity/haulsPercentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="false" eAttribute="../../AutoComm.ecore#/0/Activity/targetInterest"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="0.06" eAttribute="../../AutoComm.ecore#/0/Activity/percentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1" eAttribute="../../AutoComm.ecore#/0/Activity/commodityClassActivity"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Activity/id"/>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="3" newOrModified="true" eReference="../../AutoComm.ecore#/0/Cargo/Activity" eClass="../../AutoComm.ecore#/0/Activity">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="Household Removals" eAttribute="../../AutoComm.ecore#/0/Activity/cargoType"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Activity/haulsPercentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="false" eAttribute="../../AutoComm.ecore#/0/Activity/targetInterest"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="0.9" eAttribute="../../AutoComm.ecore#/0/Activity/percentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="2" eAttribute="../../AutoComm.ecore#/0/Activity/commodityClassActivity"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Activity/id"/>
+            </children>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Cargo/id"/>
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Cargo/commodityClass"/>
           </children>
         </children>
       </outputRoot>
       <outputMessageSection rowCount="20" columnWidthSeverity="100" columnWidthMessage="600"/>
-      <expectedRoot/>
+      <expectedRoot>
+        <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestEntity" nodeID="1" manuallyCreated="true" eClass="../../AutoComm.ecore#/0/Request">
+          <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Request/fullTermPremium"/>
+          <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Request/Cargo" eClass="../../AutoComm.ecore#/0/Cargo">
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Cargo/CargoIndicator"/>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Cargo/dashboardCamera"/>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Cargo/id"/>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Cargo/mainCargoType"/>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Cargo/numberOfUnits"/>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="6" eAttribute="../../AutoComm.ecore#/0/Cargo/reeferAge"/>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Cargo/Buildings" eClass="../../AutoComm.ecore#/0/Buildings">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Buildings/id"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Buildings/lobSubCode"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Buildings/parentObjectId"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Buildings/parentObjectName"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Buildings/Coverages" eClass="../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="40000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="Cargo" eAttribute="../../AutoComm.ecore#/0/Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Buildings/Coverages" eClass="../../AutoComm.ecore#/0/Coverages">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="0" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="ExcessCargo" eAttribute="../../AutoComm.ecore#/0/Coverages/coverageCode"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/deductible"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/excluded"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/selected"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Buildings/CalculationVariables" eClass="../../AutoComm.ecore#/0/CalculationVariables">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/CalculationVariables/CalculationVariablesCargo" eClass="../../AutoComm.ecore#/0/CalculationVariablesCargo">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/loadingUnloadingIndicator"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1000" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/minDeductible"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/minimumPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/premiumPerUnit"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/reeferPercentage"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/subTotalPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/targetClassPercentage"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/totalCargoPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/totalFlex"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/totalPremium"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/unattentedTruckIndicator"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="2" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesCargo/commodityClass"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/CalculationVariablesCargo/RatesCargo" eClass="../../AutoComm.ecore#/0/RatesCargo">
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1.000000" eAttribute="../../AutoComm.ecore#/0/RatesCargo/cargoBaseRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/cargoFinalRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1.05" eAttribute="../../AutoComm.ecore#/0/RatesCargo/cargoReeferLoadingRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1.1" eAttribute="../../AutoComm.ecore#/0/RatesCargo/cargoSubRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/dashboardCameraDiscountRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/deductibleDiscountRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoBaseRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoFinalRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoReeferLoading"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessCargoSubRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/excessReeferBreakdownRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/fleetSizeDiscountRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/inBusinessRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="0.1" eAttribute="../../AutoComm.ecore#/0/RatesCargo/loadingUnloadingRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/radiusOfOperationRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1.05" eAttribute="../../AutoComm.ecore#/0/RatesCargo/reeferAgeRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/reeferPercentageRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1.000000" eAttribute="../../AutoComm.ecore#/0/RatesCargo/refeerBreakdownRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/targetInterestInclusionRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/totalRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/trailerInterchangeRate"/>
+                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesCargo/unattendedTruckRate"/>
+                  </children>
+                </children>
+              </children>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Cargo/Activity" eClass="../../AutoComm.ecore#/0/Activity">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="Alcohol" eAttribute="../../AutoComm.ecore#/0/Activity/cargoType"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="4" eAttribute="../../AutoComm.ecore#/0/Activity/commodityClassActivity"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/haulsPercentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/id"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="0.040000" eAttribute="../../AutoComm.ecore#/0/Activity/percentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="true" eAttribute="../../AutoComm.ecore#/0/Activity/targetInterest"/>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Cargo/Activity" eClass="../../AutoComm.ecore#/0/Activity">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="Bakery products" eAttribute="../../AutoComm.ecore#/0/Activity/cargoType"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1" eAttribute="../../AutoComm.ecore#/0/Activity/commodityClassActivity"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/haulsPercentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/id"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="0.06" eAttribute="../../AutoComm.ecore#/0/Activity/percentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="false" eAttribute="../../AutoComm.ecore#/0/Activity/targetInterest"/>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="3" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Cargo/Activity" eClass="../../AutoComm.ecore#/0/Activity">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="Household Removals" eAttribute="../../AutoComm.ecore#/0/Activity/cargoType"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="2" eAttribute="../../AutoComm.ecore#/0/Activity/commodityClassActivity"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/haulsPercentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Activity/id"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="0.9" eAttribute="../../AutoComm.ecore#/0/Activity/percentage"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="false" eAttribute="../../AutoComm.ecore#/0/Activity/targetInterest"/>
+            </children>
+          </children>
+        </children>
+      </expectedRoot>
       <expectedMessageSection rowCount="20" columnWidthSeverity="100" columnWidthMessage="600"/>
       <outputRuleTraceSection/>
     </testsheetViewList>
   </testsheetAssets>
-  <ruletest vocabularyUpdateStamp="_xxnAQD2OEfGLp-m7rJVFRA" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../AutoComm.ecore#/0"/>
+  <ruletest vocabularyUpdateStamp="_AdpE4D5VEfGCCfhaV2L5VA" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../AutoComm.ecore#/0"/>
   <ruletestViewList xsi:type="com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder:TestTabFolder">
     <testTabList name="untitled_1"/>
   </ruletestViewList>

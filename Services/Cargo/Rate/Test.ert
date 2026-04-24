@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_fC6agT5UEfGCCfhaV2L5VA" externalChecksum="2722078124:1438690353" studioType="Java">
-  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_Ja5CoT4nEfGCCfhaV2L5VA" externalChecksum="2722078124:1438690353">
+<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_WYe1UT_mEfGeVcrJH7Vzxg" externalChecksum="2722078124:1438690353" studioType="Java">
+  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_Pu_Agj_gEfGeVcrJH7Vzxg" externalChecksum="2722078124:1438690353">
     <testsheet ruleActivityUpdateStamp="_zi-UID4mEfGCCfhaV2L5VA" ruleActivity="ReeferAgeRate.ers#//@ruleset" locale="">
       <input/>
       <output/>
@@ -12,7 +12,6 @@
           <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../AutoComm.ecore#/0/Request/fullTermPremium"/>
           <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../../AutoComm.ecore#/0/Request/Cargo" eClass="../../../AutoComm.ecore#/0/Cargo">
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../AutoComm.ecore#/0/Cargo/CargoIndicator"/>
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../AutoComm.ecore#/0/Cargo/commodityClass"/>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../AutoComm.ecore#/0/Cargo/dashboardCamera"/>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../AutoComm.ecore#/0/Cargo/id"/>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../AutoComm.ecore#/0/Cargo/mainCargoType"/>
@@ -61,6 +60,7 @@
                     <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../AutoComm.ecore#/0/RatesCargo/trailerInterchangeRate"/>
                     <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../AutoComm.ecore#/0/RatesCargo/unattendedTruckRate"/>
                   </children>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../../AutoComm.ecore#/0/CalculationVariablesCargo/commodityClass"/>
                 </children>
               </children>
             </children>
@@ -114,6 +114,7 @@
                   <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../AutoComm.ecore#/0/CalculationVariablesCargo/premiumPerUnit"/>
                   <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../AutoComm.ecore#/0/CalculationVariablesCargo/reeferPercentage"/>
                   <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../AutoComm.ecore#/0/CalculationVariablesCargo/minDeductible"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../AutoComm.ecore#/0/CalculationVariablesCargo/commodityClass"/>
                   <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../AutoComm.ecore#/0/CalculationVariablesCargo/targetClassPercentage"/>
                   <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../AutoComm.ecore#/0/CalculationVariablesCargo/unattentedTruckIndicator"/>
                 </children>
@@ -123,7 +124,6 @@
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../AutoComm.ecore#/0/Cargo/CargoIndicator"/>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="3" eAttribute="../../../AutoComm.ecore#/0/Cargo/reeferAge"/>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../AutoComm.ecore#/0/Cargo/id"/>
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../../AutoComm.ecore#/0/Cargo/commodityClass"/>
           </children>
         </children>
       </outputRoot>
@@ -133,7 +133,7 @@
       <outputRuleTraceSection/>
     </testsheetViewList>
   </testsheetAssets>
-  <ruletest vocabularyUpdateStamp="_xxnAQD2OEfGLp-m7rJVFRA" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../../AutoComm.ecore#/0"/>
+  <ruletest vocabularyUpdateStamp="_H8vMMD_gEfGeVcrJH7Vzxg" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../../AutoComm.ecore#/0"/>
   <ruletestViewList xsi:type="com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder:TestTabFolder">
     <testTabList name="untitled_1"/>
   </ruletestViewList>

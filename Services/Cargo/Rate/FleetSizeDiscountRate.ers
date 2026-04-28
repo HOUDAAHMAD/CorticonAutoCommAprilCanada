@@ -1,11 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_89_BckIVEfG1EZOwTikK0Q" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_6eJPI0MLEfG1EZOwTikK0Q" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_iQTUUEIJEfG1EZOwTikK0Q" vocabulary="../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_lhoY8UMLEfG1EZOwTikK0Q" vocabulary="../../../AutoComm.ecore#/0">
     <rule>
+      <action/>
+    </rule>
+    <rule>
+      <condition>
+        <opaqueExpression expression="ca.fleetSize in 1..3">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.fleetSize in 1 .. 3" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="fleetSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.fleetSize">
+                <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+        <viewExpressions lhs="ca.fleetSize" rhs="1..3"/>
+      </condition>
       <action>
         <opaqueExpression expression="ra.fleetSizeDiscountRate = 1">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.fleetSizeDiscountRate = 1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="fleetSizeDiscountRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.fleetSizeDiscountRate">
+                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                        <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                        </parentTerm>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+    </rule>
+    <rule>
+      <condition>
+        <opaqueExpression expression="ca.fleetSize in 4..5">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.fleetSize in 4 .. 5" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="fleetSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.fleetSize">
+                <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+        <viewExpressions lhs="ca.fleetSize" rhs="4..5"/>
+      </condition>
+      <action>
+        <opaqueExpression expression="ra.fleetSizeDiscountRate = 1.1">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.fleetSizeDiscountRate = 1.1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="fleetSizeDiscountRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.fleetSizeDiscountRate">
+                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                        <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                        </parentTerm>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+    </rule>
+    <rule>
+      <condition>
+        <opaqueExpression expression="ca.fleetSize in 6..10">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.fleetSize in 6 .. 10" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="fleetSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.fleetSize">
+                <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+        <viewExpressions lhs="ca.fleetSize" rhs="6..10"/>
+      </condition>
+      <action>
+        <opaqueExpression expression="ra.fleetSizeDiscountRate = 1.15">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.fleetSizeDiscountRate = 1.15" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="fleetSizeDiscountRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.fleetSizeDiscountRate">
+                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                        <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                        </parentTerm>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+    </rule>
+    <rule>
+      <condition>
+        <opaqueExpression expression="ca.fleetSize in 11..25">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.fleetSize in 11 .. 25" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="fleetSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.fleetSize">
+                <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+        <viewExpressions lhs="ca.fleetSize" rhs="11..25"/>
+      </condition>
+      <action>
+        <opaqueExpression expression="ra.fleetSizeDiscountRate = 1.25">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.fleetSizeDiscountRate = 1.25" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="fleetSizeDiscountRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.fleetSizeDiscountRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -48,14 +239,14 @@
                 <alias value="ra"/>
                 <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesCargo/fleetSizeDiscountRate"/>
               </extension>
-              <referencedAttributes attribute="../../../AutoComm.ecore#/0/CalculationVariablesCargo/targetClassPercentage"/>
+              <referencedAttributes attribute="../../../AutoComm.ecore#/0/CalculationVariablesCargo/fleetSize"/>
             </extension>
           </extension>
         </extension>
       </extension>
     </logicalVariable>
   </ruleset>
-  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true">
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightConditionsIf="28">
     <actionSection rowCount="50" columnWidthFactor="0.5">
       <actionItemList>
         <valueSetCell/>
@@ -87,10 +278,10 @@
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
                   <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
                     <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
                   </children>
+                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
                 </children>
               </children>
             </children>
@@ -103,10 +294,10 @@
     <conditionSection rowCount="50" columnWidthFactor="0.5">
       <conditionItemList>
         <valueSetCell/>
-        <expressionCell external="ca.targetClassPercentage">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="ca.fleetSize">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.fleetSize" datatype="Integer" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="targetClassPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.targetClassPercentage">
+              <terms text="fleetSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.fleetSize">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
@@ -124,8 +315,181 @@
     </conditionSection>
     <ruleSection columnCount="20">
       <ruleColumnList ruleId="0" columnWidth="100" pRule="#//@ruleset/@rules.0">
+        <actionValueSetCellList valueSet=""/>
+      </ruleColumnList>
+      <ruleColumnList ruleId="1" columnWidth="100" pRule="#//@ruleset/@rules.1">
+        <conditionValueSetCellList valueSet="1..3">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.fleetSize in 1 .. 3" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="fleetSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.fleetSize">
+                <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </conditionValueSetCellList>
         <actionValueSetCellList valueSet="1">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.fleetSizeDiscountRate = 1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="fleetSizeDiscountRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.fleetSizeDiscountRate">
+                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
+                  <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca">
+                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables">
+                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings">
+                        <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                        </parentTerm>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
+                <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings">
+                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+      </ruleColumnList>
+      <ruleColumnList ruleId="2" columnWidth="100" pRule="#//@ruleset/@rules.2">
+        <conditionValueSetCellList valueSet="4..5">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.fleetSize in 4 .. 5" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="fleetSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.fleetSize">
+                <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </conditionValueSetCellList>
+        <actionValueSetCellList valueSet="1.1">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.fleetSizeDiscountRate = 1.1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="fleetSizeDiscountRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.fleetSizeDiscountRate">
+                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
+                  <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca">
+                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables">
+                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings">
+                        <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                        </parentTerm>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
+                <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings">
+                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+      </ruleColumnList>
+      <ruleColumnList ruleId="3" columnWidth="100" pRule="#//@ruleset/@rules.3">
+        <conditionValueSetCellList valueSet="6..10">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.fleetSize in 6 .. 10" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="fleetSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.fleetSize">
+                <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </conditionValueSetCellList>
+        <actionValueSetCellList valueSet="1.15">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.fleetSizeDiscountRate = 1.15" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="fleetSizeDiscountRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.fleetSizeDiscountRate">
+                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
+                  <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca">
+                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables">
+                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings">
+                        <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                        </parentTerm>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
+                <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings">
+                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+      </ruleColumnList>
+      <ruleColumnList ruleId="4" columnWidth="100" pRule="#//@ruleset/@rules.4">
+        <conditionValueSetCellList valueSet="11..25">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.fleetSize in 11 .. 25" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="fleetSize" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.fleetSize">
+                <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.Cargo.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                      </parentTerm>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </conditionValueSetCellList>
+        <actionValueSetCellList valueSet="1.25">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.fleetSizeDiscountRate = 1.25" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="fleetSizeDiscountRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.fleetSizeDiscountRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">

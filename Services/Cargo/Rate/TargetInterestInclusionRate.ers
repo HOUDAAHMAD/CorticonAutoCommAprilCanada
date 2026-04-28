@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_0kxC00IMEfG1EZOwTikK0Q" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_TSrVM0MLEfG1EZOwTikK0Q" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_iQTUUEIJEfG1EZOwTikK0Q" vocabulary="../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_972-EUMJEfG1EZOwTikK0Q" vocabulary="../../../AutoComm.ecore#/0">
     <rule/>
     <rule>
       <condition>
-        <opaqueExpression expression="ca.targetClassPercentage in 0..5">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 0 .. 5" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ca.targetClassPercentage in 0..0.05">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 0 .. 0.05" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="targetClassPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.targetClassPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -22,7 +22,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ca.targetClassPercentage" rhs="0..5"/>
+        <viewExpressions lhs="ca.targetClassPercentage" rhs="0..0.05"/>
       </condition>
       <action>
         <opaqueExpression expression="ra.targetInterestInclusionRate = 1">
@@ -61,8 +61,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="ca.targetClassPercentage in 6..15">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 6 .. 15" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ca.targetClassPercentage in 0.06..0.15">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 0.06 .. 0.15" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="targetClassPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.targetClassPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -78,7 +78,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ca.targetClassPercentage" rhs="6..15"/>
+        <viewExpressions lhs="ca.targetClassPercentage" rhs="0.06..0.15"/>
       </condition>
       <action>
         <opaqueExpression expression="ra.targetInterestInclusionRate = 1.1">
@@ -117,8 +117,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="ca.targetClassPercentage in 16..50">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 16 .. 50" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ca.targetClassPercentage in 0.16..0.50">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 0.16 .. 0.50" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="targetClassPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.targetClassPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -134,7 +134,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ca.targetClassPercentage" rhs="16..50"/>
+        <viewExpressions lhs="ca.targetClassPercentage" rhs="0.16..0.50"/>
       </condition>
       <action>
         <opaqueExpression expression="ra.targetInterestInclusionRate = 1.25">
@@ -173,8 +173,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="ca.targetClassPercentage in 51..100">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 51 .. 100" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ca.targetClassPercentage in 0.51..1">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 0.51 .. 1" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="targetClassPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.targetClassPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -190,7 +190,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ca.targetClassPercentage" rhs="51..100"/>
+        <viewExpressions lhs="ca.targetClassPercentage" rhs="0.51..1"/>
       </condition>
       <action>
         <opaqueExpression expression="ra.targetInterestInclusionRate = 1.5">
@@ -314,8 +314,8 @@
     <ruleSection columnCount="20">
       <ruleColumnList ruleId="0" columnWidth="100" pRule="#//@ruleset/@rules.0"/>
       <ruleColumnList ruleId="1" columnWidth="100" pRule="#//@ruleset/@rules.1">
-        <conditionValueSetCellList valueSet="0..5">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 0 .. 5" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <conditionValueSetCellList valueSet="0..0.05">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 0 .. 0.05" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="targetClassPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.targetClassPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -365,8 +365,8 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="2" columnWidth="100" pRule="#//@ruleset/@rules.2">
-        <conditionValueSetCellList valueSet="6..15">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 6 .. 15" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <conditionValueSetCellList valueSet="0.06..0.15">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 0.06 .. 0.15" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="targetClassPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.targetClassPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -416,8 +416,8 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="3" columnWidth="100" pRule="#//@ruleset/@rules.3">
-        <conditionValueSetCellList valueSet="16..50">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 16 .. 50" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <conditionValueSetCellList valueSet="0.16..0.50">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 0.16 .. 0.50" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="targetClassPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.targetClassPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -467,8 +467,8 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="4" columnWidth="100" pRule="#//@ruleset/@rules.4">
-        <conditionValueSetCellList valueSet="51..100">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 51 .. 100" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <conditionValueSetCellList valueSet="0.51..1">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.targetClassPercentage in 0.51 .. 1" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="targetClassPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.targetClassPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">

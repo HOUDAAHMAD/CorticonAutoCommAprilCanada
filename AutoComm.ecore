@@ -2,75 +2,75 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:com.corticon.rulesemf.common="http:///com/corticon/rulesemf/common.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">
     <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_iQTUUEIJEfG1EZOwTikK0Q" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_lhoY8UMLEfG1EZOwTikK0Q" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
         <languageCode>fr_FR</languageCode>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g62B0D_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterA/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96r5YEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterA/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <locationVariables>ChapterA</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g63P8D_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterA/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96sgcEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterA/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <textVariables>ChapterA</textVariables>
           <textVariables>ID</textVariables>
           <textVariables>id</textVariables>
           <locationVariables>ChapterA</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g65FID_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterA_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96tukEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterA_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <locationVariables>ChapterA_TEST</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g65FIT_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterA_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96tukUMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterA_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <textVariables>ChapterA_TEST</textVariables>
           <textVariables>id</textVariables>
           <textVariables>id</textVariables>
           <locationVariables>ChapterA_TEST</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g66TQD_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB2/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96u8sEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB2/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <locationVariables>ChapterB2</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g66TQT_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB2/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96u8sUMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB2/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <textVariables>ChapterB2</textVariables>
           <textVariables>ID</textVariables>
           <textVariables>id</textVariables>
           <locationVariables>ChapterB2</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g68IcD_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB2_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96wK0EMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB2_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <locationVariables>ChapterB2_TEST</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g68IcT_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB2_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96wK0UMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB2_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <textVariables>ChapterB2_TEST</textVariables>
           <textVariables>id</textVariables>
           <textVariables>id</textVariables>
           <locationVariables>ChapterB2_TEST</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g69WkD_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB3/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96xY8EMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB3/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <locationVariables>ChapterB3</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g69WkT_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB3/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96xY8UMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB3/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <textVariables>ChapterB3</textVariables>
           <textVariables>ID</textVariables>
           <textVariables>id</textVariables>
           <locationVariables>ChapterB3</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g6-ksD_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB3_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96yAAEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB3_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <locationVariables>ChapterB3_TEST</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g6-ksT_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB3_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96yAAUMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB3_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <textVariables>ChapterB3_TEST</textVariables>
           <textVariables>ID</textVariables>
           <textVariables>id</textVariables>
           <locationVariables>ChapterB3_TEST</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g7zEED_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/Territory/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_97a5MEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/Territory/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <locationVariables>Territory</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g7zrID_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/Territory/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_97a5MUMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/Territory/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <textVariables>Territory</textVariables>
           <textVariables>ID</textVariables>
           <textVariables>id</textVariables>
           <locationVariables>Territory</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g70SMD_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/Territory_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_97bgQEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/Territory_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <locationVariables>Territory_TEST</locationVariables>
         </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_g705QD_bEfGeVcrJH7Vzxg" key="12" type="Validation" severity="Warning" invalidObjects="#/0/Territory_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
+        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_97cHUEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/Territory_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
           <textVariables>Territory_TEST</textVariables>
           <textVariables>ID</textVariables>
           <textVariables>id</textVariables>
@@ -2294,14 +2294,6 @@
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
             <name manuallyCreated="true" value="targetInterest"/>
-            <mode manuallyCreated="true" value="Base"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="haulsPercentage" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
-            <name manuallyCreated="true" value="haulsPercentage"/>
             <mode manuallyCreated="true" value="Base"/>
           </contents>
         </eAnnotations>
@@ -6545,6 +6537,14 @@
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
             <name manuallyCreated="true" value="loadingUnloadingRate"/>
+            <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="fleetSize" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
+            <name manuallyCreated="true" value="fleetSize"/>
             <mode manuallyCreated="true" value="Base"/>
           </contents>
         </eAnnotations>

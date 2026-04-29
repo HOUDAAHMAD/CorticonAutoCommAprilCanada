@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_X5jrwjouEfGBjsdydi_npg" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_U0Qg00PIEfGgA4jQYqNaPQ" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_F0kcUDouEfGBjsdydi_npg" vocabulary="../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_lhoY8UMLEfG1EZOwTikK0Q" vocabulary="../../AutoComm.ecore#/0">
     <rule>
       <action>
         <opaqueExpression expression="f1.fullTermPremium = 0">
@@ -107,6 +107,32 @@
           </parserOutput>
         </opaqueExpression>
       </action>
+      <action>
+        <opaqueExpression expression="ca.fullTermPremium = 0">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.fullTermPremium = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.fullTermPremium">
+                <parentTerm text="ca" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.4/@extension.0/@extension.0">
+                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.Cargo.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.4/@extension.0">
+                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.4">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ca" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.4/@extension.0/@extension.0">
+                <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.Cargo.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.4/@extension.0">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.4">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
     </rule>
     <logicalVariable entity="../../AutoComm.ecore#/0/Request">
       <extension association="true" entity="../../AutoComm.ecore#/0/FPQ1" traversedAssocRole="../../AutoComm.ecore#/0/Request/FPQ1">
@@ -138,6 +164,14 @@
           <extension explicit="true" association="true" entity="../../AutoComm.ecore#/0/BillingDetailCGLGarage" traversedAssocRole="../../AutoComm.ecore#/0/BillingDetail/billingDetailCGLGarage">
             <alias value="cg"/>
             <referencedAttributes attribute="../../AutoComm.ecore#/0/BillingDetailCGLGarage/fullTermPremium"/>
+          </extension>
+        </extension>
+      </extension>
+      <extension association="true" entity="../../AutoComm.ecore#/0/Cargo" traversedAssocRole="../../AutoComm.ecore#/0/Request/Cargo">
+        <extension association="true" entity="../../AutoComm.ecore#/0/BillingDetail" traversedAssocRole="../../AutoComm.ecore#/0/Cargo/BillingDetail">
+          <extension explicit="true" association="true" entity="../../AutoComm.ecore#/0/BillingDetailCargo" traversedAssocRole="../../AutoComm.ecore#/0/BillingDetail/BillingDetailCargo">
+            <alias value="ca"/>
+            <referencedAttributes attribute="../../AutoComm.ecore#/0/BillingDetailCargo/fullTermPremium"/>
           </extension>
         </extension>
       </extension>
@@ -217,6 +251,24 @@
           </parserOutput>
         </expressionCell>
       </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="ca.fullTermPremium">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.fullTermPremium" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.fullTermPremium">
+                <parentTerm text="ca" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.4/@extension.0/@extension.0">
+                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.Cargo.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.4/@extension.0">
+                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.4">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
     </actionSection>
     <scopeSection>
       <rootNode>
@@ -242,10 +294,17 @@
               </children>
             </children>
           </children>
-          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.3">
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.3">
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.3/@extension.0">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.3/@extension.0/@extension.0">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.3/@extension.0/@extension.0/@referencedAttributes.0"/>
+              </children>
+            </children>
+          </children>
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.4">
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.4/@extension.0">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.4/@extension.0/@extension.0">
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.4/@extension.0/@extension.0/@referencedAttributes.0"/>
               </children>
             </children>
           </children>
@@ -346,6 +405,30 @@
               <terms text="cg" datatype="BillingDetailCGLGarage" termtype="ENTITY" fulltext="cg">
                 <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.CGLGarage.BillingDetail">
                   <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="0">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.fullTermPremium = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="fullTermPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.fullTermPremium">
+                <parentTerm text="ca" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="ca">
+                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.Cargo.BillingDetail">
+                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                    </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ca" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="ca">
+                <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.Cargo.BillingDetail">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
                 </parentTerm>

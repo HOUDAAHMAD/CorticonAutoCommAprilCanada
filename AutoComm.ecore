@@ -1,81 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:com.corticon.rulesemf.common="http:///com/corticon/rulesemf/common.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">
     <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_lhoY8UMLEfG1EZOwTikK0Q" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_R18qsUPKEfGgA4jQYqNaPQ" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
         <languageCode>fr_FR</languageCode>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96r5YEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterA/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <locationVariables>ChapterA</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96sgcEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterA/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <textVariables>ChapterA</textVariables>
-          <textVariables>ID</textVariables>
-          <textVariables>id</textVariables>
-          <locationVariables>ChapterA</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96tukEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterA_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <locationVariables>ChapterA_TEST</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96tukUMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterA_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <textVariables>ChapterA_TEST</textVariables>
-          <textVariables>id</textVariables>
-          <textVariables>id</textVariables>
-          <locationVariables>ChapterA_TEST</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96u8sEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB2/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <locationVariables>ChapterB2</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96u8sUMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB2/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <textVariables>ChapterB2</textVariables>
-          <textVariables>ID</textVariables>
-          <textVariables>id</textVariables>
-          <locationVariables>ChapterB2</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96wK0EMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB2_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <locationVariables>ChapterB2_TEST</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96wK0UMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB2_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <textVariables>ChapterB2_TEST</textVariables>
-          <textVariables>id</textVariables>
-          <textVariables>id</textVariables>
-          <locationVariables>ChapterB2_TEST</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96xY8EMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB3/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <locationVariables>ChapterB3</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96xY8UMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB3/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <textVariables>ChapterB3</textVariables>
-          <textVariables>ID</textVariables>
-          <textVariables>id</textVariables>
-          <locationVariables>ChapterB3</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96yAAEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB3_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <locationVariables>ChapterB3_TEST</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_96yAAUMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/ChapterB3_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <textVariables>ChapterB3_TEST</textVariables>
-          <textVariables>ID</textVariables>
-          <textVariables>id</textVariables>
-          <locationVariables>ChapterB3_TEST</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_97a5MEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/Territory/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <locationVariables>Territory</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_97a5MUMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/Territory/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <textVariables>Territory</textVariables>
-          <textVariables>ID</textVariables>
-          <textVariables>id</textVariables>
-          <locationVariables>Territory</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_97bgQEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/Territory_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityNoIdentitySequence" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <locationVariables>Territory_TEST</locationVariables>
-        </validationMessages>
-        <validationMessages xsi:type="com.corticon.rulesemf.common:InternationalValidationMessage" UUID="_97cHUEMJEfG1EZOwTikK0Q" key="12" type="Validation" severity="Warning" invalidObjects="#/0/Territory_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0" textKey="VocabularyModelAPIImpl.Validation.DatabaseMetadata.EntityDatastoreIdentityMappedToAttribute" locationKey="VocabularyModelAPIImpl.Validation.Location.Entity">
-          <textVariables>Territory_TEST</textVariables>
-          <textVariables>ID</textVariables>
-          <textVariables>id</textVariables>
-          <locationVariables>Territory_TEST</locationVariables>
-        </validationMessages>
         <databaseAccess databasePropertyDisplayCount="50">
           <databaseId manuallyCreated="true" value="com.corticon.database.id.MsSql"/>
           <databaseURL manuallyCreated="true" value="jdbc:progress:sqlserver://localhost:1433;databaseName=AutoCom"/>
@@ -118,6 +46,14 @@
           </enumerationElements>
         </customDataTypeList>
         <databaseMetadata>
+          <tableMetadataList tableName="ChapterA_SEQUENCE" tableType="SEQUENCE"/>
+          <tableMetadataList tableName="ChapterA_TEST_SEQUENCE" tableType="SEQUENCE"/>
+          <tableMetadataList tableName="ChapterB2_SEQUENCE" tableType="SEQUENCE"/>
+          <tableMetadataList tableName="ChapterB2_TEST_SEQUENCE" tableType="SEQUENCE"/>
+          <tableMetadataList tableName="ChapterB3_SEQUENCE" tableType="SEQUENCE"/>
+          <tableMetadataList tableName="ChapterB3_TEST_SEQUENCE" tableType="SEQUENCE"/>
+          <tableMetadataList tableName="Territory_SEQUENCE" tableType="SEQUENCE"/>
+          <tableMetadataList tableName="Territory_TEST_SEQUENCE" tableType="SEQUENCE"/>
           <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="ChapterA" tableType="TABLE">
             <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="class" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
@@ -3949,16 +3885,17 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="ChapterA">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" validationMessages="#/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.0 #/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.1">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterA/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="ChapterA"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterA"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
+          <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/2/ChapterA/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/0/ChapterA/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
             <name manuallyCreated="true" value="id"/>
             <mode manuallyCreated="true" value="Base"/>
             <fieldColumn manuallyCreated="true" value="ID"/>
@@ -4022,11 +3959,12 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="ChapterA_TEST">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" validationMessages="#/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.2 #/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.3">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterA_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="ChapterA_TEST"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterA_TEST"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
+          <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="amountOfInsurance" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
@@ -4076,7 +4014,7 @@
       </eStructuralFeatures>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/2/ChapterA_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/0/ChapterA_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
             <name manuallyCreated="true" value="id"/>
             <mode manuallyCreated="true" value="Base"/>
             <fieldColumn manuallyCreated="true" value="id"/>
@@ -4095,16 +4033,17 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="ChapterB2">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" validationMessages="#/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.4 #/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.5">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterB2/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="ChapterB2"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterB2"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
+          <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/2/ChapterB2/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/0/ChapterB2/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
             <name manuallyCreated="true" value="id"/>
             <mode manuallyCreated="true" value="Base"/>
             <fieldColumn manuallyCreated="true" value="ID"/>
@@ -4168,11 +4107,12 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="ChapterB2_TEST">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" validationMessages="#/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.6 #/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.7">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterB2_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="ChapterB2_TEST"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterB2_TEST"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
+          <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="chapterB2BasePremium" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
@@ -4222,7 +4162,7 @@
       </eStructuralFeatures>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/2/ChapterB2_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/0/ChapterB2_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
             <name manuallyCreated="true" value="id"/>
             <mode manuallyCreated="true" value="Base"/>
             <fieldColumn manuallyCreated="true" value="id"/>
@@ -4241,16 +4181,17 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="ChapterB3">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" validationMessages="#/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.8 #/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.9">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterB3/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="ChapterB3"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterB3"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
+          <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/2/ChapterB3/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/0/ChapterB3/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
             <name manuallyCreated="true" value="id"/>
             <mode manuallyCreated="true" value="Base"/>
             <fieldColumn manuallyCreated="true" value="ID"/>
@@ -4305,16 +4246,17 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="ChapterB3_TEST">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" validationMessages="#/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.10 #/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.11">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterB3_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="ChapterB3_TEST"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterB3_TEST"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
+          <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/2/ChapterB3_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/0/ChapterB3_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
             <name manuallyCreated="true" value="id"/>
             <mode manuallyCreated="true" value="Base"/>
             <fieldColumn manuallyCreated="true" value="ID"/>
@@ -4369,16 +4311,17 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Territory">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" validationMessages="#/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.12 #/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.13">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/Territory/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="Territory"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.Territory"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
+          <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/2/Territory/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/0/Territory/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
             <name manuallyCreated="true" value="id"/>
             <mode manuallyCreated="true" value="Base"/>
             <fieldColumn manuallyCreated="true" value="ID"/>
@@ -4415,16 +4358,17 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Territory_TEST">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" validationMessages="#/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.14 #/0/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0/@validationMessages.15">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/Territory_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="Territory_TEST"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.Territory_TEST"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
+          <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELongObject">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/2/Territory_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension" identityEntity="#/0/Territory_TEST/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
             <name manuallyCreated="true" value="id"/>
             <mode manuallyCreated="true" value="Base"/>
             <fieldColumn manuallyCreated="true" value="ID"/>
@@ -13929,7 +13873,7 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="ChapterA">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterA/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
           <name manuallyCreated="true" value="ChapterA"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterA"/>
@@ -14002,7 +13946,7 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="ChapterA_TEST">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterA_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
           <name manuallyCreated="true" value="ChapterA_TEST"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterA_TEST"/>
@@ -14075,7 +14019,7 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="ChapterB2">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterB2/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
           <name manuallyCreated="true" value="ChapterB2"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterB2"/>
@@ -14148,7 +14092,7 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="ChapterB2_TEST">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterB2_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
           <name manuallyCreated="true" value="ChapterB2_TEST"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterB2_TEST"/>
@@ -14221,7 +14165,7 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="ChapterB3">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterB3/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
           <name manuallyCreated="true" value="ChapterB3"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterB3"/>
@@ -14285,7 +14229,7 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="ChapterB3_TEST">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterB3_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
           <name manuallyCreated="true" value="ChapterB3_TEST"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterB3_TEST"/>
@@ -14349,7 +14293,7 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Territory">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/Territory/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
           <name manuallyCreated="true" value="Territory"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.Territory"/>
@@ -14395,7 +14339,7 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Territory_TEST">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/Territory_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
+        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
           <name manuallyCreated="true" value="Territory_TEST"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
           <classTable manuallyCreated="true" value="AutoCom.dbo.Territory_TEST"/>

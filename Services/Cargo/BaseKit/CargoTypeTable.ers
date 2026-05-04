@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_hmHFIz5WEfGCCfhaV2L5VA" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_0OmSkUe_EfG1GMmIvtTcjw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_iQTUUEIJEfG1EZOwTikK0Q" vocabulary="../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_R18qsUPKEfGgA4jQYqNaPQ" vocabulary="../../../AutoComm.ecore#/0">
     <rule>
       <action/>
       <action>
@@ -443,6 +443,28 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.targetInterest = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="targetInterest" datatype="Boolean" termtype="ATTRIBUTE" fulltext="ac.targetInterest">
+                <parentTerm text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action>
+        <opaqueExpression expression="ac.refrigeration = T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.refrigeration = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="refrigeration" datatype="Boolean" termtype="ATTRIBUTE" fulltext="ac.refrigeration">
                 <parentTerm text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -1624,6 +1646,29 @@
           </parserOutput>
         </opaqueExpression>
       </action>
+      <action/>
+      <action>
+        <opaqueExpression expression="ac.refrigeration = T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.refrigeration = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="refrigeration" datatype="Boolean" termtype="ATTRIBUTE" fulltext="ac.refrigeration">
+                <parentTerm text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
     </rule>
     <rule>
       <condition>
@@ -2047,6 +2092,29 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.commodityClassActivity = 4" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="commodityClassActivity" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.commodityClassActivity">
+                <parentTerm text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+      <action/>
+      <action>
+        <opaqueExpression expression="ac.refrigeration = T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.refrigeration = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="refrigeration" datatype="Boolean" termtype="ATTRIBUTE" fulltext="ac.refrigeration">
                 <parentTerm text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                   <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -2494,11 +2562,12 @@
           <referencedAttributes attribute="../../../AutoComm.ecore#/0/Activity/cargoType"/>
           <referencedAttributes attribute="../../../AutoComm.ecore#/0/Activity/commodityClassActivity"/>
           <referencedAttributes attribute="../../../AutoComm.ecore#/0/Activity/targetInterest"/>
+          <referencedAttributes attribute="../../../AutoComm.ecore#/0/Activity/refrigeration"/>
         </extension>
       </extension>
     </logicalVariable>
   </ruleset>
-  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true">
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightConditionsIf="32">
     <actionSection rowCount="50" columnWidthFactor="0.5">
       <actionItemList>
         <valueSetCell/>
@@ -2532,6 +2601,22 @@
           </parserOutput>
         </expressionCell>
       </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="ac.refrigeration">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.refrigeration" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="refrigeration" datatype="Boolean" termtype="ATTRIBUTE" fulltext="ac.refrigeration">
+                <parentTerm text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
     </actionSection>
     <scopeSection>
       <rootNode>
@@ -2541,6 +2626,7 @@
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@referencedAttributes.0"/>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@referencedAttributes.1"/>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@referencedAttributes.2"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@referencedAttributes.3"/>
             </children>
           </children>
         </children>
@@ -2566,7 +2652,7 @@
         </expressionCell>
       </conditionItemList>
     </conditionSection>
-    <ruleSection columnCount="57" scrollColumnLeft="7">
+    <ruleSection columnCount="57" scrollColumnLeft="6">
       <ruleColumnList ruleId="0" columnWidth="100" pRule="#//@ruleset/@rules.0">
         <actionValueSetCellList/>
         <actionValueSetCellList valueSet="F">
@@ -2958,6 +3044,26 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.targetInterest = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="targetInterest" datatype="Boolean" termtype="ATTRIBUTE" fulltext="ac.targetInterest">
+                <parentTerm text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac">
+                <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList valueSet="T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.refrigeration = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="refrigeration" datatype="Boolean" termtype="ATTRIBUTE" fulltext="ac.refrigeration">
                 <parentTerm text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac">
                   <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
@@ -3994,6 +4100,27 @@
             </referencedTermList>
           </parserOutput>
         </actionValueSetCellList>
+        <actionValueSetCellList/>
+        <actionValueSetCellList valueSet="T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.refrigeration = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="refrigeration" datatype="Boolean" termtype="ATTRIBUTE" fulltext="ac.refrigeration">
+                <parentTerm text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac">
+                <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="36" columnWidth="100" pRule="#//@ruleset/@rules.36">
         <conditionValueSetCellList valueSet="'Milk in bulk (not reefer)'">
@@ -4030,7 +4157,7 @@
           </parserOutput>
         </actionValueSetCellList>
       </ruleColumnList>
-      <ruleColumnList ruleId="37" columnWidth="100" pRule="#//@ruleset/@rules.37">
+      <ruleColumnList ruleId="37" columnWidth="147" pRule="#//@ruleset/@rules.37">
         <conditionValueSetCellList valueSet="'New furniture'">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.cargoType = 'New furniture'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -4065,7 +4192,7 @@
           </parserOutput>
         </actionValueSetCellList>
       </ruleColumnList>
-      <ruleColumnList ruleId="38" columnWidth="100" pRule="#//@ruleset/@rules.38">
+      <ruleColumnList ruleId="38" columnWidth="146" pRule="#//@ruleset/@rules.38">
         <conditionValueSetCellList valueSet="'Oilfield equipment'">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.cargoType = 'Oilfield equipment'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -4100,7 +4227,7 @@
           </parserOutput>
         </actionValueSetCellList>
       </ruleColumnList>
-      <ruleColumnList ruleId="39" columnWidth="100" pRule="#//@ruleset/@rules.39">
+      <ruleColumnList ruleId="39" columnWidth="137" pRule="#//@ruleset/@rules.39">
         <conditionValueSetCellList valueSet="'Paint &amp; Dyes'">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.cargoType = 'Paint &amp; Dyes'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -4345,7 +4472,7 @@
           </parserOutput>
         </actionValueSetCellList>
       </ruleColumnList>
-      <ruleColumnList ruleId="46" columnWidth="100" pRule="#//@ruleset/@rules.46">
+      <ruleColumnList ruleId="46" columnWidth="309" pRule="#//@ruleset/@rules.46">
         <conditionValueSetCellList valueSet="'Refrigerated &amp; Frozen Loads (not Seafood)'">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.cargoType = 'Refrigerated &amp; Frozen Loads (not Seafood)'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
@@ -4363,6 +4490,27 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.commodityClassActivity = 4" datatype="Integer" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="commodityClassActivity" datatype="Integer" termtype="ATTRIBUTE" fulltext="ac.commodityClassActivity">
+                <parentTerm text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac">
+                <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+        <actionValueSetCellList/>
+        <actionValueSetCellList valueSet="T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ac.refrigeration = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="refrigeration" datatype="Boolean" termtype="ATTRIBUTE" fulltext="ac.refrigeration">
                 <parentTerm text="ac" datatype="Activity" termtype="ENTITY" fulltext="ac">
                   <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>

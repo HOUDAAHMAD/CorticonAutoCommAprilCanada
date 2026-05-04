@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_LC48E0IVEfG1EZOwTikK0Q" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="__M_V9UfDEfG1GMmIvtTcjw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_iQTUUEIJEfG1EZOwTikK0Q" vocabulary="../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_R18qsUPKEfGgA4jQYqNaPQ" vocabulary="../../../AutoComm.ecore#/0">
     <rule/>
     <rule>
       <condition>
@@ -61,8 +61,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="ca.reeferPercentage in 1..25">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 1 .. 25" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ca.reeferPercentage in 0.01..0.25">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 0.01 .. 0.25" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="reeferPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.reeferPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -78,7 +78,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ca.reeferPercentage" rhs="1..25"/>
+        <viewExpressions lhs="ca.reeferPercentage" rhs="0.01..0.25"/>
       </condition>
       <action>
         <opaqueExpression expression="ra.reeferPercentageRate = 1.25">
@@ -117,8 +117,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="ca.reeferPercentage in 26..50">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 26 .. 50" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ca.reeferPercentage in 0.26..0.5">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 0.26 .. 0.5" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="reeferPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.reeferPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -134,7 +134,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ca.reeferPercentage" rhs="26..50"/>
+        <viewExpressions lhs="ca.reeferPercentage" rhs="0.26..0.5"/>
       </condition>
       <action>
         <opaqueExpression expression="ra.reeferPercentageRate = 1.5">
@@ -173,8 +173,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="ca.reeferPercentage in 51..75">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 51 .. 75" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ca.reeferPercentage in 0.51..0.75">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 0.51 .. 0.75" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="reeferPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.reeferPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -190,7 +190,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ca.reeferPercentage" rhs="51..75"/>
+        <viewExpressions lhs="ca.reeferPercentage" rhs="0.51..0.75"/>
       </condition>
       <action>
         <opaqueExpression expression="ra.reeferPercentageRate = 1.75">
@@ -229,8 +229,8 @@
     </rule>
     <rule>
       <condition>
-        <opaqueExpression expression="ca.reeferPercentage in 76..100">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 76 .. 100" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ca.reeferPercentage in 0.76..1">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 0.76 .. 1" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="reeferPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.reeferPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -246,7 +246,7 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="ca.reeferPercentage" rhs="76..100"/>
+        <viewExpressions lhs="ca.reeferPercentage" rhs="0.76..1"/>
       </condition>
       <action>
         <opaqueExpression expression="ra.reeferPercentageRate = 2">
@@ -368,7 +368,7 @@
       </conditionItemList>
     </conditionSection>
     <ruleSection columnCount="20">
-      <ruleColumnList ruleId="0" columnWidth="100" pRule="#//@ruleset/@rules.0"/>
+      <ruleColumnList ruleId="0" columnWidth="171" pRule="#//@ruleset/@rules.0"/>
       <ruleColumnList ruleId="1" columnWidth="100" pRule="#//@ruleset/@rules.1">
         <conditionValueSetCellList valueSet="0">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage = 0" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -421,8 +421,8 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="2" columnWidth="100" pRule="#//@ruleset/@rules.2">
-        <conditionValueSetCellList valueSet="1..25">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 1 .. 25" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <conditionValueSetCellList valueSet="0.01..0.25">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 0.01 .. 0.25" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="reeferPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.reeferPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -472,8 +472,8 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="3" columnWidth="100" pRule="#//@ruleset/@rules.3">
-        <conditionValueSetCellList valueSet="26..50">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 26 .. 50" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <conditionValueSetCellList valueSet="0.26..0.5">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 0.26 .. 0.5" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="reeferPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.reeferPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -523,8 +523,8 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="4" columnWidth="100" pRule="#//@ruleset/@rules.4">
-        <conditionValueSetCellList valueSet="51..75">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 51 .. 75" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <conditionValueSetCellList valueSet="0.51..0.75">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 0.51 .. 0.75" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="reeferPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.reeferPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -574,8 +574,8 @@
         </actionValueSetCellList>
       </ruleColumnList>
       <ruleColumnList ruleId="5" columnWidth="100" pRule="#//@ruleset/@rules.5">
-        <conditionValueSetCellList valueSet="76..100">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 76 .. 100" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <conditionValueSetCellList valueSet="0.76..1">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.reeferPercentage in 0.76 .. 1" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="reeferPercentage" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.reeferPercentage">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_Wpc4Uj8cEfGeVcrJH7Vzxg" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_ozsvs04ZEfGpSrnFvLLn-Q" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_AdpE4D5VEfGCCfhaV2L5VA" vocabulary="../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_jzVAYU4JEfG4SqSTEMPBWg" vocabulary="../../../AutoComm.ecore#/0">
     <rule/>
     <rule>
       <condition>
@@ -25,8 +25,8 @@
         <viewExpressions lhs="ca.commodityClass" rhs="1"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.cargoBaseRate = 1.38">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 1.38" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.cargoBaseRate = 0.0138">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 0.0138" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="cargoBaseRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.cargoBaseRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -115,8 +115,8 @@
         <viewExpressions lhs="ca.commodityClass" rhs="2"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.cargoBaseRate = 1.92">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 1.92" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.cargoBaseRate = 0.0192">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 0.0192" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="cargoBaseRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.cargoBaseRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -205,8 +205,8 @@
         <viewExpressions lhs="ca.commodityClass" rhs="3"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.cargoBaseRate = 2.4">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 2.4" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.cargoBaseRate = 0.024">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 0.024" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="cargoBaseRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.cargoBaseRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -239,8 +239,8 @@
         </opaqueExpression>
       </action>
       <action>
-        <opaqueExpression expression="ra.refeerBreakdownRate = 0.45">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.refeerBreakdownRate = 0.45" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.refeerBreakdownRate = 0.0045">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.refeerBreakdownRate = 0.0045" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="refeerBreakdownRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.refeerBreakdownRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -295,8 +295,8 @@
         <viewExpressions lhs="ca.commodityClass" rhs="4"/>
       </condition>
       <action>
-        <opaqueExpression expression="ra.cargoBaseRate = 2.8">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 2.8" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.cargoBaseRate = 0.028">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 0.028" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="cargoBaseRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.cargoBaseRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -329,8 +329,8 @@
         </opaqueExpression>
       </action>
       <action>
-        <opaqueExpression expression="ra.refeerBreakdownRate = 0.75">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.refeerBreakdownRate = 0.75" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.refeerBreakdownRate = 0.0075">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.refeerBreakdownRate = 0.0075" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="refeerBreakdownRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.refeerBreakdownRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -424,7 +424,7 @@
   </ruleset>
   <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightConditionsIf="34">
     <actionSection rowCount="50" columnWidthFactor="0.5">
-      <actionItemList>
+      <actionItemList rowHeight="28">
         <valueSetCell/>
         <expressionCell external="ra.cargoBaseRate">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -446,7 +446,7 @@
           </parserOutput>
         </expressionCell>
       </actionItemList>
-      <actionItemList>
+      <actionItemList rowHeight="36">
         <valueSetCell/>
         <expressionCell external="ra.refeerBreakdownRate">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.refeerBreakdownRate" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
@@ -588,8 +588,8 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="1.38">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 1.38" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="0.0138">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 0.0138" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="cargoBaseRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.cargoBaseRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
@@ -671,8 +671,8 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="1.92">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 1.92" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="0.0192">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 0.0192" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="cargoBaseRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.cargoBaseRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
@@ -754,8 +754,8 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="2.4">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 2.4" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="0.024">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 0.024" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="cargoBaseRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.cargoBaseRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
@@ -786,8 +786,8 @@
             </referencedTermList>
           </parserOutput>
         </actionValueSetCellList>
-        <actionValueSetCellList valueSet="0.45">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.refeerBreakdownRate = 0.45" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="0.0045">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.refeerBreakdownRate = 0.0045" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="refeerBreakdownRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.refeerBreakdownRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
@@ -837,8 +837,8 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
-        <actionValueSetCellList valueSet="2.8">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 2.8" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="0.028">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.cargoBaseRate = 0.028" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="cargoBaseRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.cargoBaseRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
@@ -869,8 +869,8 @@
             </referencedTermList>
           </parserOutput>
         </actionValueSetCellList>
-        <actionValueSetCellList valueSet="0.75">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.refeerBreakdownRate = 0.75" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="0.0075">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.refeerBreakdownRate = 0.0075" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="refeerBreakdownRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.refeerBreakdownRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_m-6IwkIaEfG1EZOwTikK0Q" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_3dNJE0_BEfGGKYOVpjDuCg" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_iQTUUEIJEfG1EZOwTikK0Q" vocabulary="../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_QJMCAU-_EfGGKYOVpjDuCg" vocabulary="../../../AutoComm.ecore#/0">
     <rule>
       <action>
-        <opaqueExpression expression="ra.totalRate = ra.radiusOfOperationRate*ra.unattendedTruckRate*ra.targetInterestInclusionRate*ra.fleetSizeDiscountRate*ra.deductibleDiscountRate*ra.dashboardCameraDiscountRate*ra.inBusinessRate*ra.refeerBreakdownRate">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.totalRate = ra.radiusOfOperationRate * ra.unattendedTruckRate * ra.targetInterestInclusionRate * ra.fleetSizeDiscountRate * ra.deductibleDiscountRate * ra.dashboardCameraDiscountRate * ra.inBusinessRate * ra.refeerBreakdownRate" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ra.totalRate = ra.radiusOfOperationRate*ra.unattendedTruckRate*ra.targetInterestInclusionRate*ra.fleetSizeDiscountRate*ra.deductibleDiscountRate*ra.dashboardCameraDiscountRate*ra.inBusinessRate*ra.reeferPercentageRate">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.totalRate = ra.radiusOfOperationRate * ra.unattendedTruckRate * ra.targetInterestInclusionRate * ra.fleetSizeDiscountRate * ra.deductibleDiscountRate * ra.dashboardCameraDiscountRate * ra.inBusinessRate * ra.reeferPercentageRate" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="totalRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.totalRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -100,7 +100,7 @@
                   </parentTerm>
                 </parentTerm>
               </terms>
-              <terms text="refeerBreakdownRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.refeerBreakdownRate">
+              <terms text="reeferPercentageRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.reeferPercentageRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
@@ -157,7 +157,7 @@
                 <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesCargo/deductibleDiscountRate"/>
                 <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesCargo/dashboardCameraDiscountRate"/>
                 <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesCargo/inBusinessRate"/>
-                <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesCargo/refeerBreakdownRate"/>
+                <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesCargo/reeferPercentageRate"/>
               </extension>
             </extension>
           </extension>
@@ -220,8 +220,8 @@
     <conditionSection rowCount="50" columnWidthFactor="0.5"/>
     <ruleSection columnCount="20">
       <ruleColumnList ruleId="0" columnWidth="362" pRule="#//@ruleset/@rules.0">
-        <actionValueSetCellList valueSet="ra.radiusOfOperationRate*ra.unattendedTruckRate*ra.targetInterestInclusionRate*ra.fleetSizeDiscountRate*ra.deductibleDiscountRate*ra.dashboardCameraDiscountRate*ra.inBusinessRate*ra.refeerBreakdownRate">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.totalRate = ra.radiusOfOperationRate * ra.unattendedTruckRate * ra.targetInterestInclusionRate * ra.fleetSizeDiscountRate * ra.deductibleDiscountRate * ra.dashboardCameraDiscountRate * ra.inBusinessRate * ra.refeerBreakdownRate" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="ra.radiusOfOperationRate*ra.unattendedTruckRate*ra.targetInterestInclusionRate*ra.fleetSizeDiscountRate*ra.deductibleDiscountRate*ra.dashboardCameraDiscountRate*ra.inBusinessRate*ra.reeferPercentageRate">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.totalRate = ra.radiusOfOperationRate * ra.unattendedTruckRate * ra.targetInterestInclusionRate * ra.fleetSizeDiscountRate * ra.deductibleDiscountRate * ra.dashboardCameraDiscountRate * ra.inBusinessRate * ra.reeferPercentageRate" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="totalRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.totalRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
@@ -316,7 +316,7 @@
                   </parentTerm>
                 </parentTerm>
               </terms>
-              <terms text="refeerBreakdownRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.refeerBreakdownRate">
+              <terms text="reeferPercentageRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.reeferPercentageRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
                   <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables.CalculationVariablesCargo">
                     <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.Buildings.CalculationVariables">

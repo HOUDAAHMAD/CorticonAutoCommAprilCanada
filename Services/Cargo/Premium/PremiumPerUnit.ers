@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_KvJ1AkJHEfG1EZOwTikK0Q" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_R41TUk_CEfGGKYOVpjDuCg" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_iQTUUEIJEfG1EZOwTikK0Q" vocabulary="../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_QJMCAU-_EfGGKYOVpjDuCg" vocabulary="../../../AutoComm.ecore#/0">
     <rule>
       <action>
-        <opaqueExpression expression="ca.premiumPerUnit = ca.subTotalPremium*ra.totalRate">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.premiumPerUnit = ca.subTotalPremium * ra.totalRate" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="ca.premiumPerUnit = (ca.subTotalPremium*ra.totalRate).round">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.premiumPerUnit = ( ca.subTotalPremium * ra.totalRate ).round" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="premiumPerUnit" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.premiumPerUnit">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
@@ -123,8 +123,8 @@
     <conditionSection rowCount="50" columnWidthFactor="0.5"/>
     <ruleSection columnCount="20">
       <ruleColumnList ruleId="0" columnWidth="302" pRule="#//@ruleset/@rules.0">
-        <actionValueSetCellList valueSet="ca.subTotalPremium*ra.totalRate">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.premiumPerUnit = ca.subTotalPremium * ra.totalRate" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <actionValueSetCellList valueSet="(ca.subTotalPremium*ra.totalRate).round">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.premiumPerUnit = ( ca.subTotalPremium * ra.totalRate ).round" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="premiumPerUnit" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.premiumPerUnit">
                 <parentTerm text="ca" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="ca">

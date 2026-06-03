@@ -391,6 +391,18 @@
             "excluded": false
           },
           {
+            "amountOfInsurance": null,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ30",
+            "coverageDescription": "Limitation of coverage for equipment and machiery attached to vehicle (Section A)",
+            "coveragePremium": 0,
+            "deductible": null,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
             "amountOfInsurance": 70000,
             "amountOfInsuranceType": "PerClaim",
             "coverageCode": "FAQ34",
@@ -403,7 +415,19 @@
             "excluded": false
           },
           {
-            "amountOfInsurance": 70000,
+            "amountOfInsurance": null,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FAQ40",
+            "coverageDescription": "Fire deductible (Section B)",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": null,
             "amountOfInsuranceType": "PerClaim",
             "coverageCode": "FAQ5A",
             "coverageDescription": "Leasing",
@@ -415,10 +439,10 @@
             "excluded": false
           },
           {
-            "amountOfInsurance": 70000,
+            "amountOfInsurance": null,
             "amountOfInsuranceType": "PerClaim",
             "coverageCode": "FAQ8",
-            "coverageDescription": "Property Damage A ",
+            "coverageDescription": "Deductible for property damage (Section A)",
             "coveragePremium": 0,
             "deductible": 500,
             "deductibleType": "Minimum",
@@ -427,10 +451,10 @@
             "excluded": false
           },
           {
-            "amountOfInsurance": 70000,
+            "amountOfInsurance": null,
             "amountOfInsuranceType": "PerClaim",
             "coverageCode": "FAQ13C",
-            "coverageDescription": "Vehicle Glass B ",
+            "coverageDescription": "Limitation under protection 3 for vehicle glass (Section B)",
             "coveragePremium": 0,
             "deductible": 500,
             "deductibleType": "Minimum",
@@ -439,10 +463,10 @@
             "excluded": false
           },
           {
-            "amountOfInsurance": 70000,
+            "amountOfInsurance": null,
             "amountOfInsuranceType": "PerClaim",
             "coverageCode": "FAQ16",
-            "coverageDescription": "Vehicle Glass B ",
+            "coverageDescription": "Suspension of coverage during vehicule storage",
             "coveragePremium": 0,
             "deductible": 500,
             "deductibleType": "Minimum",
@@ -454,7 +478,7 @@
             "amountOfInsurance": 70000,
             "amountOfInsuranceType": "PerClaim",
             "coverageCode": "FAQ17",
-            "coverageDescription": "Vehicle Glass B ",
+            "coverageDescription": "Reinstatement of coverage after vehicle storage",
             "coveragePremium": 0,
             "deductible": 500,
             "deductibleType": "Minimum",
@@ -462,23 +486,12 @@
             "applied": true,
             "excluded": false
           },
+          
           {
-            "amountOfInsurance": 70000,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "FAQ17",
-            "coverageDescription": "Vehicle Glass B ",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": 70000,
+            "amountOfInsurance": null,
             "amountOfInsuranceType": "PerClaim",
             "coverageCode": "FAQ19",
-            "coverageDescription": "Vehicle Glass B ",
+            "coverageDescription": "Limitation of indemnity (Section B)",
             "coveragePremium": 0,
             "deductible": 500,
             "deductibleType": "Minimum",
@@ -490,7 +503,7 @@
             "amountOfInsurance": 70000,
             "amountOfInsuranceType": "PerClaim",
             "coverageCode": "FAQ23A",
-            "coverageDescription": "Vehicle Glass B ",
+            "coverageDescription": "Notice to creditor (Section B)",
             "coveragePremium": 0,
             "deductible": 500,
             "deductibleType": "Minimum",
@@ -499,10 +512,10 @@
             "excluded": false
           },
           {
-            "amountOfInsurance": 70000,
+            "amountOfInsurance": null,
             "amountOfInsuranceType": "PerClaim",
             "coverageCode": "FAQ28",
-            "coverageDescription": "Vehicle Glass B ",
+            "coverageDescription": "Limitation of coverage for named drivers",
             "coveragePremium": 0,
             "deductible": 500,
             "deductibleType": "Minimum",
@@ -949,8 +962,6 @@
         "haulsPercentage": 0
       }
     ],
-    "Buildings": [
-      {
         "Coverages": [
           {
             "amountOfInsurance": 70000,
@@ -1003,8 +1014,152 @@
           {
             "amountOfInsurance": 70000,
             "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "TrailerInterchange",
+            "coverageCode": "TrailerExchange",
             "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "BF15",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": 70000,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "Reefer",
+            "coverageDescription": "Comprehensive Coverage",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": null,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "RIGGERS",
+            "coverageDescription": "Riggers endorsment",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": null,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "CONTINGENT",
+            "coverageDescription": "",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": null,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "UNATTENTED-TRUCk",
+            "coverageDescription": "Unattended truck endorsment",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": null,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "EARNED-FREIGHT",
+            "coverageDescription": "Endorsement to exclud earned freight charges ",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": null,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "FULLPREMIUMENDORSEMENT",
+            "coverageDescription": "In full premium endorsement",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": null,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "BF15F",
+            "coverageDescription": "Household goods and personal effects",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": null,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "BF15D",
+            "coverageDescription": "Target interest inclusion endorsment ",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": null,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "BF15D",
+            "coverageDescription": "Target interest inclusion endorsment ",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": null,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "PX30",
+            "coverageDescription": "Terrorism exclusion",
+            "coveragePremium": 0,
+            "deductible": 500,
+            "deductibleType": "Minimum",
+            "selected": true,
+            "applied": true,
+            "excluded": false
+          },
+          {
+            "amountOfInsurance": null,
+            "amountOfInsuranceType": "PerClaim",
+            "coverageCode": "PX29",
+            "coverageDescription": "Data exclusion",
             "coveragePremium": 0,
             "deductible": 500,
             "deductibleType": "Minimum",
@@ -1052,9 +1207,8 @@
               "trailerInterchangeRate": 0
             }
           }
-        }
       }
-    ]
+    
   },
   "GarageProperty": {
     "BillingDetail": {

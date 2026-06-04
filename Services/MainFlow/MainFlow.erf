@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RuleflowAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.canonicalrulemodel.ruleflow="http:///com/corticon/rulesemf/canonicalrulemodel/ruleflow.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram="http:///com/corticon/rulesemf/viewrulemodel/ruleflow/flowdiagram.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_DNvY0E4KEfG4SqSTEMPBWg" externalChecksum="2722078124:507989954:2393165206" studioType="Java" rulesheetAssets="InitFullPremium.ers#/ Total.ers#/" ruleflowAssets="../FPQ1/FPQ1Flow.erf#/ ../FPQ4/FPQ4Flow.erf#/ ../GarageProperty/GaragePropertyFlow.erf#/ ../CGLGarage/CGLGarageFlow.erf#/ ../Cargo/Cargo.erf#/ ../CGLTransport/CGLTransport.erf#/">
-  <ruleflow majorVersion="1" vocabularyUpdateStamp="_jzVAYU4JEfG4SqSTEMPBWg" vocabulary="../../AutoComm.ecore#/0">
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="FPQ1IndicatorTrue" order="2" ruleActivityUpdateStamp="_5Rvpw04JEfG4SqSTEMPBWg" nextStep="#//@ruleflow/@flowControlList.1" invokes="#//@ruleflow/@flowControlList.0">
+<com.corticon.rulesemf.assetmodel:RuleflowAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.canonicalrulemodel.ruleflow="http:///com/corticon/rulesemf/canonicalrulemodel/ruleflow.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.ruleflow.flowdiagram="http:///com/corticon/rulesemf/viewrulemodel/ruleflow/flowdiagram.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_DNvY0E4KEfG4SqSTEMPBWg" externalChecksum="2722078124:1438690353:2393165206" studioType="Java" rulesheetAssets="InitFullPremium.ers#/ Total.ers#/" ruleflowAssets="../FPQ1/FPQ1Flow.erf#/ ../FPQ4/FPQ4Flow.erf#/ ../GarageProperty/GaragePropertyFlow.erf#/ ../CGLGarage/CGLGarageFlow.erf#/ ../Cargo/Cargo.erf#/ ../CGLTransport/CGLTransport.erf#/">
+  <ruleflow majorVersion="1" vocabularyUpdateStamp="_0LbncV_1EfGpl7WqpfK6Qw" vocabulary="../../AutoComm.ecore#/0">
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="FPQ1IndicatorTrue" order="2" ruleActivityUpdateStamp="_DNvY0E4KEfG4SqSTEMPBWg" nextStep="#//@ruleflow/@flowControlList.1" invokes="#//@ruleflow/@flowControlList.0">
       <condition expression="FPQ1.FPQ1Indicator">
         <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="FPQ1.FPQ1Indicator" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
           <referencedTermList>
@@ -17,7 +17,7 @@
         <viewExpressions lhs="FPQ1.FPQ1Indicator" rhs="true"/>
       </branches>
     </flowControlList>
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="FPQ4IndicatorTrue" order="4" ruleActivityUpdateStamp="_5Rxe804JEfG4SqSTEMPBWg" nextStep="#//@ruleflow/@flowControlList.2" invokes="#//@ruleflow/@flowControlList.1">
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="FPQ4IndicatorTrue" order="4" ruleActivityUpdateStamp="_DNvY0E4KEfG4SqSTEMPBWg" nextStep="#//@ruleflow/@flowControlList.2" invokes="#//@ruleflow/@flowControlList.1">
       <condition expression="FPQ4.FPQ4Indicator">
         <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="FPQ4.FPQ4Indicator" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
           <referencedTermList>
@@ -33,7 +33,7 @@
         <viewExpressions lhs="FPQ4.FPQ4Indicator" rhs="true"/>
       </branches>
     </flowControlList>
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="GaragePropertyIndicatorTrue" order="6" ruleActivityUpdateStamp="_5RzUI04JEfG4SqSTEMPBWg" nextStep="#//@ruleflow/@flowControlList.5" invokes="#//@ruleflow/@flowControlList.2">
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="GaragePropertyIndicatorTrue" order="6" ruleActivityUpdateStamp="_DNvY0E4KEfG4SqSTEMPBWg" nextStep="#//@ruleflow/@flowControlList.5" invokes="#//@ruleflow/@flowControlList.2">
       <condition expression="GarageProperty.GaragePropertyIndicator">
         <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="GarageProperty.GaragePropertyIndicator" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
           <referencedTermList>
@@ -49,9 +49,9 @@
         <viewExpressions lhs="GarageProperty.GaragePropertyIndicator" rhs="true"/>
       </branches>
     </flowControlList>
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="InitFullPremium" order="1" ruleActivityUpdateStamp="_U0Qg00PIEfGgA4jQYqNaPQ" nextStep="#//@ruleflow/@flowControlList.0" invokes="InitFullPremium.ers#//@ruleset"/>
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="InitFullPremium" order="1" ruleActivityUpdateStamp="_DNYzgk4KEfG4SqSTEMPBWg" nextStep="#//@ruleflow/@flowControlList.0" invokes="InitFullPremium.ers#//@ruleset"/>
     <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="Total" order="14" ruleActivityUpdateStamp="_9_9iQkPKEfGgA4jQYqNaPQ" invokes="Total.ers#//@ruleset"/>
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="CGLGarageIndicatorTrue" order="8" ruleActivityUpdateStamp="_5R2-gk4JEfG4SqSTEMPBWg" nextStep="#//@ruleflow/@flowControlList.6" invokes="#//@ruleflow/@flowControlList.5">
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="CGLGarageIndicatorTrue" order="8" ruleActivityUpdateStamp="_DNvY0E4KEfG4SqSTEMPBWg" nextStep="#//@ruleflow/@flowControlList.6" invokes="#//@ruleflow/@flowControlList.5">
       <condition expression="CGLGarage.CGLGarageIndicator">
         <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="CGLGarage.CGLGarageIndicator" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
           <referencedTermList>
@@ -67,7 +67,7 @@
         <viewExpressions lhs="CGLGarage.CGLGarageIndicator" rhs="true"/>
       </branches>
     </flowControlList>
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="CargoIndicatorTrue" order="10" ruleActivityUpdateStamp="_5R5awU4JEfG4SqSTEMPBWg" nextStep="#//@ruleflow/@flowControlList.7" invokes="#//@ruleflow/@flowControlList.6">
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="CargoIndicatorTrue" order="10" ruleActivityUpdateStamp="_DNvY0E4KEfG4SqSTEMPBWg" nextStep="#//@ruleflow/@flowControlList.7" invokes="#//@ruleflow/@flowControlList.6">
       <condition expression="Cargo.CargoIndicator">
         <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="Cargo.CargoIndicator" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
           <referencedTermList>
@@ -78,12 +78,12 @@
         </parserOutput>
       </condition>
       <branches>
-        <nextStep xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="Cargo" order="11" ruleActivityUpdateStamp="_1mF3sEfEEfG1GMmIvtTcjw" invokes="../Cargo/Cargo.erf#//@ruleflow"/>
+        <nextStep xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:ActivityNode" name="Cargo" order="11" ruleActivityUpdateStamp="_XSsPo1_3EfGpl7WqpfK6Qw" invokes="../Cargo/Cargo.erf#//@ruleflow"/>
         <label expression="true"/>
         <viewExpressions lhs="Cargo.CargoIndicator" rhs="true"/>
       </branches>
     </flowControlList>
-    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="CGLTransportIndicator" order="12" ruleActivityUpdateStamp="_5R73AU4JEfG4SqSTEMPBWg" nextStep="#//@ruleflow/@flowControlList.4" invokes="#//@ruleflow/@flowControlList.7">
+    <flowControlList xsi:type="com.corticon.rulesemf.canonicalrulemodel.ruleflow:BranchContainer" name="CGLTransportIndicator" order="12" ruleActivityUpdateStamp="_DNvY0E4KEfG4SqSTEMPBWg" nextStep="#//@ruleflow/@flowControlList.4" invokes="#//@ruleflow/@flowControlList.7">
       <condition expression="CGLTransport.CGLTransportIndicator">
         <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="CGLTransport.CGLTransportIndicator" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
           <referencedTermList>

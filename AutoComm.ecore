@@ -2,13 +2,13 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">
     <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_0LbncV_1EfGpl7WqpfK6Qw" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_9bfQEWQzEfG0ycGQU0SyQg" externalChecksum="2722078124:507989954" studioType="Java" customDataTypeDisplayCount="48">
         <languageCode>fr_FR</languageCode>
         <databaseAccess databasePropertyDisplayCount="50">
           <databaseId manuallyCreated="true" value="com.corticon.database.id.MsSql"/>
-          <databaseURL manuallyCreated="true" value="jdbc:progress:sqlserver://localhost:1433;databaseName=AutoCom"/>
+          <databaseURL manuallyCreated="true" value="jdbc:progress:sqlserver://localhost:1433;databaseName=IDAPPL00476_DB_REC"/>
           <username manuallyCreated="true" value="061046"/>
-          <password manuallyCreated="true" value="047039012060048019126"/>
+          <password manuallyCreated="true" value="061062015058049000057038045081095099064025034028029057032017045117"/>
           <schemaFilter manuallyCreated="true" value="dbo"/>
         </databaseAccess>
         <customDataTypeList enumerationDisplayCount="52" eDataType="#/0/ClaimsSize">
@@ -46,15 +46,7 @@
           </enumerationElements>
         </customDataTypeList>
         <databaseMetadata>
-          <tableMetadataList tableName="ChapterA_SEQUENCE" tableType="SEQUENCE"/>
-          <tableMetadataList tableName="ChapterA_TEST_SEQUENCE" tableType="SEQUENCE"/>
-          <tableMetadataList tableName="ChapterB2_SEQUENCE" tableType="SEQUENCE"/>
-          <tableMetadataList tableName="ChapterB2_TEST_SEQUENCE" tableType="SEQUENCE"/>
-          <tableMetadataList tableName="ChapterB3_SEQUENCE" tableType="SEQUENCE"/>
-          <tableMetadataList tableName="ChapterB3_TEST_SEQUENCE" tableType="SEQUENCE"/>
-          <tableMetadataList tableName="Territory_SEQUENCE" tableType="SEQUENCE"/>
-          <tableMetadataList tableName="Territory_TEST_SEQUENCE" tableType="SEQUENCE"/>
-          <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="ChapterA" tableType="TABLE">
+          <tableMetadataList catalogName="IDAPPL00476_DB_REC" schemaName="dbo" tableName="ChapterA" tableType="TABLE">
             <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="class" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="amountOfInsurance" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
@@ -62,11 +54,11 @@
             <columnMetadataList columnName="grp" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="chapterABasePremium" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="ID" jdbcDataType="BIGINT" sqlDataType="bigint identity" columnSize="19"/>
-            <primaryKeyMetadataList primaryKeyName="PK_ChapterA" primaryKeyCatalogName="AutoCom" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterA">
+            <primaryKeyMetadataList primaryKeyName="PK_ChapterA" primaryKeyCatalogName="IDAPPL00476_DB_REC" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterA">
               <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="ID"/>
             </primaryKeyMetadataList>
           </tableMetadataList>
-          <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="ChapterA_TEST" tableType="TABLE">
+          <tableMetadataList catalogName="IDAPPL00476_DB_REC" schemaName="dbo" tableName="ChapterA_TEST" tableType="TABLE">
             <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="class" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="amountOfInsurance" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
@@ -74,11 +66,11 @@
             <columnMetadataList columnName="grp" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="chapterABasePremium" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="id" jdbcDataType="BIGINT" sqlDataType="bigint identity" columnSize="19"/>
-            <primaryKeyMetadataList primaryKeyName="PK_ChapterA_TEST" primaryKeyCatalogName="AutoCom" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterA_TEST">
+            <primaryKeyMetadataList primaryKeyName="PK_ChapterA_TEST" primaryKeyCatalogName="IDAPPL00476_DB_REC" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterA_TEST">
               <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="id"/>
             </primaryKeyMetadataList>
           </tableMetadataList>
-          <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="ChapterB2" tableType="TABLE">
+          <tableMetadataList catalogName="IDAPPL00476_DB_REC" schemaName="dbo" tableName="ChapterB2" tableType="TABLE">
             <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="class" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="deductible" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
@@ -86,11 +78,11 @@
             <columnMetadataList columnName="grp" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="chapterB2BasePremium" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="ID" jdbcDataType="BIGINT" sqlDataType="bigint identity" columnSize="19"/>
-            <primaryKeyMetadataList primaryKeyName="PK_ChapterB2" primaryKeyCatalogName="AutoCom" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterB2">
+            <primaryKeyMetadataList primaryKeyName="PK_ChapterB2" primaryKeyCatalogName="IDAPPL00476_DB_REC" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterB2">
               <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="ID"/>
             </primaryKeyMetadataList>
           </tableMetadataList>
-          <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="ChapterB2_TEST" tableType="TABLE">
+          <tableMetadataList catalogName="IDAPPL00476_DB_REC" schemaName="dbo" tableName="ChapterB2_TEST" tableType="TABLE">
             <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="class" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="deductible" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
@@ -98,47 +90,47 @@
             <columnMetadataList columnName="grp" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="chapterB2BasePremium" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="id" jdbcDataType="BIGINT" sqlDataType="bigint identity" columnSize="19"/>
-            <primaryKeyMetadataList primaryKeyName="PK_ChapterB2_TEST" primaryKeyCatalogName="AutoCom" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterB2_TEST">
+            <primaryKeyMetadataList primaryKeyName="PK_ChapterB2_TEST" primaryKeyCatalogName="IDAPPL00476_DB_REC" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterB2_TEST">
               <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="id"/>
             </primaryKeyMetadataList>
           </tableMetadataList>
-          <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="ChapterB3" tableType="TABLE">
+          <tableMetadataList catalogName="IDAPPL00476_DB_REC" schemaName="dbo" tableName="ChapterB3" tableType="TABLE">
             <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="class" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="deductible" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="grp" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="chapterB3BasePremium" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="ID" jdbcDataType="BIGINT" sqlDataType="bigint identity" columnSize="19"/>
-            <primaryKeyMetadataList primaryKeyName="PK_ChapterB3" primaryKeyCatalogName="AutoCom" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterB3">
+            <primaryKeyMetadataList primaryKeyName="PK_ChapterB3" primaryKeyCatalogName="IDAPPL00476_DB_REC" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterB3">
               <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="ID"/>
             </primaryKeyMetadataList>
           </tableMetadataList>
-          <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="ChapterB3_TEST" tableType="TABLE">
+          <tableMetadataList catalogName="IDAPPL00476_DB_REC" schemaName="dbo" tableName="ChapterB3_TEST" tableType="TABLE">
             <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="class" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="deductible" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="grp" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="chapterB3BasePremium" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="ID" jdbcDataType="BIGINT" sqlDataType="bigint identity" columnSize="19"/>
-            <primaryKeyMetadataList primaryKeyName="PK_ChapterB3_TEST" primaryKeyCatalogName="AutoCom" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterB3_TEST">
+            <primaryKeyMetadataList primaryKeyName="PK_ChapterB3_TEST" primaryKeyCatalogName="IDAPPL00476_DB_REC" primaryKeySchemaName="dbo" primaryKeyTableName="ChapterB3_TEST">
               <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="ID"/>
             </primaryKeyMetadataList>
           </tableMetadataList>
-          <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="Territory" tableType="TABLE">
+          <tableMetadataList catalogName="IDAPPL00476_DB_REC" schemaName="dbo" tableName="Territory" tableType="TABLE">
             <columnMetadataList columnName="city" jdbcDataType="VARCHAR" sqlDataType="nvarchar" columnSize="255" decimalDigits="-1"/>
             <columnMetadataList columnName="censusDivision" jdbcDataType="VARCHAR" sqlDataType="nvarchar" columnSize="255" decimalDigits="-1"/>
             <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
             <columnMetadataList columnName="ID" jdbcDataType="BIGINT" sqlDataType="bigint identity" columnSize="19"/>
-            <primaryKeyMetadataList primaryKeyName="PK_Territory" primaryKeyCatalogName="AutoCom" primaryKeySchemaName="dbo" primaryKeyTableName="Territory">
+            <primaryKeyMetadataList primaryKeyName="PK_Territory" primaryKeyCatalogName="IDAPPL00476_DB_REC" primaryKeySchemaName="dbo" primaryKeyTableName="Territory">
               <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="ID"/>
             </primaryKeyMetadataList>
           </tableMetadataList>
-          <tableMetadataList catalogName="AutoCom" schemaName="dbo" tableName="Territory_TEST" tableType="TABLE">
+          <tableMetadataList catalogName="IDAPPL00476_DB_REC" schemaName="dbo" tableName="Territory_TEST" tableType="TABLE">
             <columnMetadataList columnName="ID" jdbcDataType="BIGINT" sqlDataType="bigint identity" columnSize="19"/>
             <columnMetadataList columnName="city" jdbcDataType="VARCHAR" sqlDataType="nvarchar" columnSize="255" decimalDigits="-1"/>
             <columnMetadataList columnName="censusDivision" jdbcDataType="VARCHAR" sqlDataType="nvarchar" columnSize="255" decimalDigits="-1"/>
             <columnMetadataList columnName="territory" jdbcDataType="INTEGER" sqlDataType="int" columnSize="10"/>
-            <primaryKeyMetadataList primaryKeyName="PK__Territor__3214EC2743572B24" primaryKeyCatalogName="AutoCom" primaryKeySchemaName="dbo" primaryKeyTableName="Territory_TEST">
+            <primaryKeyMetadataList primaryKeyName="PK__Territor__3214EC2743572B24" primaryKeyCatalogName="IDAPPL00476_DB_REC" primaryKeySchemaName="dbo" primaryKeyTableName="Territory_TEST">
               <primaryKeyColumnMetadataList sequenceNumber="1" primaryKeyColumnName="ID"/>
             </primaryKeyMetadataList>
           </tableMetadataList>
@@ -3918,7 +3910,7 @@
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterA/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="ChapterA"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
-          <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterA"/>
+          <classTable manuallyCreated="true" value="IDAPPL00476_DB_REC.dbo.ChapterA"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
           <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
@@ -3992,7 +3984,7 @@
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterA_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="ChapterA_TEST"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
-          <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterA_TEST"/>
+          <classTable manuallyCreated="true" value="IDAPPL00476_DB_REC.dbo.ChapterA_TEST"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
           <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
@@ -4066,7 +4058,7 @@
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterB2/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="ChapterB2"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
-          <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterB2"/>
+          <classTable manuallyCreated="true" value="IDAPPL00476_DB_REC.dbo.ChapterB2"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
           <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
@@ -4140,7 +4132,7 @@
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterB2_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="ChapterB2_TEST"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
-          <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterB2_TEST"/>
+          <classTable manuallyCreated="true" value="IDAPPL00476_DB_REC.dbo.ChapterB2_TEST"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
           <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
@@ -4214,7 +4206,7 @@
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterB3/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="ChapterB3"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
-          <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterB3"/>
+          <classTable manuallyCreated="true" value="IDAPPL00476_DB_REC.dbo.ChapterB3"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
           <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
@@ -4279,7 +4271,7 @@
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/ChapterB3_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="ChapterB3_TEST"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
-          <classTable manuallyCreated="true" value="AutoCom.dbo.ChapterB3_TEST"/>
+          <classTable manuallyCreated="true" value="IDAPPL00476_DB_REC.dbo.ChapterB3_TEST"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
           <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
@@ -4344,7 +4336,7 @@
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/Territory/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="Territory"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
-          <classTable manuallyCreated="true" value="AutoCom.dbo.Territory"/>
+          <classTable manuallyCreated="true" value="IDAPPL00476_DB_REC.dbo.Territory"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
           <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>
@@ -4391,7 +4383,7 @@
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension" identityAttributes="#/0/Territory_TEST/id/%http:%2F%2F%2Fcom%2Fcorticon%2Frulesemf%2Fcanonicalvocabularymodel%2FVocabularyExtension%/@contents.0">
           <name manuallyCreated="true" value="Territory_TEST"/>
           <datastorePersistent manuallyCreated="true" value="true"/>
-          <classTable manuallyCreated="true" value="AutoCom.dbo.Territory_TEST"/>
+          <classTable manuallyCreated="true" value="IDAPPL00476_DB_REC.dbo.Territory_TEST"/>
           <datastoreCaching manuallyCreated="true" value="false"/>
           <datastoreIdentityStrategy manuallyCreated="true" value="identity"/>
         </contents>

@@ -1,0 +1,656 @@
+{
+    "__metadataRoot": {"#locale": ""},
+    "Objects": [{
+        "Drivers": {
+            "driverRatingCode": null,
+            "relationshipToInsured": null,
+            "Licenses": {
+                "driversLicenseNumber": null,
+                "dateFirstLicensed": null,
+                "__metadata": {
+                    "#type": "Licences",
+                    "#id": "Licences_id_1"
+                },
+                "licenseSuspension": false
+            },
+            "driverTrainingDate": null,
+            "id": null,
+            "__metadata": {
+                "#type": "Drivers",
+                "#id": "Drivers_id_1"
+            },
+            "relationshipToApplicant": null,
+            "driverType": null
+        },
+        "FPQ1": {
+            "Vehicle": [
+                {
+                    "VehicleDetail": {
+                        "purchaseDate": null,
+                        "antiTheftProductCode": null,
+                        "operationRadius": "0-160",
+                        "vehicleCode": 33,
+                        "vehicleIdentificationNO": null,
+                        "businessUsagePercent": null,
+                        "purchasePrice": null,
+                        "modelYear": null,
+                        "electricVehicle": false,
+                        "newUsedCode": null,
+                        "vehicleLength": null,
+                        "annualDistanceDriven": null,
+                        "alteredIndicator": null,
+                        "antiTheftDevice": null,
+                        "vehicleUseCode": null,
+                        "vehicleValue": 50000,
+                        "model": null,
+                        "pleasureUsagePercent": null,
+                        "__metadata": {
+                            "#type": "VehicleDetail",
+                            "#id": "VehicleDetail_id_1"
+                        },
+                        "make": null
+                    },
+                    "Coverages": [
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": 0,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_1"
+                            },
+                            "amountOfInsurance": 1000000,
+                            "coverageCode": "ChapterA",
+                            "selected": true
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": 250,
+                            "coveragePremium": null,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_2"
+                            },
+                            "amountOfInsurance": null,
+                            "coverageCode": "ChapterB2",
+                            "selected": true
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": 500,
+                            "coveragePremium": null,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_3"
+                            },
+                            "amountOfInsurance": 0,
+                            "coverageCode": "ChapterB3",
+                            "selected": true
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": null,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_4"
+                            },
+                            "amountOfInsurance": 5000,
+                            "coverageCode": "FAQ20",
+                            "selected": true
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": null,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_5"
+                            },
+                            "amountOfInsurance": 30000,
+                            "coverageCode": "FAQ27",
+                            "selected": true
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": 0,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_6"
+                            },
+                            "amountOfInsurance": null,
+                            "coverageCode": "FAQ34",
+                            "selected": false
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": null,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_7"
+                            },
+                            "amountOfInsurance": null,
+                            "coverageCode": "vehiclePremium",
+                            "selected": true
+                        }
+                    ],
+                    "light": null,
+                    "CalculationVariables": {
+                        "CalculationVariablesFPQ1": {
+                            "chapterABasePremium": null,
+                            "chapterB2BasePremium": null,
+                            "vehicleMinValue": null,
+                            "dossier": 2,
+                            "SurchargesFPQ1": {
+                                "groupSurchargesA": null,
+                                "criminalRecordSurcharge": null,
+                                "electricVehicleSurcharge": null,
+                                "operationRadiusSurcharge": null,
+                                "licenceSuspensionSurcharge": null,
+                                "claimSurcharge": null,
+                                "nonPaymentSurcharge": null,
+                                "vehicleCodeSurcharge": null,
+                                "totalSurcharges": null,
+                                "groupSurchargesB2": null,
+                                "infractionSurcharge": null,
+                                "groupSurchargesB3": null,
+                                "__metadata": {
+                                    "#type": "SurchargesFPQ1",
+                                    "#id": "SurchargesFPQ1_id_3"
+                                },
+                                "statusSurcharge": null
+                            },
+                            "vinLockIndicator": false,
+                            "chapterB3BasePremium": null,
+                            "vinLockRebate": null,
+                            "FlexesFPQ1": {
+                                "vehicleFlex": 1,
+                                "globalFlex": 1,
+                                "__metadata": {
+                                    "#type": "FlexesFPQ1",
+                                    "#id": "FlexesFPQ1_id_3"
+                                },
+                                "totalFlex": null
+                            },
+                            "vehiclePremium": null,
+                            "__metadata": {
+                                "#type": "CalculationVariablesFPQ1",
+                                "#id": "CalculationVariablesFPQ1_id_3"
+                            },
+                            "class": 33,
+                            "shareInQuebec": 0.92,
+                            "group": null,
+                            "territory": null
+                        },
+                        "__metadata": {
+                            "#type": "CalculationVariables",
+                            "#id": "CalculationVariables_id_1"
+                        }
+                    },
+                    "weight": "",
+                    "id": null,
+                    "__metadata": {
+                        "#type": "Vehicle",
+                        "#id": "Vehicle_id_1"
+                    },
+                    "vehicleType": null
+                },
+                {
+                    "VehicleDetail": {
+                        "purchaseDate": null,
+                        "antiTheftProductCode": null,
+                        "operationRadius": "0-160",
+                        "vehicleCode": 24,
+                        "vehicleIdentificationNO": null,
+                        "businessUsagePercent": null,
+                        "purchasePrice": null,
+                        "modelYear": null,
+                        "electricVehicle": false,
+                        "newUsedCode": null,
+                        "vehicleLength": null,
+                        "annualDistanceDriven": null,
+                        "alteredIndicator": null,
+                        "antiTheftDevice": null,
+                        "vehicleUseCode": null,
+                        "vehicleValue": 50000,
+                        "model": null,
+                        "pleasureUsagePercent": null,
+                        "__metadata": {
+                            "#type": "VehicleDetail",
+                            "#id": "VehicleDetail_id_2"
+                        },
+                        "make": null
+                    },
+                    "Coverages": [
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": 0,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_8"
+                            },
+                            "amountOfInsurance": 1000000,
+                            "coverageCode": "ChapterA",
+                            "selected": true
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": 250,
+                            "coveragePremium": null,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_9"
+                            },
+                            "amountOfInsurance": null,
+                            "coverageCode": "ChapterB2",
+                            "selected": true
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": 100,
+                            "coveragePremium": null,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_10"
+                            },
+                            "amountOfInsurance": null,
+                            "coverageCode": "ChapterB3",
+                            "selected": true
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": null,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_11"
+                            },
+                            "amountOfInsurance": 3000,
+                            "coverageCode": "FAQ20",
+                            "selected": true
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": null,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_12"
+                            },
+                            "amountOfInsurance": null,
+                            "coverageCode": "FAQ27",
+                            "selected": true
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": null,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_13"
+                            },
+                            "amountOfInsurance": 10000,
+                            "coverageCode": "FAQ34",
+                            "selected": true
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": null,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_14"
+                            },
+                            "amountOfInsurance": null,
+                            "coverageCode": "vehiclePremium",
+                            "selected": true
+                        }
+                    ],
+                    "light": null,
+                    "CalculationVariables": {
+                        "CalculationVariablesFPQ1": {
+                            "chapterABasePremium": null,
+                            "chapterB2BasePremium": null,
+                            "vehicleMinValue": null,
+                            "dossier": 2,
+                            "SurchargesFPQ1": {
+                                "groupSurchargesA": null,
+                                "criminalRecordSurcharge": null,
+                                "electricVehicleSurcharge": null,
+                                "operationRadiusSurcharge": null,
+                                "licenceSuspensionSurcharge": null,
+                                "claimSurcharge": null,
+                                "nonPaymentSurcharge": null,
+                                "vehicleCodeSurcharge": null,
+                                "totalSurcharges": null,
+                                "groupSurchargesB2": null,
+                                "infractionSurcharge": null,
+                                "groupSurchargesB3": null,
+                                "__metadata": {
+                                    "#type": "SurchargesFPQ1",
+                                    "#id": "SurchargesFPQ1_id_4"
+                                },
+                                "statusSurcharge": null
+                            },
+                            "vinLockIndicator": false,
+                            "chapterB3BasePremium": null,
+                            "vinLockRebate": null,
+                            "FlexesFPQ1": {
+                                "vehicleFlex": 1,
+                                "globalFlex": 1,
+                                "__metadata": {
+                                    "#type": "FlexesFPQ1",
+                                    "#id": "FlexesFPQ1_id_4"
+                                },
+                                "totalFlex": null
+                            },
+                            "vehiclePremium": null,
+                            "__metadata": {
+                                "#type": "CalculationVariablesFPQ1",
+                                "#id": "CalculationVariablesFPQ1_id_4"
+                            },
+                            "class": 33,
+                            "group": null,
+                            "territory": null
+                        },
+                        "__metadata": {
+                            "#type": "CalculationVariables",
+                            "#id": "CalculationVariables_id_2"
+                        }
+                    },
+                    "weight": "",
+                    "id": null,
+                    "__metadata": {
+                        "#type": "Vehicle",
+                        "#id": "Vehicle_id_2"
+                    },
+                    "vehicleType": null
+                },
+                {
+                    "VehicleDetail": {
+                        "purchaseDate": null,
+                        "antiTheftProductCode": null,
+                        "operationRadius": "0-160",
+                        "vehicleCode": 0,
+                        "vehicleIdentificationNO": null,
+                        "businessUsagePercent": null,
+                        "purchasePrice": null,
+                        "modelYear": null,
+                        "electricVehicle": false,
+                        "newUsedCode": null,
+                        "vehicleLength": null,
+                        "annualDistanceDriven": null,
+                        "alteredIndicator": null,
+                        "antiTheftDevice": null,
+                        "vehicleUseCode": null,
+                        "vehicleValue": 50000,
+                        "model": null,
+                        "pleasureUsagePercent": null,
+                        "__metadata": {
+                            "#type": "VehicleDetail",
+                            "#id": "VehicleDetail_id_3"
+                        },
+                        "make": null
+                    },
+                    "Coverages": [
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": 0,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_15"
+                            },
+                            "amountOfInsurance": 1000000,
+                            "coverageCode": "ChapterA",
+                            "selected": true
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": 250,
+                            "coveragePremium": null,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_16"
+                            },
+                            "amountOfInsurance": null,
+                            "coverageCode": "ChapterB2",
+                            "selected": true
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": 500,
+                            "coveragePremium": 0,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_17"
+                            },
+                            "amountOfInsurance": null,
+                            "coverageCode": "ChapterB3",
+                            "selected": true
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": 0,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_18"
+                            },
+                            "amountOfInsurance": null,
+                            "coverageCode": "FAQ20",
+                            "selected": false
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": 0,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_19"
+                            },
+                            "amountOfInsurance": null,
+                            "coverageCode": "FAQ27",
+                            "selected": false
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": 0,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_20"
+                            },
+                            "amountOfInsurance": null,
+                            "coverageCode": "FAQ34",
+                            "selected": false
+                        },
+                        {
+                            "excluded": null,
+                            "applied": null,
+                            "deductible": null,
+                            "coveragePremium": 0,
+                            "__metadata": {
+                                "#type": "Coverages",
+                                "#id": "Coverages_id_21"
+                            },
+                            "amountOfInsurance": null,
+                            "coverageCode": "vehiclePremium",
+                            "selected": true
+                        }
+                    ],
+                    "light": null,
+                    "CalculationVariables": {
+                        "CalculationVariablesFPQ1": {
+                            "chapterABasePremium": null,
+                            "chapterB2BasePremium": null,
+                            "vehicleMinValue": null,
+                            "dossier": 2,
+                            "SurchargesFPQ1": {
+                                "groupSurchargesA": null,
+                                "criminalRecordSurcharge": null,
+                                "electricVehicleSurcharge": null,
+                                "operationRadiusSurcharge": null,
+                                "licenceSuspensionSurcharge": null,
+                                "claimSurcharge": null,
+                                "nonPaymentSurcharge": null,
+                                "vehicleCodeSurcharge": null,
+                                "totalSurcharges": null,
+                                "groupSurchargesB2": null,
+                                "infractionSurcharge": null,
+                                "groupSurchargesB3": null,
+                                "__metadata": {
+                                    "#type": "SurchargesFPQ1",
+                                    "#id": "SurchargesFPQ1_id_5"
+                                },
+                                "statusSurcharge": null
+                            },
+                            "vinLockIndicator": false,
+                            "chapterB3BasePremium": null,
+                            "vinLockRebate": null,
+                            "FlexesFPQ1": {
+                                "vehicleFlex": 1,
+                                "globalFlex": 1,
+                                "__metadata": {
+                                    "#type": "FlexesFPQ1",
+                                    "#id": "FlexesFPQ1_id_5"
+                                },
+                                "totalFlex": null
+                            },
+                            "vehiclePremium": null,
+                            "__metadata": {
+                                "#type": "CalculationVariablesFPQ1",
+                                "#id": "CalculationVariablesFPQ1_id_5"
+                            },
+                            "class": 33,
+                            "group": null,
+                            "territory": null
+                        },
+                        "__metadata": {
+                            "#type": "CalculationVariables",
+                            "#id": "CalculationVariables_id_3"
+                        }
+                    },
+                    "weight": "",
+                    "id": null,
+                    "__metadata": {
+                        "#type": "Vehicle",
+                        "#id": "Vehicle_id_3"
+                    },
+                    "vehicleType": null
+                }
+            ],
+            "BillingDetail": {
+                "BillingDetailFPQ1": {
+                    "fullTermPremium": null,
+                    "previousPremium": null,
+                    "prorataRate": null,
+                    "taxEvaluationFees": null,
+                    "serviceFees": null,
+                    "taxServiceFees": null,
+                    "proratedPremium": null,
+                    "taxRate": null,
+                    "total": null,
+                    "transferFlex": null,
+                    "brokerFees": null,
+                    "evaluationFees": null,
+                    "taxBrokerFees": null,
+                    "__metadata": {
+                        "#type": "BillingDetailFPQ1",
+                        "#id": "BillingDetailFPQ1_id_1"
+                    },
+                    "taxAmount": null,
+                    "renewalFlex": null
+                },
+                "__metadata": {
+                    "#type": "BillingDetail",
+                    "#id": "BillingDetail_id_1"
+                }
+            },
+            "claimsCount": 0,
+            "criminalRecordIndicator": false,
+            "nonPaymentIndicator": false,
+            "__metadata": {
+                "#type": "FPQ1",
+                "#id": "FPQ1_id_1"
+            },
+            "PolicyDetail": {
+                "PolicyDetailFPQ1": {
+                    "EndorsementChanges": null,
+                    "newBusinessEffectiveDate": null,
+                    "policyNumber": null,
+                    "policyStatus": "Nouvelle Affaire",
+                    "transactionDate": null,
+                    "quoteId": null,
+                    "isPolicyInEnglish": null,
+                    "policyDuration": null,
+                    "productCode": null,
+                    "referenceNumber": null,
+                    "yearsInsured": null,
+                    "term": null,
+                    "__metadata": {
+                        "#type": "PolicyDetailFPQ1",
+                        "#id": "PolicyDetailFPQ1_id_1"
+                    },
+                    "transactionQuotedDate": null,
+                    "effectiveDate": null,
+                    "expirationDate": null
+                },
+                "__metadata": {
+                    "#type": "PolicyDetail",
+                    "#id": "PolicyDetail_id_1"
+                }
+            },
+            "infractionsCount": 0
+        },
+        "__metadata": {
+            "#type": "Request",
+            "#id": "Request_id_1"
+        },
+        "Insureds": {
+            "roleOfApplicant": null,
+            "id": null,
+            "__metadata": {
+                "#type": "Insureds",
+                "#id": "Insureds_id_1"
+            },
+            "RiskAdress": {
+                "streetName": null,
+                "province": null,
+                "city": "Hull",
+                "streetNumber": null,
+                "countryCode": null,
+                "postalCode": null,
+                "unitNumber": null,
+                "__metadata": {
+                    "#type": "RiskAdress",
+                    "#id": "RiskAdress_id_1"
+                }
+            }
+        }
+    }],
+    "name": "InsertDecisionServiceName"
+}

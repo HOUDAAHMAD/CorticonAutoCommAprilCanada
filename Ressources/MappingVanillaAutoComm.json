@@ -271,32 +271,31 @@
     "criminalRecordIndicator": false,
     "BillingDetail": {
       "BillingDetailFPQ1": {
-      "renewalFlex": 1.03,
-      "transferFlex": 1.0443989,
-      "previousPremium": 0,
-      "fullTermPremium": 1781,
-      "proratedPremium": 1781,
-      "prorataRate": 1,
-      "commissionPercent": 15,
-      "brokerFees": 0,
-      "evaluationFees": 0,
-      "serviceFees": 180,
-      "taxAmount": 142.48,
-      "taxBrokerFees": 0,
-      "taxServiceFees": 14.4,
-      "taxEvaluationFees": 0,
-      "taxRate": 0,
-      "total": 2117.88,
-      "PaymentSchedules": [
-        {
-          "installmentAmount": 125,
-          "installmentDueDate": "2023-12-12"
-        }
-      ]
-     } 
+        "renewalFlex": 1.03,
+        "transferFlex": 1.0443989,
+        "previousPremium": 0,
+        "fullTermPremium": 1781,
+        "proratedPremium": 1781,
+        "prorataRate": 1,
+        "commissionPercent": 15,
+        "brokerFees": 0,
+        "evaluationFees": 0,
+        "serviceFees": 180,
+        "taxAmount": 142.48,
+        "taxBrokerFees": 0,
+        "taxServiceFees": 14.4,
+        "taxEvaluationFees": 0,
+        "taxRate": 0,
+        "total": 2117.88,
+        "PaymentSchedules": [
+          {
+            "installmentAmount": 125,
+            "installmentDueDate": "2023-12-12"
+          }
+        ]
+      }
     },
-    "PolicyDetail": {
-      "PolicyDetailFPQ1": {
+    "PolicyDetailFPQ1": {
       "quoteId": "test",
       "referenceNumber": "91610",
       "policyNumber": "P09630",
@@ -321,8 +320,6 @@
         "streetNumber": "110",
         "unitNumber": "500"
       }
-      }
-
     },
     "Vehicle": [
       {
@@ -486,7 +483,6 @@
             "applied": true,
             "excluded": false
           },
-          
           {
             "amountOfInsurance": null,
             "amountOfInsuranceType": "PerClaim",
@@ -546,43 +542,41 @@
           "operationRadius": "test",
           "vehicleCode": 0
         },
-        "CalculationVariables": {
-          "CalculationVariablesFPQ1": {
-            "vehicleMinValue": 0,
-            "class": 0,
-            "group": 0,
-            "territory": 0,
-            "dossier": 0,
-            "chapterABasePremium": 0,
-            "chapterB2BasePremium": 0,
-            "chapterB3BasePremium": 0,
-            "vinLockIndicator": false,
-            "vinLockRebate": 0,
-            "vehiclePremium": 0,
-            "RatesFPQ1": {
-              "echelonB2Rate": 0,
-              "echelonB3Rate": 0,
-              "trailerRebateRate": 0
-            },
-            "FlexesFPQ1": {
-              "vehicleFlex": 0,
-              "globalFlex": 0,
-              "totalFlex": 0
-            },
-            "SurchargesFPQ1": {
-              "criminalRecordSurcharge": 0,
-              "claimSurcharge": 0,
-              "infractionSurcharge": 0,
-              "licenceSuspensionSurcharge": 0,
-              "nonPaymentSurcharge": 0,
-              "electricVehicleSurcharge": 0,
-              "vehicleCodeSurcharge": 0,
-              "operationRadiusSurcharge": 0,
-              "totalSurcharges": 0,
-              "groupSurchargesA": 0,
-              "groupSurchargesB2": 0,
-              "groupSurchargesB3": 0
-            }
+        "CalculationVariablesFPQ1": {
+          "vehicleMinValue": 0,
+          "class": 0,
+          "group": 0,
+          "territory": 0,
+          "dossier": 0,
+          "chapterABasePremium": 0,
+          "chapterB2BasePremium": 0,
+          "chapterB3BasePremium": 0,
+          "vinLockIndicator": false,
+          "vinLockRebate": 0,
+          "vehiclePremium": 0,
+          "RatesFPQ1": {
+            "echelonB2Rate": 0,
+            "echelonB3Rate": 0,
+            "trailerRebateRate": 0
+          },
+          "FlexesFPQ1": {
+            "vehicleFlex": 0,
+            "globalFlex": 0,
+            "totalFlex": 0
+          },
+          "SurchargesFPQ1": {
+            "criminalRecordSurcharge": 0,
+            "claimSurcharge": 0,
+            "infractionSurcharge": 0,
+            "licenceSuspensionSurcharge": 0,
+            "nonPaymentSurcharge": 0,
+            "electricVehicleSurcharge": 0,
+            "vehicleCodeSurcharge": 0,
+            "operationRadiusSurcharge": 0,
+            "totalSurcharges": 0,
+            "groupSurchargesA": 0,
+            "groupSurchargesB2": 0,
+            "groupSurchargesB3": 0
           }
         }
       }
@@ -606,11 +600,10 @@
         "lossAmountPaid": null,
         "lossDescription": null,
         "reserve": null,
-        "codeClaims":null
+        "codeClaims": null
       }
     ],
-    "BillingDetail": {
-      "BillingDetailFPQ4": {
+    "BillingDetailFPQ4": {
       "renewalFlex": 1.03,
       "transferFlex": 1.0443989,
       "previousPremium": 0,
@@ -633,10 +626,8 @@
           "installmentDueDate": "2023-12-12"
         }
       ]
-      }
     },
-    "PolicyDetail": {
-      "PolicyDetailFPQ4": {
+    "PolicyDetailFPQ4": {
       "quoteId": "test",
       "referenceNumber": "91610",
       "policyNumber": "P09630",
@@ -663,8 +654,6 @@
         "streetNumber": "110",
         "unitNumber": "500"
       }
-      }
-
     },
     "LocationsFPQ4": [
       {
@@ -820,42 +809,40 @@
             "excluded": false
           }
         ],
-        "CalculationVariables": {
-          "CalculationsVariablesFPQ4": {
-            "claimsCount": 1,
-            "FPQ4ABasePremium": 0,
-            "aWithBSurchargedPremium": 0,
-            "FPQ4Premium": 0,
-            "ownerCount": 0,
-            "employeeCount": 0,
-            "XLicensePlateCount": 0,
-            "YBusiness": 0,
-            "quebecPercentage": 0,
-            "nonPayment": false,
-            "criminalRecordIndicator": false,
-            "riskCode": null,
-            "totalFPQ4Premium": 0,
-            "RatesFPQ4": {
-              "aClaimsRate": null,
-              "ownerCountRate": 0,
-              "employeeRate": 0,
-              "XLicensePlateRate": 0,
-              "YBusinessRate": 0,
-              "activityRate": 0,
-              "nonPaymentRate": 0,
-              "criminalRecordRate": 0,
-              "outsideQuebecRate": 0,
-              "FPQ4B2Rate": 0,
-              "FPQ4B3Rate": 0,
-              "FPQ4C2Rate": 0,
-              "FPQ4C3Rate": 0
-            },
-            "FlexesFPQ4": {},
-            "SurchargesFPQ4": {
-              "XlicensePlateForBSurcharge": 0,
-              "YBusinessForBSurcharge": 0,
-              "BClaimsSurcharge": 0
-            }
+        "CalculationsVariablesFPQ4": {
+          "claimsCount": 1,
+          "FPQ4ABasePremium": 0,
+          "aWithBSurchargedPremium": 0,
+          "FPQ4Premium": 0,
+          "ownerCount": 0,
+          "employeeCount": 0,
+          "XLicensePlateCount": 0,
+          "YBusiness": 0,
+          "quebecPercentage": 0,
+          "nonPayment": false,
+          "criminalRecordIndicator": false,
+          "riskCode": null,
+          "totalFPQ4Premium": 0,
+          "RatesFPQ4": {
+            "aClaimsRate": null,
+            "ownerCountRate": 0,
+            "employeeRate": 0,
+            "XLicensePlateRate": 0,
+            "YBusinessRate": 0,
+            "activityRate": 0,
+            "nonPaymentRate": 0,
+            "criminalRecordRate": 0,
+            "outsideQuebecRate": 0,
+            "FPQ4B2Rate": 0,
+            "FPQ4B3Rate": 0,
+            "FPQ4C2Rate": 0,
+            "FPQ4C3Rate": 0
+          },
+          "FlexesFPQ4": {},
+          "SurchargesFPQ4": {
+            "XlicensePlateForBSurcharge": 0,
+            "YBusinessForBSurcharge": 0,
+            "BClaimsSurcharge": 0
           }
         }
       }
@@ -880,8 +867,7 @@
       "streetNumber": "110",
       "unitNumber": "500"
     },
-    "BillingDetail": {
-      "BillingDetailCargo":{
+    "BillingDetailCargo": {
       "renewalFlex": 1.03,
       "transferFlex": 1.0443989,
       "previousPremium": 0,
@@ -904,10 +890,8 @@
           "installmentDueDate": "2023-12-12"
         }
       ]
-      }
     },
-    "PolicyDetail": {
-      "PolicyDetailCargo": {
+    "PolicyDetailCargo": {
       "quoteId": "test",
       "referenceNumber": "91610",
       "policyNumber": "P09630",
@@ -933,7 +917,6 @@
         "streetName": "Yonge",
         "streetNumber": "110",
         "unitNumber": "500"
-      }
       }
     },
     "Activity": [
@@ -962,257 +945,253 @@
         "haulsPercentage": 0
       }
     ],
-        "Coverages": [
-          {
-            "amountOfInsurance": 70000,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "Cargo",
-            "coverageDescription": "Comprehensive Coverage",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": 0,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "ExcessCargo",
-            "coverageDescription": "Comprehensive Coverage",
-            "coveragePremium": 1000,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": 70000,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "DebrisRemoval",
-            "coverageDescription": "Comprehensive Coverage",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": 70000,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "LTLEndorsment",
-            "coverageDescription": "Comprehensive Coverage",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": 70000,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "TrailerExchange",
-            "coverageDescription": "Comprehensive Coverage",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": 70000,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "BF15",
-            "coverageDescription": "Comprehensive Coverage",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": 70000,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "Reefer",
-            "coverageDescription": "Comprehensive Coverage",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": null,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "RIGGERS",
-            "coverageDescription": "Riggers endorsment",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": null,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "CONTINGENT",
-            "coverageDescription": "",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": null,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "UNATTENTED-TRUCk",
-            "coverageDescription": "Unattended truck endorsment",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": null,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "EARNED-FREIGHT",
-            "coverageDescription": "Endorsement to exclud earned freight charges ",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": null,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "FULLPREMIUMENDORSEMENT",
-            "coverageDescription": "In full premium endorsement",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": null,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "BF15F",
-            "coverageDescription": "Household goods and personal effects",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": null,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "BF15D",
-            "coverageDescription": "Target interest inclusion endorsment ",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": null,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "BF15D",
-            "coverageDescription": "Target interest inclusion endorsment ",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": null,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "PX30",
-            "coverageDescription": "Terrorism exclusion",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          },
-          {
-            "amountOfInsurance": null,
-            "amountOfInsuranceType": "PerClaim",
-            "coverageCode": "PX29",
-            "coverageDescription": "Data exclusion",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "deductibleType": "Minimum",
-            "selected": true,
-            "applied": true,
-            "excluded": false
-          }
-        ],
-        "CalculationVariables": {
-          "CalculationVariablesCargo": {
-            "minDeductible": 0,
-            "loadingUnloadingIndicator": true,
-            "subTotalPremium": 0,
-            "unattentedTruckIndicator": 0,
-            "targetClassPercentage": 0,
-            "reeferPercentage": 0,
-            "premiumPerUnit": 0,
-            "minimumPremium": 0,
-            "totalCargoPremium": 0,
-            "totalPremium": 0,
-            "totalFlex": 0,
-            "RatesCargo": {
-              "cargoBaseRate": 0,
-              "cargoSubRate": 0,
-              "loadingUnloadingRate": 0,
-              "reeferAgeRate": 0,
-              "cargoReeferLoadingRate": 0,
-              "cargoFinalRate": 0,
-              "excessCargoBaseRate": 0,
-              "refeerBreakdownRate": 0,
-              "excessCargoRate": 0,
-              "excessCargoSubRate": 0,
-              "excessReeferBreakdownRate": 0,
-              "excessCargoReeferLoading": 0,
-              "excessCargoFinalRate": 0,
-              "inBusinessRate": 0,
-              "radiusOfOperationRate": 0,
-              "unattendedTruckRate": 0,
-              "targetInterestInclusionRate": 0,
-              "fleetSizeDiscountRate": 0,
-              "deductibleDiscountRate": 0,
-              "dashboardCameraDiscountRate": 0,
-              "reeferPercentageRate": 0,
-              "totalRate": 0,
-              "trailerInterchangeRate": 0
-            }
-          }
+    "Coverages": [
+      {
+        "amountOfInsurance": 70000,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "Cargo",
+        "coverageDescription": "Comprehensive Coverage",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": 0,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "ExcessCargo",
+        "coverageDescription": "Comprehensive Coverage",
+        "coveragePremium": 1000,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": 70000,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "DebrisRemoval",
+        "coverageDescription": "Comprehensive Coverage",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": 70000,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "LTLEndorsment",
+        "coverageDescription": "Comprehensive Coverage",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": 70000,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "TrailerExchange",
+        "coverageDescription": "Comprehensive Coverage",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": 70000,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "BF15",
+        "coverageDescription": "Comprehensive Coverage",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": 70000,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "Reefer",
+        "coverageDescription": "Comprehensive Coverage",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": null,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "RIGGERS",
+        "coverageDescription": "Riggers endorsment",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": null,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "CONTINGENT",
+        "coverageDescription": "",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": null,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "UNATTENTED-TRUCk",
+        "coverageDescription": "Unattended truck endorsment",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": null,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "EARNED-FREIGHT",
+        "coverageDescription": "Endorsement to exclud earned freight charges ",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": null,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "FULLPREMIUMENDORSEMENT",
+        "coverageDescription": "In full premium endorsement",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": null,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "BF15F",
+        "coverageDescription": "Household goods and personal effects",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": null,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "BF15D",
+        "coverageDescription": "Target interest inclusion endorsment ",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": null,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "BF15D",
+        "coverageDescription": "Target interest inclusion endorsment ",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": null,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "PX30",
+        "coverageDescription": "Terrorism exclusion",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
+      },
+      {
+        "amountOfInsurance": null,
+        "amountOfInsuranceType": "PerClaim",
+        "coverageCode": "PX29",
+        "coverageDescription": "Data exclusion",
+        "coveragePremium": 0,
+        "deductible": 500,
+        "deductibleType": "Minimum",
+        "selected": true,
+        "applied": true,
+        "excluded": false
       }
-    
+    ],
+    "CalculationVariablesCargo": {
+      "minDeductible": 0,
+      "loadingUnloadingIndicator": true,
+      "subTotalPremium": 0,
+      "unattentedTruckIndicator": 0,
+      "targetClassPercentage": 0,
+      "reeferPercentage": 0,
+      "premiumPerUnit": 0,
+      "minimumPremium": 0,
+      "totalCargoPremium": 0,
+      "totalPremium": 0,
+      "totalFlex": 0,
+      "RatesCargo": {
+        "cargoBaseRate": 0,
+        "cargoSubRate": 0,
+        "loadingUnloadingRate": 0,
+        "reeferAgeRate": 0,
+        "cargoReeferLoadingRate": 0,
+        "cargoFinalRate": 0,
+        "excessCargoBaseRate": 0,
+        "refeerBreakdownRate": 0,
+        "excessCargoRate": 0,
+        "excessCargoSubRate": 0,
+        "excessReeferBreakdownRate": 0,
+        "excessCargoReeferLoading": 0,
+        "excessCargoFinalRate": 0,
+        "inBusinessRate": 0,
+        "radiusOfOperationRate": 0,
+        "unattendedTruckRate": 0,
+        "targetInterestInclusionRate": 0,
+        "fleetSizeDiscountRate": 0,
+        "deductibleDiscountRate": 0,
+        "dashboardCameraDiscountRate": 0,
+        "reeferPercentageRate": 0,
+        "totalRate": 0,
+        "trailerInterchangeRate": 0
+      }
+    }
   },
   "GarageProperty": {
-    "BillingDetail": {
-      "BillingDetailGarageProperty": {
+    "BillingDetailGarageProperty": {
       "renewalFlex": 1.03,
       "transferFlex": 1.0443989,
       "previousPremium": 0,
@@ -1235,10 +1214,8 @@
           "installmentDueDate": "2023-12-12"
         }
       ]
-    }  
     },
-    "PolicyDetail": {
-      "PolicyDetailGarageProperty": {
+    "PolicyDetailGarageProperty": {
       "quoteId": "test",
       "referenceNumber": "91610",
       "policyNumber": "P09630",
@@ -1264,7 +1241,6 @@
         "streetName": "Yonge",
         "streetNumber": "110",
         "unitNumber": "500"
-      }
       }
     },
     "Locations": [
@@ -1296,7 +1272,7 @@
           "numberOfSmokeDetectors": 3,
           "premiseAccessSecurityType": "Smoke",
           "spinkleredIndicator": true,
-          "protection":"test"
+          "protection": "test"
         },
         "BuildingUpgrades": {
           "electricalUpgradeYear": "2021",
@@ -1336,11 +1312,11 @@
           "numberOfRoomsRented": 1,
           "numberOfSolarPanels": 0,
           "swimmingPoolIndicator": true,
-          "claimHistory":null,
-          "location":null,
-          "inspection":null,
-          "substandard":null,
-          "alarm":null
+          "claimHistory": null,
+          "location": null,
+          "inspection": null,
+          "substandard": null,
+          "alarm": null
         },
         "Occupancy": {
           "areaOccupied": 5000,
@@ -1494,30 +1470,28 @@
             "excluded": true
           }
         ],
-        "CalculationVariables": {
-          "CalculationVariablesGarageProperty": {
-            "alarmDiscount": 0,
-            "Rates": {
-              "propertyBaseRate": 0.0832,
-              "provinceRate": 0,
-              "hazardCodeRate": 0,
-              "townGradeRate": 0,
-              "constructionRate": 0,
-              "coverageRate": 0,
-              "buildingRate": 0,
-              "contentsRate": 0,
-              "EQRate": 0,
-              "toolsSmallEquipmentRate": 0,
-              "lighterEquipmentRate": 0
-            },
-            "Surcharges": {
-              "claimHistorySurcharge": 0,
-              "heatingTypeSurcharge": 0,
-              "locationSurcharge": 0,
-              "inspectionSurcharge": 0,
-              "substandardSurcharge": 0,
-              "totalSurcharges": 0
-            }
+        "CalculationVariablesGarageProperty": {
+          "alarmDiscount": 0,
+          "Rates": {
+            "propertyBaseRate": 0.0832,
+            "provinceRate": 0,
+            "hazardCodeRate": 0,
+            "townGradeRate": 0,
+            "constructionRate": 0,
+            "coverageRate": 0,
+            "buildingRate": 0,
+            "contentsRate": 0,
+            "EQRate": 0,
+            "toolsSmallEquipmentRate": 0,
+            "lighterEquipmentRate": 0
+          },
+          "Surcharges": {
+            "claimHistorySurcharge": 0,
+            "heatingTypeSurcharge": 0,
+            "locationSurcharge": 0,
+            "inspectionSurcharge": 0,
+            "substandardSurcharge": 0,
+            "totalSurcharges": 0
           }
         }
       }
@@ -1533,8 +1507,7 @@
   },
   "CGLTransport": [
     {
-      "PolicyDetail": {
-        "PolicyDetailCGLTransport": {
+      "PolicyDetailCGLTransport": {
         "quoteId": "test",
         "referenceNumber": "91610",
         "policyNumber": "P09630",
@@ -1560,7 +1533,6 @@
           "streetName": "Yonge",
           "streetNumber": "110",
           "unitNumber": "500"
-        }
         }
       },
       "Locations": [
@@ -1621,8 +1593,7 @@
           }
         }
       ],
-      "BillingDetail": {
-        "BillingDetailCGLTransport": {
+      "BillingDetailCGLTransport": {
         "renewalFlex": 1.03,
         "transferFlex": 1.0443989,
         "previousPremium": 0,
@@ -1645,7 +1616,6 @@
             "installmentDueDate": "2023-12-12"
           }
         ]
-       } 
       },
       "Coverages": [
         {
@@ -1673,7 +1643,7 @@
           "excluded": true
         }
       ],
-      "CalculationVariables": {
+      "CalculationVariablesCGLTransport": {
         "turnoverLimit": 0,
         "USARevenue": 0,
         "CanadaRevenue": 0,
@@ -1694,9 +1664,7 @@
   ],
   "CGLGarage": [
     {
-      "PolicyDetail": {
-        "Théo": 0,
-        "PolicyDetailCGLGarage": {
+      "PolicyDetailCGLGarage": {
         "quoteId": "test",
         "referenceNumber": "91610",
         "policyNumber": "P09630",
@@ -1723,7 +1691,6 @@
           "streetNumber": "110",
           "unitNumber": "500"
         }
-        }
       },
       "Locations": [
         {
@@ -1749,74 +1716,65 @@
           "parentObjectId": "LOCATION01",
           "parentObjectName": "Location",
           "lobSubCode": "SEAS Seasonal Dwelling",
-          
           "ActivityCGLGARAGE": [
-          {
-            "activityID": 7,
-            "activityFR": "test",
-            "activityEN": "test",
-            "activityRate": 0.5,
-            "riskCode": "C",
-            "exposureBasis":"test",
-            "exposureAmount":0,
-            "activityPremium":0,
-            "isMobileWorkshop":true,
-            "mobileWorkshopRate":0,
-            "minimumPremium":0
-          },
-          {
-            "activityID": 1,
-            "activityFR": "Atelier mobile de réparation",
-            "activityEN": "Garage, repair, mobile shop",
-            "activityRate": 2.5,
-            "riskCode": "B",
-            "exposureBasis":"test",
-            "exposureAmount":0,
-            "activityPremium":0,
-            "isMobileWorkshop":true,
-            "mobileWorkshopRate":0,
-            "minimumPremium":0
-          }
-        ],
-          
+            {
+              "activityID": 7,
+              "activityFR": "test",
+              "activityEN": "test",
+              "activityRate": 0.5,
+              "riskCode": "C",
+              "exposureBasis": "test",
+              "exposureAmount": 0,
+              "activityPremium": 0,
+              "isMobileWorkshop": true,
+              "mobileWorkshopRate": 0,
+              "minimumPremium": 0
+            },
+            {
+              "activityID": 1,
+              "activityFR": "Atelier mobile de réparation",
+              "activityEN": "Garage, repair, mobile shop",
+              "activityRate": 2.5,
+              "riskCode": "B",
+              "exposureBasis": "test",
+              "exposureAmount": 0,
+              "activityPremium": 0,
+              "isMobileWorkshop": true,
+              "mobileWorkshopRate": 0,
+              "minimumPremium": 0
+            }
+          ],
           "Liability": {
             "numberOfUnits": 1,
-            "yearsInBusiness":0,
-            "yearsOfExperience":0
+            "yearsInBusiness": 0,
+            "yearsOfExperience": 0
           },
-        "Coverages": [
-          {
-            "amountOfInsurance": 70000,
-            "coverageCode": "ILF",
-            "coverageDescription": "Comprehensive Coverage",
-            "coveragePremium": 0,
-            "deductible": 500,
-            "selected": true,
-            "applied": true,
-            "excluded": false
+          "Coverages": [
+            {
+              "amountOfInsurance": 70000,
+              "coverageCode": "ILF",
+              "coverageDescription": "Comprehensive Coverage",
+              "coveragePremium": 0,
+              "deductible": 500,
+              "selected": true,
+              "applied": true,
+              "excluded": false
+            }
+          ],
+          "CalculationsVariablesCGLGarage": {
+            "totalActivityPremium": 0,
+            "totalMinimumPremium": 0,
+            "basePremium": 0,
+            "package": "test",
+            "extensionPremium": 0,
+            "RatesCGLGarage": {
+              "ILFRate": 0,
+              "deductibleDiscountRate": 0
+            }
           }
-          
-        
-      ],
-      "CalculationVariables": {
-        "CalculationsVariablesCGLGarage":{
-          "totalActivityPremium":0,
-          "totalMinimumPremium":0,
-          "basePremium":0,
-          "package":"test",
-          "extensionPremium":0,
-          
-          "RatesCGLGarage": {
-
-            "ILFRate": 0,
-            "deductibleDiscountRate":0
-        }  
-      }
-      }
         }
       ],
-      "BillingDetail": {
-        "BillingDetailCGLGarage": {
+      "BillingDetailCGLGarage": {
         "renewalFlex": 1.03,
         "transferFlex": 1.0443989,
         "previousPremium": 0,
@@ -1832,66 +1790,65 @@
         "taxServiceFees": 14.4,
         "taxEvaluationFees": 0,
         "taxRate": 0,
-        "total": 2117.88        
-       } 
-      }      
+        "total": 2117.88
+      }
     }
   ],
   "Cyber": {
     "BillingDetail": {
       "BillingDetailCyber": {
-      "renewalFlex": 1.03,
-      "transferFlex": 1.0443989,
-      "previousPremium": 0,
-      "fullTermPremium": 1781,
-      "proratedPremium": 1781,
-      "prorataRate": 1,
-      "commissionPercent": 15,
-      "brokerFees": 0,
-      "evaluationFees": 0,
-      "serviceFees": 180,
-      "taxAmount": 142.48,
-      "taxBrokerFees": 0,
-      "taxServiceFees": 14.4,
-      "taxEvaluationFees": 0,
-      "taxRate": 0,
-      "total": 2117.88,
-      "PaymentSchedules": [
-        {
-          "installmentAmount": 125,
-          "installmentDueDate": "2023-12-12"
-        }
-      ]
+        "renewalFlex": 1.03,
+        "transferFlex": 1.0443989,
+        "previousPremium": 0,
+        "fullTermPremium": 1781,
+        "proratedPremium": 1781,
+        "prorataRate": 1,
+        "commissionPercent": 15,
+        "brokerFees": 0,
+        "evaluationFees": 0,
+        "serviceFees": 180,
+        "taxAmount": 142.48,
+        "taxBrokerFees": 0,
+        "taxServiceFees": 14.4,
+        "taxEvaluationFees": 0,
+        "taxRate": 0,
+        "total": 2117.88,
+        "PaymentSchedules": [
+          {
+            "installmentAmount": 125,
+            "installmentDueDate": "2023-12-12"
+          }
+        ]
       }
     },
     "PolicyDetail": {
       "PolicyDetailCyber": {
-      "quoteId": "test",
-      "referenceNumber": "91610",
-      "policyNumber": "P09630",
-      "newBusinessEffectiveDate": "2019-01-22T00:00:00-05:00",
-      "effectiveDate": "2026-01-22T00:00:00-05:00",
-      "expirationDate": "2027-01-21T00:00:00-05:00",
-      "transactionQuotedDate": "2026-01-22T00:00:00-05:00",
-      "transactionDate": "2026-01-22T00:00:00-05:00",
-      "policyStatus": "Resiliation",
-      "term": 12,
-      "productCode": "LL_RESID",
-      "formId": 67,
-      "isPolicyInEnglish": true,
-      "yearsInsured": 7,
-      "MailingAddress": {
-        "id": "ADDRESS01",
-        "city": "Toronto",
-        "countryCode": "CAN",
-        "poBox": "12345",
-        "postalCode": "M5C1T4",
-        "province": "ON",
-        "ruralRoute": "5",
-        "streetName": "Yonge",
-        "streetNumber": "110",
-        "unitNumber": "500"
-      }
+        "quoteId": "test",
+        "referenceNumber": "91610",
+        "policyNumber": "P09630",
+        "newBusinessEffectiveDate": "2019-01-22T00:00:00-05:00",
+        "effectiveDate": "2026-01-22T00:00:00-05:00",
+        "expirationDate": "2027-01-21T00:00:00-05:00",
+        "transactionQuotedDate": "2026-01-22T00:00:00-05:00",
+        "transactionDate": "2026-01-22T00:00:00-05:00",
+        "policyStatus": "Resiliation",
+        "term": 12,
+        "productCode": "LL_RESID",
+        "formId": 67,
+        "isPolicyInEnglish": true,
+        "yearsInsured": 7,
+        "MailingAddress": {
+          "id": "ADDRESS01",
+          "city": "Toronto",
+          "countryCode": "CAN",
+          "poBox": "12345",
+          "postalCode": "M5C1T4",
+          "province": "ON",
+          "ruralRoute": "5",
+          "streetName": "Yonge",
+          "streetNumber": "110",
+          "unitNumber": "500"
+        }
       }
     },
     "Coverages": [

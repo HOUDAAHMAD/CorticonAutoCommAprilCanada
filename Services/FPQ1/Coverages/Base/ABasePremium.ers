@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_oqw6gWQwEfG0ycGQU0SyQg" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_3Fd-YWTREfG0ycGQU0SyQg" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
   <languageCode>en_US</languageCode>
-  <ruleset vocabularyUpdateStamp="_PVxBIGQwEfG0ycGQU0SyQg" vocabulary="../../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_9bfQEWQzEfG0ycGQU0SyQg" vocabulary="../../../../AutoComm.ecore#/0">
     <rule/>
     <rule>
       <condition>
@@ -263,7 +263,7 @@
         </extension>
       </extension>
     </logicalVariable>
-    <logicalVariable explicit="true" entity="../../../../AutoComm.ecore#/0/ChapterA">
+    <logicalVariable explicit="true" extendToDatabase="true" entity="../../../../AutoComm.ecore#/0/ChapterA">
       <alias value="cat"/>
       <referencedAttributes attribute="../../../../AutoComm.ecore#/0/ChapterA/amountOfInsurance"/>
       <referencedAttributes attribute="../../../../AutoComm.ecore#/0/ChapterA/chapterABasePremium"/>

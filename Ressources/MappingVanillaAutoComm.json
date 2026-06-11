@@ -269,7 +269,6 @@
     "nonPaymentIndicator": false,
     "infractionsCount": 0,
     "criminalRecordIndicator": false,
-    "BillingDetail": {
       "BillingDetailFPQ1": {
         "renewalFlex": 1.03,
         "transferFlex": 1.0443989,
@@ -293,8 +292,7 @@
             "installmentDueDate": "2023-12-12"
           }
         ]
-      }
-    },
+      },
     "PolicyDetailFPQ1": {
       "quoteId": "test",
       "referenceNumber": "91610",

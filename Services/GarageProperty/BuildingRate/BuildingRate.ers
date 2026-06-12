@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_DUQBEzROEfGCgoDYjjK0iA" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_sTzZBGY5EfGoPcwP324ECA" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_sA3eIDQhEfGnR-IgiGBiaQ" vocabulary="../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_QZEzgGY5EfGoPcwP324ECA" vocabulary="../../../AutoComm.ecore#/0">
     <rule>
       <action>
         <opaqueExpression expression="ra.buildingRate = 0.14*ra.provinceRate*ra.hazardCodeRate*ra.townGradeRate*ra.constructionRate*ra.coverageRate*ra.protectionRate">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.buildingRate = 0.14 * ra.provinceRate * ra.hazardCodeRate * ra.townGradeRate * ra.constructionRate * ra.coverageRate * ra.protectionRate" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="buildingRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.buildingRate">
-                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                        </parentTerm>
+                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -23,90 +21,76 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="provinceRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.provinceRate">
-                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                        </parentTerm>
+                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
               <terms text="constructionRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.constructionRate">
-                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                        </parentTerm>
+                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
               <terms text="townGradeRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.townGradeRate">
-                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                        </parentTerm>
+                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
               <terms text="coverageRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.coverageRate">
-                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                        </parentTerm>
+                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
               <terms text="hazardCodeRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.hazardCodeRate">
-                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                        </parentTerm>
+                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
               <terms text="protectionRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.protectionRate">
-                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                        </parentTerm>
+                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
-              <terms text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
+              <terms text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -119,19 +103,10 @@
     <logicalVariable entity="../../../AutoComm.ecore#/0/Request">
       <extension association="true" entity="../../../AutoComm.ecore#/0/GarageProperty" traversedAssocRole="../../../AutoComm.ecore#/0/Request/GarageProperty">
         <extension association="true" entity="../../../AutoComm.ecore#/0/Buildings" traversedAssocRole="../../../AutoComm.ecore#/0/GarageProperty/Buildings">
-          <extension association="true" entity="../../../AutoComm.ecore#/0/CalculationVariables" traversedAssocRole="../../../AutoComm.ecore#/0/Buildings/CalculationVariables">
-            <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/CalculationVariablesGarageProperty" traversedAssocRole="../../../AutoComm.ecore#/0/CalculationVariables/CalculationVariablesGarageProperty">
-              <alias value="ca"/>
-              <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/RatesGarageProperty" traversedAssocRole="../../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/RatesGarageProperty">
-                <alias value="ra"/>
-                <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesGarageProperty/buildingRate"/>
-                <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesGarageProperty/propertyBaseRate"/>
-                <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesGarageProperty/provinceRate"/>
-                <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesGarageProperty/hazardCodeRate"/>
-                <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesGarageProperty/townGradeRate"/>
-                <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesGarageProperty/constructionRate"/>
-                <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesGarageProperty/coverageRate"/>
-              </extension>
+          <extension association="true" entity="../../../AutoComm.ecore#/0/CalculationVariablesGarageProperty" traversedAssocRole="../../../AutoComm.ecore#/0/Buildings/CalculationVariablesGarageProperty">
+            <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/RatesGarageProperty" traversedAssocRole="../../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/RatesGarageProperty">
+              <alias value="ra"/>
+              <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesGarageProperty/buildingRate"/>
             </extension>
           </extension>
         </extension>
@@ -146,13 +121,11 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.buildingRate" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="buildingRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.buildingRate">
-                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                        </parentTerm>
+                <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -169,16 +142,8 @@
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                    <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
-                    <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.1"/>
-                    <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.2"/>
-                    <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.3"/>
-                    <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.4"/>
-                    <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.5"/>
-                    <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.6"/>
-                  </children>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
+                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
                 </children>
               </children>
             </children>
@@ -196,12 +161,10 @@
             <modifiedTermList>
               <terms text="buildingRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.buildingRate">
                 <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                        </parentTerm>
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -211,12 +174,10 @@
             <referencedTermList>
               <terms text="provinceRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.provinceRate">
                 <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                        </parentTerm>
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -224,12 +185,10 @@
               </terms>
               <terms text="constructionRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.constructionRate">
                 <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                        </parentTerm>
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -237,12 +196,10 @@
               </terms>
               <terms text="townGradeRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.townGradeRate">
                 <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                        </parentTerm>
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -250,12 +207,10 @@
               </terms>
               <terms text="coverageRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.coverageRate">
                 <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                        </parentTerm>
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -263,12 +218,10 @@
               </terms>
               <terms text="hazardCodeRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.hazardCodeRate">
                 <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                        </parentTerm>
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
@@ -276,24 +229,20 @@
               </terms>
               <terms text="protectionRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.protectionRate">
                 <parentTerm text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra">
-                  <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
-                      <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
-                        <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                        </parentTerm>
+                  <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty">
+                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
+                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
+                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                       </parentTerm>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
               <terms text="ra" datatype="RatesGarageProperty" termtype="ENTITY" fulltext="ra">
-                <parentTerm text="ca" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="ca">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariables">
-                    <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
-                      <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                      </parentTerm>
+                <parentTerm text="CalculationVariablesGarageProperty" datatype="CalculationVariablesGarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings.CalculationVariablesGarageProperty">
+                  <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
+                    <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>

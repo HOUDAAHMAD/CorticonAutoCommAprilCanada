@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_-1RfoU-9EfGGKYOVpjDuCg" externalChecksum="2722078124:507989954" studioType="Java">
-  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_jxc6QTfSEfGPJuZrG3s3nA" externalChecksum="2722078124:1438690353">
-    <testsheet ruleActivityUpdateStamp="_FG3lYC6UEfGtCJLPFNuvgA" ruleActivity="GaragePropertyFlow.erf#//@ruleflow" locale="">
+<com.corticon.rulesemf.assetmodel:RuletestAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder="http:///com/corticon/rulesemf/viewtestmodel/ruletest/tabfolder.ecore" xmlns:com.corticon.rulesemf.viewtestmodel.testsheet.treeset="http:///com/corticon/rulesemf/viewtestmodel/testsheet/treeset.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_-1RfoU-9EfGGKYOVpjDuCg" externalChecksum="2722078124:1438690353" studioType="Java">
+  <testsheetAssets majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_qdJHcWY7EfGoPcwP324ECA" externalChecksum="2722078124:1438690353">
+    <testsheet ruleActivityUpdateStamp="_fSNgEWY7EfGoPcwP324ECA" ruleActivity="GaragePropertyFlow.erf#//@ruleflow" locale="">
       <input/>
       <output/>
       <expectedOutput/>
@@ -10,58 +10,11 @@
       <inputRoot>
         <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestEntity" nodeID="1" manuallyCreated="true" eClass="../../AutoComm.ecore#/0/Request">
           <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/Request/GarageProperty" eClass="../../AutoComm.ecore#/0/GarageProperty">
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/GarageProperty/BillingDetail" eClass="../../AutoComm.ecore#/0/BillingDetail">
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" expanded="false" eReference="../../AutoComm.ecore#/0/BillingDetail/BillingDetailGarageProperty" eClass="../../AutoComm.ecore#/0/BillingDetailGarageProperty">
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/brokerFees"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/evaluationFees"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/fullTermPremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/previousPremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/prorataRate"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/proratedPremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/renewalFlex"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/serviceFees"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxAmount"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxBrokerFees"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxEvaluationFees"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxRate"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxServiceFees"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/total"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/transferFlex"/>
-              </children>
-            </children>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/GarageProperty/Buildings" eClass="../../AutoComm.ecore#/0/Buildings">
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Buildings/id"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Buildings/lobSubCode"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Buildings/parentObjectId"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Buildings/parentObjectName"/>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" expanded="false" eReference="../../AutoComm.ecore#/0/Buildings/CalculationVariables" eClass="../../AutoComm.ecore#/0/CalculationVariables">
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/CalculationVariables/CalculationVariablesGarageProperty" eClass="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty">
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/alarmDiscount"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="All Risk" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/coverages"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" expanded="false" eReference="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/RatesGarageProperty" eClass="../../AutoComm.ecore#/0/RatesGarageProperty">
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="100.000000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/buildingRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/constructionRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/contentsRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/coverageRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/EQRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/hazardCodeRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="5.000000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/lighterEquipmentRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/propertyBaseRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/provinceRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1.5" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/toolsSmallEquipmentRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/townGradeRate"/>
-                  </children>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" expanded="false" eReference="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/SurchargesGarageProperty" eClass="../../AutoComm.ecore#/0/SurchargesGarageProperty">
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/claimHistorySurcharge"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/heatingTypeSurcharge"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/inspectionSurcharge"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/locationSurcharge"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/substandardSurcharge"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="1.1" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/totalSurcharges"/>
-                  </children>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/garagePropertyPremium"/>
-                </children>
-              </children>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" expanded="false" eReference="../../AutoComm.ecore#/0/Buildings/Coverages" eClass="../../AutoComm.ecore#/0/Coverages">
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="100000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
@@ -200,6 +153,33 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="Non Sprinklered and Non Alarmed" eAttribute="../../AutoComm.ecore#/0/BuildingProtection/protection"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BuildingProtection/spinkleredIndicator"/>
               </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" manuallyCreated="true" expanded="false" eReference="../../AutoComm.ecore#/0/Buildings/CalculationVariablesGarageProperty" eClass="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/alarmDiscount"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/coverages"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/garagePropertyPremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/SurchargesGarageProperty" eClass="../../AutoComm.ecore#/0/SurchargesGarageProperty">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/claimHistorySurcharge"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/heatingTypeSurcharge"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/inspectionSurcharge"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/locationSurcharge"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/substandardSurcharge"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/totalSurcharges"/>
+                </children>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/RatesGarageProperty" eClass="../../AutoComm.ecore#/0/RatesGarageProperty">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/buildingRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/constructionRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/contentsRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/coverageRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/EQRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/hazardCodeRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/lighterEquipmentRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/propertyBaseRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/protectionRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/provinceRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/toolsSmallEquipmentRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/townGradeRate"/>
+                </children>
+              </children>
             </children>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/GarageProperty/Locations" eClass="../../AutoComm.ecore#/0/Locations">
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/Locations/id"/>
@@ -214,35 +194,37 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/RiskAdress/unitNumber"/>
               </children>
             </children>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" eReference="../../AutoComm.ecore#/0/GarageProperty/BillingDetailGarageProperty" eClass="../../AutoComm.ecore#/0/BillingDetailGarageProperty">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/brokerFees"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/evaluationFees"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/fullTermPremium"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/previousPremium"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/prorataRate"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/proratedPremium"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/renewalFlex"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/serviceFees"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxAmount"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxBrokerFees"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxEvaluationFees"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxRate"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxServiceFees"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/total"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/transferFlex"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" manuallyCreated="true" expanded="false" eReference="../../AutoComm.ecore#/0/BillingDetailGarageProperty/PaymentSchedules" eClass="../../AutoComm.ecore#/0/PaymentSchedules">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/PaymentSchedules/installmentAmount"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" manuallyCreated="true" eAttribute="../../AutoComm.ecore#/0/PaymentSchedules/installmentDueDate"/>
+              </children>
+            </children>
           </children>
         </children>
       </inputRoot>
       <outputRoot newOrModified="true">
         <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestEntity" nodeID="1" newOrModified="true" eClass="../../AutoComm.ecore#/0/Request">
           <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../AutoComm.ecore#/0/Request/GarageProperty" eClass="../../AutoComm.ecore#/0/GarageProperty">
-            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../AutoComm.ecore#/0/GarageProperty/BillingDetail" eClass="../../AutoComm.ecore#/0/BillingDetail">
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../AutoComm.ecore#/0/BillingDetail/BillingDetailGarageProperty" eClass="../../AutoComm.ecore#/0/BillingDetailGarageProperty">
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="612.500000" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/fullTermPremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/previousPremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/prorataRate"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxEvaluationFees"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/serviceFees"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxServiceFees"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/proratedPremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxRate"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/total"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/transferFlex"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/brokerFees"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/evaluationFees"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxBrokerFees"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxAmount"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/renewalFlex"/>
-              </children>
-            </children>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../AutoComm.ecore#/0/GarageProperty/Buildings" eClass="../../AutoComm.ecore#/0/Buildings">
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Buildings/parentObjectName"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Buildings/lobSubCode"/>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" eReference="../../AutoComm.ecore#/0/Buildings/Construction" eClass="../../AutoComm.ecore#/0/Construction">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" expanded="false" eReference="../../AutoComm.ecore#/0/Buildings/Construction" eClass="../../AutoComm.ecore#/0/Construction">
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="Frame" eAttribute="../../AutoComm.ecore#/0/Construction/constructionType"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="Central / Electric" eAttribute="../../AutoComm.ecore#/0/Construction/heatingType"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Construction/auxiliaryHeatingIndicator"/>
@@ -264,7 +246,7 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="true" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/deductible"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="196.000000" eAttribute="../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="100000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="100000.000000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="PropertyBuilding" eAttribute="../../AutoComm.ecore#/0/Coverages/coverageCode"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="true" eAttribute="../../AutoComm.ecore#/0/Coverages/selected"/>
               </children>
@@ -272,7 +254,7 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="false" eAttribute="../../AutoComm.ecore#/0/Coverages/excluded"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="true" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="122.500000" eAttribute="../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="50000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="50000.000000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="PropertyContents" eAttribute="../../AutoComm.ecore#/0/Coverages/coverageCode"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="true" eAttribute="../../AutoComm.ecore#/0/Coverages/selected"/>
               </children>
@@ -281,7 +263,7 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="true" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/deductible"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="98.000000" eAttribute="../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="40000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="40000.000000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="PropertyEquipments" eAttribute="../../AutoComm.ecore#/0/Coverages/coverageCode"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="true" eAttribute="../../AutoComm.ecore#/0/Coverages/selected"/>
               </children>
@@ -290,7 +272,7 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/deductible"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="270000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="270000.000000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="PropertyPremium" eAttribute="../../AutoComm.ecore#/0/Coverages/coverageCode"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/selected"/>
               </children>
@@ -299,7 +281,7 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="false" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/deductible"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="50" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="50.000000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="TOOLS" eAttribute="../../AutoComm.ecore#/0/Coverages/coverageCode"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="false" eAttribute="../../AutoComm.ecore#/0/Coverages/selected"/>
               </children>
@@ -308,7 +290,7 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="false" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/deductible"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="50" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="50.000000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="LIGHT" eAttribute="../../AutoComm.ecore#/0/Coverages/coverageCode"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="false" eAttribute="../../AutoComm.ecore#/0/Coverages/selected"/>
               </children>
@@ -326,7 +308,7 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="false" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/deductible"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="10000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="10000.000000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="CRIME" eAttribute="../../AutoComm.ecore#/0/Coverages/coverageCode"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="false" eAttribute="../../AutoComm.ecore#/0/Coverages/selected"/>
               </children>
@@ -344,7 +326,7 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="true" eAttribute="../../AutoComm.ecore#/0/Coverages/applied"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Coverages/deductible"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="196.000000" eAttribute="../../AutoComm.ecore#/0/Coverages/coveragePremium"/>
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="80000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="80000.000000" eAttribute="../../AutoComm.ecore#/0/Coverages/amountOfInsurance"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="PropertyStock" eAttribute="../../AutoComm.ecore#/0/Coverages/coverageCode"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="true" eAttribute="../../AutoComm.ecore#/0/Coverages/selected"/>
               </children>
@@ -362,6 +344,33 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Liability/numberOfGolfCarts"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="1" eAttribute="../../AutoComm.ecore#/0/Liability/townGrade"/>
               </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" newOrModified="true" expanded="false" eReference="../../AutoComm.ecore#/0/Buildings/CalculationVariablesGarageProperty" eClass="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" newOrModified="true" eReference="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/SurchargesGarageProperty" eClass="../../AutoComm.ecore#/0/SurchargesGarageProperty">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/inspectionSurcharge"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/locationSurcharge"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/substandardSurcharge"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.000000" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/totalSurcharges"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/claimHistorySurcharge"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/heatingTypeSurcharge"/>
+                </children>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="612.500000" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/garagePropertyPremium"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/alarmDiscount"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/coverages"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="2" newOrModified="true" eReference="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/RatesGarageProperty" eClass="../../AutoComm.ecore#/0/RatesGarageProperty">
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/toolsSmallEquipmentRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.000000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/hazardCodeRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.196000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/buildingRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.245000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/contentsRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/lighterEquipmentRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.083200" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/propertyBaseRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.000000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/provinceRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/EQRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.250000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/protectionRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.400000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/constructionRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.000000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/coverageRate"/>
+                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.800000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/townGradeRate"/>
+                </children>
+              </children>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Buildings/parentObjectId"/>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" eReference="../../AutoComm.ecore#/0/Buildings/Occupancy" eClass="../../AutoComm.ecore#/0/Occupancy">
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Occupancy/areaOccupied"/>
@@ -374,43 +383,35 @@
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="Good" eAttribute="../../AutoComm.ecore#/0/Occupancy/inspectionType"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Occupancy/yearsOccupied"/>
               </children>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../AutoComm.ecore#/0/Buildings/CalculationVariables" eClass="../../AutoComm.ecore#/0/CalculationVariables">
-                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../AutoComm.ecore#/0/CalculationVariables/CalculationVariablesGarageProperty" eClass="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty">
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" expanded="false" eReference="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/SurchargesGarageProperty" eClass="../../AutoComm.ecore#/0/SurchargesGarageProperty">
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/inspectionSurcharge"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/locationSurcharge"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/substandardSurcharge"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.000000" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/totalSurcharges"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/claimHistorySurcharge"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/SurchargesGarageProperty/heatingTypeSurcharge"/>
-                  </children>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="612.500000" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/garagePropertyPremium"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.000000" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/alarmDiscount"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="All Risk" eAttribute="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/coverages"/>
-                  <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" expanded="false" eReference="../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/RatesGarageProperty" eClass="../../AutoComm.ecore#/0/RatesGarageProperty">
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="1.5" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/toolsSmallEquipmentRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.000000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/hazardCodeRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.196000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/buildingRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.245000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/contentsRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="5.000000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/lighterEquipmentRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.083200" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/propertyBaseRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.000000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/provinceRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/EQRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.250000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/protectionRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.400000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/constructionRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="1.000000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/coverageRate"/>
-                    <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="0.800000" eAttribute="../../AutoComm.ecore#/0/RatesGarageProperty/townGradeRate"/>
-                  </children>
-                </children>
-              </children>
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Buildings/id"/>
-              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" eReference="../../AutoComm.ecore#/0/Buildings/BuildingProtection" eClass="../../AutoComm.ecore#/0/BuildingProtection">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" expanded="false" eReference="../../AutoComm.ecore#/0/Buildings/BuildingProtection" eClass="../../AutoComm.ecore#/0/BuildingProtection">
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BuildingProtection/spinkleredIndicator"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BuildingProtection/premiseAccessSecurityType"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BuildingProtection/numberOfSmokeDetectors"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" value="Non Sprinklered and Non Alarmed" eAttribute="../../AutoComm.ecore#/0/BuildingProtection/protection"/>
                 <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BuildingProtection/fireCode"/>
               </children>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" newOrModified="true" eReference="../../AutoComm.ecore#/0/GarageProperty/BillingDetailGarageProperty" eClass="../../AutoComm.ecore#/0/BillingDetailGarageProperty">
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" expanded="false" eReference="../../AutoComm.ecore#/0/BillingDetailGarageProperty/PaymentSchedules" eClass="../../AutoComm.ecore#/0/PaymentSchedules">
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/PaymentSchedules/installmentAmount"/>
+                <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/PaymentSchedules/installmentDueDate"/>
+              </children>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" newOrModified="true" value="612.500000" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/fullTermPremium"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/previousPremium"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/prorataRate"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxEvaluationFees"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/serviceFees"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxServiceFees"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/proratedPremium"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxRate"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/total"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/transferFlex"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/brokerFees"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/evaluationFees"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxBrokerFees"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/taxAmount"/>
+              <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/BillingDetailGarageProperty/renewalFlex"/>
             </children>
             <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAssociationImbedded" nodeID="1" eReference="../../AutoComm.ecore#/0/GarageProperty/Locations" eClass="../../AutoComm.ecore#/0/Locations">
               <children xsi:type="com.corticon.rulesemf.viewtestmodel.testsheet.treeset:TestAttribute" eAttribute="../../AutoComm.ecore#/0/Locations/primaryRiskIndicator"/>
@@ -434,7 +435,7 @@
       <outputRuleTraceSection/>
     </testsheetViewList>
   </testsheetAssets>
-  <ruletest vocabularyUpdateStamp="_jzVAYU4JEfG4SqSTEMPBWg" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../AutoComm.ecore#/0"/>
+  <ruletest vocabularyUpdateStamp="_QZEzgGY5EfGoPcwP324ECA" testsheets="#//@testsheetAssets.0/@testsheet" vocabulary="../../AutoComm.ecore#/0"/>
   <ruletestViewList xsi:type="com.corticon.rulesemf.viewtestmodel.ruletest.tabfolder:TestTabFolder">
     <testTabList name="untitled_1"/>
   </ruletestViewList>

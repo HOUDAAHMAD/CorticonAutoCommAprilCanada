@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.canonicalvocabularymodel="http:///com/corticon/rulesemf/canonicalvocabularymodel.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <ecore:EPackage name="root" nsURI="http://root/1.0" nsPrefix="root">
     <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_sJ8zEGYxEfGoPcwP324ECA" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
+      <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:RootExtension" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_wfENoWY7EfGoPcwP324ECA" externalChecksum="2722078124:1438690353" studioType="Java" customDataTypeDisplayCount="48">
         <languageCode>fr_FR</languageCode>
         <databaseAccess databasePropertyDisplayCount="50">
           <databaseId manuallyCreated="true" value="com.corticon.database.id.MsSql"/>
@@ -120,24 +120,10 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="BillingDetail"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
       <eStructuralFeatures xsi:type="ecore:EReference" name="Insureds" upperBound="-1" eType="#/0/Insureds">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="Insureds"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="PolicyDetail"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
@@ -277,57 +263,6 @@
         </eAnnotations>
       </eStructuralFeatures>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="BillingDetail">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
-          <name manuallyCreated="true" value="BillingDetail"/>
-          <datastorePersistent manuallyCreated="true" value="false"/>
-          <datastoreCaching manuallyCreated="true" value="false"/>
-        </contents>
-      </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetailFPQ1" eType="#/0/BillingDetailFPQ1">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="BillingDetailFPQ1"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetailFPQ4" eType="#/0/BillingDetailFPQ4">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="BillingDetailFPQ4"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetailGarageProperty" eType="#/0/BillingDetailGarageProperty">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="BillingDetailGarageProperty"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetailCGLTransport" eType="#/0/BillingDetailCGLTransport">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="BillingDetailCGLTransport"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="billingDetailCGLGarage" eType="#/0/BillingDetailCGLGarage">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="billingDetailCGLGarage"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetailCargo" eType="#/0/BillingDetailCargo">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="BillingDetailCargo"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-    </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Insureds">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
@@ -377,57 +312,6 @@
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="RiskAdress"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-    </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="PolicyDetail">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
-          <name manuallyCreated="true" value="PolicyDetail"/>
-          <datastorePersistent manuallyCreated="true" value="false"/>
-          <datastoreCaching manuallyCreated="true" value="false"/>
-        </contents>
-      </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetailFPQ1" eType="#/0/PolicyDetailFPQ1">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="PolicyDetailFPQ1"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetailFPQ4" eType="#/0/PolicyDetailFPQ4">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="PolicyDetailFPQ4"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetailGarageProperty" eType="#/0/PolicyDetailGarageProperty">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="PolicyDetailGarageProperty"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetailCGLTransport" eType="#/0/PolicyDetailCGLTransport">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="PolicyDetailCGLTransport"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetailCGLGarage" eType="#/0/PolicyDetailCGLGarage">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="PolicyDetailCGLGarage"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetailCargo" eType="#/0/PolicyDetailCargo">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="PolicyDetailCargo"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
@@ -746,20 +630,6 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="BillingDetail"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="PolicyDetail"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
       <eStructuralFeatures xsi:type="ecore:EReference" name="Locations" upperBound="-1" eType="#/0/Locations">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
@@ -789,6 +659,20 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetailGarageProperty" eType="#/0/BillingDetailGarageProperty">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
+            <name manuallyCreated="true" value="BillingDetailGarageProperty"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetailGarageProperty" eType="#/0/PolicyDetailGarageProperty">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
+            <name manuallyCreated="true" value="PolicyDetailGarageProperty"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="CGLTransport">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
@@ -798,13 +682,6 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="PolicyDetail"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
       <eStructuralFeatures xsi:type="ecore:EReference" name="Locations" upperBound="-1" eType="#/0/Locations">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
@@ -819,24 +696,10 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="BillingDetail"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
       <eStructuralFeatures xsi:type="ecore:EReference" name="Coverages" upperBound="-1" eType="#/0/Coverages">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="Coverages"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables" eType="#/0/CalculationVariables">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="CalculationVariables"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
@@ -845,6 +708,27 @@
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
             <name manuallyCreated="true" value="CGLTransportIndicator"/>
             <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetailCGLTransport" eType="#/0/BillingDetailCGLTransport" eOpposite="#/0/BillingDetailCGLTransport/cGLTransport">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
+            <name manuallyCreated="true" value="BillingDetailCGLTransport"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariablesCGLTransport" eType="#/0/CalculationVariablesCGLTransport">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
+            <name manuallyCreated="true" value="CalculationVariablesCGLTransport"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetailCGLTransport" eType="#/0/PolicyDetailCGLTransport">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
+            <name manuallyCreated="true" value="PolicyDetailCGLTransport"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
@@ -1847,57 +1731,6 @@
         </eAnnotations>
       </eStructuralFeatures>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="CalculationVariables">
-      <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-        <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
-          <name manuallyCreated="true" value="CalculationVariables"/>
-          <datastorePersistent manuallyCreated="true" value="false"/>
-          <datastoreCaching manuallyCreated="true" value="false"/>
-        </contents>
-      </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariablesFPQ1" eType="#/0/CalculationVariablesFPQ1">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="CalculationVariablesFPQ1"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationsVariablesFPQ4" eType="#/0/CalculationsVariablesFPQ4">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="CalculationsVariablesFPQ4"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariablesGarageProperty" eType="#/0/CalculationVariablesGarageProperty">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="CalculationVariablesGarageProperty"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariablesCGLTransport" eType="#/0/CalculationVariablesCGLTransport">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="CalculationVariablesCGLTransport"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationsVariablesCGLGarage" eType="#/0/CalculationsVariablesCGLGarage">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="CalculationsVariablesCGLGarage"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariablesCargo" eType="#/0/CalculationVariablesCargo">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="CalculationVariablesCargo"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
-    </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="RatesFPQ1">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
         <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:EntityExtension">
@@ -2295,10 +2128,10 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables" eType="#/0/CalculationVariables">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariablesGarageProperty" eType="#/0/CalculationVariablesGarageProperty">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="CalculationVariables"/>
+            <name manuallyCreated="true" value="CalculationVariablesGarageProperty"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
@@ -5096,6 +4929,13 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="cGLTransport" lowerBound="1" eType="#/0/CGLTransport" eOpposite="#/0/CGLTransport/BillingDetailCGLTransport">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
+            <name manuallyCreated="true" value="cGLTransport"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="CalculationVariablesCGLTransport">
       <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
@@ -5250,13 +5090,6 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="PolicyDetail"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
       <eStructuralFeatures xsi:type="ecore:EReference" name="Locations" upperBound="-1" eType="#/0/Locations">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
@@ -5271,18 +5104,25 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
-        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
-          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="BillingDetail"/>
-          </contents>
-        </eAnnotations>
-      </eStructuralFeatures>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="CGLGarageIndicator" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBooleanObject">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AttributeExtension">
             <name manuallyCreated="true" value="CGLGarageIndicator"/>
             <mode manuallyCreated="true" value="Base"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetailCGLGarage" eType="#/0/BillingDetailCGLGarage">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
+            <name manuallyCreated="true" value="BillingDetailCGLGarage"/>
+          </contents>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetailCGLGarage" eType="#/0/PolicyDetailCGLGarage">
+        <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
+          <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
+            <name manuallyCreated="true" value="PolicyDetailCGLGarage"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
@@ -5484,10 +5324,10 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables" eType="#/0/CalculationVariables">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationsVariablesCGLGarage" eType="#/0/CalculationsVariablesCGLGarage">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
-            <name manuallyCreated="true" value="CalculationVariables"/>
+            <name manuallyCreated="true" value="CalculationsVariablesCGLGarage"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
@@ -6536,7 +6376,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="BillingDetail"/>
@@ -6550,7 +6390,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="PolicyDetail"/>
@@ -7104,14 +6944,14 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="BillingDetail"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="PolicyDetail"/>
@@ -7166,14 +7006,14 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="BillingDetail"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="PolicyDetail"/>
@@ -7946,7 +7786,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables" eType="#/0/CalculationVariables">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="CalculationVariables"/>
@@ -8446,7 +8286,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables" eType="#/0/CalculationVariables">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="CalculationVariables"/>
@@ -9870,7 +9710,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="BillingDetail"/>
@@ -9884,7 +9724,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="PolicyDetail"/>
@@ -10275,14 +10115,14 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="BillingDetail"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="PolicyDetail"/>
@@ -10345,14 +10185,14 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="BillingDetail"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="PolicyDetail"/>
@@ -10437,14 +10277,14 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="BillingDetail"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="PolicyDetail"/>
@@ -10482,14 +10322,14 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="BillingDetail"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="PolicyDetail"/>
@@ -10534,7 +10374,7 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="PolicyDetail"/>
@@ -10555,7 +10395,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="BillingDetail"/>
@@ -10569,7 +10409,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables" eType="#/0/CalculationVariables">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="CalculationVariables"/>
@@ -11333,7 +11173,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables" eType="#/0/CalculationVariables">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="CalculationVariables"/>
@@ -11869,7 +11709,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables" eType="#/0/CalculationVariables">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="CalculationVariables"/>
@@ -12023,7 +11863,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables" eType="#/0/CalculationVariables">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="CalculationVariables"/>
@@ -15222,7 +15062,7 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="PolicyDetail"/>
@@ -15243,7 +15083,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="BillingDetail"/>
@@ -15456,7 +15296,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables" eType="#/0/CalculationVariables">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="CalculationVariables"/>
@@ -16500,7 +16340,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="BillingDetail"/>
@@ -16514,7 +16354,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="PolicyDetail"/>
@@ -17068,14 +16908,14 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="BillingDetail"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="PolicyDetail"/>
@@ -17130,14 +16970,14 @@
           <datastoreCaching manuallyCreated="true" value="false"/>
         </contents>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail" eType="#/0/BillingDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="BillingDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="BillingDetail"/>
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail" eType="#/0/PolicyDetail">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="PolicyDetail">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="PolicyDetail"/>
@@ -17910,7 +17750,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables" eType="#/0/CalculationVariables">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="CalculationVariables"/>
@@ -18410,7 +18250,7 @@
           </contents>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables" eType="#/0/CalculationVariables">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="CalculationVariables">
         <eAnnotations source="http:///com/corticon/rulesemf/canonicalvocabularymodel/VocabularyExtension">
           <contents xsi:type="com.corticon.rulesemf.canonicalvocabularymodel:AssociationEndExtension">
             <name manuallyCreated="true" value="CalculationVariables"/>

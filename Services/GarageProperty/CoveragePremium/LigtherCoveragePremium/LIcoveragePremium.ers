@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_oYOKYjRLEfGCgoDYjjK0iA" externalChecksum="2722078124:507989954:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_X3kv9GY6EfGoPcwP324ECA" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_sA3eIDQhEfGnR-IgiGBiaQ" vocabulary="../../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_QZEzgGY5EfGoPcwP324ECA" vocabulary="../../../../AutoComm.ecore#/0">
     <rule>
       <action/>
     </rule>
@@ -39,7 +39,7 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="LI.amountOfInsurance">
+              <terms text="amountOfInsurance" datatype="Decimal" termtype="ATTRIBUTE" fulltext="LI.amountOfInsurance">
                 <parentTerm text="LI" datatype="Coverages" termtype="ENTITY" fulltext="LI" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty" variable="#//@ruleset/@logicalVariables.0/@extension.0">
@@ -239,14 +239,6 @@
             <referencedAttributes attribute="../../../../AutoComm.ecore#/0/Coverages/applied"/>
             <referencedAttributes attribute="../../../../AutoComm.ecore#/0/Coverages/excluded"/>
           </extension>
-          <extension association="true" entity="../../../../AutoComm.ecore#/0/CalculationVariables" traversedAssocRole="../../../../AutoComm.ecore#/0/Buildings/CalculationVariables">
-            <extension association="true" entity="../../../../AutoComm.ecore#/0/CalculationVariablesGarageProperty" traversedAssocRole="../../../../AutoComm.ecore#/0/CalculationVariables/CalculationVariablesGarageProperty">
-              <extension explicit="true" association="true" entity="../../../../AutoComm.ecore#/0/RatesGarageProperty" traversedAssocRole="../../../../AutoComm.ecore#/0/CalculationVariablesGarageProperty/RatesGarageProperty">
-                <alias value="ra"/>
-                <referencedAttributes attribute="../../../../AutoComm.ecore#/0/RatesGarageProperty/lighterEquipmentRate"/>
-              </extension>
-            </extension>
-          </extension>
         </extension>
       </extension>
     </logicalVariable>
@@ -333,13 +325,6 @@
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.4"/>
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.5"/>
               </children>
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1">
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                    <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.1/@extension.0/@extension.0/@referencedAttributes.0"/>
-                  </children>
-                </children>
-              </children>
             </children>
           </children>
         </children>
@@ -419,7 +404,7 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="amountOfInsurance" datatype="Integer" termtype="ATTRIBUTE" fulltext="LI.amountOfInsurance">
+              <terms text="amountOfInsurance" datatype="Decimal" termtype="ATTRIBUTE" fulltext="LI.amountOfInsurance">
                 <parentTerm text="LI" datatype="Coverages" termtype="ENTITY" fulltext="LI">
                   <parentTerm text="Buildings" datatype="Buildings" termtype="ENTITY" fulltext="Request.GarageProperty.Buildings">
                     <parentTerm text="GarageProperty" datatype="GarageProperty" termtype="ENTITY" fulltext="Request.GarageProperty">

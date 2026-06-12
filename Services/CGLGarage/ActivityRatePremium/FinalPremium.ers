@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_F7Es8DouEfGBjsdydi_npg" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_X6fzBGY4EfGoPcwP324ECA" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_F0kcUDouEfGBjsdydi_npg" vocabulary="../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_C0GoEGY4EfGoPcwP324ECA" vocabulary="../../../AutoComm.ecore#/0">
     <rule>
       <action>
         <opaqueExpression expression="ca.finalPremium=ca.basePremium+ca.extensionPremium.toDecimal">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.finalPremium = ca.basePremium + ca.extensionPremium.toDecimal" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="finalPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.finalPremium">
-                <parentTerm text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.CGLGarage.Garage.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.CGLGarage.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                      <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
+                <parentTerm text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.CGLGarage.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -22,20 +20,7 @@
             <referencedTermList>
               <terms text="toDecimal" datatype="Decimal" termtype="METHOD" fulltext="ca.extensionPremium.toDecimal">
                 <parentTerm text="extensionPremium" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.extensionPremium">
-                  <parentTerm text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.CGLGarage.Garage.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                      <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.CGLGarage.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                        <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                        </parentTerm>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-              <terms text="basePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.basePremium">
-                <parentTerm text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.CGLGarage.Garage.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.CGLGarage.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                       <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                         <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -44,12 +29,19 @@
                   </parentTerm>
                 </parentTerm>
               </terms>
-              <terms text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.CGLGarage.Garage.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+              <terms text="basePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.basePremium">
+                <parentTerm text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.CGLGarage.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+              <terms text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.CGLGarage.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                  <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -61,13 +53,11 @@
     <logicalVariable entity="../../../AutoComm.ecore#/0/Request">
       <extension association="true" entity="../../../AutoComm.ecore#/0/CGLGarage" traversedAssocRole="../../../AutoComm.ecore#/0/Request/CGLGarage">
         <extension association="true" entity="../../../AutoComm.ecore#/0/Garage" traversedAssocRole="../../../AutoComm.ecore#/0/CGLGarage/Garage">
-          <extension association="true" entity="../../../AutoComm.ecore#/0/CalculationVariables" traversedAssocRole="../../../AutoComm.ecore#/0/Garage/CalculationVariables">
-            <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/CalculationsVariablesCGLGarage" traversedAssocRole="../../../AutoComm.ecore#/0/CalculationVariables/CalculationsVariablesCGLGarage">
-              <alias value="ca"/>
-              <referencedAttributes attribute="../../../AutoComm.ecore#/0/CalculationsVariablesCGLGarage/finalPremium"/>
-              <referencedAttributes attribute="../../../AutoComm.ecore#/0/CalculationsVariablesCGLGarage/basePremium"/>
-              <referencedAttributes attribute="../../../AutoComm.ecore#/0/CalculationsVariablesCGLGarage/extensionPremium"/>
-            </extension>
+          <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/CalculationsVariablesCGLGarage" traversedAssocRole="../../../AutoComm.ecore#/0/Garage/CalculationsVariablesCGLGarage">
+            <alias value="ca"/>
+            <referencedAttributes attribute="../../../AutoComm.ecore#/0/CalculationsVariablesCGLGarage/extensionPremium"/>
+            <referencedAttributes attribute="../../../AutoComm.ecore#/0/CalculationsVariablesCGLGarage/basePremium"/>
+            <referencedAttributes attribute="../../../AutoComm.ecore#/0/CalculationsVariablesCGLGarage/finalPremium"/>
           </extension>
         </extension>
       </extension>
@@ -81,12 +71,10 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.finalPremium = ca.basePremium + ca.extensionPremium.toDecimal" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="finalPremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.finalPremium">
-                <parentTerm text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.CGLGarage.Garage.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.CGLGarage.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                      <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
+                <parentTerm text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.CGLGarage.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -95,20 +83,7 @@
             <referencedTermList>
               <terms text="toDecimal" datatype="Decimal" termtype="METHOD" fulltext="ca.extensionPremium.toDecimal">
                 <parentTerm text="extensionPremium" datatype="Integer" termtype="ATTRIBUTE" fulltext="ca.extensionPremium">
-                  <parentTerm text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.CGLGarage.Garage.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                      <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.CGLGarage.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                        <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                          <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                        </parentTerm>
-                      </parentTerm>
-                    </parentTerm>
-                  </parentTerm>
-                </parentTerm>
-              </terms>
-              <terms text="basePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.basePremium">
-                <parentTerm text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.CGLGarage.Garage.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                     <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.CGLGarage.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                       <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                         <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
@@ -117,12 +92,19 @@
                   </parentTerm>
                 </parentTerm>
               </terms>
-              <terms text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.CGLGarage.Garage.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+              <terms text="basePremium" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ca.basePremium">
+                <parentTerm text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                   <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.CGLGarage.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
                     <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                       <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+              <terms text="ca" datatype="CalculationsVariablesCGLGarage" termtype="ENTITY" fulltext="ca" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="Garage" datatype="Garage" termtype="ENTITY" fulltext="Request.CGLGarage.Garage" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                  <parentTerm text="CGLGarage" datatype="CGLGarage" termtype="ENTITY" fulltext="Request.CGLGarage" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -136,12 +118,10 @@
         <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeEntity" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0">
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.1"/>
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.2"/>
-                </children>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.1"/>
+                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.2"/>
               </children>
             </children>
           </children>

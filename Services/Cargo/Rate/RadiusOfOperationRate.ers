@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_XpBheV_2EfGpl7WqpfK6Qw" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="7" minorVersionNumber="3" buildNumber="8022" updateStamp="_xIxoFGYyEfGoPcwP324ECA" externalChecksum="2722078124:1438690353:2393165206" studioType="Java">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_0LbncV_1EfGpl7WqpfK6Qw" vocabulary="../../../AutoComm.ecore#/0">
+  <ruleset vocabularyUpdateStamp="_sJ8zEGYxEfGoPcwP324ECA" vocabulary="../../../AutoComm.ecore#/0">
     <rule>
       <action/>
     </rule>
@@ -11,11 +11,9 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="bd.radiusOfOperation &lt; 80" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="radiusOfOperation" datatype="Integer" termtype="ATTRIBUTE" fulltext="bd.radiusOfOperation">
-                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.Cargo.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
+                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -29,24 +27,20 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.radiusOfOperationRate = 0.8" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="radiusOfOperationRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.radiusOfOperationRate">
-                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
+                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
+              <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -61,11 +55,9 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="bd.radiusOfOperation in 80 .. 250" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="radiusOfOperation" datatype="Integer" termtype="ATTRIBUTE" fulltext="bd.radiusOfOperation">
-                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.Cargo.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
+                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -79,24 +71,20 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.radiusOfOperationRate = 1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="radiusOfOperationRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.radiusOfOperationRate">
-                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
+                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
+              <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -111,11 +99,9 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="bd.radiusOfOperation in 251 .. 1000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="radiusOfOperation" datatype="Integer" termtype="ATTRIBUTE" fulltext="bd.radiusOfOperation">
-                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.Cargo.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
+                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -129,24 +115,20 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.radiusOfOperationRate = 1.1" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="radiusOfOperationRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.radiusOfOperationRate">
-                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
+                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
+              <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -161,11 +143,9 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="bd.radiusOfOperation > 1000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="radiusOfOperation" datatype="Integer" termtype="ATTRIBUTE" fulltext="bd.radiusOfOperation">
-                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.Cargo.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
+                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -179,24 +159,20 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.radiusOfOperationRate = 1.2" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
               <terms text="radiusOfOperationRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.radiusOfOperationRate">
-                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
+                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
+              <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -207,19 +183,14 @@
     </rule>
     <logicalVariable entity="../../../AutoComm.ecore#/0/Request">
       <extension association="true" entity="../../../AutoComm.ecore#/0/Cargo" traversedAssocRole="../../../AutoComm.ecore#/0/Request/Cargo">
-        <extension association="true" entity="../../../AutoComm.ecore#/0/BillingDetail" traversedAssocRole="../../../AutoComm.ecore#/0/Cargo/BillingDetail">
-          <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/BillingDetailCargo" traversedAssocRole="../../../AutoComm.ecore#/0/BillingDetail/BillingDetailCargo">
-            <alias value="bd"/>
-            <referencedAttributes attribute="../../../AutoComm.ecore#/0/BillingDetailCargo/radiusOfOperation"/>
+        <extension association="true" entity="../../../AutoComm.ecore#/0/CalculationVariablesCargo" traversedAssocRole="../../../AutoComm.ecore#/0/Cargo/CalculationVariablesCargo">
+          <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/RatesCargo" traversedAssocRole="../../../AutoComm.ecore#/0/CalculationVariablesCargo/RatesCargo">
+            <alias value="ra"/>
+            <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesCargo/radiusOfOperationRate"/>
           </extension>
         </extension>
-        <extension association="true" entity="../../../AutoComm.ecore#/0/CalculationVariables" traversedAssocRole="../../../AutoComm.ecore#/0/Cargo/CalculationVariables">
-          <extension association="true" entity="../../../AutoComm.ecore#/0/CalculationVariablesCargo" traversedAssocRole="../../../AutoComm.ecore#/0/CalculationVariables/CalculationVariablesCargo">
-            <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/RatesCargo" traversedAssocRole="../../../AutoComm.ecore#/0/CalculationVariablesCargo/RatesCargo">
-              <alias value="ra"/>
-              <referencedAttributes attribute="../../../AutoComm.ecore#/0/RatesCargo/radiusOfOperationRate"/>
-            </extension>
-          </extension>
+        <extension explicit="true" association="true" entity="../../../AutoComm.ecore#/0/BillingDetailCargo" traversedAssocRole="../../../AutoComm.ecore#/0/Cargo/BillingDetailCargo">
+          <alias value="bd"/>
         </extension>
       </extension>
     </logicalVariable>
@@ -232,12 +203,10 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ra.radiusOfOperationRate" datatype="Decimal" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="radiusOfOperationRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.radiusOfOperationRate">
-                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                      </parentTerm>
+                <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
+                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -252,17 +221,11 @@
         <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeEntity" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0">
           <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
                 <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0/@referencedAttributes.0"/>
               </children>
             </children>
-            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
-              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0">
-                <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0">
-                  <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1/@extension.0/@extension.0/@referencedAttributes.0"/>
-                </children>
-              </children>
-            </children>
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1"/>
           </children>
         </children>
       </rootNode>
@@ -276,11 +239,9 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="bd.radiusOfOperation" datatype="Integer" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="radiusOfOperation" datatype="Integer" termtype="ATTRIBUTE" fulltext="bd.radiusOfOperation">
-                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.Cargo.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
+                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -298,11 +259,9 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="bd.radiusOfOperation &lt; 80" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="radiusOfOperation" datatype="Integer" termtype="ATTRIBUTE" fulltext="bd.radiusOfOperation">
-                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.Cargo.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
+                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -314,11 +273,9 @@
             <modifiedTermList>
               <terms text="radiusOfOperationRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.radiusOfOperationRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
-                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables">
-                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                      </parentTerm>
+                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo">
+                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -326,11 +283,9 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
-                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                    </parentTerm>
+                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -343,11 +298,9 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="bd.radiusOfOperation in 80 .. 250" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="radiusOfOperation" datatype="Integer" termtype="ATTRIBUTE" fulltext="bd.radiusOfOperation">
-                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.Cargo.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
+                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -359,11 +312,9 @@
             <modifiedTermList>
               <terms text="radiusOfOperationRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.radiusOfOperationRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
-                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables">
-                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                      </parentTerm>
+                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo">
+                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -371,11 +322,9 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
-                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                    </parentTerm>
+                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -388,11 +337,9 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="bd.radiusOfOperation in 251 .. 1000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="radiusOfOperation" datatype="Integer" termtype="ATTRIBUTE" fulltext="bd.radiusOfOperation">
-                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.Cargo.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
+                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -404,11 +351,9 @@
             <modifiedTermList>
               <terms text="radiusOfOperationRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.radiusOfOperationRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
-                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables">
-                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                      </parentTerm>
+                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo">
+                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -416,11 +361,9 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
-                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                    </parentTerm>
+                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -433,11 +376,9 @@
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="bd.radiusOfOperation > 1000" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
               <terms text="radiusOfOperation" datatype="Integer" termtype="ATTRIBUTE" fulltext="bd.radiusOfOperation">
-                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@extension.0">
-                  <parentTerm text="BillingDetail" datatype="BillingDetail" termtype="ENTITY" fulltext="Request.Cargo.BillingDetail" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
-                    </parentTerm>
+                <parentTerm text="bd" datatype="BillingDetailCargo" termtype="ENTITY" fulltext="bd" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.1">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
@@ -449,11 +390,9 @@
             <modifiedTermList>
               <terms text="radiusOfOperationRate" datatype="Decimal" termtype="ATTRIBUTE" fulltext="ra.radiusOfOperationRate">
                 <parentTerm text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
-                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo">
-                    <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables">
-                      <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
-                        <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                      </parentTerm>
+                  <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo">
+                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                     </parentTerm>
                   </parentTerm>
                 </parentTerm>
@@ -461,11 +400,9 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="ra" datatype="RatesCargo" termtype="ENTITY" fulltext="ra">
-                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables.CalculationVariablesCargo">
-                  <parentTerm text="CalculationVariables" datatype="CalculationVariables" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariables">
-                    <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
-                      <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
-                    </parentTerm>
+                <parentTerm text="CalculationVariablesCargo" datatype="CalculationVariablesCargo" termtype="ENTITY" fulltext="Request.Cargo.CalculationVariablesCargo">
+                  <parentTerm text="Cargo" datatype="Cargo" termtype="ENTITY" fulltext="Request.Cargo">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
                 </parentTerm>
               </terms>
